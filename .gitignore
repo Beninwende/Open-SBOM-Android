@@ -1,6 +1,10 @@
 # Archives (content is committed extracted)
 *.zip
 
+# Local drafts (not part of the public project tree)
+Open_SBOMs_for_Android_Apps_NLnet.docx
+*_NLnet.docx
+
 # macOS
 .DS_Store
 

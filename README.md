@@ -2,7 +2,7 @@
 
 Open, versioned [CycloneDX](https://cyclonedx.org/) Software Bills of Materials (SBOMs) for Android apps, built by **static analysis of signed APKs** (nothing executed).
 
-This repository holds the **pilot artifacts** prepared for a proposal to the [NLnet CodeSupply Fund](https://nlnet.nl/). A packaged scanner and full F-Droid catalogue run are planned as project work.
+This repository publishes **pilot artifacts**: schema-valid SBOMs, example files, and experiment data. A packaged scanner and full F-Droid catalogue run are planned as next steps.
 
 ## What a SBOM includes
 
@@ -20,7 +20,6 @@ Apps are listed for the capability combinations they declare. These are document
 | [`pilot_report.pdf`](pilot_report.pdf) | Pilot setup, sample, six experiments (E1–E6), and limits |
 | [`example_sboms/`](example_sboms/) | Five CycloneDX 1.6 JSON SBOMs + validation output |
 | [`open-sboms-android/data/`](open-sboms-android/data/) | Pilot dataset: 306 SBOMs and experiment summaries |
-| [`Open_SBOMs_for_Android_Apps_NLnet.docx`](Open_SBOMs_for_Android_Apps_NLnet.docx) | NLnet application draft |
 
 ## Example SBOMs
 
@@ -51,7 +50,7 @@ Details and methodology: [`pilot_report.pdf`](pilot_report.pdf).
 ## Licence
 
 - Code (when published): [Apache-2.0](LICENSE)
-- Pilot data and SBOMs: intended as open data (CC0-1.0), consistent with the project plan
+- Pilot data and SBOMs: intended as open data (CC0-1.0)
 
 ## Status
 

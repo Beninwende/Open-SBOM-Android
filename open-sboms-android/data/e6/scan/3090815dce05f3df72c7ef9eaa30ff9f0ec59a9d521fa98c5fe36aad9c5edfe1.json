@@ -1,0 +1,141 @@
+{
+ "package": "de.devmil.muzei.bingimageofthedayartsource",
+ "source": "androzoo-play",
+ "sha256": "3090815dce05f3df72c7ef9eaa30ff9f0ec59a9d521fa98c5fe36aad9c5edfe1",
+ "cap": {
+  "apk_file": "3090815dce05f3df72c7ef9eaa30ff9f0ec59a9d521fa98c5fe36aad9c5edfe1.apk",
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "versionName": "1.6",
+  "versionCode": "7",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.008,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.175
+  },
+  "apk_bytes": 1774872
+ },
+ "lib": {
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "classes_total": 2591,
+  "class_buckets": {
+   "platform_shim": 195,
+   "known_library": 2062,
+   "unresolved": 261,
+   "app_code": 73
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 761
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 333
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 153
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 782
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 25
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 7
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/android/volley/": 79,
+   "retrofit/": 63,
+   "de/greenrobot/event/": 34,
+   "com/google/android/": 26,
+   "retrofit/http/": 18,
+   "retrofit/client/": 13,
+   "de/devmil/common/": 12,
+   "retrofit/mime/": 9,
+   "retrofit/converter/": 4,
+   "retrofit/android/": 3
+  },
+  "maven_metadata": {
+   "android.arch.core:runtime": "1.1.1",
+   "android.arch.lifecycle:extensions": "1.1.0",
+   "android.arch.lifecycle:livedata-core": "1.1.0",
+   "android.arch.lifecycle:livedata": "1.1.0",
+   "android.arch.lifecycle:runtime": "1.1.0",
+   "android.arch.lifecycle:viewmodel": "1.1.0",
+   "android.arch.persistence.room:runtime": "1.1.1-rc1",
+   "android.arch.persistence:db-framework": "1.1.1-rc1",
+   "android.arch.persistence:db": "1.1.1-rc1",
+   "android.arch.work:work-runtime-ktx": "1.0.0-alpha10",
+   "android.arch.work:work-runtime": "1.0.0-alpha10",
+   "com.android.support:support-compat": "27.1.0"
+  },
+  "kotlin_modules": [
+   "core-ktx_release",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-common-coroutines",
+   "kotlin-stdlib-jdk7",
+   "kotlin-stdlib_coroutines",
+   "muzei_biot-v1.6-20181229_release",
+   "work-runtime-ktx_release"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.153
+ },
+ "signer_sha256": [
+  "83b81adacb37c331151ded1961af618eab3d10783ab5f4d940d5bf8420e009a7"
+ ],
+ "seconds": 0.35
+}

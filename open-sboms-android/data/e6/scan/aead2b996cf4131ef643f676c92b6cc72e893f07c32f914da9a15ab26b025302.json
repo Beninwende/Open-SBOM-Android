@@ -1,0 +1,135 @@
+{
+ "package": "com.earendel.tapbar",
+ "source": "fdroid-archive",
+ "sha256": "aead2b996cf4131ef643f676c92b6cc72e893f07c32f914da9a15ab26b025302",
+ "cap": {
+  "apk_file": "aead2b996cf4131ef643f676c92b6cc72e893f07c32f914da9a15ab26b025302.apk",
+  "package": "com.earendel.tapbar",
+  "versionName": "1.6",
+  "versionCode": "9",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_NOTIFICATION_POLICY",
+   "android.permission.EXPAND_STATUS_BAR",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.VIBRATE",
+   "android.permission.WRITE_SETTINGS",
+   "com.earendel.tapbar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.earendel.tapbar.TapAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": false,
+    "canPerformGestures": false,
+    "canRequestFilterKeyEvents": false,
+    "accessibilityEventTypes": "0x00000020"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.005,
+   "a11y_config_s": 0.037,
+   "strings_s": 0.074
+  },
+  "apk_bytes": 1784820
+ },
+ "lib": {
+  "package": "com.earendel.tapbar",
+  "classes_total": 2536,
+  "class_buckets": {
+   "obfuscated": 2420,
+   "platform_shim": 7,
+   "known_library": 103,
+   "app_code": 6
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 101
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.9.3",
+   "androidx.activity:activity-ktx": "1.9.3",
+   "androidx.activity:activity": "1.9.3",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.7.5",
+   "androidx.compose.animation:animation": "1.7.5",
+   "androidx.compose.foundation:foundation-layout": "1.7.5",
+   "androidx.compose.foundation:foundation": "1.7.5",
+   "androidx.compose.material3:material3": "1.3.1",
+   "androidx.compose.material:material-icons-core": "1.7.5",
+   "androidx.compose.material:material-icons-extended": "1.7.5",
+   "androidx.compose.material:material-ripple": "1.7.5",
+   "androidx.compose.runtime:runtime-saveable": "1.7.5",
+   "androidx.compose.runtime:runtime": "1.7.5",
+   "androidx.compose.ui:ui-geometry": "1.7.5",
+   "androidx.compose.ui:ui-graphics": "1.7.5",
+   "androidx.compose.ui:ui-text": "1.7.5",
+   "androidx.compose.ui:ui-unit": "1.7.5",
+   "androidx.compose.ui:ui-util": "1.7.5",
+   "androidx.compose.ui:ui": "1.7.5",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.8.7",
+   "androidx.lifecycle:lifecycle-process": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.8.7",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "kotlinx:coroutines_android": "1.8.1",
+   "kotlinx:coroutines_core": "1.8.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.092
+ },
+ "signer_sha256": [
+  "a2a687a144f84c7e349d6bada9801baae1e99032d8b3660fe8edf94e397419b5"
+ ],
+ "seconds": 0.22
+}

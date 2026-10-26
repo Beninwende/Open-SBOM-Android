@@ -1,0 +1,48 @@
+{
+ "apk_file": "com.hanan_bhatti.cobalt_15.apk",
+ "package": "com.hanan_bhatti.cobalt",
+ "versionName": "2.1.2",
+ "versionCode": "15",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.hanan_bhatti.cobalt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.miui.securitycenter.permission.CLONE_APP_AUTORUN",
+  "com.oppo.permission.safe.autostart",
+  "com.vivo.permission.safe.autostart"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "generativelanguage.googleapis.com"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "*https://generativelanguage.googleapis.com/"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.014,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.38
+ },
+ "apk_bytes": 5543329,
+ "stratum": "D_desc_llm_ai"
+}

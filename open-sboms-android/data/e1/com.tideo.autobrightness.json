@@ -1,0 +1,52 @@
+{
+ "apk_file": "com.tideo.autobrightness_29.apk",
+ "package": "com.tideo.autobrightness",
+ "versionName": "1.14.1",
+ "versionCode": "29",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_BACKGROUND_LOCATION",
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.DUMP",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "android.permission.WRITE_SETTINGS",
+  "com.tideo.autobrightness.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.tideo.autobrightness.app.runtime.AabToastAccessibilityService",
+   "config_path": "res/To.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000020"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.038,
+  "a11y_config_s": 0.103,
+  "strings_s": 1.596
+ },
+ "apk_bytes": 25978039,
+ "stratum": "B_desc_accessibility_service"
+}

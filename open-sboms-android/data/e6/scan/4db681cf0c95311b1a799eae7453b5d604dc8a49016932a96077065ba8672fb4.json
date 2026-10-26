@@ -1,0 +1,69 @@
+{
+ "package": "by.yauhenl.gardine",
+ "source": "fdroid-archive",
+ "sha256": "4db681cf0c95311b1a799eae7453b5d604dc8a49016932a96077065ba8672fb4",
+ "cap": {
+  "apk_file": "4db681cf0c95311b1a799eae7453b5d604dc8a49016932a96077065ba8672fb4.apk",
+  "package": "by.yauhenl.gardine",
+  "versionName": "0.1",
+  "versionCode": "1",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.VIBRATE"
+  ],
+  "a11y_services": [
+   {
+    "name": "by.yauhenl.gardine.GardineWidgetService",
+    "config_path": "res/xml/accessibilityservice.xml",
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000002"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.005,
+   "a11y_config_s": 0.022,
+   "strings_s": 0.151
+  },
+  "apk_bytes": 1311397
+ },
+ "lib": {
+  "package": "by.yauhenl.gardine",
+  "classes_total": 1584,
+  "class_buckets": {
+   "platform_shim": 28,
+   "known_library": 1533,
+   "app_code": 23
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 1533
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.101
+ },
+ "signer_sha256": [
+  "472f893c3c25cc374b95c32097f206d86c2451aaa57185a4cc6119feb61d75e6"
+ ],
+ "seconds": 0.29
+}

@@ -1,0 +1,152 @@
+{
+ "package": "org.keyoxide.keyoxide",
+ "source": "sample",
+ "sha256": "a0419ab12956a4b02c8322c68e35292cb4d6c6a94b1d0636e71850318c0ce52f",
+ "cap": {
+  "apk_file": "org.keyoxide.keyoxide_222.apk",
+  "package": "org.keyoxide.keyoxide",
+  "versionName": "2.4.4",
+  "versionCode": "222",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.CAMERA",
+   "android.permission.INTERNET",
+   "android.permission.USE_BIOMETRIC",
+   "android.permission.USE_FINGERPRINT",
+   "android.permission.WAKE_LOCK",
+   "org.keyoxide.keyoxide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.149,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.149
+  },
+  "apk_bytes": 79181824
+ },
+ "lib": {
+  "package": "org.keyoxide.keyoxide",
+  "classes_total": 3240,
+  "class_buckets": {
+   "obfuscated": 2703,
+   "platform_shim": 13,
+   "known_library": 476,
+   "app_code": 10,
+   "unresolved": 38
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 25
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 112
+   },
+   {
+    "prefix": "com/google/crypto/tink/",
+    "name": "Tink",
+    "group": "com.google.crypto.tink",
+    "category": "crypto",
+    "classes": 64
+   },
+   {
+    "prefix": "io/flutter/",
+    "name": "Flutter engine (Java side)",
+    "group": "io.flutter",
+    "category": "framework",
+    "classes": 95
+   },
+   {
+    "prefix": "j$/",
+    "name": "Android desugared JDK library (D8)",
+    "group": "com.android.tools",
+    "category": "language",
+    "classes": 122
+   },
+   {
+    "prefix": "org/chromium/",
+    "name": "Chromium/Cronet",
+    "group": "org.chromium",
+    "category": "network",
+    "classes": 58
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/github/dart_lang/": 38
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.9.0",
+   "androidx.annotation:annotation-experimental": "1.4.0",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.biometric:biometric": "1.1.0",
+   "androidx.browser:browser": "1.8.0",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.13.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.exifinterface:exifinterface": "1.4.2",
+   "androidx.fragment:fragment": "1.8.9",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.media:media": "1.7.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.webkit:webkit": "1.15.0",
+   "androidx.window.extensions.core:core": "1.0.0",
+   "androidx.window:window-java": "1.2.0",
+   "androidx.window:window": "1.2.0",
+   "kotlinx:coroutines_android": "1.11.0",
+   "kotlinx:coroutines_core": "1.11.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libapp.so",
+   "libdartjni.so",
+   "libflutter.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.127
+ },
+ "signer_sha256": [
+  "10169647006af402960a68cc44ce53df1bd3ffdaa19ded2e5aa0710c659ac9b3"
+ ],
+ "seconds": 0.55
+}

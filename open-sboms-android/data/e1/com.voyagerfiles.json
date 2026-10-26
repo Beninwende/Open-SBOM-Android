@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.voyagerfiles_21.apk",
+ "package": "com.voyagerfiles",
+ "versionName": "1.12.1",
+ "versionCode": "21",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERNET",
+  "android.permission.MANAGE_EXTERNAL_STORAGE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.REQUEST_INSTALL_PACKAGES",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "android.permission.WRITE_SETTINGS",
+  "com.voyagerfiles.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.039,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.503
+ },
+ "apk_bytes": 13357332,
+ "stratum": "E_random"
+}

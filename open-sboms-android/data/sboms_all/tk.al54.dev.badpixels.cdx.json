@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:9726091e-1194-4207-a561-7b3da5c9e48b",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:00Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:tk.al54.dev.badpixels@0.2",
+   "name": "tk.al54.dev.badpixels",
+   "version": "0.2",
+   "purl": "pkg:generic/tk.al54.dev.badpixels@0.2?download_url=https://f-droid.org/repo/tk.al54.dev.badpixels_4.apk&checksum=sha256:43842c079c9f8cde375dc4a25ad62f7cd39237b4dcbf5ddbbb45738a620dd82f",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "43842c079c9f8cde375dc4a25ad62f7cd39237b4dcbf5ddbbb45738a620dd82f"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/tk.al54.dev.badpixels_4.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/SibDev/BadPixels"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "4"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:tk.al54.dev.badpixels@0.2",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:tk.al54.dev.badpixels@0.2"
+   ]
+  }
+ ]
+}

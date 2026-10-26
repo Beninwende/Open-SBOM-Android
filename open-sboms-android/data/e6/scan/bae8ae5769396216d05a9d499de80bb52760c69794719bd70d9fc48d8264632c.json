@@ -1,0 +1,118 @@
+{
+ "package": "hans.b.skewy1_0",
+ "source": "sample",
+ "sha256": "bae8ae5769396216d05a9d499de80bb52760c69794719bd70d9fc48d8264632c",
+ "cap": {
+  "apk_file": "hans.b.skewy1_0_1.apk",
+  "package": "hans.b.skewy1_0",
+  "versionName": "1.0",
+  "versionCode": "1",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.RECORD_AUDIO"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.021,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.204
+  },
+  "apk_bytes": 6759652
+ },
+ "lib": {
+  "package": "hans.b.skewy1_0",
+  "classes_total": 2621,
+  "class_buckets": {
+   "known_library": 2455,
+   "unresolved": 19,
+   "app_code": 147
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 178
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1969
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 308
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/hans/skewy1_0/": 19
+  },
+  "maven_metadata": {
+   "android.support.design:material": "1.0.0-beta01",
+   "androidx.appcompat:appcompat": "1.0.2",
+   "androidx.arch.core:core-runtime": "2.0.1",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core": "1.0.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.0.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.legacy:legacy-support-v4": "1.0.0",
+   "androidx.lifecycle:lifecycle-extensions": "2.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.0.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-process": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.0.0",
+   "androidx.lifecycle:lifecycle-service": "2.0.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.0.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.room:room-runtime": "2.1.0-beta01",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.sqlite:sqlite-framework": "2.0.1",
+   "androidx.sqlite:sqlite": "2.0.1",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.transition:transition": "1.0.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.0.0",
+   "androidx.vectordrawable:vectordrawable": "1.0.1",
+   "androidx.versionedparcelable:versionedparcelable": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.0.0-rc01"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.172
+ },
+ "signer_sha256": [
+  "4cdc182998f489bd3256e9d424ff4f269c4214846343d1f15937dd65fbbef7d3"
+ ],
+ "seconds": 0.42
+}

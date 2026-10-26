@@ -1,0 +1,38 @@
+{
+ "apk_file": "nabu.iris.keyboard_154.apk",
+ "package": "nabu.iris.keyboard",
+ "versionName": "6.5.3",
+ "versionCode": "154",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.VIBRATE"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "localhost:11434"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "8https://generativelanguage.googleapis.com/v1beta/models/",
+  "http://localhost:11434",
+  "https://api.openai.com/v1"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.015
+ },
+ "apk_bytes": 972389,
+ "stratum": "D_desc_llm_ai"
+}

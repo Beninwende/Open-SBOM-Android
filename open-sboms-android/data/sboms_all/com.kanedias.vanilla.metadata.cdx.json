@@ -1,0 +1,446 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:87fdabb9-21a5-4176-af5a-f2ee20fd4367",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:09Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.kanedias.vanilla.metadata@1.0.8",
+   "name": "com.kanedias.vanilla.metadata",
+   "version": "1.0.8",
+   "purl": "pkg:generic/com.kanedias.vanilla.metadata@1.0.8?download_url=https://f-droid.org/repo/com.kanedias.vanilla.metadata_9.apk&checksum=sha256:e1cffae23143870e43858acd8bdb090d04bcbb0cb39695240f705b7068263346",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e1cffae23143870e43858acd8bdb090d04bcbb0cb39695240f705b7068263346"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.kanedias.vanilla.metadata_9.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/vanilla-music/vanilla-music-metadata-fetch"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "9"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.core:core",
+   "group": "androidx.core",
+   "name": "core",
+   "purl": "pkg:maven/androidx.core/core@1.3.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.core_core.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.3.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.documentfile:documentfile",
+   "group": "androidx.documentfile",
+   "name": "documentfile",
+   "purl": "pkg:maven/androidx.documentfile/documentfile@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.documentfile_documentfile.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-runtime",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-runtime",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "2.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.versionedparcelable:versionedparcelable",
+   "group": "androidx.versionedparcelable",
+   "name": "versionedparcelable",
+   "purl": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.versionedparcelable_versionedparcelable.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "14 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/gson/",
+   "name": "Gson",
+   "group": "com.google.code.gson",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "180 classes under com/google/gson/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "json"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "861 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlinx/coroutines/",
+   "name": "kotlinx.coroutines",
+   "group": "org.jetbrains.kotlinx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "935 classes under kotlinx/coroutines/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/intellij/lang/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "25 classes under org/intellij/lang/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/jetbrains/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "7 classes under org/jetbrains/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libfpcalc.so",
+   "name": "libfpcalc.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.kanedias.vanilla.metadata@1.0.8",
+   "dependsOn": [
+    "lib:androidx.core:core",
+    "lib:androidx.documentfile:documentfile",
+    "lib:androidx.lifecycle:lifecycle-runtime",
+    "lib:androidx.versionedparcelable:versionedparcelable",
+    "ns:android/support/",
+    "ns:com/google/gson/",
+    "ns:kotlin/",
+    "ns:kotlinx/coroutines/",
+    "ns:org/intellij/lang/annotations/",
+    "ns:org/jetbrains/annotations/",
+    "native:libfpcalc.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.kanedias.vanilla.metadata@1.0.8"
+   ]
+  }
+ ]
+}

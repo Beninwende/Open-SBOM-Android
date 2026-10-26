@@ -1,0 +1,149 @@
+{
+ "package": "com.atop",
+ "source": "sample",
+ "sha256": "ee497fe52a73097be62e92a89cd6beb1609e821895203ebe53a6dfe62e5a9dd4",
+ "cap": {
+  "apk_file": "com.atop_1.apk",
+  "package": "com.atop",
+  "versionName": "1.0.0",
+  "versionCode": "1",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.044,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.275
+  },
+  "apk_bytes": 23732617
+ },
+ "lib": {
+  "package": "com.atop",
+  "classes_total": 3684,
+  "class_buckets": {
+   "platform_shim": 70,
+   "known_library": 2326,
+   "unresolved": 158,
+   "app_code": 1130
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 1226
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 18
+   },
+   {
+    "prefix": "com/facebook/",
+    "name": "Facebook SDKs / Fresco",
+    "group": "com.facebook",
+    "category": "mixed",
+    "classes": 775
+   },
+   {
+    "prefix": "javax/annotation/",
+    "name": "javax.annotation (JSR-305)",
+    "group": "com.google.code.findbugs",
+    "category": "annotations",
+    "classes": 35
+   },
+   {
+    "prefix": "javax/inject/",
+    "name": "javax.inject",
+    "group": "javax.inject",
+    "category": "di",
+    "classes": 6
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 222
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 44
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/swmansion/gesturehandler/": 57,
+   "bolts/": 36,
+   "com/reactnativecommunity/asyncstorage/": 28,
+   "com/avishayil/rnrestart/": 20,
+   "com/oblador/vectoricons/": 17
+  },
+  "maven_metadata": {
+   "android.arch.core:runtime": "1.1.1",
+   "android.arch.lifecycle:livedata-core": "1.1.1",
+   "android.arch.lifecycle:livedata": "1.1.1",
+   "android.arch.lifecycle:runtime": "1.1.1",
+   "android.arch.lifecycle:viewmodel": "1.1.1",
+   "androidx.appcompat:appcompat": "1.0.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core": "1.0.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.0.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.0.0",
+   "androidx.vectordrawable:vectordrawable": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libc++_shared.so",
+   "libfb.so",
+   "libfolly_json.so",
+   "libglog.so",
+   "libglog_init.so",
+   "libimagepipeline.so",
+   "libjsc.so",
+   "libjscexecutor.so",
+   "libjsinspector.so",
+   "libreactnativejni.so",
+   "libyoga.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.284
+ },
+ "signer_sha256": [
+  "655c8f6d5f44804c55a5bcd92d4e32e6dcd32149a858ed3b55718fd75b361d5c"
+ ],
+ "seconds": 0.63
+}

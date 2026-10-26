@@ -1,0 +1,207 @@
+{
+ "package": "com.trevornk.ramblr",
+ "source": "fdroid-archive",
+ "sha256": "10dc85486eb19041e4bbf57985a5dbeeda2325acd343afea095f00e1dff10cd2",
+ "cap": {
+  "apk_file": "10dc85486eb19041e4bbf57985a5dbeeda2325acd343afea095f00e1dff10cd2.apk",
+  "package": "com.trevornk.ramblr",
+  "versionName": "1.0.32",
+  "versionCode": "35",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "com.trevornk.ramblr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.trevornk.ramblr.WhisperAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00000008",
+    "accessibilityFlags": "0x00000040"
+   },
+   {
+    "name": "com.trevornk.ramblr.SystemControlsAccessibilityService",
+    "config_path": "res/SI.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00000008",
+    "accessibilityFlags": "0x00000140"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.anthropic.com",
+   "api.openai.com",
+   "generativelanguage.googleapis.com"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [
+   "libggml-base.so",
+   "libggml-cpu-android_armv8.0_1.so",
+   "libggml-cpu-android_armv8.2_1.so",
+   "libggml-cpu-android_armv8.2_2.so",
+   "libggml-cpu-android_armv8.6_1.so",
+   "libggml.so",
+   "libllama-cleanup-jni.so",
+   "libllama-common.so",
+   "libllama.so",
+   "libonnxruntime.so"
+  ],
+  "old_llm_strings": [
+   "!generativelanguage.googleapis.com",
+   "%https://api.anthropic.com/v1/messages",
+   "*https://api.openai.com/v1/chat/completions",
+   "0https://generativelanguage.googleapis.com/v1beta",
+   "8https://generativelanguage.googleapis.com/v1beta/models/",
+   "api.anthropic.com",
+   "api.openai.com",
+   "https://api.anthropic.com/v1",
+   "https://api.openai.com/v1",
+   "vhttps://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.059,
+   "a11y_config_s": 0.05,
+   "strings_s": 0.104
+  },
+  "apk_bytes": 45502766
+ },
+ "lib": {
+  "package": "com.trevornk.ramblr",
+  "classes_total": 2263,
+  "class_buckets": {
+   "obfuscated": 1886,
+   "known_library": 302,
+   "platform_shim": 5,
+   "unresolved": 44,
+   "app_code": 26
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 204
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 21
+   },
+   {
+    "prefix": "com/google/crypto/tink/",
+    "name": "Tink",
+    "group": "com.google.crypto.tink",
+    "category": "crypto",
+    "classes": 74
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/k2fsa/sherpa/": 44
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.appcompat:appcompat": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment": "1.5.4",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-process": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-service": null,
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": null,
+   "androidx.lifecycle:lifecycle-viewmodel": null,
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.room:room-runtime": "2.7.0",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.security:security-crypto": "1.1.0-alpha07",
+   "androidx.sqlite:sqlite-framework": "2.5.0",
+   "androidx.sqlite:sqlite": "2.5.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing-ktx": "1.2.0",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.5.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.work:work-runtime-ktx": "2.11.2",
+   "androidx.work:work-runtime": "2.11.2",
+   "com.google.android.material:material": "1.12.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libggml-base.so",
+   "libggml-cpu-android_armv8.0_1.so",
+   "libggml-cpu-android_armv8.2_1.so",
+   "libggml-cpu-android_armv8.2_2.so",
+   "libggml-cpu-android_armv8.6_1.so",
+   "libggml.so",
+   "libllama-cleanup-jni.so",
+   "libllama-common.so",
+   "libllama.so",
+   "libomp.so",
+   "libonnxruntime.so",
+   "libsherpa-onnx-jni.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.085
+ },
+ "signer_sha256": [
+  "375c6f118f18f900971e80ee1b9f711b7abd0845e6de317fbdff0abbfb1eda5a"
+ ],
+ "seconds": 0.4
+}

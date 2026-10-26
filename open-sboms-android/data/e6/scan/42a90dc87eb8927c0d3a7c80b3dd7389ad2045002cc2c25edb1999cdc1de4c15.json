@@ -1,0 +1,237 @@
+{
+ "package": "com.tideo.autobrightness",
+ "source": "fdroid-archive",
+ "sha256": "42a90dc87eb8927c0d3a7c80b3dd7389ad2045002cc2c25edb1999cdc1de4c15",
+ "cap": {
+  "apk_file": "42a90dc87eb8927c0d3a7c80b3dd7389ad2045002cc2c25edb1999cdc1de4c15.apk",
+  "package": "com.tideo.autobrightness",
+  "versionName": "1.12.0",
+  "versionCode": "26",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_BACKGROUND_LOCATION",
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.DUMP",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.INTERNET",
+   "android.permission.PACKAGE_USAGE_STATS",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "android.permission.WRITE_SETTINGS",
+   "com.tideo.autobrightness.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "moe.shizuku.manager.permission.API_V23"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.tideo.autobrightness.app.runtime.AabToastAccessibilityService",
+    "config_path": "res/To.xml",
+    "canRetrieveWindowContent": false,
+    "accessibilityEventTypes": "0x00000020"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.028,
+   "a11y_config_s": 0.059,
+   "strings_s": 1.741
+  },
+  "apk_bytes": 24361486
+ },
+ "lib": {
+  "package": "com.tideo.autobrightness",
+  "classes_total": 16440,
+  "class_buckets": {
+   "known_library": 14342,
+   "app_code": 2086,
+   "unresolved": 12
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 11846
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1000
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 877
+   },
+   {
+    "prefix": "kotlinx/parcelize/",
+    "name": "Kotlin Parcelize",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 9
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 401
+   },
+   {
+    "prefix": "moe/shizuku/",
+    "name": "Shizuku API",
+    "group": "dev.rikka.shizuku",
+    "category": "system",
+    "classes": 18
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 107
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   },
+   {
+    "prefix": "rikka/",
+    "name": "Rikka libraries (Shizuku)",
+    "group": "dev.rikka",
+    "category": "system",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "kotlinx/android/": 12
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.9.3",
+   "androidx.activity:activity-ktx": "1.9.3",
+   "androidx.activity:activity": "1.9.3",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.7.6",
+   "androidx.compose.animation:animation": "1.7.6",
+   "androidx.compose.foundation:foundation-layout": "1.7.6",
+   "androidx.compose.foundation:foundation": "1.7.6",
+   "androidx.compose.material3:material3": "1.3.1",
+   "androidx.compose.material:material-icons-core": "1.7.6",
+   "androidx.compose.material:material-ripple": "1.7.6",
+   "androidx.compose.runtime:runtime-saveable": "1.7.6",
+   "androidx.compose.runtime:runtime": "1.7.6",
+   "androidx.compose.ui:ui-geometry": "1.7.6",
+   "androidx.compose.ui:ui-graphics": "1.7.6",
+   "androidx.compose.ui:ui-text": "1.7.6",
+   "androidx.compose.ui:ui-tooling-preview": "1.7.6",
+   "androidx.compose.ui:ui-unit": "1.7.6",
+   "androidx.compose.ui:ui-util": "1.7.6",
+   "androidx.compose.ui:ui": "1.7.6",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.datastore:datastore-core": "1.1.1",
+   "androidx.datastore:datastore-preferences": "1.1.1",
+   "androidx.datastore:datastore": "1.1.1",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.8.7",
+   "androidx.lifecycle:lifecycle-livedata": "2.8.7",
+   "androidx.lifecycle:lifecycle-process": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime": "2.8.7",
+   "androidx.lifecycle:lifecycle-service": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.8.7",
+   "androidx.navigation:navigation-common-ktx": "2.8.5",
+   "androidx.navigation:navigation-common": "2.8.5",
+   "androidx.navigation:navigation-compose": "2.8.5",
+   "androidx.navigation:navigation-runtime-ktx": "2.8.5",
+   "androidx.navigation:navigation-runtime": "2.8.5",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.room:room-ktx": "2.6.1",
+   "androidx.room:room-runtime": "2.6.1",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.sqlite:sqlite-framework": "2.4.0",
+   "androidx.sqlite:sqlite": "2.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing-ktx": "1.2.0",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.work:work-runtime-ktx": "2.10.0",
+   "androidx.work:work-runtime": "2.10.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so",
+   "libdatastore_shared_counter.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 1.123
+ },
+ "signer_sha256": [
+  "3d2d9dd10e5cf98b040cc236d9d3ef0d68742fadf94b040f506c0625f8589caf"
+ ],
+ "seconds": 2.98
+}

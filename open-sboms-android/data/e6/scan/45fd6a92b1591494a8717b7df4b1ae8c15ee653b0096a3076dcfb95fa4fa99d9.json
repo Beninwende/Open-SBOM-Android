@@ -1,0 +1,67 @@
+{
+ "package": "fr.gibinot.panosp",
+ "source": "sample",
+ "sha256": "45fd6a92b1591494a8717b7df4b1ae8c15ee653b0096a3076dcfb95fa4fa99d9",
+ "cap": {
+  "apk_file": "fr.gibinot.panosp_3.apk",
+  "package": "fr.gibinot.panosp",
+  "versionName": "1.0.2",
+  "versionCode": "3",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_NOTIFICATION_POLICY",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.BLUETOOTH_CONNECT",
+   "android.permission.CAMERA",
+   "android.permission.NFC",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "android.permission.WRITE_SETTINGS"
+  ],
+  "a11y_services": [
+   {
+    "name": "fr.gibinot.panosp.PanOSPAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": true,
+    "canRequestFilterKeyEvents": true,
+    "accessibilityEventTypes": "0x00002829",
+    "accessibilityFlags": "0x00000070"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.005,
+   "a11y_config_s": 0.004,
+   "strings_s": 0.014
+  },
+  "apk_bytes": 354579
+ },
+ "lib": {
+  "package": "fr.gibinot.panosp",
+  "classes_total": 168,
+  "class_buckets": {
+   "app_code": 168
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.008
+ },
+ "signer_sha256": [
+  "23f09bb9c0f8a71e9a58da93025c3061f1073aa0a3f059023d1e8ecc3144249b"
+ ],
+ "seconds": 0.05
+}

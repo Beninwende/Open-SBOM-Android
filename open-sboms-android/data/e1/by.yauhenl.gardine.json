@@ -1,0 +1,37 @@
+{
+ "apk_file": "by.yauhenl.gardine_4.apk",
+ "package": "by.yauhenl.gardine",
+ "versionName": "0.4",
+ "versionCode": "4",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE"
+ ],
+ "a11y_services": [
+  {
+   "name": "by.yauhenl.gardine.GardineWidgetService",
+   "config_path": "res/xml/accessibilityservice.xml",
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000002"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.007,
+  "a11y_config_s": 0.026,
+  "strings_s": 0.218
+ },
+ "apk_bytes": 2600479,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,806 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:a97177ea-e6ab-4d29-ad13-12dbb246fb71",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:21Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.github.dyhkwong.sagernet@0.17.60",
+   "name": "com.github.dyhkwong.sagernet",
+   "version": "0.17.60",
+   "purl": "pkg:generic/com.github.dyhkwong.sagernet@0.17.60?download_url=https://f-droid.org/repo/com.github.dyhkwong.sagernet_1984.apk&checksum=sha256:08f22ab6f36d3b0cb88c9e4754d64a5a35384590575880c5e1bf6726dc9e6b41",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "08f22ab6f36d3b0cb88c9e4754d64a5a35384590575880c5e1bf6726dc9e6b41"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.github.dyhkwong.sagernet_1984.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/ExclaveNetwork/Exclave"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "1984"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.003"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:_COROUTINE/",
+   "name": "kotlinx.coroutines (debug stubs)",
+   "group": "org.jetbrains.kotlinx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1 classes under _COROUTINE/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "5 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:androidx/",
+   "name": "AndroidX (Jetpack)",
+   "group": "androidx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "2331 classes under androidx/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/esotericsoftware/",
+   "name": "Kryo/Esoteric",
+   "group": "com.esotericsoftware",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "4 classes under com/esotericsoftware/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "serialization"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/android/flexbox/",
+   "name": "FlexboxLayout",
+   "group": "com.google.android.flexbox",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "12 classes under com/google/android/flexbox/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "ui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/android/material/",
+   "name": "Material Components",
+   "group": "com.google.android.material",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "307 classes under com/google/android/material/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "ui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/common/",
+   "name": "Guava",
+   "group": "com.google.guava",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1 classes under com/google/common/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "util"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/gson/",
+   "name": "Gson",
+   "group": "com.google.code.gson",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "122 classes under com/google/gson/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "json"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/protobuf/",
+   "name": "Protocol Buffers",
+   "group": "com.google.protobuf",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "264 classes under com/google/protobuf/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "serialization"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/zxing/",
+   "name": "ZXing",
+   "group": "com.google.zxing",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "46 classes under com/google/zxing/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "barcode"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:dagger/",
+   "name": "Dagger",
+   "group": "com.google.dagger",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "4 classes under dagger/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "di"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:io/noties/markwon/",
+   "name": "Markwon",
+   "group": "io.noties.markwon",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "28 classes under io/noties/markwon/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "ui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:j$/",
+   "name": "Android desugared JDK library (D8)",
+   "group": "com.android.tools",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "130 classes under j$/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:javax/inject/",
+   "name": "javax.inject",
+   "group": "javax.inject",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1 classes under javax/inject/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "di"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "215 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlinx/atomicfu/",
+   "name": "atomicfu",
+   "group": "org.jetbrains.kotlinx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "4 classes under kotlinx/atomicfu/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlinx/coroutines/",
+   "name": "kotlinx.coroutines",
+   "group": "org.jetbrains.kotlinx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "252 classes under kotlinx/coroutines/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/bouncycastle/",
+   "name": "Bouncy Castle",
+   "group": "org.bouncycastle",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "109 classes under org/bouncycastle/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "crypto"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/commonmark/",
+   "name": "commonmark-java",
+   "group": "org.commonmark",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "47 classes under org/commonmark/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "parsing"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/yaml/snakeyaml/",
+   "name": "SnakeYAML",
+   "group": "org.yaml",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "230 classes under org/yaml/snakeyaml/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "parsing"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgojni.so",
+   "name": "libgojni.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libimage_processing_util_jni.so",
+   "name": "libimage_processing_util_jni.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libsurface_util_jni.so",
+   "name": "libsurface_util_jni.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.github.dyhkwong.sagernet@0.17.60",
+   "dependsOn": [
+    "ns:_COROUTINE/",
+    "ns:android/support/",
+    "ns:androidx/",
+    "ns:com/esotericsoftware/",
+    "ns:com/google/android/flexbox/",
+    "ns:com/google/android/material/",
+    "ns:com/google/common/",
+    "ns:com/google/gson/",
+    "ns:com/google/protobuf/",
+    "ns:com/google/zxing/",
+    "ns:dagger/",
+    "ns:io/noties/markwon/",
+    "ns:j$/",
+    "ns:javax/inject/",
+    "ns:kotlin/",
+    "ns:kotlinx/atomicfu/",
+    "ns:kotlinx/coroutines/",
+    "ns:org/bouncycastle/",
+    "ns:org/commonmark/",
+    "ns:org/yaml/snakeyaml/",
+    "native:libgojni.so",
+    "native:libimage_processing_util_jni.so",
+    "native:libsurface_util_jni.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.github.dyhkwong.sagernet@0.17.60"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "apk_file": "com.encrypt.bwt_10.apk",
+ "package": "com.encrypt.bwt",
+ "versionName": "10",
+ "versionCode": "10",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.CAMERA",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "com.encrypt.bwt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.encrypt.bwt.AccessibilityEncryptionService",
+   "config_path": "res/a3.xml",
+   "canRetrieveWindowContent": true,
+   "canRequestFilterKeyEvents": false,
+   "accessibilityEventTypes": "0x00002000",
+   "accessibilityFlags": "0x00000010"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.065,
+  "strings_s": 0.25
+ },
+ "apk_bytes": 5600477,
+ "stratum": "B_desc_accessibility_service"
+}

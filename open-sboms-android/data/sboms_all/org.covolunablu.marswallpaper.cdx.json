@@ -1,0 +1,604 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:7dd0050b-c96a-4fe3-add5-5d3ec9a6867a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:20Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.covolunablu.marswallpaper@1.2.0",
+   "name": "org.covolunablu.marswallpaper",
+   "version": "1.2.0",
+   "purl": "pkg:generic/org.covolunablu.marswallpaper@1.2.0?download_url=https://f-droid.org/repo/org.covolunablu.marswallpaper_3.apk&checksum=sha256:764f7bf0a82b718efeb7f141c2b60007d3795483561e8733a6255b5e29fa3a92",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "764f7bf0a82b718efeb7f141c2b60007d3795483561e8733a6255b5e29fa3a92"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.covolunablu.marswallpaper_3.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://git.covolunablu.org/portaloffreedom/MarsWallpaper/tree/HEAD"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "3"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "lib:android.arch.core:runtime",
+   "group": "android.arch.core",
+   "name": "runtime",
+   "purl": "pkg:maven/android.arch.core/runtime@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/android.arch.core_runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:android.arch.lifecycle:livedata-core",
+   "group": "android.arch.lifecycle",
+   "name": "livedata-core",
+   "purl": "pkg:maven/android.arch.lifecycle/livedata-core@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/android.arch.lifecycle_livedata-core.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:android.arch.lifecycle:runtime",
+   "group": "android.arch.lifecycle",
+   "name": "runtime",
+   "purl": "pkg:maven/android.arch.lifecycle/runtime@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/android.arch.lifecycle_runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:android.arch.lifecycle:viewmodel",
+   "group": "android.arch.lifecycle",
+   "name": "viewmodel",
+   "purl": "pkg:maven/android.arch.lifecycle/viewmodel@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/android.arch.lifecycle_viewmodel.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:animated-vector-drawable",
+   "group": "com.android.support",
+   "name": "animated-vector-drawable",
+   "purl": "pkg:maven/com.android.support/animated-vector-drawable@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_animated-vector-drawable.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:appcompat-v7",
+   "group": "com.android.support",
+   "name": "appcompat-v7",
+   "purl": "pkg:maven/com.android.support/appcompat-v7@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_appcompat-v7.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-compat",
+   "group": "com.android.support",
+   "name": "support-compat",
+   "purl": "pkg:maven/com.android.support/support-compat@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-compat.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-core-ui",
+   "group": "com.android.support",
+   "name": "support-core-ui",
+   "purl": "pkg:maven/com.android.support/support-core-ui@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-core-ui.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-core-utils",
+   "group": "com.android.support",
+   "name": "support-core-utils",
+   "purl": "pkg:maven/com.android.support/support-core-utils@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-core-utils.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-fragment",
+   "group": "com.android.support",
+   "name": "support-fragment",
+   "purl": "pkg:maven/com.android.support/support-fragment@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-fragment.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-media-compat",
+   "group": "com.android.support",
+   "name": "support-media-compat",
+   "purl": "pkg:maven/com.android.support/support-media-compat@27.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-media-compat.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-v4",
+   "group": "com.android.support",
+   "name": "support-v4",
+   "purl": "pkg:maven/com.android.support/support-v4@27.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-v4.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-vector-drawable",
+   "group": "com.android.support",
+   "name": "support-vector-drawable",
+   "purl": "pkg:maven/com.android.support/support-vector-drawable@27.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-vector-drawable.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "650 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/intellij/lang/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "25 classes under org/intellij/lang/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/jetbrains/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "7 classes under org/jetbrains/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:org.covolunablu.marswallpaper@1.2.0",
+   "dependsOn": [
+    "lib:android.arch.core:runtime",
+    "lib:android.arch.lifecycle:livedata-core",
+    "lib:android.arch.lifecycle:runtime",
+    "lib:android.arch.lifecycle:viewmodel",
+    "lib:com.android.support:animated-vector-drawable",
+    "lib:com.android.support:appcompat-v7",
+    "lib:com.android.support:support-compat",
+    "lib:com.android.support:support-core-ui",
+    "lib:com.android.support:support-core-utils",
+    "lib:com.android.support:support-fragment",
+    "lib:com.android.support:support-media-compat",
+    "lib:com.android.support:support-v4",
+    "lib:com.android.support:support-vector-drawable",
+    "ns:kotlin/",
+    "ns:org/intellij/lang/annotations/",
+    "ns:org/jetbrains/annotations/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.covolunablu.marswallpaper@1.2.0"
+   ]
+  }
+ ]
+}

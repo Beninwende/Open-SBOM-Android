@@ -1,0 +1,36 @@
+{
+ "apk_file": "com.devasy.repforge_653.apk",
+ "package": "com.devasy.repforge",
+ "versionName": "2.1.7",
+ "versionCode": "653",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.health.READ_EXERCISE",
+  "android.permission.health.READ_HEART_RATE",
+  "android.permission.health.READ_HEART_RATE_VARIABILITY",
+  "android.permission.health.READ_RESTING_HEART_RATE",
+  "android.permission.health.READ_SLEEP",
+  "android.permission.health.WRITE_EXERCISE",
+  "com.devasy.repforge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.027,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.108
+ },
+ "apk_bytes": 28259429,
+ "stratum": "D_desc_llm_ai"
+}

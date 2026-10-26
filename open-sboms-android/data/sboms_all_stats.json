@@ -1,0 +1,26 @@
+{
+ "all": {
+  "n": 306,
+  "apps_>=50pct_obfuscated": 151,
+  "apps_with_versioned_components": 269,
+  "median_versioned_components": 52.0,
+  "median_namespace_only_components": 3.0,
+  "apps_with_native_libs": 193
+ },
+ "random_117": {
+  "n": 117,
+  "apps_>=50pct_obfuscated": 40,
+  "apps_with_versioned_components": 95,
+  "median_versioned_components": 41,
+  "median_namespace_only_components": 4,
+  "apps_with_native_libs": 69
+ },
+ "targeted_189": {
+  "n": 189,
+  "apps_>=50pct_obfuscated": 111,
+  "apps_with_versioned_components": 174,
+  "median_versioned_components": 56,
+  "median_namespace_only_components": 3,
+  "apps_with_native_libs": 124
+ }
+}

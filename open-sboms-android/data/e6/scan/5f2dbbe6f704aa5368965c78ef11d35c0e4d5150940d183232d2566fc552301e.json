@@ -1,0 +1,101 @@
+{
+ "package": "de.devmil.muzei.bingimageofthedayartsource",
+ "source": "fdroid-archive",
+ "sha256": "5f2dbbe6f704aa5368965c78ef11d35c0e4d5150940d183232d2566fc552301e",
+ "cap": {
+  "apk_file": "5f2dbbe6f704aa5368965c78ef11d35c0e4d5150940d183232d2566fc552301e.apk",
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "versionName": "1.4",
+  "versionCode": "5",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.004,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.086
+  },
+  "apk_bytes": 1004587
+ },
+ "lib": {
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "classes_total": 1114,
+  "class_buckets": {
+   "unresolved": 242,
+   "known_library": 811,
+   "app_code": 61
+  },
+  "known_libraries": [
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 153
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 626
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 25
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 7
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/android/volley/": 73,
+   "retrofit/": 63,
+   "de/greenrobot/event/": 34,
+   "retrofit/http/": 18,
+   "com/google/android/": 13,
+   "retrofit/client/": 13,
+   "de/devmil/common/": 12,
+   "retrofit/mime/": 9,
+   "retrofit/converter/": 4,
+   "retrofit/android/": 3
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [
+   "kotlin-runtime",
+   "kotlin-stdlib",
+   "kotlin-stdlib-jdk7"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.068
+ },
+ "signer_sha256": [
+  "2f68f381dc9f286d79529590512753d8130c429477dddd268ccc22d4894a6fbd"
+ ],
+ "seconds": 0.17
+}

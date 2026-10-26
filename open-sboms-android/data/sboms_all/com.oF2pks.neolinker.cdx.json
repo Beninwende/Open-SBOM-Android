@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:f0a8581b-f5e0-4574-b79d-c66bd3016c15",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:06Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.oF2pks.neolinker@2.2-7",
+   "name": "com.oF2pks.neolinker",
+   "version": "2.2-7",
+   "purl": "pkg:generic/com.oF2pks.neolinker@2.2-7?download_url=https://f-droid.org/repo/com.oF2pks.neolinker_7.apk&checksum=sha256:58a7d4b3e25af7c3091fbc2450227df2a3415423c4f176f25a96f7687a5acdcc",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "58a7d4b3e25af7c3091fbc2450227df2a3415423c4f176f25a96f7687a5acdcc"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.oF2pks.neolinker_7.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://bitbucket.org/oF2pks/neolinker"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "7"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:com.oF2pks.neolinker@2.2-7",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.oF2pks.neolinker@2.2-7"
+   ]
+  }
+ ]
+}

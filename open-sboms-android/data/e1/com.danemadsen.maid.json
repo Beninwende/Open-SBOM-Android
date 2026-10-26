@@ -1,0 +1,39 @@
+{
+ "apk_file": "com.danemadsen.maid_22532.apk",
+ "package": "com.danemadsen.maid",
+ "versionName": "2.0.4",
+ "versionCode": "22532",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.INTERNET",
+  "android.permission.NEARBY_WIFI_DEVICES",
+  "com.danemadsen.maid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [
+  "libggml-base.so",
+  "libggml-cpu.so",
+  "libggml.so",
+  "libllama.so"
+ ],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.033,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.051
+ },
+ "apk_bytes": 24016262,
+ "stratum": "D_desc_llm_ai"
+}

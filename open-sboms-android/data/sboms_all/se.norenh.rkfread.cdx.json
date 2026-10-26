@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:83922e98-642d-4858-8469-5d268fda5599",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:20Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:se.norenh.rkfread@1.3",
+   "name": "se.norenh.rkfread",
+   "version": "1.3",
+   "purl": "pkg:generic/se.norenh.rkfread@1.3?download_url=https://f-droid.org/repo/se.norenh.rkfread_4.apk&checksum=sha256:bb61cd04bd8f49a0b7d4e99a225e9737eecc94c0fc814f3dbb70f6fb37c2f6bf",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "bb61cd04bd8f49a0b7d4e99a225e9737eecc94c0fc814f3dbb70f6fb37c2f6bf"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/se.norenh.rkfread_4.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/norenh/RKFRead"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "4"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:se.norenh.rkfread@1.3",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:se.norenh.rkfread@1.3"
+   ]
+  }
+ ]
+}

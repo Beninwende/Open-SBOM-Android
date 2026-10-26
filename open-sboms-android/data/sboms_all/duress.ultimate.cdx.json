@@ -1,0 +1,120 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:d769863d-c4cc-4545-b9f8-6ee67fca88c5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:38Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:duress.ultimate@22.0",
+   "name": "duress.ultimate",
+   "version": "22.0",
+   "purl": "pkg:generic/duress.ultimate@22.0?download_url=https://f-droid.org/repo/duress.ultimate_22.apk&checksum=sha256:87d6cea3423c10b93dc716b600c54776e45bdb5c3f414ecd86b65bb948f093eb",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "87d6cea3423c10b93dc716b600c54776e45bdb5c3f414ecd86b65bb948f093eb"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/duress.ultimate_22.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/pofesk0/DuressUltimate"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "22"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "duress.ultimate.MyAccessibilityService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:duress.ultimate@22.0",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:duress.ultimate@22.0"
+   ]
+  }
+ ]
+}

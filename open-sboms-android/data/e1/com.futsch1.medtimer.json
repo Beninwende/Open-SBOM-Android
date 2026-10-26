@@ -1,0 +1,39 @@
+{
+ "apk_file": "com.futsch1.medtimer_187.apk",
+ "package": "com.futsch1.medtimer",
+ "versionName": "1.26.0",
+ "versionCode": "187",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.USE_FULL_SCREEN_INTENT",
+  "android.permission.VIBRATE",
+  "com.futsch1.medtimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.futsch1.medtimer.NOTIFICATION_PROCESSED"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.017,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.154
+ },
+ "apk_bytes": 15287752,
+ "stratum": "C_desc_accessibility_other"
+}

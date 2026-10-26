@@ -1,0 +1,283 @@
+{
+ "package": "dev.argus",
+ "source": "sample",
+ "sha256": "c8a88696a7ff3e9b8c5d101b1feec4067aec8d606425cf34487700d3a3dcec9b",
+ "cap": {
+  "apk_file": "dev.argus_1104.apk",
+  "package": "dev.argus",
+  "versionName": "0.3.4",
+  "versionCode": "1104",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_BACKGROUND_LOCATION",
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_NOTIFICATION_POLICY",
+   "android.permission.BLUETOOTH_CONNECT",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_CALL_LOG",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECEIVE_SMS",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.SCHEDULE_EXACT_ALARM",
+   "android.permission.VIBRATE",
+   "com.android.alarm.permission.SET_ALARM",
+   "dev.argus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "moe.shizuku.manager.permission.API_V23"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.anthropic.com",
+   "api.openai.com",
+   "generativelanguage.googleapis.com",
+   "openrouter.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "7https://generativelanguage.googleapis.com/v1beta/openai",
+   "https://api.anthropic.com",
+   "https://api.openai.com/v1",
+   "https://openrouter.ai/api/v1"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.076,
+   "a11y_config_s": 0.0,
+   "strings_s": 3.874
+  },
+  "apk_bytes": 48052347
+ },
+ "lib": {
+  "package": "dev.argus",
+  "classes_total": 28556,
+  "class_buckets": {
+   "known_library": 25820,
+   "unresolved": 10,
+   "app_code": 2726
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 22620
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/re2j/",
+    "name": "RE2/J",
+    "group": "com.google.re2j",
+    "category": "util",
+    "classes": 47
+   },
+   {
+    "prefix": "dagger/",
+    "name": "Dagger",
+    "group": "com.google.dagger",
+    "category": "di",
+    "classes": 237
+   },
+   {
+    "prefix": "hilt_aggregated_deps/",
+    "name": "Hilt (generated)",
+    "group": "com.google.dagger",
+    "category": "di",
+    "classes": 42
+   },
+   {
+    "prefix": "javax/annotation/",
+    "name": "javax.annotation (JSR-305)",
+    "group": "com.google.code.findbugs",
+    "category": "annotations",
+    "classes": 35
+   },
+   {
+    "prefix": "javax/inject/",
+    "name": "javax.inject",
+    "group": "javax.inject",
+    "category": "di",
+    "classes": 6
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1028
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 876
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 401
+   },
+   {
+    "prefix": "moe/shizuku/",
+    "name": "Shizuku API",
+    "group": "dev.rikka.shizuku",
+    "category": "system",
+    "classes": 18
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 319
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 107
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   },
+   {
+    "prefix": "rikka/",
+    "name": "Rikka libraries (Shizuku)",
+    "group": "dev.rikka",
+    "category": "system",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "jakarta/inject/": 6,
+   "org/jspecify/annotations/": 4
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.9.3",
+   "androidx.activity:activity-ktx": "1.9.3",
+   "androidx.activity:activity": "1.9.3",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.8.2",
+   "androidx.compose.animation:animation": "1.8.2",
+   "androidx.compose.foundation:foundation-layout": "1.8.2",
+   "androidx.compose.foundation:foundation": "1.8.2",
+   "androidx.compose.material3:material3": "1.3.2",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.8.2",
+   "androidx.compose.runtime:runtime-saveable": "1.8.2",
+   "androidx.compose.runtime:runtime": "1.8.2",
+   "androidx.compose.ui:ui-geometry": "1.8.2",
+   "androidx.compose.ui:ui-graphics": "1.8.2",
+   "androidx.compose.ui:ui-text": "1.8.2",
+   "androidx.compose.ui:ui-tooling-preview": "1.8.2",
+   "androidx.compose.ui:ui-unit": "1.8.2",
+   "androidx.compose.ui:ui-util": "1.8.2",
+   "androidx.compose.ui:ui": "1.8.2",
+   "androidx.core:core-ktx": "1.15.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.15.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.fragment:fragment": "1.5.1",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.hilt:hilt-lifecycle-viewmodel-compose": "1.3.0",
+   "androidx.hilt:hilt-lifecycle-viewmodel": "1.3.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.9.1",
+   "androidx.lifecycle:lifecycle-livedata": "2.9.1",
+   "androidx.lifecycle:lifecycle-process": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.9.1",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigation:navigation-common-ktx": "2.8.5",
+   "androidx.navigation:navigation-common": "2.8.5",
+   "androidx.navigation:navigation-compose": "2.8.5",
+   "androidx.navigation:navigation-runtime-ktx": "2.8.5",
+   "androidx.navigation:navigation-runtime": "2.8.5",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.room:room-ktx": "2.6.1",
+   "androidx.room:room-runtime": "2.6.1",
+   "androidx.savedstate:savedstate-ktx": "1.3.0",
+   "androidx.savedstate:savedstate": "1.3.0",
+   "androidx.sqlite:sqlite-framework": "2.4.0",
+   "androidx.sqlite:sqlite": "2.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.dagger:dagger-lint-aar": "2.57.1",
+   "com.google.dagger:dagger": "2.57.1",
+   "com.google.dagger:hilt-android": "2.57.1",
+   "com.google.dagger:hilt-core": "2.57.1",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 2.177
+ },
+ "signer_sha256": [
+  "4c09633e64cf9876b0da682f5f259383af8d22742aadd93ef273b9f2c73cca6b"
+ ],
+ "seconds": 6.21
+}

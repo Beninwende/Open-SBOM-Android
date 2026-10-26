@@ -1,0 +1,120 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:eed9d912-53f3-49b2-9f54-7c9243796ab3",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:19:35Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:co.xplat.husk@1.4",
+   "name": "co.xplat.husk",
+   "version": "1.4",
+   "purl": "pkg:generic/co.xplat.husk@1.4?download_url=https://f-droid.org/repo/co.xplat.husk_55.apk&checksum=sha256:83a1ddf7bd456c17c8d650628ac97768db74bb5788b6090998d91b3d570dcfa3",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "83a1ddf7bd456c17c8d650628ac97768db74bb5788b6090998d91b3d570dcfa3"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/co.xplat.husk_55.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/hf1985/husk"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "55"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "co.xplat.husk.RigAccessibilityService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:co.xplat.husk@1.4",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:co.xplat.husk@1.4"
+   ]
+  }
+ ]
+}

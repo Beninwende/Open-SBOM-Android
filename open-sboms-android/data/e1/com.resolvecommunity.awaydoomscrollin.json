@@ -1,0 +1,41 @@
+{
+ "apk_file": "com.resolvecommunity.awaydoomscrollin_8.apk",
+ "package": "com.resolvecommunity.awaydoomscrollin",
+ "versionName": "1.2.0",
+ "versionCode": "8",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.VIBRATE",
+  "com.resolvecommunity.awaydoomscrollin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.resolvecommunity.awaydoomscrollin.AntiScrollService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00401821",
+   "accessibilityFlags": "0x00000051",
+   "packageNames": "com.instagram.android,com.zhiliaoapp.musically,com.google.android.youtube"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.032,
+  "strings_s": 0.086
+ },
+ "apk_bytes": 3059861,
+ "stratum": "C_desc_accessibility_other"
+}

@@ -1,0 +1,56 @@
+{
+ "package": "name.seguri.android.getforegroundactivity",
+ "source": "fdroid-main",
+ "sha256": "0863f8e817dca1f3844ca0edb65a72b94ec45d9d1cd23f40cc88dddca39e7715",
+ "cap": {
+  "apk_file": "0863f8e817dca1f3844ca0edb65a72b94ec45d9d1cd23f40cc88dddca39e7715.apk",
+  "package": "name.seguri.android.getforegroundactivity",
+  "versionName": "1.0",
+  "versionCode": "1",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [],
+  "a11y_services": [
+   {
+    "name": "name.seguri.android.getforegroundactivity.WindowChangeDetectingService",
+    "config_path": "res/xml/windowchangedetectingservice.xml",
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000002"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.002,
+   "a11y_config_s": 0.001,
+   "strings_s": 0.001
+  },
+  "apk_bytes": 40843
+ },
+ "lib": {
+  "package": "name.seguri.android.getforegroundactivity",
+  "classes_total": 15,
+  "class_buckets": {
+   "app_code": 15
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.001
+ },
+ "signer_sha256": [
+  "797ba0c71ec139dc7bd0a77a840283c78222bf651b76e14fa1d3a6174b624a7c"
+ ],
+ "seconds": 0.01
+}

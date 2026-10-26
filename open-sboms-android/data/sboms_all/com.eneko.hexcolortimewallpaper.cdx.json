@@ -1,0 +1,150 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:45e976de-31cc-4948-bb46-6f3a78237888",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:00Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.eneko.hexcolortimewallpaper@1.1",
+   "name": "com.eneko.hexcolortimewallpaper",
+   "version": "1.1",
+   "purl": "pkg:generic/com.eneko.hexcolortimewallpaper@1.1?download_url=https://f-droid.org/repo/com.eneko.hexcolortimewallpaper_2.apk&checksum=sha256:22edf720655c011be57c376336ab8eda4981f4acdccc6681256213e983f431a4",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "22edf720655c011be57c376336ab8eda4981f4acdccc6681256213e983f431a4"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.eneko.hexcolortimewallpaper_2.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/urtxintxa/HexColorTime"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "2"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1633 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.eneko.hexcolortimewallpaper@1.1",
+   "dependsOn": [
+    "ns:android/support/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.eneko.hexcolortimewallpaper@1.1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:72220a88-56e9-4421-aa6a-77621625f9c1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:12Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.emmanuelmess.tictactoe@1.0.0",
+   "name": "com.emmanuelmess.tictactoe",
+   "version": "1.0.0",
+   "purl": "pkg:generic/com.emmanuelmess.tictactoe@1.0.0?download_url=https://f-droid.org/repo/com.emmanuelmess.tictactoe_3.apk&checksum=sha256:760fe5acf7b394354bf02b7b3484c3eb442b491c1fa4325603ad3250f0dfa394",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "760fe5acf7b394354bf02b7b3484c3eb442b491c1fa4325603ad3250f0dfa394"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.emmanuelmess.tictactoe_3.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/EmmanuelMess/TicTacToeGame"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "3"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:com/badlogic/gdx/",
+   "name": "libGDX",
+   "group": "com.badlogicgames.gdx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1229 classes under com/badlogic/gdx/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "848 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/intellij/lang/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "25 classes under org/intellij/lang/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/jetbrains/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "7 classes under org/jetbrains/annotations/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "annotations"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgdx-box2d.so",
+   "name": "libgdx-box2d.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgdx-freetype.so",
+   "name": "libgdx-freetype.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgdx.so",
+   "name": "libgdx.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.emmanuelmess.tictactoe@1.0.0",
+   "dependsOn": [
+    "ns:com/badlogic/gdx/",
+    "ns:kotlin/",
+    "ns:org/intellij/lang/annotations/",
+    "ns:org/jetbrains/annotations/",
+    "native:libgdx-box2d.so",
+    "native:libgdx-freetype.so",
+    "native:libgdx.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.emmanuelmess.tictactoe@1.0.0"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "apk_file": "com.rdevzph.fpsmeter_21.apk",
+ "package": "com.rdevzph.fpsmeter",
+ "versionName": "2.9-hotfix",
+ "versionCode": "21",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.rdevzph.fpsmeter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.api.permission.SHIZUKU",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.rdevzph.fpsmeter.accessibility.FpsAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00400020",
+   "accessibilityFlags": "0x00000041"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.019,
+  "strings_s": 0.087
+ },
+ "apk_bytes": 1815580,
+ "stratum": "B_desc_accessibility_service"
+}

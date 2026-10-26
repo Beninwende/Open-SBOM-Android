@@ -1,0 +1,44 @@
+{
+ "apk_file": "eu.ottop.yamlauncher_16.apk",
+ "package": "eu.ottop.yamlauncher",
+ "versionName": "2.2",
+ "versionCode": "16",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.INTERNET",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_CONTACTS",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "com.android.alarm.permission.SET_ALARM",
+  "eu.ottop.yamlauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "eu.ottop.yamlauncher.tasks.ScreenLockService",
+   "config_path": "res/Ob.xml",
+   "accessibilityEventTypes": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.084,
+  "strings_s": 0.061
+ },
+ "apk_bytes": 2583306,
+ "stratum": "C_desc_accessibility_other"
+}

@@ -1,0 +1,128 @@
+{
+ "package": "com.farmerbb.taskbar",
+ "source": "fdroid-archive",
+ "sha256": "c08fe80209fc33ebc1d09ff0f3d0abc28f41b22b52e11d2da65ca802e3145143",
+ "cap": {
+  "apk_file": "c08fe80209fc33ebc1d09ff0f3d0abc28f41b22b52e11d2da65ca802e3145143.apk",
+  "package": "com.farmerbb.taskbar",
+  "versionName": "6.0",
+  "versionCode": "201",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.PACKAGE_USAGE_STATS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS",
+   "com.farmerbb.taskbar.START_STOP_TASKBAR"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.farmerbb.taskbar.service.PowerMenuService",
+    "config_path": "res/xml/tb_accessibility_service.xml"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.015,
+   "a11y_config_s": 0.044,
+   "strings_s": 0.129
+  },
+  "apk_bytes": 2330560
+ },
+ "lib": {
+  "package": "com.farmerbb.taskbar",
+  "classes_total": 1913,
+  "class_buckets": {
+   "obfuscated": 5,
+   "known_library": 1507,
+   "app_code": 401
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 67
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1041
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 373
+   },
+   {
+    "prefix": "com/mikepenz/",
+    "name": "Mikepenz libraries",
+    "group": "com.mikepenz",
+    "category": "ui",
+    "classes": 26
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity": "1.0.0",
+   "androidx.appcompat:appcompat-resources": "1.1.0",
+   "androidx.appcompat:appcompat": "1.1.0",
+   "androidx.arch.core:core-runtime": "2.0.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core": "1.1.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.1.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.legacy:legacy-support-v4": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.0.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.1.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.1.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.1.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.125
+ },
+ "signer_sha256": [
+  "0e2b55c6ad9b989351da9d54e7b1d57762463aaf3159d2f0bc95ab607b95f7f0"
+ ],
+ "seconds": 0.35
+}

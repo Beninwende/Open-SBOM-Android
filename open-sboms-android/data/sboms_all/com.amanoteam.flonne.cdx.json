@@ -1,0 +1,1770 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:acef2423-3a18-455c-94ef-7fd67ec14cbe",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:23:12Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.amanoteam.flonne@12.10.2",
+   "name": "com.amanoteam.flonne",
+   "version": "12.10.2",
+   "purl": "pkg:generic/com.amanoteam.flonne@12.10.2?download_url=https://f-droid.org/repo/com.amanoteam.flonne_70399.apk&checksum=sha256:764b632abbaddbeef9d684bb5437b7957e5ea6180202c8a49931770ef02a915d",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "764b632abbaddbeef9d684bb5437b7957e5ea6180202c8a49931770ef02a915d"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.amanoteam.flonne_70399.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/AmanoTeam/Goregram"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "70399"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.activity:activity",
+   "group": "androidx.activity",
+   "name": "activity",
+   "purl": "pkg:maven/androidx.activity/activity@1.2.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.activity_activity.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.annotation:annotation-experimental",
+   "group": "androidx.annotation",
+   "name": "annotation-experimental",
+   "purl": "pkg:maven/androidx.annotation/annotation-experimental@1.4.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.annotation_annotation-experimental.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.4.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.appcompat:appcompat",
+   "group": "androidx.appcompat",
+   "name": "appcompat",
+   "purl": "pkg:maven/androidx.appcompat/appcompat@1.2.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.appcompat_appcompat.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.appcompat:appcompat-resources",
+   "group": "androidx.appcompat",
+   "name": "appcompat-resources",
+   "purl": "pkg:maven/androidx.appcompat/appcompat-resources@1.2.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.appcompat_appcompat-resources.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.arch.core:core-runtime",
+   "group": "androidx.arch.core",
+   "name": "core-runtime",
+   "purl": "pkg:maven/androidx.arch.core/core-runtime",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.arch.core_core-runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.biometric:biometric",
+   "group": "androidx.biometric",
+   "name": "biometric",
+   "purl": "pkg:maven/androidx.biometric/biometric@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.biometric_biometric.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.car.app:app",
+   "group": "androidx.car.app",
+   "name": "app",
+   "purl": "pkg:maven/androidx.car.app/app@1.4.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.car.app_app.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.4.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.car.app:app-projected",
+   "group": "androidx.car.app",
+   "name": "app-projected",
+   "purl": "pkg:maven/androidx.car.app/app-projected@1.4.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.car.app_app-projected.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.4.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.core:core",
+   "group": "androidx.core",
+   "name": "core",
+   "purl": "pkg:maven/androidx.core/core@1.16.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.core_core.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.16.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.core:core-ktx",
+   "group": "androidx.core",
+   "name": "core-ktx",
+   "purl": "pkg:maven/androidx.core/core-ktx@1.16.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.core_core-ktx.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.16.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.core:core-viewtree",
+   "group": "androidx.core",
+   "name": "core-viewtree",
+   "purl": "pkg:maven/androidx.core/core-viewtree@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.core_core-viewtree.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.credentials:credentials",
+   "group": "androidx.credentials",
+   "name": "credentials",
+   "purl": "pkg:maven/androidx.credentials/credentials@1.6.0-alpha04",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.credentials_credentials.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.6.0-alpha04"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.cursoradapter:cursoradapter",
+   "group": "androidx.cursoradapter",
+   "name": "cursoradapter",
+   "purl": "pkg:maven/androidx.cursoradapter/cursoradapter@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.cursoradapter_cursoradapter.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.customview:customview",
+   "group": "androidx.customview",
+   "name": "customview",
+   "purl": "pkg:maven/androidx.customview/customview@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.customview_customview.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.documentfile:documentfile",
+   "group": "androidx.documentfile",
+   "name": "documentfile",
+   "purl": "pkg:maven/androidx.documentfile/documentfile@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.documentfile_documentfile.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.drawerlayout:drawerlayout",
+   "group": "androidx.drawerlayout",
+   "name": "drawerlayout",
+   "purl": "pkg:maven/androidx.drawerlayout/drawerlayout@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.drawerlayout_drawerlayout.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.dynamicanimation:dynamicanimation",
+   "group": "androidx.dynamicanimation",
+   "name": "dynamicanimation",
+   "purl": "pkg:maven/androidx.dynamicanimation/dynamicanimation@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.dynamicanimation_dynamicanimation.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.exifinterface:exifinterface",
+   "group": "androidx.exifinterface",
+   "name": "exifinterface",
+   "purl": "pkg:maven/androidx.exifinterface/exifinterface@1.3.6",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.exifinterface_exifinterface.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.3.6"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.fragment:fragment",
+   "group": "androidx.fragment",
+   "name": "fragment",
+   "purl": "pkg:maven/androidx.fragment/fragment@1.2.5",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.fragment_fragment.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.5"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.interpolator:interpolator",
+   "group": "androidx.interpolator",
+   "name": "interpolator",
+   "purl": "pkg:maven/androidx.interpolator/interpolator@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.interpolator_interpolator.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.legacy:legacy-support-core-utils",
+   "group": "androidx.legacy",
+   "name": "legacy-support-core-utils",
+   "purl": "pkg:maven/androidx.legacy/legacy-support-core-utils@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.legacy_legacy-support-core-utils.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-livedata",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-livedata",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-livedata.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-livedata-core",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-livedata-core",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-livedata-core.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-runtime",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-runtime",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-viewmodel",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-viewmodel",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-viewmodel.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.lifecycle:lifecycle-viewmodel-savedstate",
+   "group": "androidx.lifecycle",
+   "name": "lifecycle-viewmodel-savedstate",
+   "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.loader:loader",
+   "group": "androidx.loader",
+   "name": "loader",
+   "purl": "pkg:maven/androidx.loader/loader@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.loader_loader.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.localbroadcastmanager:localbroadcastmanager",
+   "group": "androidx.localbroadcastmanager",
+   "name": "localbroadcastmanager",
+   "purl": "pkg:maven/androidx.localbroadcastmanager/localbroadcastmanager@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.media:media",
+   "group": "androidx.media",
+   "name": "media",
+   "purl": "pkg:maven/androidx.media/media@1.6.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.media_media.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.6.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.mediarouter:mediarouter",
+   "group": "androidx.mediarouter",
+   "name": "mediarouter",
+   "purl": "pkg:maven/androidx.mediarouter/mediarouter@1.7.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.mediarouter_mediarouter.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.7.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.palette:palette",
+   "group": "androidx.palette",
+   "name": "palette",
+   "purl": "pkg:maven/androidx.palette/palette@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.palette_palette.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.print:print",
+   "group": "androidx.print",
+   "name": "print",
+   "purl": "pkg:maven/androidx.print/print@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.print_print.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.profileinstaller:profileinstaller",
+   "group": "androidx.profileinstaller",
+   "name": "profileinstaller",
+   "purl": "pkg:maven/androidx.profileinstaller/profileinstaller@1.3.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.profileinstaller_profileinstaller.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.3.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.savedstate:savedstate",
+   "group": "androidx.savedstate",
+   "name": "savedstate",
+   "purl": "pkg:maven/androidx.savedstate/savedstate@1.2.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.savedstate_savedstate.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.sharetarget:sharetarget",
+   "group": "androidx.sharetarget",
+   "name": "sharetarget",
+   "purl": "pkg:maven/androidx.sharetarget/sharetarget@1.2.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.sharetarget_sharetarget.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.startup:startup-runtime",
+   "group": "androidx.startup",
+   "name": "startup-runtime",
+   "purl": "pkg:maven/androidx.startup/startup-runtime@1.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.startup_startup-runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.tracing:tracing",
+   "group": "androidx.tracing",
+   "name": "tracing",
+   "purl": "pkg:maven/androidx.tracing/tracing@1.2.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.tracing_tracing.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.2.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.vectordrawable:vectordrawable",
+   "group": "androidx.vectordrawable",
+   "name": "vectordrawable",
+   "purl": "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.vectordrawable_vectordrawable.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.vectordrawable:vectordrawable-animated",
+   "group": "androidx.vectordrawable",
+   "name": "vectordrawable-animated",
+   "purl": "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.vectordrawable_vectordrawable-animated.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.versionedparcelable:versionedparcelable",
+   "group": "androidx.versionedparcelable",
+   "name": "versionedparcelable",
+   "purl": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.versionedparcelable_versionedparcelable.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:androidx.viewpager:viewpager",
+   "group": "androidx.viewpager",
+   "name": "viewpager",
+   "purl": "pkg:maven/androidx.viewpager/viewpager@1.0.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/androidx.viewpager_viewpager.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.0.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:org.jetbrains.kotlinx:kotlinx-coroutines-android",
+   "group": "org.jetbrains.kotlinx",
+   "name": "kotlinx-coroutines-android",
+   "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.8.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/kotlinx_coroutines_android.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.8.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:org.jetbrains.kotlinx:kotlinx-coroutines-core",
+   "group": "org.jetbrains.kotlinx",
+   "name": "kotlinx-coroutines-core",
+   "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.8.1",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/kotlinx_coroutines_core.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.8.1"
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "91 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/android/exoplayer2/",
+   "name": "ExoPlayer",
+   "group": "com.google.android.exoplayer",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1618 classes under com/google/android/exoplayer2/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "media"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/common/",
+   "name": "Guava",
+   "group": "com.google.guava",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "158 classes under com/google/common/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "util"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/gson/",
+   "name": "Gson",
+   "group": "com.google.code.gson",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "204 classes under com/google/gson/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "json"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/zxing/",
+   "name": "ZXing",
+   "group": "com.google.zxing",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "80 classes under com/google/zxing/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "barcode"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:io/noties/markwon/",
+   "name": "Markwon",
+   "group": "io.noties.markwon",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "147 classes under io/noties/markwon/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "ui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:j$/",
+   "name": "Android desugared JDK library (D8)",
+   "group": "com.android.tools",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "529 classes under j$/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "141 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/commonmark/",
+   "name": "commonmark-java",
+   "group": "org.commonmark",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "104 classes under org/commonmark/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "parsing"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/osmdroid/",
+   "name": "osmdroid",
+   "group": "org.osmdroid",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "174 classes under org/osmdroid/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "maps"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:org/webrtc/",
+   "name": "WebRTC",
+   "group": "org.webrtc",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "497 classes under org/webrtc/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "media"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libtmessages.49.so",
+   "name": "libtmessages.49.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.amanoteam.flonne@12.10.2",
+   "dependsOn": [
+    "lib:androidx.activity:activity",
+    "lib:androidx.annotation:annotation-experimental",
+    "lib:androidx.appcompat:appcompat",
+    "lib:androidx.appcompat:appcompat-resources",
+    "lib:androidx.arch.core:core-runtime",
+    "lib:androidx.biometric:biometric",
+    "lib:androidx.car.app:app",
+    "lib:androidx.car.app:app-projected",
+    "lib:androidx.core:core",
+    "lib:androidx.core:core-ktx",
+    "lib:androidx.core:core-viewtree",
+    "lib:androidx.credentials:credentials",
+    "lib:androidx.cursoradapter:cursoradapter",
+    "lib:androidx.customview:customview",
+    "lib:androidx.documentfile:documentfile",
+    "lib:androidx.drawerlayout:drawerlayout",
+    "lib:androidx.dynamicanimation:dynamicanimation",
+    "lib:androidx.exifinterface:exifinterface",
+    "lib:androidx.fragment:fragment",
+    "lib:androidx.interpolator:interpolator",
+    "lib:androidx.legacy:legacy-support-core-utils",
+    "lib:androidx.lifecycle:lifecycle-livedata",
+    "lib:androidx.lifecycle:lifecycle-livedata-core",
+    "lib:androidx.lifecycle:lifecycle-runtime",
+    "lib:androidx.lifecycle:lifecycle-viewmodel",
+    "lib:androidx.lifecycle:lifecycle-viewmodel-savedstate",
+    "lib:androidx.loader:loader",
+    "lib:androidx.localbroadcastmanager:localbroadcastmanager",
+    "lib:androidx.media:media",
+    "lib:androidx.mediarouter:mediarouter",
+    "lib:androidx.palette:palette",
+    "lib:androidx.print:print",
+    "lib:androidx.profileinstaller:profileinstaller",
+    "lib:androidx.savedstate:savedstate",
+    "lib:androidx.sharetarget:sharetarget",
+    "lib:androidx.startup:startup-runtime",
+    "lib:androidx.tracing:tracing",
+    "lib:androidx.vectordrawable:vectordrawable",
+    "lib:androidx.vectordrawable:vectordrawable-animated",
+    "lib:androidx.versionedparcelable:versionedparcelable",
+    "lib:androidx.viewpager:viewpager",
+    "lib:org.jetbrains.kotlinx:kotlinx-coroutines-android",
+    "lib:org.jetbrains.kotlinx:kotlinx-coroutines-core",
+    "ns:android/support/",
+    "ns:com/google/android/exoplayer2/",
+    "ns:com/google/common/",
+    "ns:com/google/gson/",
+    "ns:com/google/zxing/",
+    "ns:io/noties/markwon/",
+    "ns:j$/",
+    "ns:kotlin/",
+    "ns:org/commonmark/",
+    "ns:org/osmdroid/",
+    "ns:org/webrtc/",
+    "native:libtmessages.49.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.amanoteam.flonne@12.10.2"
+   ]
+  }
+ ]
+}

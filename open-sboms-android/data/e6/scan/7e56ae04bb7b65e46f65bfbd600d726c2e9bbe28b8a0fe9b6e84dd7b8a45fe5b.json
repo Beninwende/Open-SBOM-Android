@@ -1,0 +1,129 @@
+{
+ "package": "com.devasy.repforge",
+ "source": "sample",
+ "sha256": "7e56ae04bb7b65e46f65bfbd600d726c2e9bbe28b8a0fe9b6e84dd7b8a45fe5b",
+ "cap": {
+  "apk_file": "com.devasy.repforge_653.apk",
+  "package": "com.devasy.repforge",
+  "versionName": "2.1.7",
+  "versionCode": "653",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET",
+   "android.permission.health.READ_EXERCISE",
+   "android.permission.health.READ_HEART_RATE",
+   "android.permission.health.READ_HEART_RATE_VARIABILITY",
+   "android.permission.health.READ_RESTING_HEART_RATE",
+   "android.permission.health.READ_SLEEP",
+   "android.permission.health.WRITE_EXERCISE",
+   "com.devasy.repforge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.084,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.118
+  },
+  "apk_bytes": 28259429
+ },
+ "lib": {
+  "package": "com.devasy.repforge",
+  "classes_total": 2304,
+  "class_buckets": {
+   "obfuscated": 1342,
+   "known_library": 941,
+   "platform_shim": 6,
+   "app_code": 3,
+   "unresolved": 12
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 24
+   },
+   {
+    "prefix": "io/flutter/",
+    "name": "Flutter engine (Java side)",
+    "group": "io.flutter",
+    "category": "framework",
+    "classes": 453
+   },
+   {
+    "prefix": "org/apache/tika/",
+    "name": "Apache Tika",
+    "group": "org.apache.tika",
+    "category": "parsing",
+    "classes": 462
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/github/dart_lang/": 12
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.1",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.core:core-ktx": "1.18.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.18.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.exifinterface:exifinterface": "1.4.1",
+   "androidx.fragment:fragment": "1.7.1",
+   "androidx.health.connect:connect-client": "1.2.0-alpha03",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window.extensions.core:core": "1.0.0",
+   "androidx.window:window-java": "1.2.0",
+   "androidx.window:window": "1.2.0",
+   "kotlinx:coroutines_android": "1.11.0",
+   "kotlinx:coroutines_core": "1.11.0",
+   "kotlinx:coroutines_guava": "1.11.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libapp.so",
+   "libdartjni.so",
+   "libflutter.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.104
+ },
+ "signer_sha256": [
+  "3863873afb7672d66b0015288ce3af5f1900202b9847c221bae1e962a7406625"
+ ],
+ "seconds": 0.34
+}

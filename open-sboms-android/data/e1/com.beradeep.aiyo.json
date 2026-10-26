@@ -1,0 +1,55 @@
+{
+ "apk_file": "com.beradeep.aiyo_10.apk",
+ "package": "com.beradeep.aiyo",
+ "versionName": "1.0.9",
+ "versionCode": "10",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "com.beradeep.aiyo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "https://openrouter.ai/api/v1/"
+ ],
+ "old_llm_sdk_strings": [
+  " com.aallam.openai.api.core.Usage",
+  "!com.aallam.openai.api.chat.Effort",
+  "!com.aallam.openai.api.chat.ToolId",
+  "!com.aallam.openai.api.model.Model",
+  "#com.aallam.openai.api.chat.Logprobs",
+  "#com.aallam.openai.api.chat.ToolCall",
+  "#com.aallam.openai.api.chat.ToolType",
+  "#com.aallam.openai.api.model.ModelId",
+  "$com.aallam.openai.api.chat.ChatChunk",
+  "$com.aallam.openai.api.chat.ChatDelta",
+  "%com.aallam.openai.api.chat.ChatChoice",
+  "%com.aallam.openai.api.chat.JsonSchema",
+  "%com.aallam.openai.api.chat.TopLogprob",
+  "&com.aallam.openai.api.chat.ChatMessage",
+  "&com.aallam.openai.api.chat.ContentPart",
+  "&com.aallam.openai.api.chat.ListContent",
+  "&com.aallam.openai.api.chat.TextContent",
+  "'com.aallam.openai.api.chat.FunctionCall",
+  "'com.aallam.openai.api.chat.FunctionTool",
+  "'com.aallam.openai.api.core.FinishReason"
+ ],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.122
+ },
+ "apk_bytes": 3813720,
+ "stratum": "D_desc_llm_ai"
+}

@@ -1,0 +1,74 @@
+{
+ "package": "fr.neamar.kiss",
+ "source": "fdroid-archive",
+ "sha256": "4f06013038c9990b57531b90624b907d8b8c8acd5390142492adc944c68731cf",
+ "cap": {
+  "apk_file": "4f06013038c9990b57531b90624b907d8b8c8acd5390142492adc944c68731cf.apk",
+  "package": "fr.neamar.kiss",
+  "versionName": "3.24.1",
+  "versionCode": "218",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_HIDDEN_PROFILES",
+   "android.permission.CALL_PHONE",
+   "android.permission.EXPAND_STATUS_BAR",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.READ_CONTACTS",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.REQUEST_DELETE_PACKAGES"
+  ],
+  "a11y_services": [
+   {
+    "name": "fr.neamar.kiss.utils.LockAccessibilityService",
+    "config_path": "res/Li.xml"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.074,
+   "strings_s": 0.017
+  },
+  "apk_bytes": 1202298
+ },
+ "lib": {
+  "package": "fr.neamar.kiss",
+  "classes_total": 244,
+  "class_buckets": {
+   "known_library": 1,
+   "unresolved": 4,
+   "app_code": 239
+  },
+  "known_libraries": [
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/android/colorpicker/": 4
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.013
+ },
+ "signer_sha256": [
+  "ec038e5b12c9fb8df23b5ecc1f71dd251bc503b30cec8d58a00cfae2c31abf1b"
+ ],
+ "seconds": 0.13
+}

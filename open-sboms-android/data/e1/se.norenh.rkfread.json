@@ -1,0 +1,29 @@
+{
+ "apk_file": "se.norenh.rkfread_4.apk",
+ "package": "se.norenh.rkfread",
+ "versionName": "1.3",
+ "versionCode": "4",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.NFC"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.003,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.002
+ },
+ "apk_bytes": 60171,
+ "stratum": "E_random"
+}

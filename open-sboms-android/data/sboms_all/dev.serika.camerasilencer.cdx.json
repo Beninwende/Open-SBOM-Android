@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:65a61c1e-c1da-4192-ac0b-111cf4934fb7",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:01Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:dev.serika.camerasilencer@0.1.4",
+   "name": "dev.serika.camerasilencer",
+   "version": "0.1.4",
+   "purl": "pkg:generic/dev.serika.camerasilencer@0.1.4?download_url=https://f-droid.org/repo/dev.serika.camerasilencer_5.apk&checksum=sha256:b3f10402aa07384aaad7d612fc0c1bc0cecd7d8e1ec20691a2f472c9b9cc9042",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b3f10402aa07384aaad7d612fc0c1bc0cecd7d8e1ec20691a2f472c9b9cc9042"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/dev.serika.camerasilencer_5.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/serika12345/camera-silencer"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "5"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:dev.serika.camerasilencer@0.1.4",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:dev.serika.camerasilencer@0.1.4"
+   ]
+  }
+ ]
+}

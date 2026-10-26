@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.yeapguy.volumescroll_3.apk",
+ "package": "com.yeapguy.volumescroll",
+ "versionName": "1.0.2",
+ "versionCode": "3",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.VIBRATE",
+  "com.yeapguy.volumescroll.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.yeapguy.volumescroll.VolumeScrollAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": true,
+   "canRequestFilterKeyEvents": true,
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x00000070"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.016,
+  "a11y_config_s": 0.074,
+  "strings_s": 0.46
+ },
+ "apk_bytes": 9835279,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,172 @@
+{
+ "package": "ai.agent1c.hitomi.open",
+ "source": "sample",
+ "sha256": "75d17d267d4d58e2dd1b8cfc2ce54b43bd4ce3244ae50db8480c5ec1bd8f05fd",
+ "cap": {
+  "apk_file": "ai.agent1c.hitomi.open_6.apk",
+  "package": "ai.agent1c.hitomi.open",
+  "versionName": "0.1.2",
+  "versionCode": "6",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "ai.agent1c.hitomi.open.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "com.termux.permission.RUN_COMMAND"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "127.0.0.1:11434",
+   "api.x.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "`Use http://127.0.0.1:11434 for local Ollama, or paste an xAI API key. This stays on this device."
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.032,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.691
+  },
+  "apk_bytes": 4949113
+ },
+ "lib": {
+  "package": "ai.agent1c.hitomi.open",
+  "classes_total": 6909,
+  "class_buckets": {
+   "app_code": 99,
+   "known_library": 6810
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 51
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 3597
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 1288
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 26
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 957
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 858
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 25
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 7
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.4.0",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.browser:browser": "1.8.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.12.0",
+   "androidx.core:core": "1.12.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.fragment:fragment": "1.3.6",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-process": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": null,
+   "androidx.lifecycle:lifecycle-viewmodel": null,
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.11.0",
+   "kotlinx:coroutines_android": "1.6.4",
+   "kotlinx:coroutines_core": "1.6.4"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.46
+ },
+ "signer_sha256": [
+  "a61ecb9c4fa020d7d4c81f200718a587ebecf0d28356cb48ee0aa5555d3c6ef6"
+ ],
+ "seconds": 1.22
+}

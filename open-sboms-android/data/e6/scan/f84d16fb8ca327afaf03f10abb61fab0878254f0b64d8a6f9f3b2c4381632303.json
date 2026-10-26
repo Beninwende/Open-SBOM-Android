@@ -1,0 +1,61 @@
+{
+ "package": "nabu.iris.keyboard",
+ "source": "fdroid-main",
+ "sha256": "f84d16fb8ca327afaf03f10abb61fab0878254f0b64d8a6f9f3b2c4381632303",
+ "cap": {
+  "apk_file": "f84d16fb8ca327afaf03f10abb61fab0878254f0b64d8a6f9f3b2c4381632303.apk",
+  "package": "nabu.iris.keyboard",
+  "versionName": "6.5.2",
+  "versionCode": "153",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET",
+   "android.permission.VIBRATE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.openai.com",
+   "generativelanguage.googleapis.com",
+   "localhost:11434"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "8https://generativelanguage.googleapis.com/v1beta/models/",
+   "http://localhost:11434",
+   "https://api.openai.com/v1"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.013,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.017
+  },
+  "apk_bytes": 931429
+ },
+ "lib": {
+  "package": "nabu.iris.keyboard",
+  "classes_total": 194,
+  "class_buckets": {
+   "obfuscated": 173,
+   "app_code": 21
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.009
+ },
+ "signer_sha256": [
+  "09307efad3087597b8f9e90aea0acae6b5e476fd5c56c5d8c16007d571134371"
+ ],
+ "seconds": 0.06
+}

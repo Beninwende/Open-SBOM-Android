@@ -1,0 +1,82 @@
+{
+ "apk_file": "app.chompass_92.apk",
+ "package": "app.chompass",
+ "versionName": "5.6.0",
+ "versionCode": "92",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.WAKE_LOCK",
+  "android.permission.health.READ_ACTIVE_CALORIES_BURNED",
+  "android.permission.health.READ_BODY_FAT",
+  "android.permission.health.READ_EXERCISE",
+  "android.permission.health.READ_HEALTH_DATA_HISTORY",
+  "android.permission.health.READ_HEALTH_DATA_IN_BACKGROUND",
+  "android.permission.health.READ_HYDRATION",
+  "android.permission.health.READ_NUTRITION",
+  "android.permission.health.READ_RESTING_HEART_RATE",
+  "android.permission.health.READ_SLEEP",
+  "android.permission.health.READ_STEPS",
+  "android.permission.health.READ_TOTAL_CALORIES_BURNED",
+  "android.permission.health.READ_WEIGHT",
+  "android.permission.health.WRITE_BODY_FAT",
+  "android.permission.health.WRITE_HEIGHT",
+  "android.permission.health.WRITE_HYDRATION",
+  "android.permission.health.WRITE_NUTRITION",
+  "android.permission.health.WRITE_WEIGHT",
+  "app.chompass.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.fireworks.ai",
+  "api.groq.com",
+  "api.mistral.ai",
+  "api.openai.com",
+  "api.together.xyz",
+  "api.x.ai",
+  "generativelanguage.googleapis.com",
+  "localhost:11434",
+  "openrouter.ai",
+  "router.huggingface.co"
+ ],
+ "ai_sdks": [
+  "com/google/ai/edge/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "0https://generativelanguage.googleapis.com/v1beta",
+  "8https://generativelanguage.googleapis.com/v1beta/models/",
+  "http://localhost:11434/v1",
+  "https://api.anthropic.com/v1",
+  "https://api.groq.com/openai/v1",
+  "https://api.mistral.ai/v1",
+  "https://api.openai.com/v1",
+  "https://openrouter.ai/api/v1",
+  "https://openrouter.ai/keys"
+ ],
+ "old_llm_sdk_strings": [
+  "com.anthropic.claude",
+  "https://api.groq.com/openai/v1"
+ ],
+ "timing": {
+  "manifest_s": 0.025,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.329
+ },
+ "apk_bytes": 20771488,
+ "stratum": "D_desc_llm_ai"
+}

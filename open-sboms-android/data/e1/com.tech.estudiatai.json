@@ -1,0 +1,30 @@
+{
+ "apk_file": "com.tech.estudiatai_11.apk",
+ "package": "com.tech.estudiatai",
+ "versionName": "1.0.10",
+ "versionCode": "11",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "com.tech.estudiatai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.518
+ },
+ "apk_bytes": 8111191,
+ "stratum": "E_random"
+}

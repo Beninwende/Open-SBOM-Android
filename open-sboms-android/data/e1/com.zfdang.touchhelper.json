@@ -1,0 +1,38 @@
+{
+ "apk_file": "com.zfdang.touchhelper_278.apk",
+ "package": "com.zfdang.touchhelper",
+ "versionName": "278",
+ "versionCode": "278",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "com.zfdang.touchhelper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.zfdang.touchhelper.TouchHelperService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": true,
+   "accessibilityEventTypes": "0x00000820",
+   "accessibilityFlags": "0x00000052"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.015,
+  "a11y_config_s": 0.036,
+  "strings_s": 0.112
+ },
+ "apk_bytes": 1798854,
+ "stratum": "B_desc_accessibility_service"
+}

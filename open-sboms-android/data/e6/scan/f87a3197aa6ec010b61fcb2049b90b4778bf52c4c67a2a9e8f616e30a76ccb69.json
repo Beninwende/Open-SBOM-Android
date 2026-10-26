@@ -1,0 +1,61 @@
+{
+ "package": "duress.ultimate",
+ "source": "fdroid-archive",
+ "sha256": "f87a3197aa6ec010b61fcb2049b90b4778bf52c4c67a2a9e8f616e30a76ccb69",
+ "cap": {
+  "apk_file": "f87a3197aa6ec010b61fcb2049b90b4778bf52c4c67a2a9e8f616e30a76ccb69.apk",
+  "package": "duress.ultimate",
+  "versionName": "19.0",
+  "versionCode": "19",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+   "android.permission.QUERY_ALL_PACKAGES"
+  ],
+  "a11y_services": [
+   {
+    "name": "duress.ultimate.MyAccessibilityService",
+    "config_path": "res/az.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00000070",
+    "accessibilityFlags": "0x00000051"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.004,
+   "a11y_config_s": 0.001,
+   "strings_s": 0.007
+  },
+  "apk_bytes": 341312
+ },
+ "lib": {
+  "package": "duress.ultimate",
+  "classes_total": 58,
+  "class_buckets": {
+   "app_code": 58
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.003
+ },
+ "signer_sha256": [
+  "9064ce15e69719bb307c98ff5b908819809e407e539abae7f54b57dea7e31f80"
+ ],
+ "seconds": 0.02
+}

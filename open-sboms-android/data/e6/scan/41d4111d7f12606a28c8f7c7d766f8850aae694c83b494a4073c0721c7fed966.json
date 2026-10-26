@@ -1,0 +1,149 @@
+{
+ "package": "io.github.chayanforyou.quickball",
+ "source": "fdroid-archive",
+ "sha256": "41d4111d7f12606a28c8f7c7d766f8850aae694c83b494a4073c0721c7fed966",
+ "cap": {
+  "apk_file": "41d4111d7f12606a28c8f7c7d766f8850aae694c83b494a4073c0721c7fed966.apk",
+  "package": "io.github.chayanforyou.quickball",
+  "versionName": "4.3.3",
+  "versionCode": "18",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_NOTIFICATION_POLICY",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.BIND_ACCESSIBILITY_SERVICE",
+   "android.permission.BLUETOOTH",
+   "android.permission.BLUETOOTH_ADMIN",
+   "android.permission.CHANGE_WIFI_STATE",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.WRITE_SETTINGS",
+   "io.github.chayanforyou.quickball.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "io.github.chayanforyou.quickball.core.QuickBallService",
+    "config_path": "res/-N.xml",
+    "accessibilityEventTypes": "0x00400020",
+    "accessibilityFlags": "0x00000001"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.009,
+   "a11y_config_s": 0.077,
+   "strings_s": 0.082
+  },
+  "apk_bytes": 2336902
+ },
+ "lib": {
+  "package": "io.github.chayanforyou.quickball",
+  "classes_total": 1697,
+  "class_buckets": {
+   "obfuscated": 1499,
+   "known_library": 190,
+   "app_code": 8
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 94
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 94
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.8.0",
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.1",
+   "androidx.appcompat:appcompat": "1.7.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.constraintlayout:constraintlayout": "2.2.1",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.17.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.17.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.databinding:viewbinding": "8.13.2",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.1.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment-ktx": "1.6.2",
+   "androidx.fragment:fragment": "1.6.2",
+   "androidx.graphics:graphics-shapes": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.9.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.9.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.9.0",
+   "androidx.lifecycle:lifecycle-process": "2.9.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.9.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.9.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.9.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.9.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.9.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigation:navigation-common": "2.9.7",
+   "androidx.navigation:navigation-fragment-ktx": "2.9.7",
+   "androidx.navigation:navigation-fragment": "2.9.7",
+   "androidx.navigation:navigation-runtime": "2.9.7",
+   "androidx.navigation:navigation-ui-ktx": "2.9.7",
+   "androidx.navigation:navigation-ui": "2.9.7",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.2.1",
+   "androidx.savedstate:savedstate-ktx": "1.3.0",
+   "androidx.savedstate:savedstate": "1.3.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.5.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window": "1.0.0",
+   "com.google.android.material:material": "1.13.0",
+   "kotlinx:coroutines_android": "1.8.1",
+   "kotlinx:coroutines_core": "1.8.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.067
+ },
+ "signer_sha256": [
+  "1a7b206df2ccb1873746b10c2d2088f15b7e330c6f499b174ccc4439369e81e3"
+ ],
+ "seconds": 0.26
+}

@@ -1,0 +1,165 @@
+2026-10-23 14:14:40.419 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:40.452 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:40.452 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+app.chompass [] 0.73
+2026-10-23 14:14:41.171 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:41.185 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:41.185 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+app.maskan.chat [] 0.54
+2026-10-23 14:14:41.698 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:41.742 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:41.742 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.antivocale.app [] 1.33
+2026-10-23 14:14:43.003 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:43.010 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:43.010 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 35 is larger than maximum we have, returning API level 34 instead.
+com.danemadsen.maid [] 0.22
+2026-10-23 14:14:43.233 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:43.242 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:43.242 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+com.inspiredandroid.kai [] 3.64
+2026-10-23 14:14:46.861 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:46.879 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:46.879 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.lazydevs.wristotle [] 1.15
+2026-10-23 14:14:48.011 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:48.028 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:48.029 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 35 is larger than maximum we have, returning API level 34 instead.
+com.leanbitlab.leantype [] 1.95
+2026-10-23 14:14:49.996 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:50.011 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:50.011 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.newoether.agora [] 7.29
+2026-10-23 14:14:57.261 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:57.268 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:57.269 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.procrastilearn.app [] 2.48
+2026-10-23 14:14:59.759 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:14:59.775 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:14:59.775 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.trevornk.ramblr [] 0.38
+2026-10-23 14:15:00.115 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:00.121 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:00.121 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 35 is larger than maximum we have, returning API level 34 instead.
+com.typeassist.app [] 0.69
+2026-10-23 14:15:00.822 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:00.828 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:00.828 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 35 is larger than maximum we have, returning API level 34 instead.
+de.froehlichmedia.adaptkey [] 0.24
+2026-10-23 14:15:01.106 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:01.118 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:01.118 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+dev.chungjungsoo.gptmobile [] 1.23
+2026-10-23 14:15:02.310 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:02.317 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:02.317 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+io.github.patricksmill.quicknotes [] 5.18
+2026-10-23 14:15:07.454 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:07.462 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:07.462 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+org.sherpr.app [] 0.48
+2026-10-23 14:15:07.965 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:07.973 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:07.974 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+org.venkado.relagent [] 0.48
+2026-10-23 14:15:08.396 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:08.402 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+co.xplat.husk [] 0.02
+2026-10-23 14:15:08.423 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:08.430 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:08.430 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.akslabs.circletosearch [] 0.27
+2026-10-23 14:15:08.703 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:08.714 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+dexdump W 10-23 14:15:08 372916 372916 dex_file_verifier.cc:3594] Method Landroid/view/ViewStructure;.addChildCount is abstract, but the declaring class is neither abstract nor an interface in dex file /tmp/tmpq84_b7q6/classes.dex
+dexdump W 10-23 14:15:08 372916 372916 dex_file_verifier.cc:3594] Method Landroid/view/ViewStructure;.newChild is abstract, but the declaring class is neither abstract nor an interface in dex file /tmp/tmpq84_b7q6/classes.dex
+dexdump W 10-23 14:15:08 372916 372916 dex_file_verifier.cc:3594] Method Landroid/view/ViewStructure;.setDimens is abstract, but the declaring class is neither abstract nor an interface in dex file /tmp/tmpq84_b7q6/classes.dex
+dexdump W 10-23 14:15:08 372916 372916 dex_file_verifier.cc:3594] Method Landroid/view/ViewStructure;.setHint is abstract, but the declaring class is neither abstract nor an interface in dex file /tmp/tmpq84_b7q6/classes.dex
+dexdump W 10-23 14:15:08 372916 372916 dex_file_verifier.cc:3594] Method Landroid/view/ViewStructure;.setVisibility is abstract, but the declaring class is neither abstract nor an interface in dex file /tmp/tmpq84_b7q6/classes.dex
+com.carriez.flutter_hbb [] 0.45
+2026-10-23 14:15:09.138 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:09.143 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.remotephone [] 0.06
+2026-10-23 14:15:09.201 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:09.227 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:09.227 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+com.zorinos.zorin_connect [] 1.55
+2026-10-23 14:15:10.763 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:10.778 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:10.778 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+eu.darken.sdmse [] 2.2
+2026-10-23 14:15:12.955 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:12.975 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:12.975 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+io.github.sds100.keymapper [] 1.91
+2026-10-23 14:15:14.864 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:14.876 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:14.876 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+io.github.vibhor1102.macrion ['ACRA'] 1.22
+2026-10-23 14:15:16.079 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:16.090 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:16.090 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+net.christianbeier.droidvnc_ng [] 0.31
+2026-10-23 14:15:16.391 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:16.417 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:16.418 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+org.kde.kdeconnect_tp [] 1.74
+2026-10-23 14:15:18.134 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:18.137 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+cf.theonewiththebraid.guerrilla_mail [] 0.06
+2026-10-23 14:15:18.196 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:18.203 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:18.203 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+ch.pec0ra.suspension_setup [] 0.3
+2026-10-23 14:15:18.484 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:18.487 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.agateau.catgenerator [] 0.59
+2026-10-23 14:15:19.147 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:19.191 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:19.191 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.amanoteam.flonne [] 4.04
+2026-10-23 14:15:23.123 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:23.125 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.atop [] 0.65
+2026-10-23 14:15:23.757 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:23.763 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:23.763 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 37 is larger than maximum we have, returning API level 34 instead.
+com.baluchon.app [] 0.49
+2026-10-23 14:15:24.249 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:24.251 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.digitalfishfun.openshift [] 0.3
+2026-10-23 14:15:24.547 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:24.558 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:24.559 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.fixupxer [] 0.79
+2026-10-23 14:15:25.331 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:25.342 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:25.342 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+com.polyalerts [] 0.3
+2026-10-23 14:15:25.668 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:25.677 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.ridgebotics.ridgescout [] 3.05
+2026-10-23 14:15:28.686 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:28.692 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.seeker.seekprivacy [] 1.62
+2026-10-23 14:15:30.301 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:30.305 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+com.willchan.simple_random_stock [] 0.98
+2026-10-23 14:15:31.274 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:31.285 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:31.285 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 35 is larger than maximum we have, returning API level 34 instead.
+de.devmil.muzei.bingimageofthedayartsource [] 0.63
+2026-10-23 14:15:31.910 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:31.912 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+es.ideotec.t16fling [] 0.72
+2026-10-23 14:15:32.660 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:32.664 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2026-10-23 14:15:32.665 | WARNING  | androguard.core.api_specific_resources:load_permissions:52 - Requested API level 36 is larger than maximum we have, returning API level 34 instead.
+io.github.hamdav.predikt [] 0.27
+2026-10-23 14:15:32.902 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2026-10-23 14:15:32.904 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+org.strawberryforum.argentum [] 0.54
+
+real	0m54.663s
+user	0m49.697s
+sys	0m5.487s

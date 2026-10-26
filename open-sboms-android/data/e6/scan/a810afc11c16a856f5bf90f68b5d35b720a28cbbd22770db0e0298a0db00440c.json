@@ -1,0 +1,143 @@
+{
+ "package": "superfreeze.tool.android",
+ "source": "fdroid-main",
+ "sha256": "a810afc11c16a856f5bf90f68b5d35b720a28cbbd22770db0e0298a0db00440c",
+ "cap": {
+  "apk_file": "a810afc11c16a856f5bf90f68b5d35b720a28cbbd22770db0e0298a0db00440c.apk",
+  "package": "superfreeze.tool.android",
+  "versionName": "1.0",
+  "versionCode": "1000",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.DISABLE_KEYGUARD",
+   "android.permission.PACKAGE_USAGE_STATS",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_SETTINGS",
+   "com.android.launcher.permission.INSTALL_SHORTCUT"
+  ],
+  "a11y_services": [
+   {
+    "name": "superfreeze.tool.android.backend.FreezerService",
+    "config_path": "res/xml/accessibility_service.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000001",
+    "packageNames": "com.android.settings"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.009,
+   "a11y_config_s": 0.086,
+   "strings_s": 0.197
+  },
+  "apk_bytes": 2513670
+ },
+ "lib": {
+  "package": "superfreeze.tool.android",
+  "classes_total": 1935,
+  "class_buckets": {
+   "known_library": 1728,
+   "unresolved": 93,
+   "app_code": 114
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1031
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 360
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 177
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 158
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/github/paolorotolo/": 47,
+   "eu/chainfire/libsuperuser/": 46
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.0.0",
+   "androidx.appcompat:appcompat-resources": "1.1.0",
+   "androidx.appcompat:appcompat": "1.1.0",
+   "androidx.arch.core:core-runtime": "2.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core": "1.1.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.1.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.0.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.1.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.1.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.1.0"
+  },
+  "kotlin_modules": [
+   "appintro_release",
+   "kotlin-android-extensions-runtime",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-common-coroutines",
+   "kotlin-stdlib-coroutines",
+   "kotlin-stdlib-jdk7",
+   "kotlinx-coroutines-core",
+   "superfreeze.tool.android_release"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.13
+ },
+ "signer_sha256": [
+  "0674bbfc6d3c527c189ec0ed5384cb3ff48bc42ddc931900cf51e7a05f25a477"
+ ],
+ "seconds": 0.45
+}

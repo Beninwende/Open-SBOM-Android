@@ -1,0 +1,35 @@
+{
+ "apk_file": "jwtc.android.chess_298.apk",
+ "package": "jwtc.android.chess",
+ "versionName": "10.6.0",
+ "versionCode": "298",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.FULLSCREEN",
+  "android.permission.INTERNET",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "jwtc.android.chess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.095
+ },
+ "apk_bytes": 3557014,
+ "stratum": "C_desc_accessibility_other"
+}

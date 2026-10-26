@@ -1,0 +1,182 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:a1582bed-56e2-4ee5-89a9-a603210e21b2",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:23:17Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:se.voxelmanip.boxsmasher@1.1.1",
+   "name": "se.voxelmanip.boxsmasher",
+   "version": "1.1.1",
+   "purl": "pkg:generic/se.voxelmanip.boxsmasher@1.1.1?download_url=https://f-droid.org/repo/se.voxelmanip.boxsmasher_4.apk&checksum=sha256:d72a5db5a5ea3cab851617f5c5380981e13d8ba5ce93f5f3859db27d7a489d2a",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "d72a5db5a5ea3cab851617f5c5380981e13d8ba5ce93f5f3859db27d7a489d2a"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/se.voxelmanip.boxsmasher_4.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/rollerozxa/boxsmasher"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "4"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:org/libsdl/",
+   "name": "SDL",
+   "group": "org.libsdl",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "52 classes under org/libsdl/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libc++_shared.so",
+   "name": "libc++_shared.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:liblove.so",
+   "name": "liblove.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:se.voxelmanip.boxsmasher@1.1.1",
+   "dependsOn": [
+    "ns:org/libsdl/",
+    "native:libc++_shared.so",
+    "native:liblove.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:se.voxelmanip.boxsmasher@1.1.1"
+   ]
+  }
+ ]
+}

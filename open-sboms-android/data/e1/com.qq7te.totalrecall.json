@@ -1,0 +1,36 @@
+{
+ "apk_file": "com.qq7te.totalrecall_9.apk",
+ "package": "com.qq7te.totalrecall",
+ "versionName": "0.9",
+ "versionCode": "9",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.CAMERA",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.READ_MEDIA_IMAGES",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.qq7te.totalrecall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.024,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.575
+ },
+ "apk_bytes": 24038673,
+ "stratum": "E_random"
+}

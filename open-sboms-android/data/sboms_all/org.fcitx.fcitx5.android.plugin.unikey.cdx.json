@@ -1,0 +1,262 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:0d2d21bc-d7c2-4091-aaf0-d86eac8f52dd",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:23:15Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.fcitx.fcitx5.android.plugin.unikey@0.1.3-0-g048f581c",
+   "name": "org.fcitx.fcitx5.android.plugin.unikey",
+   "version": "0.1.3-0-g048f581c",
+   "purl": "pkg:generic/org.fcitx.fcitx5.android.plugin.unikey@0.1.3-0-g048f581c?download_url=https://f-droid.org/repo/org.fcitx.fcitx5.android.plugin.unikey_114.apk&checksum=sha256:e2b7b7edc7e78db0c302fcab6ad4509c7e93a3ec8906e690157deeedd78100af",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "e2b7b7edc7e78db0c302fcab6ad4509c7e93a3ec8906e690157deeedd78100af"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.fcitx.fcitx5.android.plugin.unikey_114.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/fcitx5-android/fcitx5-android"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "114"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:com/mikepenz/",
+   "name": "Mikepenz libraries",
+   "group": "com.mikepenz",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "26 classes under com/mikepenz/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "ui"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:j$/",
+   "name": "Android desugared JDK library (D8)",
+   "group": "com.android.tools",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "2 classes under j$/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "53 classes under kotlin/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "language"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:kotlinx/serialization/",
+   "name": "kotlinx.serialization",
+   "group": "org.jetbrains.kotlinx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "14 classes under kotlinx/serialization/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "serialization"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libunikey.so",
+   "name": "libunikey.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:org.fcitx.fcitx5.android.plugin.unikey@0.1.3-0-g048f581c",
+   "dependsOn": [
+    "ns:com/mikepenz/",
+    "ns:j$/",
+    "ns:kotlin/",
+    "ns:kotlinx/serialization/",
+    "native:libunikey.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.fcitx.fcitx5.android.plugin.unikey@0.1.3-0-g048f581c"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.saad2134.dosezy_35.apk",
+ "package": "com.saad2134.dosezy",
+ "versionName": "2.5.10",
+ "versionCode": "35",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.USE_EXACT_ALARM",
+  "android.permission.USE_FULL_SCREEN_INTENT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.saad2134.dosezy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.015,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.122
+ },
+ "apk_bytes": 11609231,
+ "stratum": "C_desc_accessibility_other"
+}

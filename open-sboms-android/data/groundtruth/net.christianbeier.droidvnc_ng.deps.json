@@ -1,0 +1,14 @@
+{
+ "package": "net.christianbeier.droidvnc_ng",
+ "repo": "https://github.com/bk138/droidVNC-NG.git",
+ "commit": "dfab3fb2c97cd768d94a7a7d2e288ae04c172a88",
+ "declared": {
+  "androidx.appcompat:appcompat": "app/build.gradle:implementation",
+  "androidx.preference:preference": "app/build.gradle:implementation",
+  "androidx.core:core": "app/build.gradle:implementation",
+  "com.google.android.material:material": "app/build.gradle:implementation",
+  "org.jetbrains.kotlin:kotlin-stdlib-jdk7": "app/build.gradle:implementation",
+  "org.jetbrains.kotlinx:kotlinx-serialization-json": "app/build.gradle:implementation",
+  "org.jetbrains.kotlinx:kotlinx-coroutines-android": "app/build.gradle:implementation"
+ }
+}

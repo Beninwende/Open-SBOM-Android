@@ -1,0 +1,116 @@
+{
+ "package": "io.github.jqssun.maceditor",
+ "source": "sample",
+ "sha256": "a5647d7092b2667483b147671c56d7e31facef21a611184bdbc484e937d05c6b",
+ "cap": {
+  "apk_file": "io.github.jqssun.maceditor_7.apk",
+  "package": "io.github.jqssun.maceditor",
+  "versionName": "0.0.7",
+  "versionCode": "7",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "io.github.jqssun.maceditor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.033,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.548
+  },
+  "apk_bytes": 10267880
+ },
+ "lib": {
+  "package": "io.github.jqssun.maceditor",
+  "classes_total": 6709,
+  "class_buckets": {
+   "known_library": 6643,
+   "app_code": 66
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 3373
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 1286
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 26
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1047
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 857
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 25
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 7
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.411
+ },
+ "signer_sha256": [
+  "64ca1fa39ddf9e0e89c57d73fb681d2a5b35ae20f071771e2eb401b5032ef1a9"
+ ],
+ "seconds": 1.02
+}

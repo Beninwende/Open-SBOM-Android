@@ -1,0 +1,76 @@
+{
+ "package": "de.devmil.muzei.bingimageofthedayartsource",
+ "source": "androzoo-play",
+ "sha256": "4427113d2e7dee27f50df9a8af4c891640b3df5432718ce10548583348c8b00d",
+ "cap": {
+  "apk_file": "4427113d2e7dee27f50df9a8af4c891640b3df5432718ce10548583348c8b00d.apk",
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "versionName": "1.1",
+  "versionCode": "2",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.011,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.031
+  },
+  "apk_bytes": 756149
+ },
+ "lib": {
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "classes_total": 436,
+  "class_buckets": {
+   "unresolved": 234,
+   "known_library": 153,
+   "app_code": 49
+  },
+  "known_libraries": [
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 153
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/android/volley/": 71,
+   "retrofit/": 63,
+   "de/greenrobot/event/": 34,
+   "retrofit/http/": 18,
+   "com/google/android/": 13,
+   "retrofit/client/": 13,
+   "retrofit/mime/": 9,
+   "de/devmil/common/": 6,
+   "retrofit/converter/": 4,
+   "retrofit/android/": 3
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.028
+ },
+ "signer_sha256": [
+  "83b81adacb37c331151ded1961af618eab3d10783ab5f4d940d5bf8420e009a7"
+ ],
+ "seconds": 0.08
+}

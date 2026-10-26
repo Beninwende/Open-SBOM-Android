@@ -1,0 +1,132 @@
+{
+ "package": "eu.hxreborn.cleanshare",
+ "source": "sample",
+ "sha256": "8926631fdb8aec45a139b5ab4f6d4e555e4f8d49004abb13e3862639e86575f5",
+ "cap": {
+  "apk_file": "eu.hxreborn.cleanshare_330.apk",
+  "package": "eu.hxreborn.cleanshare",
+  "versionName": "3.3.0",
+  "versionCode": "330",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.POST_NOTIFICATIONS",
+   "eu.hxreborn.cleanshare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.015,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.071
+  },
+  "apk_bytes": 2925138
+ },
+ "lib": {
+  "package": "eu.hxreborn.cleanshare",
+  "classes_total": 3243,
+  "class_buckets": {
+   "obfuscated": 3211,
+   "platform_shim": 5,
+   "known_library": 21,
+   "app_code": 6
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 19
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.12.0",
+   "androidx.compose.animation:animation": "1.12.0",
+   "androidx.compose.foundation:foundation-layout": "1.12.0",
+   "androidx.compose.foundation:foundation": "1.12.0",
+   "androidx.compose.material3:material3-ripple": "1.5.0-alpha27",
+   "androidx.compose.material3:material3": "1.5.0-alpha27",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.12.0",
+   "androidx.compose.runtime:runtime-annotation": "1.12.0",
+   "androidx.compose.runtime:runtime-retain": "1.12.0",
+   "androidx.compose.runtime:runtime-saveable": "1.12.0",
+   "androidx.compose.runtime:runtime": "1.12.0",
+   "androidx.compose.ui:ui-geometry": "1.12.0",
+   "androidx.compose.ui:ui-graphics": "1.12.0",
+   "androidx.compose.ui:ui-text": "1.12.0",
+   "androidx.compose.ui:ui-tooling-preview": "1.12.0",
+   "androidx.compose.ui:ui-unit": "1.12.0",
+   "androidx.compose.ui:ui-util": "1.12.0",
+   "androidx.compose.ui:ui": "1.12.0",
+   "androidx.core:core-ktx": "1.19.0",
+   "androidx.core:core-splashscreen": "1.0.1",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.19.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.graphics:graphics-shapes": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.11.0",
+   "androidx.lifecycle:lifecycle-process": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.11.0",
+   "androidx.navigation3:navigation3-runtime": "1.2.0-beta01",
+   "androidx.navigation3:navigation3-ui": "1.2.0-beta01",
+   "androidx.navigationevent:navigationevent-compose": "1.1.1",
+   "androidx.navigationevent:navigationevent": "1.1.1",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.098
+ },
+ "signer_sha256": [
+  "32b98dc709a7ee15fae073493a1aeca5d428316cc0d8b8f878eed64ba37f3297"
+ ],
+ "seconds": 0.19
+}

@@ -1,0 +1,37 @@
+{
+ "apk_file": "de.jl.notificationlog_22.apk",
+ "package": "de.jl.notificationlog",
+ "versionName": "1.21",
+ "versionCode": "22",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.QUERY_ALL_PACKAGES",
+  "de.jl.notificationlog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "de.jl.notificationlog.service.AccessibilityService",
+   "config_path": "res/-N.xml",
+   "accessibilityEventTypes": "0x00000040",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.011,
+  "a11y_config_s": 0.089,
+  "strings_s": 0.099
+ },
+ "apk_bytes": 2840293,
+ "stratum": "B_desc_accessibility_service"
+}

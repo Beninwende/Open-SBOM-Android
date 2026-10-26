@@ -1,0 +1,221 @@
+{
+ "package": "com.github.dyhkwong.sagernet",
+ "source": "fdroid-archive",
+ "sha256": "242475fb5ee2ef7a5cb8546512d4a431b400a23dfde6797894794fcdcaa802c7",
+ "cap": {
+  "apk_file": "242475fb5ee2ef7a5cb8546512d4a431b400a23dfde6797894794fcdcaa802c7.apk",
+  "package": "com.github.dyhkwong.sagernet",
+  "versionName": "0.17.53",
+  "versionCode": "1894",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_BACKGROUND_LOCATION",
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.ACCESS_LOCAL_NETWORK",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.CAMERA",
+   "android.permission.CHANGE_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+   "android.permission.INTERACT_ACROSS_USERS",
+   "android.permission.INTERNET",
+   "android.permission.NEARBY_WIFI_DEVICES",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.WAKE_LOCK",
+   "com.github.dyhkwong.sagernet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "com.github.dyhkwong.sagernet.SERVICE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.04,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.402
+  },
+  "apk_bytes": 24813467
+ },
+ "lib": {
+  "package": "com.github.dyhkwong.sagernet",
+  "classes_total": 5888,
+  "class_buckets": {
+   "known_library": 4410,
+   "platform_shim": 48,
+   "unresolved": 128,
+   "app_code": 1289,
+   "obfuscated": 13
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 1
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 5
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 2353
+   },
+   {
+    "prefix": "com/esotericsoftware/",
+    "name": "Kryo/Esoteric",
+    "group": "com.esotericsoftware",
+    "category": "serialization",
+    "classes": 4
+   },
+   {
+    "prefix": "com/google/android/flexbox/",
+    "name": "FlexboxLayout",
+    "group": "com.google.android.flexbox",
+    "category": "ui",
+    "classes": 13
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 308
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 121
+   },
+   {
+    "prefix": "com/google/protobuf/",
+    "name": "Protocol Buffers",
+    "group": "com.google.protobuf",
+    "category": "serialization",
+    "classes": 262
+   },
+   {
+    "prefix": "com/google/zxing/",
+    "name": "ZXing",
+    "group": "com.google.zxing",
+    "category": "barcode",
+    "classes": 45
+   },
+   {
+    "prefix": "dagger/",
+    "name": "Dagger",
+    "group": "com.google.dagger",
+    "category": "di",
+    "classes": 4
+   },
+   {
+    "prefix": "io/noties/markwon/",
+    "name": "Markwon",
+    "group": "io.noties.markwon",
+    "category": "ui",
+    "classes": 28
+   },
+   {
+    "prefix": "j$/",
+    "name": "Android desugared JDK library (D8)",
+    "group": "com.android.tools",
+    "category": "language",
+    "classes": 520
+   },
+   {
+    "prefix": "javax/inject/",
+    "name": "javax.inject",
+    "group": "javax.inject",
+    "category": "di",
+    "classes": 1
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 211
+   },
+   {
+    "prefix": "kotlinx/atomicfu/",
+    "name": "atomicfu",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 248
+   },
+   {
+    "prefix": "org/commonmark/",
+    "name": "commonmark-java",
+    "group": "org.commonmark",
+    "category": "parsing",
+    "classes": 47
+   },
+   {
+    "prefix": "org/yaml/snakeyaml/",
+    "name": "SnakeYAML",
+    "group": "org.yaml",
+    "category": "parsing",
+    "classes": 234
+   }
+  ],
+  "unresolved_namespaces": {
+   "libexclavecore/": 36,
+   "com/blacksquircle/ui/": 31,
+   "com/sshtools/jini/": 27,
+   "com/danielstone/materialaboutlibrary/": 17,
+   "com/github/exclavenetwork/": 9,
+   "com/simplecityapps/recyclerview_fastscroll/": 7,
+   "go/libexclavecore/": 1
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [
+   "libgojni.so",
+   "libimage_processing_util_jni.so",
+   "libsurface_util_jni.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.399
+ },
+ "signer_sha256": [
+  "e9fe39e1ce254c50c2f9470a757b378c0b7cc536119867f7691405b592e6994b"
+ ],
+ "seconds": 0.89
+}

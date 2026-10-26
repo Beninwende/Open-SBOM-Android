@@ -1,0 +1,36 @@
+{
+ "apk_file": "io.github.capitan0n.droynis_18.apk",
+ "package": "io.github.capitan0n.droynis",
+ "versionName": "0.12.1",
+ "versionCode": "18",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.DUMP",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.QUERY_ADVANCED_PROTECTION_MODE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+  "io.github.capitan0n.droynis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.09
+ },
+ "apk_bytes": 1726372,
+ "stratum": "B_desc_accessibility_service"
+}

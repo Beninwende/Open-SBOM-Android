@@ -1,0 +1,30 @@
+{
+ "apk_file": "site.aroy.phosphor_5.apk",
+ "package": "site.aroy.phosphor",
+ "versionName": "1.1.2",
+ "versionCode": "5",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.CAMERA",
+  "site.aroy.phosphor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.011,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.035
+ },
+ "apk_bytes": 7130752,
+ "stratum": "E_random"
+}

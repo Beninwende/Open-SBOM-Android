@@ -1,0 +1,188 @@
+{
+ "package": "io.github.vibhor1102.macrion",
+ "source": "sample",
+ "sha256": "14b9c279ce8c8218b257a2aff33dfa611e1de38d6dd7237f4f24a26fa6507c59",
+ "cap": {
+  "apk_file": "io.github.vibhor1102.macrion_130004.apk",
+  "package": "io.github.vibhor1102.macrion",
+  "versionName": "0.6.2",
+  "versionCode": "130004",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.WAKE_LOCK",
+   "io.github.vibhor1102.macrion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "io.github.vibhor1102.macrion.SmartAutoClickerService",
+    "config_path": "res/hI.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "canRequestFilterKeyEvents": true
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.065,
+   "a11y_config_s": 0.15,
+   "strings_s": 0.254
+  },
+  "apk_bytes": 21881779
+ },
+ "lib": {
+  "package": "io.github.vibhor1102.macrion",
+  "classes_total": 8232,
+  "class_buckets": {
+   "obfuscated": 8133,
+   "known_library": 63,
+   "platform_shim": 8,
+   "app_code": 28
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 22
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1
+   },
+   {
+    "prefix": "net/dinglisch/",
+    "name": "Tasker plugin API",
+    "group": "net.dinglisch",
+    "category": "api",
+    "classes": 1
+   },
+   {
+    "prefix": "org/acra/",
+    "name": "ACRA",
+    "group": "ch.acra",
+    "category": "crash",
+    "classes": 37
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.5.0",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.12.1",
+   "androidx.compose.animation:animation-graphics": "1.12.1",
+   "androidx.compose.animation:animation": "1.12.1",
+   "androidx.compose.foundation:foundation-layout": "1.12.1",
+   "androidx.compose.foundation:foundation": "1.12.1",
+   "androidx.compose.material3:material3": "1.4.0",
+   "androidx.compose.material:material-ripple": "1.12.1",
+   "androidx.compose.runtime:runtime-annotation": "1.12.1",
+   "androidx.compose.runtime:runtime-retain": "1.12.1",
+   "androidx.compose.runtime:runtime-saveable": "1.12.1",
+   "androidx.compose.runtime:runtime": "1.12.1",
+   "androidx.compose.ui:ui-geometry": "1.12.1",
+   "androidx.compose.ui:ui-graphics": "1.12.1",
+   "androidx.compose.ui:ui-text": "1.12.1",
+   "androidx.compose.ui:ui-unit": "1.12.1",
+   "androidx.compose.ui:ui-util": "1.12.1",
+   "androidx.compose.ui:ui": "1.12.1",
+   "androidx.core:core-ktx": "1.19.1",
+   "androidx.core:core-splashscreen": "1.2.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.19.1",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.datastore:datastore-core": "1.2.1",
+   "androidx.datastore:datastore-preferences-core": "1.2.1",
+   "androidx.datastore:datastore-preferences": "1.2.1",
+   "androidx.datastore:datastore": "1.2.1",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.fragment:fragment": "1.5.1",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.11.0",
+   "androidx.lifecycle:lifecycle-livedata-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.11.0",
+   "androidx.lifecycle:lifecycle-process": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.11.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.11.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigationevent:navigationevent-compose": "1.0.0",
+   "androidx.navigationevent:navigationevent": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.room:room-ktx": "2.8.5",
+   "androidx.room:room-runtime": "2.8.5",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.sqlite:sqlite-framework": "2.6.2",
+   "androidx.sqlite:sqlite": "2.6.2",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "com.google.dagger:dagger-lint-aar": "2.60.1",
+   "com.google.dagger:dagger": "2.60.1",
+   "com.google.dagger:hilt-android": "2.60.1",
+   "com.google.dagger:hilt-core": "2.60.1",
+   "kotlinx:coroutines_android": "1.11.0",
+   "kotlinx:coroutines_core": "1.11.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so",
+   "libdatastore_shared_counter.so",
+   "libncnn.so",
+   "libopencv_core.so",
+   "libopencv_imgproc.so",
+   "libsmartautoclicker.so"
+  ],
+  "exodus_trackers": [
+   "ACRA"
+  ],
+  "seconds": 0.294
+ },
+ "signer_sha256": [
+  "eb3bbe70b018834b6b28773c505aa7c673fce4476b149755fcedabec1a0b3f84"
+ ],
+ "seconds": 0.8
+}

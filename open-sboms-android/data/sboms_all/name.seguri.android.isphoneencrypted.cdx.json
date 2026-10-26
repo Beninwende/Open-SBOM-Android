@@ -1,0 +1,150 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:3550b2e1-caab-45d2-9a21-1d6e5dfddb27",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:23:14Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:name.seguri.android.isphoneencrypted@1.0.0",
+   "name": "name.seguri.android.isphoneencrypted",
+   "version": "1.0.0",
+   "purl": "pkg:generic/name.seguri.android.isphoneencrypted@1.0.0?download_url=https://f-droid.org/repo/name.seguri.android.isphoneencrypted_1.apk&checksum=sha256:6cb390e212dc277776aa94019e9d28c6194549e1b0795b1b23845f8ebd653e16",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "6cb390e212dc277776aa94019e9d28c6194549e1b0795b1b23845f8ebd653e16"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/name.seguri.android.isphoneencrypted_1.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/seguri/IsPhoneEncrypted"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "1"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1961 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:name.seguri.android.isphoneencrypted@1.0.0",
+   "dependsOn": [
+    "ns:android/support/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:name.seguri.android.isphoneencrypted@1.0.0"
+   ]
+  }
+ ]
+}

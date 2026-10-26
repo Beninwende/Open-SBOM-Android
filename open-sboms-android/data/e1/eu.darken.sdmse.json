@@ -1,0 +1,59 @@
+{
+ "apk_file": "eu.darken.sdmse_20201000.apk",
+ "package": "eu.darken.sdmse",
+ "versionName": "2.2.1-rc0",
+ "versionCode": "20201000",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+  "android.permission.CLEAR_APP_CACHE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERACT_ACROSS_USERS",
+  "android.permission.INTERNET",
+  "android.permission.MANAGE_EXTERNAL_STORAGE",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ADVANCED_PROTECTION_MODE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "com.android.permission.GET_INSTALLED_APPS",
+  "eu.darken.porter.permission.API",
+  "eu.darken.sdmse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "eu.darken.sdmse.automation.core.AutomationService",
+   "config_path": "res/hs.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": true,
+   "accessibilityEventTypes": "0x00000000",
+   "accessibilityFlags": "0x00000000"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.027,
+  "a11y_config_s": 0.701,
+  "strings_s": 0.582
+ },
+ "apk_bytes": 18079991,
+ "stratum": "B_desc_accessibility_service"
+}

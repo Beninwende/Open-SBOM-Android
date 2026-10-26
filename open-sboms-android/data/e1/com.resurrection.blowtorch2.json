@@ -1,0 +1,42 @@
+{
+ "apk_file": "com.resurrection.blowtorch2_267.apk",
+ "package": "com.resurrection.blowtorch2",
+ "versionName": "2.4.7",
+ "versionCode": "267",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.MANAGE_EXTERNAL_STORAGE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.resurrection.blowtorch2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.017,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.209
+ },
+ "apk_bytes": 11286158,
+ "stratum": "E_random"
+}

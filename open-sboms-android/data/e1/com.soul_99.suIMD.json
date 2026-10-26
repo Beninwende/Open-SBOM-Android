@@ -1,0 +1,46 @@
+{
+ "apk_file": "com.soul_99.suIMD_17.apk",
+ "package": "com.soul_99.suIMD",
+ "versionName": "3",
+ "versionCode": "17",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.DUMP",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "com.soul_99.suIMD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.android.geto.service.AutoHideAccessibilityService",
+   "config_path": "res/J3.xml",
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.056,
+  "strings_s": 0.133
+ },
+ "apk_bytes": 3927042,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,23 @@
+{
+ "package": "com.digitalfishfun.openshift",
+ "classes_total": 1589,
+ "class_buckets": {
+  "known_library": 1571,
+  "app_code": 18
+ },
+ "known_libraries": [
+  {
+   "prefix": "android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "category": "framework",
+   "classes": 1571
+  }
+ ],
+ "unresolved_namespaces": {},
+ "maven_metadata": {},
+ "kotlin_modules": [],
+ "native_libs": [],
+ "exodus_trackers": [],
+ "seconds": 0.09
+}

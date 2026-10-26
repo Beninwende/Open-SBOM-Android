@@ -1,0 +1,75 @@
+{
+ "package": "co.xplat.husk",
+ "source": "fdroid-main",
+ "sha256": "54b5e2d00f5e9d4cdcc052a2948e4f74d76c359cfe414eb1c1b3ba7707b30158",
+ "cap": {
+  "apk_file": "54b5e2d00f5e9d4cdcc052a2948e4f74d76c359cfe414eb1c1b3ba7707b30158.apk",
+  "package": "co.xplat.husk",
+  "versionName": "1.2",
+  "versionCode": "53",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_COARSE_LOCATION",
+   "android.permission.ACCESS_FINE_LOCATION",
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.CAMERA",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_CAMERA",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_SETTINGS"
+  ],
+  "a11y_services": [
+   {
+    "name": "co.xplat.husk.RigAccessibilityService",
+    "config_path": "res/Z3.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000041"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.003,
+   "a11y_config_s": 0.001,
+   "strings_s": 0.009
+  },
+  "apk_bytes": 86738
+ },
+ "lib": {
+  "package": "co.xplat.husk",
+  "classes_total": 76,
+  "class_buckets": {
+   "app_code": 76
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.004
+ },
+ "signer_sha256": [
+  "96195cfd540e75f8a34dfc08764438769d4bc3e5d7970a9527d97004d4f2c17d"
+ ],
+ "seconds": 0.03
+}

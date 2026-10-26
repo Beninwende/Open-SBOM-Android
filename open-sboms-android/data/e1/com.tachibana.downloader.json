@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.tachibana.downloader_15.apk",
+ "package": "com.tachibana.downloader",
+ "versionName": "1.6.2",
+ "versionCode": "15",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.QUICKBOOT_POWERON",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_INSTALL_PACKAGES",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.android.launcher.permission.INSTALL_SHORTCUT"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.039,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.726
+ },
+ "apk_bytes": 7733658,
+ "stratum": "E_random"
+}

@@ -1,0 +1,153 @@
+{
+ "package": "com.asdoi.quicktiles",
+ "source": "fdroid-archive",
+ "sha256": "43ab69f8041e891b6fea911fd49e5d8041a9ec270c24eed870700e94e7cb4cbf",
+ "cap": {
+  "apk_file": "43ab69f8041e891b6fea911fd49e5d8041a9ec270c24eed870700e94e7cb4cbf.apk",
+  "package": "com.asdoi.quicktiles",
+  "versionName": "1.2",
+  "versionCode": "12",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NOTIFICATION_POLICY",
+   "android.permission.DUMP",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "android.permission.WRITE_SETTINGS",
+   "com.android.alarm.permission.SET_ALARM"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.013,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.121
+  },
+  "apk_bytes": 2219624
+ },
+ "lib": {
+  "package": "com.asdoi.quicktiles",
+  "classes_total": 1838,
+  "class_buckets": {
+   "obfuscated": 1143,
+   "known_library": 584,
+   "app_code": 96,
+   "unresolved": 15
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 466
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 102
+   },
+   {
+    "prefix": "com/mikepenz/",
+    "name": "Mikepenz libraries",
+    "group": "com.mikepenz",
+    "category": "ui",
+    "classes": 13
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/bytehamster/lib/": 15
+  },
+  "maven_metadata": {
+   "androidx.customview:customview": "1.0.0",
+   "com.google.android.material:material": "1.2.0",
+   "androidx.activity:activity-ktx": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.preference:preference-ktx": "1.1.1",
+   "androidx.preference:preference": "1.1.1",
+   "androidx.lifecycle:lifecycle-runtime": "2.2.0",
+   "androidx.appcompat:appcompat-resources": "1.2.0",
+   "androidx.appcompat:appcompat": "1.2.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.fragment:fragment": "1.2.4",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.fragment:fragment-ktx": "1.2.4",
+   "androidx.core:core": "1.3.2",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.2.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.2.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.core:core-ktx": "1.3.2",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.2.0",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.2.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.2.0",
+   "androidx.activity:activity": "1.1.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.2.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.annotation:annotation-experimental": "1.0.0"
+  },
+  "kotlin_modules": [
+   "aboutlibraries",
+   "aboutlibraries-core",
+   "activity-ktx_release",
+   "app_release",
+   "collection-ktx",
+   "core-ktx_release",
+   "fastadapter",
+   "fragment-ktx_release",
+   "kotlin-android-extensions-runtime",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-jdk7",
+   "kotlin-stdlib-jdk8",
+   "kotlinx-coroutines-android",
+   "kotlinx-coroutines-core",
+   "lifecycle-livedata-core-ktx_release",
+   "lifecycle-runtime-ktx_release",
+   "lifecycle-viewmodel-ktx_release",
+   "preference-ktx_release"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.085
+ },
+ "signer_sha256": [
+  "8be8c3c65fa1b79bd89204901178bc13c2de151b16c73530f735e2eb761ccbbc"
+ ],
+ "seconds": 0.25
+}

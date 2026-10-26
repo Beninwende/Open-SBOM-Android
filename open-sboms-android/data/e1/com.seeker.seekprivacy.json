@@ -1,0 +1,33 @@
+{
+ "apk_file": "com.seeker.seekprivacy_11.apk",
+ "package": "com.seeker.seekprivacy",
+ "versionName": "3.5.0",
+ "versionCode": "11",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.seeker.seekprivacy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.012,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.702
+ },
+ "apk_bytes": 8264892,
+ "stratum": "E_random"
+}

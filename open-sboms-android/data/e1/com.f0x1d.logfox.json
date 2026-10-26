@@ -1,0 +1,36 @@
+{
+ "apk_file": "com.f0x1d.logfox_79.apk",
+ "package": "com.f0x1d.logfox",
+ "versionName": "2.1.10",
+ "versionCode": "79",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_LOGS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "com.f0x1d.logfox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.162
+ },
+ "apk_bytes": 3981447,
+ "stratum": "C_desc_accessibility_other"
+}

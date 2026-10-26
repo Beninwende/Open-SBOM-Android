@@ -1,0 +1,4 @@
+http://cyclonedx.org/schema/bom-1.6.schema.json#/definitions/component/additionalProperties/component
+On instance: /metadata/component/bogusField:
+1
+BOM is not valid.

@@ -1,0 +1,89 @@
+{
+ "package": "org.shano.assistral",
+ "source": "fdroid-main",
+ "sha256": "f5a7ef163e0db929f5817614ca0f7b1d28e507f6a7eefaf6c01e1ed36d056815",
+ "cap": {
+  "apk_file": "f5a7ef163e0db929f5817614ca0f7b1d28e507f6a7eefaf6c01e1ed36d056815.apk",
+  "package": "org.shano.assistral",
+  "versionName": "3.2.6",
+  "versionCode": "326",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.RECORD_AUDIO"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.mistral.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "api.mistral.ai"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.003,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.006
+  },
+  "apk_bytes": 233611
+ },
+ "lib": {
+  "package": "org.shano.assistral",
+  "classes_total": 110,
+  "class_buckets": {
+   "obfuscated": 27,
+   "platform_shim": 1,
+   "known_library": 80,
+   "app_code": 2
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 11
+   },
+   {
+    "prefix": "org/chromium/",
+    "name": "Chromium/Cronet",
+    "group": "org.chromium",
+    "category": "network",
+    "classes": 67
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.annotation:annotation-experimental": "1.3.0",
+   "androidx.core:core": "1.1.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.webkit:webkit": "1.17.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.006
+ },
+ "signer_sha256": [
+  "c125529160e8f849a8b7165164b4e06bf3eafbbec3e5530077b8e924941d839c"
+ ],
+ "seconds": 0.02
+}

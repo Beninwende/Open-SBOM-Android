@@ -1,0 +1,47 @@
+{
+ "apk_file": "io.github.chayanforyou.quickball_25.apk",
+ "package": "io.github.chayanforyou.quickball",
+ "versionName": "6.1.0",
+ "versionCode": "25",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.BIND_ACCESSIBILITY_SERVICE",
+  "android.permission.BLUETOOTH",
+  "android.permission.BLUETOOTH_ADMIN",
+  "android.permission.CHANGE_WIFI_STATE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE",
+  "android.permission.WRITE_SETTINGS",
+  "io.github.chayanforyou.quickball.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "io.github.chayanforyou.quickball.core.QuickBallService",
+   "config_path": "res/-N.xml",
+   "accessibilityEventTypes": "0x00400020",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.023,
+  "strings_s": 0.084
+ },
+ "apk_bytes": 1670370,
+ "stratum": "A_perm_in_index"
+}

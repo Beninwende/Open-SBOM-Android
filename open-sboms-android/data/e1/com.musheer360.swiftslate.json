@@ -1,0 +1,54 @@
+{
+ "apk_file": "com.musheer360.swiftslate_283.apk",
+ "package": "com.musheer360.swiftslate",
+ "versionName": "1.0.82",
+ "versionCode": "283",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.musheer360.swiftslate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.musheer360.swiftslate.service.AssistantService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000010",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.groq.com",
+  "generativelanguage.googleapis.com"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "8https://generativelanguage.googleapis.com/v1beta/models/",
+  "Bhttps://generativelanguage.googleapis.com/v1beta/models?pageSize=1",
+  "Ehttps://generativelanguage.googleapis.com/v1beta/models?pageSize=1000",
+  "https://api.groq.com/openai/v1"
+ ],
+ "old_llm_sdk_strings": [
+  "https://api.groq.com/openai/v1"
+ ],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.027,
+  "strings_s": 0.086
+ },
+ "apk_bytes": 1865662,
+ "stratum": "B_desc_accessibility_service"
+}

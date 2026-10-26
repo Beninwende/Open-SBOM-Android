@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.lpw.graypause_6.apk",
+ "package": "com.lpw.graypause",
+ "versionName": "1.5",
+ "versionCode": "6",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.USE_EXACT_ALARM",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.lpw.graypause.AppWatchService",
+   "config_path": "res/az.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000020"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.004,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.003
+ },
+ "apk_bytes": 54063,
+ "stratum": "B_desc_accessibility_service"
+}

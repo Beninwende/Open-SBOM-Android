@@ -1,0 +1,87 @@
+{
+ "package": "com.android.talkback",
+ "source": "fdroid-main",
+ "sha256": "66c93480f736ceeb7bff906ee08aebe232bf22d820dac6d7bb80f29bd52e3211",
+ "cap": {
+  "apk_file": "66c93480f736ceeb7bff906ee08aebe232bf22d820dac6d7bb80f29bd52e3211.apk",
+  "package": "com.android.talkback",
+  "versionName": "5.0.7_aosp",
+  "versionCode": "50007000",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "com.google.android.marvin.feedback.permission.TALKBACK",
+   "com.google.android.marvin.talkback.permission.LABELING"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.google.android.marvin.talkback.TalkBackService",
+    "config_path": "res/xml/accessibilityservice.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x0000003D"
+   },
+   {
+    "name": "com.android.switchaccess.SwitchAccessService",
+    "config_path": "res/xml/switch_access_accessibilityservice.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x00000061"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.012,
+   "a11y_config_s": 0.662,
+   "strings_s": 0.104
+  },
+  "apk_bytes": 6801915
+ },
+ "lib": {
+  "package": "com.android.talkback",
+  "classes_total": 914,
+  "class_buckets": {
+   "known_library": 304,
+   "app_code": 598,
+   "unresolved": 12
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 304
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/google/android/": 12
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.132
+ },
+ "signer_sha256": [
+  "d648071fc2c2421a3823fc9a3b91745b121c98675285008057f71f452b942bb8"
+ ],
+ "seconds": 0.97
+}

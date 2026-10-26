@@ -1,0 +1,61 @@
+{
+ "apk_file": "com.anant.fitbuddy_82.apk",
+ "package": "com.anant.fitbuddy",
+ "versionName": "3.2.82",
+ "versionCode": "82",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.CAMERA",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.VIBRATE",
+  "com.anant.fitbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  " https://ollama.com/settings/keys",
+  "\"https://docs.ollama.com/quickstart",
+  "#https://openrouter.ai/api/v1/models",
+  "&https://openrouter.ai/api/v1/auth/keys",
+  "*https://api.openai.com/v1/chat/completions",
+  "-https://openrouter.ai/api/v1/chat/completions",
+  "7https://openrouter.ai/docs/api/reference/authentication",
+  "<https://generativelanguage.googleapis.com/v1beta/models?key=",
+  "Cloud uses https://ollama.com. Create keys at ollama.com/settings/keys. Gemma models are preferred. Leave text model bla",
+  "Hhttps://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "Official OpenAI is https://api.openai.com. For a local server try http://192.168.x.x:1234 (LM Studio) or :11434 (Ollama",
+  "Paste an OpenAI key for api.openai.com (paid). Local servers often need no key ",
+  "api.openai.com",
+  "api.openai.com/",
+  "chatgpt",
+  "chatgpt-4o",
+  "https://api.openai.com",
+  "https://ollama.com",
+  "https://openrouter.ai/api/v1/",
+  "https://openrouter.ai/auth"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.015,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.233
+ },
+ "apk_bytes": 12235792,
+ "stratum": "D_desc_llm_ai"
+}

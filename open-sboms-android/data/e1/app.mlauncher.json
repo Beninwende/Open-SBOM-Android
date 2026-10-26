@@ -1,0 +1,59 @@
+{
+ "apk_file": "app.mlauncher_1120200.apk",
+ "package": "app.mlauncher",
+ "versionName": "1.12.2 Build 0",
+ "versionCode": "1120200",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_HIDDEN_PROFILES",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.BIND_APPWIDGET",
+  "android.permission.BIND_REMOTEVIEWS",
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_CONTACTS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REORDER_TASKS",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.SET_WALLPAPER",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "app.mlauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.android.alarm.permission.SET_ALARM"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.github.codeworkscreativehub.mlauncher.services.ActionService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000021",
+   "accessibilityFlags": "0x00000001",
+   "packageNames": "app.mlauncher.debug, app.mlauncher"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.017,
+  "a11y_config_s": 0.122,
+  "strings_s": 0.139
+ },
+ "apk_bytes": 7103946,
+ "stratum": "B_desc_accessibility_service"
+}

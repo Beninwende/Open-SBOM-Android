@@ -1,0 +1,129 @@
+{
+ "all_306": {
+  "apk_MB": {
+   "mean": 14.333,
+   "median": 6.511,
+   "max": 84.875,
+   "n": 306
+  },
+  "download_s (8 parallel, mirrors)": {
+   "mean": 9.84,
+   "median": 2.21,
+   "max": 180.69,
+   "n": 271
+  },
+  "E1 manifest_s": {
+   "mean": 0.022,
+   "median": 0.014,
+   "max": 0.188,
+   "n": 306
+  },
+  "E1 a11y_config_s": {
+   "mean": 0.024,
+   "median": 0.0,
+   "max": 1.366,
+   "n": 306
+  },
+  "E1 dex_strings_s": {
+   "mean": 0.398,
+   "median": 0.147,
+   "max": 5.809,
+   "n": 306
+  },
+  "E2 libraries_s": {
+   "mean": 0.326,
+   "median": 0.155,
+   "max": 3.413,
+   "n": 306
+  },
+  "SBOM build_s (incl. re-scan)": {
+   "mean": 0.762,
+   "median": 0.347,
+   "max": 8.951,
+   "n": 306
+  },
+  "validate_s (cyclonedx-cli)": {
+   "mean": 0.319,
+   "median": 0.319,
+   "max": 0.382,
+   "n": 306
+  },
+  "sbom_KB": {
+   "mean": 43.16,
+   "median": 43.823,
+   "max": 98.872,
+   "n": 306
+  }
+ },
+ "random_117": {
+  "apk_MB": {
+   "mean": 14.593,
+   "median": 7.436,
+   "max": 62.075,
+   "n": 117
+  },
+  "download_s (8 parallel, mirrors)": {
+   "mean": 11.198,
+   "median": 2.3,
+   "max": 180.69,
+   "n": 117
+  },
+  "E1 manifest_s": {
+   "mean": 0.023,
+   "median": 0.014,
+   "max": 0.188,
+   "n": 117
+  },
+  "E1 a11y_config_s": {
+   "mean": 0.002,
+   "median": 0.0,
+   "max": 0.176,
+   "n": 117
+  },
+  "E1 dex_strings_s": {
+   "mean": 0.403,
+   "median": 0.189,
+   "max": 3.817,
+   "n": 117
+  },
+  "E2 libraries_s": {
+   "mean": 0.332,
+   "median": 0.173,
+   "max": 2.347,
+   "n": 117
+  },
+  "SBOM build_s (incl. re-scan)": {
+   "mean": 0.747,
+   "median": 0.401,
+   "max": 5.672,
+   "n": 117
+  },
+  "validate_s (cyclonedx-cli)": {
+   "mean": 0.317,
+   "median": 0.315,
+   "max": 0.382,
+   "n": 117
+  },
+  "sbom_KB": {
+   "mean": 36.899,
+   "median": 39.263,
+   "max": 85.219,
+   "n": 117
+  }
+ },
+ "validation": {
+  "valid": 306,
+  "total": 306
+ },
+ "build_errors": [],
+ "extrapolation": {
+  "apps_in_catalogue": 4766,
+  "catalogue_latest_APKs_GB": 86.1,
+  "cpu_hours_by_mean_per_app_all306": 1.43,
+  "cpu_hours_by_mean_per_app_random117": 1.41,
+  "cpu_hours_by_bytes": 1.8,
+  "sbom_storage_MB_est": 205.7,
+  "download_MBps_aggregate_approx": 9.9,
+  "download_hours_catalogue_at_that_rate": 2.41
+ }
+}

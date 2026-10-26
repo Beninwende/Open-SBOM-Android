@@ -1,0 +1,36 @@
+{
+ "apk_file": "moe.dic1911.autodnd_8.apk",
+ "package": "moe.dic1911.autodnd",
+ "versionName": "3.3",
+ "versionCode": "8",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "moe.dic1911.autodnd.DNDAccessibilityService"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.499
+ },
+ "apk_bytes": 4255107,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,262 @@
+{
+ "package": "me.kafuuneko.rpclient",
+ "source": "fdroid-archive",
+ "sha256": "16b732baf99129122e719c04ced284dbee39ed39a46591bca89bbb8aaf9b8c2f",
+ "cap": {
+  "apk_file": "16b732baf99129122e719c04ced284dbee39ed39a46591bca89bbb8aaf9b8c2f.apk",
+  "package": "me.kafuuneko.rpclient",
+  "versionName": "2026.1.3",
+  "versionCode": "20260103",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET",
+   "me.kafuuneko.rpclient.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.anthropic.com",
+   "api.deepseek.com",
+   "api.openai.com",
+   "api.x.ai",
+   "generativelanguage.googleapis.com",
+   "openrouter.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   ")https://generativelanguage.googleapis.com",
+   "ChatGPT",
+   "ChatGPT / gpt-4o-mini",
+   "https://api.anthropic.com",
+   "https://api.openai.com/v1",
+   "https://openrouter.ai/api/v1"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.024,
+   "a11y_config_s": 0.0,
+   "strings_s": 4.445
+  },
+  "apk_bytes": 20275123
+ },
+ "lib": {
+  "package": "me.kafuuneko.rpclient",
+  "classes_total": 34923,
+  "class_buckets": {
+   "known_library": 31116,
+   "unresolved": 155,
+   "app_code": 3652
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 18
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 25777
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 223
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 2995
+   },
+   {
+    "prefix": "kotlinx/atomicfu/",
+    "name": "atomicfu",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 25
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 876
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 257
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 319
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 107
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   },
+   {
+    "prefix": "org/koin/",
+    "name": "Koin",
+    "group": "io.insert-koin",
+    "category": "di",
+    "classes": 430
+   }
+  ],
+  "unresolved_namespaces": {
+   "co/touchlab/stately/": 71,
+   "com/knuddels/jtokkit/": 44,
+   "com/chibatching/kotpref/": 30,
+   "com/benasher44/uuid/": 6,
+   "org/jspecify/annotations/": 4
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.5.0",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.appcompat:appcompat": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.11.1",
+   "androidx.compose.animation:animation": "1.11.1",
+   "androidx.compose.foundation:foundation-layout": "1.11.1",
+   "androidx.compose.foundation:foundation": "1.11.1",
+   "androidx.compose.material3:material3": "1.4.0",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.11.1",
+   "androidx.compose.runtime:runtime-annotation": "1.11.1",
+   "androidx.compose.runtime:runtime-retain": "1.11.1",
+   "androidx.compose.runtime:runtime-saveable": "1.11.1",
+   "androidx.compose.runtime:runtime": "1.11.1",
+   "androidx.compose.ui:ui-geometry": "1.11.1",
+   "androidx.compose.ui:ui-graphics": "1.11.1",
+   "androidx.compose.ui:ui-text": "1.11.1",
+   "androidx.compose.ui:ui-tooling-preview": "1.11.1",
+   "androidx.compose.ui:ui-unit": "1.11.1",
+   "androidx.compose.ui:ui-util": "1.11.1",
+   "androidx.compose.ui:ui": "1.11.1",
+   "androidx.core:core-ktx": "1.18.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.18.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.4.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.fragment:fragment-ktx": "1.8.1",
+   "androidx.fragment:fragment": "1.8.1",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.navigation:navigation-common": "2.8.0-beta03",
+   "androidx.navigationevent:navigationevent-compose": "1.0.0",
+   "androidx.navigationevent:navigationevent": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.room:room-ktx": "2.8.4",
+   "androidx.room:room-runtime": "2.8.4",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.sqlite:sqlite-framework": "2.6.2",
+   "androidx.sqlite:sqlite": "2.6.2",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.6.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0",
+   "org.jetbrains.androidx.core:core-bundle": "1.0.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 2.488
+ },
+ "signer_sha256": [
+  "c54a70bdb7643eb26f9c95454eb9db75d6d36a48ee6b50b38011fd69cad402a1"
+ ],
+ "seconds": 6.98
+}

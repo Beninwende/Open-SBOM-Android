@@ -1,0 +1,32 @@
+{
+ "apk_file": "com.markleaf.notes_187.apk",
+ "package": "com.markleaf.notes",
+ "versionName": "2.70.0",
+ "versionCode": "187",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "com.markleaf.notes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.137
+ },
+ "apk_bytes": 3366390,
+ "stratum": "C_desc_accessibility_other"
+}

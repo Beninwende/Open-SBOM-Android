@@ -1,0 +1,48 @@
+{
+ "apk_file": "io.timelimit.android.open_217.apk",
+ "package": "io.timelimit.android.open",
+ "versionName": "7.1.0",
+ "versionCode": "217",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.CALL_PHONE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.GET_TASKS",
+  "android.permission.NFC",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "io.timelimit.android.open.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "io.timelimit.android.integration.platform.android.AccessibilityService",
+   "config_path": "res/bj.xml"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.018,
+  "a11y_config_s": 0.141,
+  "strings_s": 0.171
+ },
+ "apk_bytes": 4939173,
+ "stratum": "B_desc_accessibility_service"
+}

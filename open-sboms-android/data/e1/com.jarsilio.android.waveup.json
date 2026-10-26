@@ -1,0 +1,52 @@
+{
+ "apk_file": "com.jarsilio.android.waveup_145.apk",
+ "package": "com.jarsilio.android.waveup",
+ "versionName": "3.2.40",
+ "versionCode": "145",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.BLUETOOTH",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.TURN_SCREEN_ON",
+  "android.permission.USES_POLICY_FORCE_LOCK",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.jarsilio.android.waveup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.jarsilio.android.waveup.service.LockAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000040",
+   "packageNames": "@7F130140"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.023,
+  "a11y_config_s": 0.2,
+  "strings_s": 0.273
+ },
+ "apk_bytes": 4873773,
+ "stratum": "B_desc_accessibility_service"
+}

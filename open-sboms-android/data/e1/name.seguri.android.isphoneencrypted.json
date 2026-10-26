@@ -1,0 +1,27 @@
+{
+ "apk_file": "name.seguri.android.isphoneencrypted_1.apk",
+ "package": "name.seguri.android.isphoneencrypted",
+ "versionName": "1.0.0",
+ "versionCode": "1",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.004,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.128
+ },
+ "apk_bytes": 1369001,
+ "stratum": "E_random"
+}

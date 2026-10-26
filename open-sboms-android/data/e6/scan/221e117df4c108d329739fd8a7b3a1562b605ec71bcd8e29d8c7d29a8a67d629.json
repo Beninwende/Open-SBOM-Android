@@ -1,0 +1,149 @@
+{
+ "package": "com.remotephone",
+ "source": "fdroid-archive",
+ "sha256": "221e117df4c108d329739fd8a7b3a1562b605ec71bcd8e29d8c7d29a8a67d629",
+ "cap": {
+  "apk_file": "221e117df4c108d329739fd8a7b3a1562b605ec71bcd8e29d8c7d29a8a67d629.apk",
+  "package": "com.remotephone",
+  "versionName": "1.1.0",
+  "versionCode": "4",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.WAKE_LOCK",
+   "com.remotephone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.remotephone.RemoteAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x0000001B"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.049,
+   "strings_s": 0.066
+  },
+  "apk_bytes": 1522364
+ },
+ "lib": {
+  "package": "com.remotephone",
+  "classes_total": 1381,
+  "class_buckets": {
+   "obfuscated": 979,
+   "platform_shim": 5,
+   "known_library": 307,
+   "app_code": 3,
+   "unresolved": 87
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 228
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 77
+   }
+  ],
+  "unresolved_namespaces": {
+   "org/java_websocket/": 14,
+   "org/java_websocket/framing/": 12,
+   "org/java_websocket/exceptions/": 11,
+   "org/java_websocket/handshake/": 10,
+   "org/java_websocket/server/": 8,
+   "org/java_websocket/enums/": 6,
+   "org/java_websocket/extensions/": 6,
+   "org/java_websocket/util/": 6,
+   "org/java_websocket/client/": 5,
+   "org/java_websocket/drafts/": 4,
+   "org/java_websocket/protocols/": 3,
+   "org/java_websocket/interfaces/": 2
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.3.0",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.12.0",
+   "androidx.core:core": "1.12.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.fragment:fragment": "1.3.6",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-process": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": null,
+   "androidx.lifecycle:lifecycle-viewmodel": null,
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.11.0",
+   "kotlinx:coroutines_android": "1.6.4",
+   "kotlinx:coroutines_core": "1.6.4"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.059
+ },
+ "signer_sha256": [
+  "dc75653618faadbd4a9ba97e2b287a54fb541a6f9f388ec4eb24e6acfeec0dcc"
+ ],
+ "seconds": 0.2
+}

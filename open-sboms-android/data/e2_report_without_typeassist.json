@@ -1,0 +1,207 @@
+{
+ "excluded_from_ground_truth": [
+  "com.typeassist.app"
+ ],
+ "overall": {
+  "apps": 42,
+  "median_pct_third_party_classes_in_known_namespaces": 49.2,
+  "median_pct_obfuscated": 39.55,
+  "median_pct_unresolved_readable": 0.1,
+  "apps_with_>=50pct_obfuscated_third_party_classes": 20,
+  "apps_with_maven_metadata_files": 40,
+  "median_maven_metadata_entries": 57.0,
+  "apps_with_exodus_tracker": 1
+ },
+ "by_group": {
+  "ai": {
+   "n": 16,
+   "median_pct_known": 14.8,
+   "median_pct_obfuscated": 84.7,
+   "n_minified(>=50% obf)": 10
+  },
+  "read_inject_internet": {
+   "n": 10,
+   "median_pct_known": 24.799999999999997,
+   "median_pct_obfuscated": 26.5,
+   "n_minified(>=50% obf)": 5
+  },
+  "random": {
+   "n": 16,
+   "median_pct_known": 94.35,
+   "median_pct_obfuscated": 0.0,
+   "n_minified(>=50% obf)": 5
+  }
+ },
+ "minified_apps": [
+  "app.chompass",
+  "app.maskan.chat",
+  "com.antivocale.app",
+  "com.danemadsen.maid",
+  "com.lazydevs.wristotle",
+  "com.trevornk.ramblr",
+  "com.typeassist.app",
+  "dev.chungjungsoo.gptmobile",
+  "org.sherpr.app",
+  "org.venkado.relagent",
+  "com.akslabs.circletosearch",
+  "com.carriez.flutter_hbb",
+  "com.remotephone",
+  "io.github.sds100.keymapper",
+  "io.github.vibhor1102.macrion",
+  "ch.pec0ra.suspension_setup",
+  "com.baluchon.app",
+  "com.fixupxer",
+  "com.polyalerts",
+  "io.github.hamdav.predikt"
+ ],
+ "ground_truth": [
+  {
+   "package": "com.inspiredandroid.kai",
+   "commit": "78bbb32609",
+   "declared": 44,
+   "exact_artifact_via_metadata": 4,
+   "with_version": 4,
+   "vendor_or_group_level": 21,
+   "missed": [
+    "app.cash.sqldelight:android-driver",
+    "app.cash.sqldelight:runtime",
+    "com.russhwolf:multiplatform-settings",
+    "com.russhwolf:multiplatform-settings-no-arg",
+    "dev.spght:encryptedprefs-ktx",
+    "io.github.vinceglb:filekit-core",
+    "io.github.vinceglb:filekit-dialogs-compose",
+    "nl.marc-apps:tts",
+    "nl.marc-apps:tts-compose",
+    "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose",
+    "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel",
+    "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose",
+    "org.jetbrains.androidx.navigation:navigation-compose",
+    "org.jetbrains.compose.components:components-resources",
+    "org.jetbrains.compose.components:components-ui-tooling-preview",
+    "org.jetbrains.compose.foundation:foundation",
+    "org.jetbrains.compose.material3:material3",
+    "org.jetbrains.compose.material:material-icons-core",
+    "org.jetbrains.compose.material:material-icons-extended",
+    "org.jetbrains.compose.runtime:runtime",
+    "org.jetbrains.compose.ui:ui",
+    "org.tukaani:xz",
+    "sh.calvin.reorderable:reorderable"
+   ],
+   "metadata_entries_not_declared(transitive)": 81,
+   "pct_obfuscated": 34.2
+  },
+  {
+   "package": "com.leanbitlab.leantype",
+   "commit": "e9e09b1849",
+   "declared": 18,
+   "exact_artifact_via_metadata": 14,
+   "with_version": 14,
+   "vendor_or_group_level": 15,
+   "missed": [
+    "com.android.tools:desugar_jdk_libs",
+    "com.github.skydoves:colorpicker-compose",
+    "sh.calvin.reorderable:reorderable"
+   ],
+   "metadata_entries_not_declared(transitive)": 69,
+   "pct_obfuscated": 0.0
+  },
+  {
+   "package": "com.procrastilearn.app",
+   "commit": "4c605943bd",
+   "declared": 19,
+   "exact_artifact_via_metadata": 13,
+   "with_version": 13,
+   "vendor_or_group_level": 16,
+   "missed": [
+    "io.github.oikvpqya.compose.fastscroller:fastscroller-material3",
+    "io.github.open-spaced-repetition:fsrs",
+    "sh.calvin.reorderable:reorderable"
+   ],
+   "metadata_entries_not_declared(transitive)": 66,
+   "pct_obfuscated": 44.9
+  },
+  {
+   "package": "dev.chungjungsoo.gptmobile",
+   "commit": "e3a14c38b5",
+   "declared": 35,
+   "exact_artifact_via_metadata": 20,
+   "with_version": 20,
+   "vendor_or_group_level": 28,
+   "missed": [
+    "com.mikepenz:aboutlibraries-compose-m3",
+    "com.mikepenz:aboutlibraries-core",
+    "com.mikepenz:multiplatform-markdown-renderer",
+    "com.mikepenz:multiplatform-markdown-renderer-code",
+    "com.mikepenz:multiplatform-markdown-renderer-m3",
+    "io.modelcontextprotocol:kotlin-sdk-client",
+    "net.openid:appauth"
+   ],
+   "metadata_entries_not_declared(transitive)": 80,
+   "pct_obfuscated": 98.2
+  },
+  {
+   "package": "io.github.hamdav.predikt",
+   "commit": "bbc1b910a1",
+   "declared": 1,
+   "exact_artifact_via_metadata": 1,
+   "with_version": 1,
+   "vendor_or_group_level": 1,
+   "missed": [],
+   "metadata_entries_not_declared(transitive)": 42,
+   "pct_obfuscated": 83.0
+  },
+  {
+   "package": "io.github.patricksmill.quicknotes",
+   "commit": "4a5d7f8ee2",
+   "declared": 15,
+   "exact_artifact_via_metadata": 11,
+   "with_version": 11,
+   "vendor_or_group_level": 15,
+   "missed": [],
+   "metadata_entries_not_declared(transitive)": 58,
+   "pct_obfuscated": 0.0
+  },
+  {
+   "package": "io.github.sds100.keymapper",
+   "commit": "45c0a2ce70",
+   "declared": 49,
+   "exact_artifact_via_metadata": 27,
+   "with_version": 27,
+   "vendor_or_group_level": 38,
+   "missed": [
+    "com.airbnb.android:epoxy",
+    "com.airbnb.android:epoxy-databinding",
+    "com.anggrayudi:storage",
+    "com.github.salomonbrys.kotson:kotson",
+    "com.github.topjohnwu.libsu:core",
+    "com.google.accompanist:accompanist-drawablepainter",
+    "com.jakewharton.timber:timber",
+    "io.github.vvb2060.ndk:boringssl",
+    "net.lingala.zip4j:zip4j",
+    "org.bouncycastle:bcpkix-jdk15on",
+    "org.lsposed.hiddenapibypass:hiddenapibypass"
+   ],
+   "metadata_entries_not_declared(transitive)": 94,
+   "pct_obfuscated": 71.7
+  },
+  {
+   "package": "net.christianbeier.droidvnc_ng",
+   "commit": "dfab3fb2c9",
+   "declared": 7,
+   "exact_artifact_via_metadata": 5,
+   "with_version": 5,
+   "vendor_or_group_level": 7,
+   "missed": [],
+   "metadata_entries_not_declared(transitive)": 45,
+   "pct_obfuscated": 0.0
+  }
+ ],
+ "ground_truth_total": {
+  "apps": 8,
+  "declared": 188,
+  "exact_artifact": 95,
+  "vendor_level": 141,
+  "pct_exact": 50.5,
+  "pct_vendor": 75.0
+ }
+}

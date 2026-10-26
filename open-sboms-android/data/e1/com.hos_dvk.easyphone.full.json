@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.hos_dvk.easyphone.full_11.apk",
+ "package": "com.hos_dvk.easyphone.full",
+ "versionName": "0.1",
+ "versionCode": "11",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.CALL_PHONE",
+  "android.permission.READ_CONTACTS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.READ_SMS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECEIVE_SMS",
+  "android.permission.REORDER_TASKS",
+  "android.permission.SEND_SMS",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_CONTACTS",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "android.permission.WRITE_SMS"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.015,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.475
+ },
+ "apk_bytes": 6625861,
+ "stratum": "C_desc_accessibility_other"
+}

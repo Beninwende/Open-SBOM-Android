@@ -1,0 +1,48 @@
+{
+ "apk_file": "app.cclauncher_1290.apk",
+ "package": "app.cclauncher",
+ "versionName": "v10.7.6",
+ "versionCode": "1290",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_HIDDEN_PROFILES",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.BIND_APPWIDGET",
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.SET_WALLPAPER",
+  "android.permission.WAKE_LOCK",
+  "app.cclauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.android.alarm.permission.SET_ALARM"
+ ],
+ "a11y_services": [
+  {
+   "name": "app.cclauncher.helper.MyAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "canRequestFilterKeyEvents": false,
+   "accessibilityEventTypes": "0x00000020"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.053,
+  "strings_s": 0.256
+ },
+ "apk_bytes": 3341593,
+ "stratum": "C_desc_accessibility_other"
+}

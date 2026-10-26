@@ -1,0 +1,58 @@
+{
+ "apk_file": "com.tyraen.voicekeyboard_60.apk",
+ "package": "com.tyraen.voicekeyboard",
+ "versionName": "1.9.9",
+ "versionCode": "60",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.INTERNET",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.REQUEST_INSTALL_PACKAGES",
+  "com.tyraen.voicekeyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.deepseek.com",
+  "api.groq.com",
+  "api.mistral.ai",
+  "api.openai.com",
+  "api.together.xyz",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "%https://api.anthropic.com/v1/messages",
+  "*https://api.mistral.ai/v1/chat/completions",
+  "*https://api.openai.com/v1/chat/completions",
+  "-https://openrouter.ai/api/v1/chat/completions",
+  ".https://api.mistral.ai/v1/audio/transcriptions",
+  ".https://api.openai.com/v1/audio/transcriptions",
+  "/https://api.groq.com/openai/v1/chat/completions",
+  "3https://api.groq.com/openai/v1/audio/transcriptions",
+  "api.anthropic.com",
+  "api.groq.com",
+  "api.mistral.ai",
+  "api.openai.com",
+  "openrouter.ai"
+ ],
+ "old_llm_sdk_strings": [
+  "/https://api.groq.com/openai/v1/chat/completions",
+  "3https://api.groq.com/openai/v1/audio/transcriptions"
+ ],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.094
+ },
+ "apk_bytes": 2882869,
+ "stratum": "D_desc_llm_ai"
+}

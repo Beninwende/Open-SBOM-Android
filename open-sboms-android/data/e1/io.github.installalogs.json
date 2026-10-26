@@ -1,0 +1,30 @@
+{
+ "apk_file": "io.github.installalogs_10.apk",
+ "package": "io.github.installalogs",
+ "versionName": "1.0",
+ "versionCode": "10",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.303
+ },
+ "apk_bytes": 3927189,
+ "stratum": "E_random"
+}

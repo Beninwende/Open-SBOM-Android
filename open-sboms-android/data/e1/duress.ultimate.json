@@ -1,0 +1,39 @@
+{
+ "apk_file": "duress.ultimate_22.apk",
+ "package": "duress.ultimate",
+ "versionName": "22.0",
+ "versionCode": "22",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+  "android.permission.QUERY_ALL_PACKAGES"
+ ],
+ "a11y_services": [
+  {
+   "name": "duress.ultimate.MyAccessibilityService",
+   "config_path": "res/az.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000070",
+   "accessibilityFlags": "0x00000051"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.003,
+  "a11y_config_s": 0.001,
+  "strings_s": 0.006
+ },
+ "apk_bytes": 345408,
+ "stratum": "C_desc_accessibility_other"
+}

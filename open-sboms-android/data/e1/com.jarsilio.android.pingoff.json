@@ -1,0 +1,44 @@
+{
+ "apk_file": "com.jarsilio.android.pingoff_18.apk",
+ "package": "com.jarsilio.android.pingoff",
+ "versionName": "1.0.4",
+ "versionCode": "18",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "com.jarsilio.android.pingoff.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.jarsilio.android.pingoff.services.AppLaunchDetectionService",
+   "config_path": "res/hs.xml",
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000002"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.02,
+  "a11y_config_s": 0.068,
+  "strings_s": 0.12
+ },
+ "apk_bytes": 3134954,
+ "stratum": "B_desc_accessibility_service"
+}

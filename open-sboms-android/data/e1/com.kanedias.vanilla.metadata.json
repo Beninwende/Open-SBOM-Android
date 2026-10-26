@@ -1,0 +1,30 @@
+{
+ "apk_file": "com.kanedias.vanilla.metadata_9.apk",
+ "package": "com.kanedias.vanilla.metadata",
+ "versionName": "1.0.8",
+ "versionCode": "9",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.WRITE_EXTERNAL_STORAGE"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.21
+ },
+ "apk_bytes": 7363851,
+ "stratum": "E_random"
+}

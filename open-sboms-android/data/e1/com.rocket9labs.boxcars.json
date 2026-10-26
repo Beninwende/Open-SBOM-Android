@@ -1,0 +1,29 @@
+{
+ "apk_file": "com.rocket9labs.boxcars_104090.apk",
+ "package": "com.rocket9labs.boxcars",
+ "versionName": "1.4.9",
+ "versionCode": "104090",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.028,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.002
+ },
+ "apk_bytes": 30886503,
+ "stratum": "E_random"
+}

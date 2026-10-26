@@ -1,0 +1,33 @@
+{
+ "apk_file": "com.elementlo.spark_list_7.apk",
+ "package": "com.elementlo.spark_list",
+ "versionName": "0.2.0-beta",
+ "versionCode": "7",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.USE_FULL_SCREEN_INTENT",
+  "android.permission.VIBRATE"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.012,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.049
+ },
+ "apk_bytes": 9720712,
+ "stratum": "E_random"
+}

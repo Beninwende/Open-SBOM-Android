@@ -1,0 +1,49 @@
+{
+ "apk_file": "com.earendel.tapbar_11.apk",
+ "package": "com.earendel.tapbar",
+ "versionName": "1.7.1",
+ "versionCode": "11",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE",
+  "android.permission.WRITE_SETTINGS",
+  "com.earendel.tapbar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.earendel.tapbar.TapAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": false,
+   "canRequestFilterKeyEvents": false,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000040"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.011,
+  "a11y_config_s": 0.07,
+  "strings_s": 0.08
+ },
+ "apk_bytes": 6000558,
+ "stratum": "B_desc_accessibility_service"
+}

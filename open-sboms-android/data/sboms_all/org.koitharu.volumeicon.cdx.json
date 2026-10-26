@@ -1,0 +1,120 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:8dcb6c6e-bd0d-4a86-ace0-2601e970c426",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:11Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.koitharu.volumeicon@1.4",
+   "name": "org.koitharu.volumeicon",
+   "version": "1.4",
+   "purl": "pkg:generic/org.koitharu.volumeicon@1.4?download_url=https://f-droid.org/repo/org.koitharu.volumeicon_5.apk&checksum=sha256:37ba1dee29f1b0edc063b49526616904d45b12c9e20ca8d591b3fde5203e5e89",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "37ba1dee29f1b0edc063b49526616904d45b12c9e20ca8d591b3fde5203e5e89"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.koitharu.volumeicon_5.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/Koitharu/VolumeIcon"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "5"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "org.koitharu.volumeicon.VolumeIconService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.976"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:org.koitharu.volumeicon@1.4",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.koitharu.volumeicon@1.4"
+   ]
+  }
+ ]
+}

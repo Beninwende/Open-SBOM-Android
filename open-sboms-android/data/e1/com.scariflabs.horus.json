@@ -1,0 +1,44 @@
+{
+ "apk_file": "com.scariflabs.horus_5.apk",
+ "package": "com.scariflabs.horus",
+ "versionName": "1.0.4",
+ "versionCode": "5",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.scariflabs.horus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "          curl --connect-timeout 15 --max-time 300 -fsSL https://claude.ai/install.sh -o /root/.cache/horus/claude-insta",
+  "        claude_base=https://downloads.claude.ai/claude-code-releases",
+  "    curl --connect-timeout 15 --max-time 300 -fsSL https://claude.ai/install.sh -o \"$cache/claude-install.sh\" &&",
+  "chatgpt.com",
+  "claude.ai"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.011,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.108
+ },
+ "apk_bytes": 8562827,
+ "stratum": "D_desc_llm_ai"
+}

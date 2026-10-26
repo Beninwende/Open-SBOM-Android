@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.sarangem.zenwell_16.apk",
+ "package": "com.sarangem.zenwell",
+ "versionName": "1.6",
+ "versionCode": "16",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "com.sarangem.zenwell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.sarangem.zenwell.service.AppBlockerService",
+   "config_path": "res/hR.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000040"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.023,
+  "strings_s": 0.112
+ },
+ "apk_bytes": 2385457,
+ "stratum": "B_desc_accessibility_service"
+}

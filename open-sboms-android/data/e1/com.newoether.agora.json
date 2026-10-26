@@ -1,0 +1,77 @@
+{
+ "apk_file": "com.newoether.agora_31.apk",
+ "package": "com.newoether.agora",
+ "versionName": "2.1.0",
+ "versionCode": "31",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERNET",
+  "android.permission.MANAGE_EXTERNAL_STORAGE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.newoether.agora.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.deepseek.com",
+  "api.groq.com",
+  "api.mistral.ai",
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "localhost:11434",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [
+  "libggml-base.so",
+  "libggml-cpu-android_armv8.0_1.so",
+  "libggml-cpu-android_armv8.2_1.so",
+  "libggml-cpu-android_armv8.2_2.so",
+  "libggml-cpu-android_armv8.6_1.so",
+  "libggml-cpu-android_armv9.0_1.so",
+  "libggml-cpu-android_armv9.2_1.so",
+  "libggml-cpu-android_armv9.2_2.so",
+  "libggml.so",
+  "libllama-common.so",
+  "libllama.so"
+ ],
+ "old_llm_strings": [
+  "0https://generativelanguage.googleapis.com/v1beta",
+  "http://localhost:11434",
+  "http://localhost:11434/v1",
+  "https://api.anthropic.com/v1",
+  "https://api.groq.com/openai/v1",
+  "https://api.mistral.ai/v1",
+  "https://api.openai.com/v1",
+  "https://openrouter.ai/api/v1",
+  "projectChatGptCitations"
+ ],
+ "old_llm_sdk_strings": [
+  "1com.newoether.agora.api.openai.OpenRouterProvider",
+  "https://api.groq.com/openai/v1"
+ ],
+ "timing": {
+  "manifest_s": 0.057,
+  "a11y_config_s": 0.0,
+  "strings_s": 5.809
+ },
+ "apk_bytes": 48553937,
+ "stratum": "D_desc_llm_ai"
+}

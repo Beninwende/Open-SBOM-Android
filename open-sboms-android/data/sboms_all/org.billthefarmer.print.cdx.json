@@ -1,0 +1,150 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:2b837d06-84a4-4540-84a8-f2f2f6fa6121",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:30Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.billthefarmer.print@1.08",
+   "name": "org.billthefarmer.print",
+   "version": "1.08",
+   "purl": "pkg:generic/org.billthefarmer.print@1.08?download_url=https://f-droid.org/repo/org.billthefarmer.print_108.apk&checksum=sha256:4f9290bf74d8e3c83bb11c9f7050fe5c8dc1f7336b7145bc2910a366f926da17",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "4f9290bf74d8e3c83bb11c9f7050fe5c8dc1f7336b7145bc2910a366f926da17"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.billthefarmer.print_108.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/billthefarmer/print"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "108"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:org/commonmark/",
+   "name": "commonmark-java",
+   "group": "org.commonmark",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "209 classes under org/commonmark/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "parsing"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:org.billthefarmer.print@1.08",
+   "dependsOn": [
+    "ns:org/commonmark/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.billthefarmer.print@1.08"
+   ]
+  }
+ ]
+}

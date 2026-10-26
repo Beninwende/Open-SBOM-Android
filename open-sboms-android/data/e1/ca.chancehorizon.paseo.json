@@ -1,0 +1,39 @@
+{
+ "apk_file": "ca.chancehorizon.paseo_10801.apk",
+ "package": "ca.chancehorizon.paseo",
+ "versionName": "1.8.1",
+ "versionCode": "10801",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_MEDIA_LOCATION",
+  "android.permission.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION",
+  "android.permission.ACTIVITY_RECOGNITION",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.MANAGE_EXTERNAL_STORAGE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "ca.chancehorizon.paseo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.012,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.703
+ },
+ "apk_bytes": 6459255,
+ "stratum": "E_random"
+}

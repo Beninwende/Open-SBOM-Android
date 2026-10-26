@@ -1,0 +1,45 @@
+{
+ "apk_file": "com.antivocale.app_484.apk",
+ "package": "com.antivocale.app",
+ "versionName": "1.14.1",
+ "versionCode": "484",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.WAKE_LOCK",
+  "com.antivocale.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [
+  "com/google/ai/edge/",
+  "com/google/mediapipe/tasks/genai/"
+ ],
+ "ai_native_libs": [
+  "libonnxruntime.so"
+ ],
+ "old_llm_strings": [
+  "$https://huggingface.co/api/whoami-v2"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.069,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.308
+ },
+ "apk_bytes": 39567542,
+ "stratum": "D_desc_llm_ai"
+}

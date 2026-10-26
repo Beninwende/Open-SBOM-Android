@@ -1,0 +1,43 @@
+{
+ "apk_file": "com.maforn.timedshutdown_35.apk",
+ "package": "com.maforn.timedshutdown",
+ "versionName": "v3.0",
+ "versionCode": "35",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.USE_EXACT_ALARM",
+  "android.permission.WAKE_LOCK",
+  "com.maforn.timedshutdown.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.maforn.timedshutdown.AccessibilityService",
+   "config_path": "res/-N.xml",
+   "canPerformGestures": true,
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x00000001",
+   "packageNames": "com.maforn.timedshutdown"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.099,
+  "strings_s": 0.057
+ },
+ "apk_bytes": 5649622,
+ "stratum": "C_desc_accessibility_other"
+}

@@ -1,0 +1,41 @@
+{
+ "apk_file": "ai.agent1c.hitomi.open_6.apk",
+ "package": "ai.agent1c.hitomi.open",
+ "versionName": "0.1.2",
+ "versionCode": "6",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "ai.agent1c.hitomi.open.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.termux.permission.RUN_COMMAND"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "127.0.0.1:11434",
+  "api.x.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "`Use http://127.0.0.1:11434 for local Ollama, or paste an xAI API key. This stays on this device."
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.523
+ },
+ "apk_bytes": 4949113,
+ "stratum": "D_desc_llm_ai"
+}

@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:c24817c1-31dc-45ce-8a5b-ac6f9f5ab653",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:21:33Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:dev.kokoro.tts@1.0",
+   "name": "dev.kokoro.tts",
+   "version": "1.0",
+   "purl": "pkg:generic/dev.kokoro.tts@1.0?download_url=https://f-droid.org/repo/dev.kokoro.tts_1.apk&checksum=sha256:7c211a36195af5ec5727ee3623db76a626956c75d3b3c9d129879148ee0b9835",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "7c211a36195af5ec5727ee3623db76a626956c75d3b3c9d129879148ee0b9835"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/dev.kokoro.tts_1.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/Gishi1/kokoro-android-tts"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "1"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:dev.kokoro.tts@1.0",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:dev.kokoro.tts@1.0"
+   ]
+  }
+ ]
+}

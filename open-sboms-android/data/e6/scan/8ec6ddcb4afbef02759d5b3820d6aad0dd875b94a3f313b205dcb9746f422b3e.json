@@ -1,0 +1,134 @@
+{
+ "package": "com.zfdang.touchhelper",
+ "source": "fdroid-archive",
+ "sha256": "8ec6ddcb4afbef02759d5b3820d6aad0dd875b94a3f313b205dcb9746f422b3e",
+ "cap": {
+  "apk_file": "8ec6ddcb4afbef02759d5b3820d6aad0dd875b94a3f313b205dcb9746f422b3e.apk",
+  "package": "com.zfdang.touchhelper",
+  "versionName": "251",
+  "versionCode": "251",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.SYSTEM_ALERT_WINDOW"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.zfdang.touchhelper.TouchHelperService",
+    "config_path": "res/ZP.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "accessibilityEventTypes": "0x00000820",
+    "accessibilityFlags": "0x00000052"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.026,
+   "strings_s": 0.063
+  },
+  "apk_bytes": 1309229
+ },
+ "lib": {
+  "package": "com.zfdang.touchhelper",
+  "classes_total": 1559,
+  "class_buckets": {
+   "obfuscated": 566,
+   "known_library": 972,
+   "unresolved": 9,
+   "app_code": 12
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 625
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 198
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 147
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/hp/hpl/": 8,
+   "net/sourceforge/pinyin4j/": 1
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.1.0",
+   "androidx.annotation:annotation-experimental": "1.0.0",
+   "androidx.appcompat:appcompat-resources": "1.2.0",
+   "androidx.appcompat:appcompat": "1.2.0",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core": "1.3.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.2.4",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-extensions": "2.1.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.2.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.1.0",
+   "androidx.lifecycle:lifecycle-process": "2.1.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.2.0",
+   "androidx.lifecycle:lifecycle-service": "2.1.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.2.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.2.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigation:navigation-common": "2.1.0",
+   "androidx.navigation:navigation-fragment": "2.1.0",
+   "androidx.navigation:navigation-runtime": "2.1.0",
+   "androidx.navigation:navigation-ui": "2.1.0",
+   "androidx.preference:preference": "1.1.1",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.2.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.079
+ },
+ "signer_sha256": [
+  "874cc89bea9ea2cee3b626e3c18e7a8bb2c8aaecb8c531f5bf1d0b2f71388236"
+ ],
+ "seconds": 0.19
+}

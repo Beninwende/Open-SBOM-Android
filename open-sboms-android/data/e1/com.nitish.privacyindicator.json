@@ -1,0 +1,38 @@
+{
+ "apk_file": "com.nitish.privacyindicator_8.apk",
+ "package": "com.nitish.privacyindicator",
+ "versionName": "2.2",
+ "versionCode": "8",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.VIBRATE"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.nitish.privacyindicator.services.IndicatorService",
+   "config_path": "res/xml/indicator_service.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x00000052"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.086,
+  "strings_s": 0.101
+ },
+ "apk_bytes": 2184331,
+ "stratum": "C_desc_accessibility_other"
+}

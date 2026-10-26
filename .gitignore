@@ -1,0 +1,15 @@
+# Archives (content is committed extracted)
+*.zip
+
+# macOS
+.DS_Store
+
+# Nested VCS / third-party source clones used only for local ground truth
+open-sboms-android/data/groundtruth/src/
+**/.git/
+
+# Python / tooling noise
+__pycache__/
+*.pyc
+.venv/
+venv/

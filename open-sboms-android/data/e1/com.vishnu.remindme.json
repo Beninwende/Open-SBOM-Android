@@ -1,0 +1,35 @@
+{
+ "apk_file": "com.vishnu.remindme_8.apk",
+ "package": "com.vishnu.remindme",
+ "versionName": "v1.3.0",
+ "versionCode": "8",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.USE_EXACT_ALARM",
+  "com.vishnu.remindme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.071
+ },
+ "apk_bytes": 1515886,
+ "stratum": "E_random"
+}

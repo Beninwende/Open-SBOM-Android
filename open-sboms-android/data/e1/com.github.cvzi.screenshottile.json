@@ -1,0 +1,39 @@
+{
+ "apk_file": "com.github.cvzi.screenshottile_150.apk",
+ "package": "com.github.cvzi.screenshottile",
+ "versionName": "2.21.4",
+ "versionCode": "150",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.github.cvzi.screenshottile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.github.cvzi.screenshottile.services.ScreenshotAccessibilityService",
+   "config_path": "res/lN.xml",
+   "accessibilityEventTypes": "0x00000020"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.016,
+  "a11y_config_s": 0.142,
+  "strings_s": 0.133
+ },
+ "apk_bytes": 3999056,
+ "stratum": "B_desc_accessibility_service"
+}

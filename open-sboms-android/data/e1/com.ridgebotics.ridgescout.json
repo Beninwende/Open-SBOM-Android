@@ -1,0 +1,39 @@
+{
+ "apk_file": "com.ridgebotics.ridgescout_15.apk",
+ "package": "com.ridgebotics.ridgescout",
+ "versionName": "3.1",
+ "versionCode": "15",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.BLUETOOTH",
+  "android.permission.BLUETOOTH_ADMIN",
+  "android.permission.BLUETOOTH_ADVERTISE",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.BLUETOOTH_SCAN",
+  "android.permission.CAMERA",
+  "android.permission.INTERNET",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.ridgebotics.ridgescout.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.042,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.793
+ },
+ "apk_bytes": 39855343,
+ "stratum": "E_random"
+}

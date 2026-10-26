@@ -1,0 +1,160 @@
+{
+ "package": "io.github.sak.read.it.later",
+ "source": "sample",
+ "sha256": "23cf5b7126b3022c71f6aff542fe9c931c5431bee61c0fe35dbfc34aa79674aa",
+ "cap": {
+  "apk_file": "io.github.sak.read.it.later_1100.apk",
+  "package": "io.github.sak.read.it.later",
+  "versionName": "0.1.100",
+  "versionCode": "1100",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.WAKE_LOCK",
+   "io.github.sak.read.it.later.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.042,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.099
+  },
+  "apk_bytes": 15999485
+ },
+ "lib": {
+  "package": "io.github.sak.read.it.later",
+  "classes_total": 2386,
+  "class_buckets": {
+   "obfuscated": 1658,
+   "known_library": 539,
+   "platform_shim": 3,
+   "unresolved": 134,
+   "app_code": 52
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 44
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 100
+   },
+   {
+    "prefix": "com/fasterxml/jackson/",
+    "name": "Jackson",
+    "group": "com.fasterxml.jackson",
+    "category": "json",
+    "classes": 260
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 81
+   },
+   {
+    "prefix": "org/chromium/",
+    "name": "Chromium/Cronet",
+    "group": "org.chromium",
+    "category": "network",
+    "classes": 54
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/plugin/android_fs/": 54,
+   "app/tauri/plugin/": 25,
+   "app/tauri/": 15,
+   "app/tauri/dialog/": 13,
+   "app/tauri/clipboard/": 8,
+   "app/tauri/annotation/": 6,
+   "com/tts/": 6,
+   "app/tauri/opener/": 3,
+   "com/plugin/mobilesharetarget/": 2,
+   "com/plugin/safe/": 2
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.12.3",
+   "androidx.activity:activity": "1.12.3",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.1",
+   "androidx.appcompat:appcompat": "1.7.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.browser:browser": "1.8.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.compose.runtime:runtime-annotation": "1.9.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.16.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.16.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.1.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment": "1.5.4",
+   "androidx.graphics:graphics-shapes": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.media:media": "1.7.0",
+   "androidx.navigationevent:navigationevent": "1.0.2",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.2.1",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.5.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.webkit:webkit": "1.14.0",
+   "com.google.android.material:material": "1.13.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libarticle_manager_lib.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.094
+ },
+ "signer_sha256": [
+  "ed3f4d85af06e1fe0ab487df5a12ce9bc9df0bdc75229cb92cf5c0ecc820cfe1"
+ ],
+ "seconds": 0.26
+}

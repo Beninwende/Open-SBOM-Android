@@ -1,0 +1,120 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:43968829-2725-4f09-9850-3ecdbaabdd3a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:08Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:name.seguri.android.getforegroundactivity@1.0.2",
+   "name": "name.seguri.android.getforegroundactivity",
+   "version": "1.0.2",
+   "purl": "pkg:generic/name.seguri.android.getforegroundactivity@1.0.2?download_url=https://f-droid.org/repo/name.seguri.android.getforegroundactivity_3.apk&checksum=sha256:b8ba472ea37a481e4919335cd38035d4fc76e707d57f6834d74c77db09fcb376",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "b8ba472ea37a481e4919335cd38035d4fc76e707d57f6834d74c77db09fcb376"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/name.seguri.android.getforegroundactivity_3.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/seguri/GetForegroundActivity"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "3"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "name.seguri.android.getforegroundactivity.WindowChangeDetectingService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:name.seguri.android.getforegroundactivity@1.0.2",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:name.seguri.android.getforegroundactivity@1.0.2"
+   ]
+  }
+ ]
+}

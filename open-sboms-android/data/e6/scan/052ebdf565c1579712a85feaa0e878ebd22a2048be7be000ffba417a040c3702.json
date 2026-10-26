@@ -1,0 +1,242 @@
+{
+ "package": "com.procrastilearn.app",
+ "source": "fdroid-archive",
+ "sha256": "052ebdf565c1579712a85feaa0e878ebd22a2048be7be000ffba417a040c3702",
+ "cap": {
+  "apk_file": "052ebdf565c1579712a85feaa0e878ebd22a2048be7be000ffba417a040c3702.apk",
+  "package": "com.procrastilearn.app",
+  "versionName": "1.4.0",
+  "versionCode": "14",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "com.procrastilearn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.procrastilearn.app.service.OverlayAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": false,
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000001"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.openai.com",
+   "openai.azure.com"
+  ],
+  "ai_sdks": [
+   "com/openai/"
+  ],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "CHATGPT_4O_LATEST",
+   "chatgpt-4o-latest",
+   "https://api.openai.com/v1"
+  ],
+  "old_llm_sdk_strings": [
+   " ()Lcom/openai/core/http/Headers;",
+   " (Lcom/openai/models/ChatModel;)V",
+   " (Lcom/openai/models/Reasoning;)V",
+   " Lcom/openai/client/OpenAIClient;",
+   " Lcom/openai/core/AutoPagerAsync;",
+   " Lcom/openai/core/AutoPagerAsync<",
+   " Lcom/openai/core/BaseSerializer;",
+   " Lcom/openai/core/BaseSerializer<",
+   " Lcom/openai/core/ExcludeMissing;",
+   " Lcom/openai/core/MultipartField;",
+   " Lcom/openai/core/MultipartField<",
+   " Lcom/openai/core/PrepareRequest;",
+   " Lcom/openai/core/RequestOptions;",
+   " Lcom/openai/errors/SseException;",
+   " Lcom/openai/models/images/Image;",
+   " Lcom/openai/models/models/Model;",
+   "!()Lcom/openai/models/ErrorObject;",
+   "!Lcom/openai/core/Timeout$Builder;",
+   "!Lcom/openai/core/http/HttpClient;",
+   "!Lcom/openai/core/http/HttpMethod;"
+  ],
+  "timing": {
+   "manifest_s": 0.021,
+   "a11y_config_s": 0.02,
+   "strings_s": 0.954
+  },
+  "apk_bytes": 25287400
+ },
+ "lib": {
+  "package": "com.procrastilearn.app",
+  "classes_total": 20627,
+  "class_buckets": {
+   "obfuscated": 3883,
+   "known_library": 16721,
+   "platform_shim": 8,
+   "app_code": 5,
+   "unresolved": 10
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 151
+   },
+   {
+    "prefix": "com/fasterxml/jackson/",
+    "name": "Jackson",
+    "group": "com.fasterxml.jackson",
+    "category": "json",
+    "classes": 1282
+   },
+   {
+    "prefix": "com/github/luben/zstd/",
+    "name": "zstd-jni",
+    "group": "com.github.luben",
+    "category": "io",
+    "classes": 2
+   },
+   {
+    "prefix": "com/openai/",
+    "name": "openai-java",
+    "group": "com.openai",
+    "category": "ai",
+    "classes": 13292
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1988
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 3
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "io/github/openspacedrepetition/": 10
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.8.2",
+   "androidx.activity:activity-ktx": "1.8.2",
+   "androidx.activity:activity": "1.8.2",
+   "androidx.annotation:annotation-experimental": "1.5.0",
+   "androidx.appfunctions:appfunctions-service": "1.0.0-alpha09",
+   "androidx.appfunctions:appfunctions": "1.0.0-alpha09",
+   "androidx.appsearch:appsearch-platform-storage": "1.1.0",
+   "androidx.appsearch:appsearch": "1.1.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.8.2",
+   "androidx.compose.animation:animation": "1.8.2",
+   "androidx.compose.foundation:foundation-layout": "1.8.2",
+   "androidx.compose.foundation:foundation": "1.8.2",
+   "androidx.compose.material3:material3": "1.3.2",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.8.2",
+   "androidx.compose.runtime:runtime-saveable": "1.8.2",
+   "androidx.compose.runtime:runtime": "1.8.2",
+   "androidx.compose.ui:ui-geometry": "1.8.2",
+   "androidx.compose.ui:ui-graphics": "1.8.2",
+   "androidx.compose.ui:ui-text": "1.8.2",
+   "androidx.compose.ui:ui-tooling-preview": "1.8.2",
+   "androidx.compose.ui:ui-unit": "1.8.2",
+   "androidx.compose.ui:ui-util": "1.8.2",
+   "androidx.compose.ui:ui": "1.8.2",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.13.1",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.datastore:datastore-core": "1.2.1",
+   "androidx.datastore:datastore-preferences-core": "1.2.1",
+   "androidx.datastore:datastore-preferences": "1.2.1",
+   "androidx.datastore:datastore": "1.2.1",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.fragment:fragment": "1.5.1",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.hilt:hilt-lifecycle-viewmodel-compose": "1.3.0",
+   "androidx.hilt:hilt-lifecycle-viewmodel": "1.3.0",
+   "androidx.hilt:hilt-navigation-compose": "1.3.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.9.1",
+   "androidx.lifecycle:lifecycle-livedata": "2.9.1",
+   "androidx.lifecycle:lifecycle-process": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-runtime": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.9.1",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.9.1",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigation:navigation-common": "2.9.0",
+   "androidx.navigation:navigation-compose": "2.9.0",
+   "androidx.navigation:navigation-runtime": "2.9.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.room:room-runtime": "2.8.4",
+   "androidx.savedstate:savedstate-compose": "1.3.0",
+   "androidx.savedstate:savedstate-ktx": "1.3.0",
+   "androidx.savedstate:savedstate": "1.3.0",
+   "androidx.sqlite:sqlite-framework": "2.6.2",
+   "androidx.sqlite:sqlite": "2.6.2",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.dagger:dagger-lint-aar": "2.59.2",
+   "com.google.dagger:dagger": "2.59.2",
+   "com.google.dagger:hilt-android": "2.59.2",
+   "com.google.dagger:hilt-core": "2.59.2",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0",
+   "kotlinx:coroutines_guava": "1.9.0"
+  },
+  "kotlin_modules": [
+   "jackson-module-kotlin",
+   "kotlin-reflection",
+   "kotlin-stdlib",
+   "openai-java-core",
+   "ui_release"
+  ],
+  "native_libs": [
+   "libandroidx.graphics.path.so",
+   "libdatastore_shared_counter.so",
+   "libzstd-jni-1.5.7-11.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 1.494
+ },
+ "signer_sha256": [
+  "4fe800ea6e35655d54e7a36ed83004696d11c1cd341e468952a8ffc11dc47c50"
+ ],
+ "seconds": 2.52
+}

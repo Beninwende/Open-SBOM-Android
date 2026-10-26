@@ -1,0 +1,35 @@
+{
+ "apk_file": "com.mateusrodcosta.apps.vidyamusic_2200.apk",
+ "package": "com.mateusrodcosta.apps.vidyamusic",
+ "versionName": "3.0.1-R",
+ "versionCode": "2200",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.WAKE_LOCK",
+  "com.mateusrodcosta.apps.vidyamusic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.122
+ },
+ "apk_bytes": 5900559,
+ "stratum": "D_desc_llm_ai"
+}

@@ -1,0 +1,53 @@
+{
+ "apk_file": "dev.pranav.applock_251.apk",
+ "package": "dev.pranav.applock",
+ "versionName": "2.5.1",
+ "versionCode": "251",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.BIND_ACCESSIBILITY_SERVICE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+  "android.permission.HIDE_OVERLAY_WINDOWS",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "dev.pranav.applock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "dev.pranav.applock.services.AppLockAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000040"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.029,
+  "strings_s": 0.095
+ },
+ "apk_bytes": 2342730,
+ "stratum": "A_perm_in_index"
+}

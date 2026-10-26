@@ -1,0 +1,62 @@
+{
+ "package": "cf.theonewiththebraid.guerrilla_mail",
+ "classes_total": 410,
+ "class_buckets": {
+  "obfuscated": 97,
+  "known_library": 291,
+  "app_code": 22
+ },
+ "known_libraries": [
+  {
+   "prefix": "android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "category": "framework",
+   "classes": 2
+  },
+  {
+   "prefix": "androidx/",
+   "name": "AndroidX (Jetpack)",
+   "group": "androidx",
+   "category": "framework",
+   "classes": 53
+  },
+  {
+   "prefix": "io/flutter/",
+   "name": "Flutter engine (Java side)",
+   "group": "io.flutter",
+   "category": "framework",
+   "classes": 236
+  }
+ ],
+ "unresolved_namespaces": {},
+ "maven_metadata": {
+  "androidx.lifecycle:lifecycle-livedata-core": "2.0.0",
+  "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+  "androidx.savedstate:savedstate": "1.0.0",
+  "androidx.fragment:fragment": "1.1.0",
+  "androidx.activity:activity": "1.0.0",
+  "androidx.customview:customview": "1.0.0",
+  "androidx.loader:loader": "1.0.0",
+  "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+  "androidx.lifecycle:lifecycle-runtime": "2.2.0",
+  "androidx.viewpager:viewpager": "1.0.0",
+  "androidx.lifecycle:lifecycle-viewmodel": "2.1.0",
+  "androidx.core:core": "1.1.0",
+  "androidx.arch.core:core-runtime": "2.0.0"
+ },
+ "kotlin_modules": [
+  "app_release",
+  "kotlin-stdlib",
+  "kotlin-stdlib-common",
+  "kotlin-stdlib-common-coroutines",
+  "kotlin-stdlib-coroutines",
+  "kotlin-stdlib-jdk7"
+ ],
+ "native_libs": [
+  "libapp.so",
+  "libflutter.so"
+ ],
+ "exodus_trackers": [],
+ "seconds": 0.023
+}

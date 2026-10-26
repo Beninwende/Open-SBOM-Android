@@ -1,0 +1,304 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:b2ba24c1-5329-4161-9277-93b19733cf48",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:10Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:negativedensity.techahashi@7.0.1",
+   "name": "negativedensity.techahashi",
+   "version": "7.0.1",
+   "purl": "pkg:generic/negativedensity.techahashi@7.0.1?download_url=https://f-droid.org/repo/negativedensity.techahashi_70001.apk&checksum=sha256:2e2aac33dbd7bfecfac1d824efddcc1f4556e8f8f692dd854f6ae8077be8233b",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2e2aac33dbd7bfecfac1d824efddcc1f4556e8f8f692dd854f6ae8077be8233b"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/negativedensity.techahashi_70001.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/andswitch/techahashi"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "70001"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "lib:android.arch.lifecycle:runtime",
+   "group": "android.arch.lifecycle",
+   "name": "runtime",
+   "purl": "pkg:maven/android.arch.lifecycle/runtime@1.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/android.arch.lifecycle_runtime.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "1.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:exifinterface",
+   "group": "com.android.support",
+   "name": "exifinterface",
+   "purl": "pkg:maven/com.android.support/exifinterface@27.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_exifinterface.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "lib:com.android.support:support-compat",
+   "group": "com.android.support",
+   "name": "support-compat",
+   "purl": "pkg:maven/com.android.support/support-compat@27.1.0",
+   "evidence": {
+    "identity": [
+     {
+      "field": "purl",
+      "confidence": 0.9,
+      "methods": [
+       {
+        "technique": "manifest-analysis",
+        "confidence": 0.9,
+        "value": "META-INF/com.android.support_support-compat.version"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "maven version file in APK"
+    }
+   ],
+   "version": "27.1.0"
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:com/google/gson/",
+   "name": "Gson",
+   "group": "com.google.code.gson",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "174 classes under com/google/gson/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "json"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:okhttp3/",
+   "name": "OkHttp",
+   "group": "com.squareup.okhttp3",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "203 classes under okhttp3/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "network"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "ns:okio/",
+   "name": "Okio",
+   "group": "com.squareup.okio",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "44 classes under okio/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "io"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:negativedensity.techahashi@7.0.1",
+   "dependsOn": [
+    "lib:android.arch.lifecycle:runtime",
+    "lib:com.android.support:exifinterface",
+    "lib:com.android.support:support-compat",
+    "ns:com/google/gson/",
+    "ns:okhttp3/",
+    "ns:okio/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:negativedensity.techahashi@7.0.1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "apk_file": "com.rama.mako_56.apk",
+ "package": "com.rama.mako",
+ "versionName": "2026.56",
+ "versionCode": "56",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_HIDDEN_PROFILES",
+  "com.rama.mako.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.043
+ },
+ "apk_bytes": 1331824,
+ "stratum": "E_random"
+}

@@ -1,0 +1,64 @@
+{
+ "package": "space.neothefox.laytray",
+ "source": "fdroid-archive",
+ "sha256": "e8063cba0e069c4e58671f5d563644d0b78a746541a02cbb406a29be4a586e2e",
+ "cap": {
+  "apk_file": "e8063cba0e069c4e58671f5d563644d0b78a746541a02cbb406a29be4a586e2e.apk",
+  "package": "space.neothefox.laytray",
+  "versionName": "1.6",
+  "versionCode": "7",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [],
+  "a11y_services": [
+   {
+    "name": "space.neothefox.laytray.IconService",
+    "config_path": "res/xml/accessibility_service_config.xml"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.026,
+   "strings_s": 0.175
+  },
+  "apk_bytes": 1751863
+ },
+ "lib": {
+  "package": "space.neothefox.laytray",
+  "classes_total": 2198,
+  "class_buckets": {
+   "platform_shim": 28,
+   "known_library": 2138,
+   "app_code": 32
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2138
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.126
+ },
+ "signer_sha256": [
+  "5e003b9bd91f4df918fbc00ddbe617f386d1e1eef552795ccf8f6fb56a24c2c3"
+ ],
+ "seconds": 0.35
+}

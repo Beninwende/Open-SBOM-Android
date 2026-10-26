@@ -1,0 +1,37 @@
+{
+ "apk_file": "me.lucky.duress_12.apk",
+ "package": "me.lucky.duress",
+ "versionName": "1.0.11",
+ "versionCode": "12",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT"
+ ],
+ "a11y_services": [
+  {
+   "name": "me.lucky.duress.AccessibilityService",
+   "config_path": "res/ZP.xml",
+   "canRetrieveWindowContent": true,
+   "packageNames": "com.android.systemui"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.096,
+  "strings_s": 0.527
+ },
+ "apk_bytes": 5016553,
+ "stratum": "C_desc_accessibility_other"
+}

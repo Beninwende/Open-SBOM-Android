@@ -1,0 +1,70 @@
+{
+ "apk_file": "com.procrastilearn.app_21.apk",
+ "package": "com.procrastilearn.app",
+ "versionName": "1.4.6",
+ "versionCode": "21",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.INTERNET",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.procrastilearn.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.procrastilearn.app.service.OverlayAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.openai.com",
+  "openai.azure.com"
+ ],
+ "ai_sdks": [
+  "com/openai/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "CHATGPT_4O_LATEST",
+  "chatgpt-4o-latest",
+  "https://api.openai.com/v1"
+ ],
+ "old_llm_sdk_strings": [
+  " Lcom/openai/core/ExcludeMissing;",
+  " Lcom/openai/models/embeddings/a;",
+  " Lcom/openai/models/embeddings/b;",
+  " Lcom/openai/models/evals/runs/a;",
+  " Lcom/openai/models/evals/runs/b;",
+  " Lcom/openai/models/evals/runs/c;",
+  " Lcom/openai/models/evals/runs/d;",
+  " Lcom/openai/models/evals/runs/e;",
+  " Lcom/openai/models/evals/runs/f;",
+  " Lcom/openai/models/evals/runs/g;",
+  " Lcom/openai/models/evals/runs/h;",
+  " Lcom/openai/models/evals/runs/i;",
+  " Lcom/openai/models/evals/runs/j;",
+  " Lcom/openai/models/evals/runs/k;",
+  " Lcom/openai/models/evals/runs/l;",
+  " Lcom/openai/models/evals/runs/m;",
+  " Lcom/openai/models/evals/runs/n;",
+  " Lcom/openai/models/evals/runs/o;",
+  " Lcom/openai/models/evals/runs/p;",
+  " Lcom/openai/models/evals/runs/q;"
+ ],
+ "timing": {
+  "manifest_s": 0.022,
+  "a11y_config_s": 0.034,
+  "strings_s": 0.556
+ },
+ "apk_bytes": 18410008,
+ "stratum": "B_desc_accessibility_service"
+}

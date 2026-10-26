@@ -1,0 +1,120 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:198d3382-c920-4c30-a8c2-15ba6f3cd494",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:03Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:fr.gibinot.panosp@1.0.2",
+   "name": "fr.gibinot.panosp",
+   "version": "1.0.2",
+   "purl": "pkg:generic/fr.gibinot.panosp@1.0.2?download_url=https://f-droid.org/repo/fr.gibinot.panosp_3.apk&checksum=sha256:45fd6a92b1591494a8717b7df4b1ae8c15ee653b0096a3076dcfb95fa4fa99d9",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "45fd6a92b1591494a8717b7df4b1ae8c15ee653b0096a3076dcfb95fa4fa99d9"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/fr.gibinot.panosp_3.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitlab.com/gibdev-group/panosp"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "3"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "fr.gibinot.panosp.PanOSPAccessibilityService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:fr.gibinot.panosp@1.0.2",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:fr.gibinot.panosp@1.0.2"
+   ]
+  }
+ ]
+}

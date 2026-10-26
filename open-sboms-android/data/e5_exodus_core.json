@@ -1,0 +1,256 @@
+{
+ "app.chompass": {
+  "trackers": [],
+  "n_permissions": 27,
+  "n_classes": 1183,
+  "seconds": 0.73
+ },
+ "app.maskan.chat": {
+  "trackers": [],
+  "n_permissions": 8,
+  "n_classes": 4727,
+  "seconds": 0.54
+ },
+ "com.antivocale.app": {
+  "trackers": [],
+  "n_permissions": 10,
+  "n_classes": 1130,
+  "seconds": 1.33
+ },
+ "com.danemadsen.maid": {
+  "trackers": [],
+  "n_permissions": 6,
+  "n_classes": 1696,
+  "seconds": 0.22
+ },
+ "com.inspiredandroid.kai": {
+  "trackers": [],
+  "n_permissions": 15,
+  "n_classes": 7472,
+  "seconds": 3.64
+ },
+ "com.lazydevs.wristotle": {
+  "trackers": [],
+  "n_permissions": 25,
+  "n_classes": 667,
+  "seconds": 1.15
+ },
+ "com.leanbitlab.leantype": {
+  "trackers": [],
+  "n_permissions": 14,
+  "n_classes": 6344,
+  "seconds": 1.95
+ },
+ "com.newoether.agora": {
+  "trackers": [],
+  "n_permissions": 15,
+  "n_classes": 27201,
+  "seconds": 7.29
+ },
+ "com.procrastilearn.app": {
+  "trackers": [],
+  "n_permissions": 4,
+  "n_classes": 2860,
+  "seconds": 2.48
+ },
+ "com.trevornk.ramblr": {
+  "trackers": [],
+  "n_permissions": 11,
+  "n_classes": 600,
+  "seconds": 0.38
+ },
+ "com.typeassist.app": {
+  "trackers": [],
+  "n_permissions": 6,
+  "n_classes": 4320,
+  "seconds": 0.69
+ },
+ "de.froehlichmedia.adaptkey": {
+  "trackers": [],
+  "n_permissions": 3,
+  "n_classes": 1244,
+  "seconds": 0.24
+ },
+ "dev.chungjungsoo.gptmobile": {
+  "trackers": [],
+  "n_permissions": 9,
+  "n_classes": 686,
+  "seconds": 1.23
+ },
+ "io.github.patricksmill.quicknotes": {
+  "trackers": [],
+  "n_permissions": 5,
+  "n_classes": 11638,
+  "seconds": 5.18
+ },
+ "org.sherpr.app": {
+  "trackers": [],
+  "n_permissions": 13,
+  "n_classes": 717,
+  "seconds": 0.48
+ },
+ "org.venkado.relagent": {
+  "trackers": [],
+  "n_permissions": 12,
+  "n_classes": 2256,
+  "seconds": 0.48
+ },
+ "co.xplat.husk": {
+  "trackers": [],
+  "n_permissions": 16,
+  "n_classes": 77,
+  "seconds": 0.02
+ },
+ "com.akslabs.circletosearch": {
+  "trackers": [],
+  "n_permissions": 6,
+  "n_classes": 3603,
+  "seconds": 0.27
+ },
+ "com.carriez.flutter_hbb": {
+  "trackers": [],
+  "n_permissions": 14,
+  "n_classes": 3612,
+  "seconds": 0.45
+ },
+ "com.remotephone": {
+  "trackers": [],
+  "n_permissions": 6,
+  "n_classes": 561,
+  "seconds": 0.06
+ },
+ "com.zorinos.zorin_connect": {
+  "trackers": [],
+  "n_permissions": 39,
+  "n_classes": 5016,
+  "seconds": 1.55
+ },
+ "eu.darken.sdmse": {
+  "trackers": [],
+  "n_permissions": 22,
+  "n_classes": 6027,
+  "seconds": 2.2
+ },
+ "io.github.sds100.keymapper": {
+  "trackers": [],
+  "n_permissions": 33,
+  "n_classes": 2229,
+  "seconds": 1.91
+ },
+ "io.github.vibhor1102.macrion": {
+  "trackers": [
+   "ACRA"
+  ],
+  "n_permissions": 7,
+  "n_classes": 497,
+  "seconds": 1.22
+ },
+ "net.christianbeier.droidvnc_ng": {
+  "trackers": [],
+  "n_permissions": 12,
+  "n_classes": 1160,
+  "seconds": 0.31
+ },
+ "org.kde.kdeconnect_tp": {
+  "trackers": [],
+  "n_permissions": 39,
+  "n_classes": 5333,
+  "seconds": 1.74
+ },
+ "cf.theonewiththebraid.guerrilla_mail": {
+  "trackers": [],
+  "n_permissions": 1,
+  "n_classes": 357,
+  "seconds": 0.06
+ },
+ "ch.pec0ra.suspension_setup": {
+  "trackers": [],
+  "n_permissions": 1,
+  "n_classes": 1782,
+  "seconds": 0.3
+ },
+ "com.agateau.catgenerator": {
+  "trackers": [],
+  "n_permissions": 1,
+  "n_classes": 2336,
+  "seconds": 0.59
+ },
+ "com.amanoteam.flonne": {
+  "trackers": [],
+  "n_permissions": 68,
+  "n_classes": 5121,
+  "seconds": 4.04
+ },
+ "com.atop": {
+  "trackers": [],
+  "n_permissions": 1,
+  "n_classes": 2379,
+  "seconds": 0.65
+ },
+ "com.baluchon.app": {
+  "trackers": [],
+  "n_permissions": 2,
+  "n_classes": 397,
+  "seconds": 0.49
+ },
+ "com.digitalfishfun.openshift": {
+  "trackers": [],
+  "n_permissions": 0,
+  "n_classes": 929,
+  "seconds": 0.3
+ },
+ "com.fixupxer": {
+  "trackers": [],
+  "n_permissions": 0,
+  "n_classes": 1338,
+  "seconds": 0.79
+ },
+ "com.polyalerts": {
+  "trackers": [],
+  "n_permissions": 8,
+  "n_classes": 3243,
+  "seconds": 0.3
+ },
+ "com.ridgebotics.ridgescout": {
+  "trackers": [],
+  "n_permissions": 11,
+  "n_classes": 9491,
+  "seconds": 3.05
+ },
+ "com.seeker.seekprivacy": {
+  "trackers": [],
+  "n_permissions": 5,
+  "n_classes": 4806,
+  "seconds": 1.62
+ },
+ "com.willchan.simple_random_stock": {
+  "trackers": [],
+  "n_permissions": 0,
+  "n_classes": 3189,
+  "seconds": 0.98
+ },
+ "de.devmil.muzei.bingimageofthedayartsource": {
+  "trackers": [],
+  "n_permissions": 7,
+  "n_classes": 2808,
+  "seconds": 0.63
+ },
+ "es.ideotec.t16fling": {
+  "trackers": [],
+  "n_permissions": 0,
+  "n_classes": 2195,
+  "seconds": 0.72
+ },
+ "io.github.hamdav.predikt": {
+  "trackers": [],
+  "n_permissions": 1,
+  "n_classes": 1474,
+  "seconds": 0.27
+ },
+ "org.strawberryforum.argentum": {
+  "trackers": [],
+  "n_permissions": 2,
+  "n_classes": 1901,
+  "seconds": 0.54
+ }
+}

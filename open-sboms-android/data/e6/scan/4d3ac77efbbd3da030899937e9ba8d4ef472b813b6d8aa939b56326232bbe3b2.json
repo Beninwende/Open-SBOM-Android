@@ -1,0 +1,156 @@
+{
+ "package": "jwtc.android.chess",
+ "source": "fdroid-archive",
+ "sha256": "4d3ac77efbbd3da030899937e9ba8d4ef472b813b6d8aa939b56326232bbe3b2",
+ "cap": {
+  "apk_file": "4d3ac77efbbd3da030899937e9ba8d4ef472b813b6d8aa939b56326232bbe3b2.apk",
+  "package": "jwtc.android.chess",
+  "versionName": "10.3.2",
+  "versionCode": "284",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.FULLSCREEN",
+   "android.permission.INTERNET",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "jwtc.android.chess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.013,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.099
+  },
+  "apk_bytes": 3375595
+ },
+ "lib": {
+  "package": "jwtc.android.chess",
+  "classes_total": 1881,
+  "class_buckets": {
+   "obfuscated": 1226,
+   "known_library": 478,
+   "platform_shim": 4,
+   "app_code": 165,
+   "unresolved": 8
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 26
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 210
+   },
+   {
+    "prefix": "com/google/android/flexbox/",
+    "name": "FlexboxLayout",
+    "group": "com.google.android.flexbox",
+    "category": "ui",
+    "classes": 2
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 33
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 206
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "jwtc/chess/": 8
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.appcompat:appcompat": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.browser:browser": "1.3.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.13.0",
+   "androidx.core:core": "1.13.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.1.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment": "1.5.4",
+   "androidx.graphics:graphics-shapes": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-process": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": null,
+   "androidx.lifecycle:lifecycle-viewmodel": null,
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.4.1",
+   "androidx.mediarouter:mediarouter": "1.8.1",
+   "androidx.palette:palette": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.recyclerview:recyclerview": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.2.0",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.5.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.13.0",
+   "kotlinx:coroutines_android": "1.6.4",
+   "kotlinx:coroutines_core": "1.6.4"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libchess-jni.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.079
+ },
+ "signer_sha256": [
+  "e0c0cbdeebe74a7bb65a409c509d248b875b84cad3bd59c1debf013f30037fba"
+ ],
+ "seconds": 0.22
+}

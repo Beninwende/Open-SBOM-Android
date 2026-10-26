@@ -1,0 +1,36 @@
+{
+ "apk_file": "com.nfcarchiver.nfc_archiver_15.apk",
+ "package": "com.nfcarchiver.nfc_archiver",
+ "versionName": "1.2.0",
+ "versionCode": "15",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.BLUETOOTH",
+  "android.permission.BLUETOOTH_ADMIN",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.BLUETOOTH_SCAN",
+  "android.permission.NFC",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.nfcarchiver.nfc_archiver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.057,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.084
+ },
+ "apk_bytes": 56852209,
+ "stratum": "E_random"
+}

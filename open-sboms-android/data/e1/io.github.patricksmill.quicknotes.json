@@ -1,0 +1,63 @@
+{
+ "apk_file": "io.github.patricksmill.quicknotes_100007.apk",
+ "package": "io.github.patricksmill.quicknotes",
+ "versionName": "1.0.7",
+ "versionCode": "100007",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.REORDER_TASKS",
+  "io.github.patricksmill.quicknotes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.openai.com",
+  "openai.azure.com"
+ ],
+ "ai_sdks": [
+  "com/openai/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "CHATGPT_4O_LATEST",
+  "chatgpt-4o-latest",
+  "https://api.openai.com/v1"
+ ],
+ "old_llm_sdk_strings": [
+  " ()Lcom/openai/core/http/Headers;",
+  " Lcom/openai/client/OpenAIClient;",
+  " Lcom/openai/core/AutoPagerAsync;",
+  " Lcom/openai/core/AutoPagerAsync<",
+  " Lcom/openai/core/BaseSerializer;",
+  " Lcom/openai/core/BaseSerializer<",
+  " Lcom/openai/core/DefaultSleeper;",
+  " Lcom/openai/core/ExcludeMissing;",
+  " Lcom/openai/core/MultipartField;",
+  " Lcom/openai/core/MultipartField<",
+  " Lcom/openai/core/PrepareRequest;",
+  " Lcom/openai/core/RequestOptions;",
+  " Lcom/openai/errors/SseException;",
+  " Lcom/openai/models/images/Image;",
+  " Lcom/openai/models/models/Model;",
+  " Lcom/openai/models/videos/Video;",
+  "!Lcom/openai/core/Timeout$Builder;",
+  "!Lcom/openai/core/http/HttpClient;",
+  "!Lcom/openai/core/http/HttpMethod;",
+  "!Lcom/openai/core/http/SseMessage;"
+ ],
+ "timing": {
+  "manifest_s": 0.053,
+  "a11y_config_s": 0.0,
+  "strings_s": 2.267
+ },
+ "apk_bytes": 46249913,
+ "stratum": "D_desc_llm_ai"
+}

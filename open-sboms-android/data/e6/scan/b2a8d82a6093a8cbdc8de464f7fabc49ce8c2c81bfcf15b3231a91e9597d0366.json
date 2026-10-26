@@ -1,0 +1,180 @@
+{
+ "package": "com.bearinmind.equalizer314",
+ "source": "fdroid-archive",
+ "sha256": "b2a8d82a6093a8cbdc8de464f7fabc49ce8c2c81bfcf15b3231a91e9597d0366",
+ "cap": {
+  "apk_file": "b2a8d82a6093a8cbdc8de464f7fabc49ce8c2c81bfcf15b3231a91e9597d0366.apk",
+  "package": "com.bearinmind.equalizer314",
+  "versionName": "0.0.19-beta_hotfix1",
+  "versionCode": "24",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.BLUETOOTH_CONNECT",
+   "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+   "android.permission.DUMP",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+   "android.permission.INTERNET",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECORD_AUDIO",
+   "com.bearinmind.equalizer314.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.066,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.755
+  },
+  "apk_bytes": 9306492
+ },
+ "lib": {
+  "package": "com.bearinmind.equalizer314",
+  "classes_total": 7703,
+  "class_buckets": {
+   "known_library": 6770,
+   "app_code": 933
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 3516
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 1282
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 26
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 985
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 878
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity": "1.8.0",
+   "androidx.annotation:annotation-experimental": "1.3.0",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.12.0",
+   "androidx.core:core": "1.12.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.fragment:fragment": "1.3.6",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.7.0",
+   "androidx.lifecycle:lifecycle-process": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.7.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.1.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.0",
+   "androidx.recyclerview:recyclerview": "1.3.2",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.1.0-beta02",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.11.0",
+   "kotlinx:coroutines_android": "1.7.3",
+   "kotlinx:coroutines_core": "1.7.3"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.57
+ },
+ "signer_sha256": [
+  "7a8368d18ad64294f9aadf4b736adcd15cb0cb88c6b9dc2e0bd5f1e461b83e52"
+ ],
+ "seconds": 1.56
+}

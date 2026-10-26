@@ -1,0 +1,41 @@
+{
+ "apk_file": "com.bearinmind.equalizer314_27.apk",
+ "package": "com.bearinmind.equalizer314",
+ "versionName": "0.0.22-beta",
+ "versionCode": "27",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+  "android.permission.DUMP",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+  "android.permission.INTERNET",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "com.bearinmind.equalizer314.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.062,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.625
+ },
+ "apk_bytes": 9831653,
+ "stratum": "C_desc_accessibility_other"
+}

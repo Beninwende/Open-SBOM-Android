@@ -1,0 +1,44 @@
+{
+ "apk_file": "com.asdoi.quicktiles_18.apk",
+ "package": "com.asdoi.quicktiles",
+ "versionName": "1.8",
+ "versionCode": "18",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.DUMP",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "android.permission.WRITE_SETTINGS",
+  "com.android.alarm.permission.SET_ALARM",
+  "com.asdoi.quicktiles.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.flxholle.quicktiles.utils.CustomAccessibilityService",
+   "config_path": "res/zB.xml",
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.02,
+  "a11y_config_s": 0.098,
+  "strings_s": 0.73
+ },
+ "apk_bytes": 6470861,
+ "stratum": "D_desc_llm_ai"
+}

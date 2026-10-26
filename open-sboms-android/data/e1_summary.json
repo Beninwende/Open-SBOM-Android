@@ -1,0 +1,254 @@
+{
+ "counts": {
+  "all (306)": {
+   "apks": 306,
+   "overlay (SYSTEM_ALERT_WINDOW)": 34,
+   "AI endpoint string": 33,
+   "AI any (endpoint|SDK)": 34,
+   "old-pilot AI definition (old regexes)": 40,
+   "a11y_service": 84,
+   "AI SDK namespace": 8,
+   "a11y_read (canRetrieveWindowContent)": 41,
+   "a11y_service+overlay": 22,
+   "a11y_inject (canPerformGestures)": 17,
+   "read+inject": 16,
+   "dispatchGesture string": 17,
+   "read+inject+INTERNET": 10,
+   "a11y_service + AI any": 6,
+   "a11y_service + old AI definition": 7,
+   "read+inject + AI endpoint": 1,
+   "read+inject + AI any": 1,
+   "AI native runtime lib": 9
+  },
+  "random stratum E (117)": {
+   "apks": 117,
+   "overlay (SYSTEM_ALERT_WINDOW)": 6,
+   "a11y_service": 3,
+   "a11y_service+overlay": 2,
+   "a11y_read (canRetrieveWindowContent)": 2,
+   "a11y_inject (canPerformGestures)": 1,
+   "read+inject": 1,
+   "read+inject+INTERNET": 1,
+   "dispatchGesture string": 1,
+   "old-pilot AI definition (old regexes)": 1
+  },
+  "targeted strata A-D (189)": {
+   "apks": 189,
+   "overlay (SYSTEM_ALERT_WINDOW)": 28,
+   "AI endpoint string": 33,
+   "AI any (endpoint|SDK)": 34,
+   "old-pilot AI definition (old regexes)": 39,
+   "a11y_service": 81,
+   "AI SDK namespace": 8,
+   "a11y_read (canRetrieveWindowContent)": 39,
+   "a11y_service+overlay": 20,
+   "a11y_inject (canPerformGestures)": 16,
+   "read+inject": 15,
+   "dispatchGesture string": 16,
+   "read+inject+INTERNET": 9,
+   "a11y_service + AI any": 6,
+   "a11y_service + old AI definition": 7,
+   "read+inject + AI endpoint": 1,
+   "read+inject + AI any": 1,
+   "AI native runtime lib": 9
+  },
+  "A_perm_in_index": {
+   "apks": 6,
+   "a11y_service": 6,
+   "a11y_read (canRetrieveWindowContent)": 4,
+   "a11y_inject (canPerformGestures)": 2,
+   "read+inject": 2,
+   "dispatchGesture string": 2,
+   "read+inject+INTERNET": 1,
+   "overlay (SYSTEM_ALERT_WINDOW)": 4,
+   "a11y_service+overlay": 4
+  },
+  "B_desc_accessibility_service": {
+   "apks": 68,
+   "a11y_service": 59,
+   "a11y_read (canRetrieveWindowContent)": 29,
+   "overlay (SYSTEM_ALERT_WINDOW)": 14,
+   "a11y_service+overlay": 13,
+   "a11y_inject (canPerformGestures)": 11,
+   "read+inject": 11,
+   "dispatchGesture string": 11,
+   "read+inject+INTERNET": 6,
+   "AI endpoint string": 5,
+   "AI any (endpoint|SDK)": 5,
+   "old-pilot AI definition (old regexes)": 6,
+   "a11y_service + AI any": 5,
+   "a11y_service + old AI definition": 6,
+   "read+inject + AI endpoint": 1,
+   "read+inject + AI any": 1,
+   "AI SDK namespace": 1,
+   "AI native runtime lib": 2
+  },
+  "C_desc_accessibility_other": {
+   "apks": 58,
+   "a11y_service": 14,
+   "overlay (SYSTEM_ALERT_WINDOW)": 6,
+   "a11y_service+overlay": 3,
+   "a11y_inject (canPerformGestures)": 3,
+   "dispatchGesture string": 3,
+   "a11y_read (canRetrieveWindowContent)": 6,
+   "old-pilot AI definition (old regexes)": 1,
+   "read+inject": 2,
+   "read+inject+INTERNET": 2
+  },
+  "D_desc_llm_ai": {
+   "apks": 57,
+   "overlay (SYSTEM_ALERT_WINDOW)": 4,
+   "AI endpoint string": 28,
+   "AI any (endpoint|SDK)": 29,
+   "old-pilot AI definition (old regexes)": 32,
+   "AI SDK namespace": 7,
+   "AI native runtime lib": 7,
+   "a11y_service": 2,
+   "a11y_service + AI any": 1,
+   "a11y_service + old AI definition": 1
+  },
+  "E_random": {
+   "apks": 117,
+   "overlay (SYSTEM_ALERT_WINDOW)": 6,
+   "a11y_service": 3,
+   "a11y_service+overlay": 2,
+   "a11y_read (canRetrieveWindowContent)": 2,
+   "a11y_inject (canPerformGestures)": 1,
+   "read+inject": 1,
+   "read+inject+INTERNET": 1,
+   "dispatchGesture string": 1,
+   "old-pilot AI definition (old regexes)": 1
+  }
+ },
+ "lists": {
+  "read+inject+INTERNET": [
+   "co.xplat.husk",
+   "com.akslabs.circletosearch",
+   "com.carriez.flutter_hbb",
+   "com.remotephone",
+   "com.zorinos.zorin_connect",
+   "eu.darken.sdmse",
+   "io.github.sds100.keymapper",
+   "io.github.vibhor1102.macrion",
+   "net.christianbeier.droidvnc_ng",
+   "org.kde.kdeconnect_tp"
+  ],
+  "read+inject + AI any": [
+   "com.android.talkback"
+  ],
+  "a11y_service + AI any": [
+   "com.android.talkback",
+   "com.musheer360.swiftslate",
+   "com.procrastilearn.app",
+   "com.tk.quicksearch",
+   "com.trevornk.ramblr",
+   "com.typeassist.app"
+  ],
+  "a11y_service + old AI definition": [
+   "com.android.talkback",
+   "com.celzero.bravedns",
+   "com.musheer360.swiftslate",
+   "com.procrastilearn.app",
+   "com.tk.quicksearch",
+   "com.trevornk.ramblr",
+   "com.typeassist.app"
+  ],
+  "AI SDK namespace": {
+   "app.chompass": [
+    "com/google/ai/edge/"
+   ],
+   "app.maskan.chat": [
+    "com/google/mediapipe/tasks/genai/"
+   ],
+   "com.antivocale.app": [
+    "com/google/ai/edge/",
+    "com/google/mediapipe/tasks/genai/"
+   ],
+   "com.inspiredandroid.kai": [
+    "com/google/ai/edge/"
+   ],
+   "com.leanbitlab.leantype": [
+    "com/google/ai/client/generativeai/"
+   ],
+   "com.procrastilearn.app": [
+    "com/openai/"
+   ],
+   "dev.chungjungsoo.gptmobile": [
+    "com/google/ai/edge/"
+   ],
+   "io.github.patricksmill.quicknotes": [
+    "com/openai/"
+   ]
+  },
+  "AI native runtime lib": {
+   "com.antivocale.app": [
+    "libonnxruntime.so"
+   ],
+   "com.danemadsen.maid": [
+    "libggml-base.so",
+    "libggml-cpu.so",
+    "libggml.so",
+    "libllama.so"
+   ],
+   "com.lazydevs.wristotle": [
+    "libggml-base.so",
+    "libggml-cpu.so",
+    "libggml.so",
+    "libonnxruntime.so",
+    "libonnxruntime4j_jni.so",
+    "libwhisper.so"
+   ],
+   "com.newoether.agora": [
+    "libggml-base.so",
+    "libggml-cpu-android_armv8.0_1.so",
+    "libggml-cpu-android_armv8.2_1.so",
+    "libggml-cpu-android_armv8.2_2.so",
+    "libggml-cpu-android_armv8.6_1.so",
+    "libggml-cpu-android_armv9.0_1.so",
+    "libggml-cpu-android_armv9.2_1.so",
+    "libggml-cpu-android_armv9.2_2.so",
+    "libggml.so",
+    "libllama-common.so",
+    "libllama.so"
+   ],
+   "com.trevornk.ramblr": [
+    "libggml-base.so",
+    "libggml-cpu-android_armv8.0_1.so",
+    "libggml-cpu-android_armv8.2_1.so",
+    "libggml-cpu-android_armv8.2_2.so",
+    "libggml-cpu-android_armv8.6_1.so",
+    "libggml.so",
+    "libllama-cleanup-jni.so",
+    "libllama-common.so",
+    "libllama.so",
+    "libonnxruntime.so"
+   ],
+   "com.typeassist.app": [
+    "libggml-base.so",
+    "libggml-cpu.so",
+    "libggml.so",
+    "libllama.so"
+   ],
+   "de.froehlichmedia.adaptkey": [
+    "libonnxruntime.so",
+    "libonnxruntime4j_jni.so"
+   ],
+   "org.sherpr.app": [
+    "libwhisper.so"
+   ],
+   "org.venkado.relagent": [
+    "libonnxruntime.so"
+   ]
+  }
+ },
+ "index_comparison": {
+  "apps_in_index": 4766,
+  "index_lists_BIND_ACCESSIBILITY_SERVICE": 5,
+  "of_which_in_sample": 5,
+  "sample_apks_with_a11y_service": 84,
+  "index_lists_SYSTEM_ALERT_WINDOW_all_apps": 250,
+  "index_overlay_for_sample": 34,
+  "sample_apks_with_overlay": 34
+ },
+ "reconcile_diffs": 0
+}

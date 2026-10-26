@@ -1,0 +1,29 @@
+{
+ "apk_file": "ch.pec0ra.suspension_setup_133.apk",
+ "package": "ch.pec0ra.suspension_setup",
+ "versionName": "3.1.1",
+ "versionCode": "133",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "ch.pec0ra.suspension_setup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.026,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.079
+ },
+ "apk_bytes": 22068315,
+ "stratum": "E_random"
+}

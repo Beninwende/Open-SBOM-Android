@@ -1,0 +1,143 @@
+{
+ "package": "com.mateusrodcosta.apps.vidyamusic",
+ "source": "fdroid-archive",
+ "sha256": "8dd1eca9c415cb330ae468859603d9c93b0da586a550b88a17dd3dfd502386b7",
+ "cap": {
+  "apk_file": "8dd1eca9c415cb330ae468859603d9c93b0da586a550b88a17dd3dfd502386b7.apk",
+  "package": "com.mateusrodcosta.apps.vidyamusic",
+  "versionName": "2.0.1",
+  "versionCode": "1702",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+   "android.permission.INTERNET",
+   "android.permission.WAKE_LOCK",
+   "com.mateusrodcosta.apps.vidyamusic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.02,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.086
+  },
+  "apk_bytes": 19277745
+ },
+ "lib": {
+  "package": "com.mateusrodcosta.apps.vidyamusic",
+  "classes_total": 2208,
+  "class_buckets": {
+   "obfuscated": 1900,
+   "platform_shim": 8,
+   "known_library": 295,
+   "app_code": 5
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 50
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 177
+   },
+   {
+    "prefix": "io/flutter/",
+    "name": "Flutter engine (Java side)",
+    "group": "io.flutter",
+    "category": "framework",
+    "classes": 68
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.8.1",
+   "androidx.activity:activity": "1.8.1",
+   "androidx.annotation:annotation-experimental": "1.4.0",
+   "androidx.appcompat:appcompat-resources": "1.1.0",
+   "androidx.appcompat:appcompat": "1.1.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.browser:browser": "1.8.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core-splashscreen": "1.0.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.datastore:datastore-core": "1.1.1",
+   "androidx.datastore:datastore-preferences": "1.1.1",
+   "androidx.datastore:datastore": "1.1.1",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.exifinterface:exifinterface": "1.3.6",
+   "androidx.fragment:fragment-ktx": "1.7.1",
+   "androidx.fragment:fragment": "1.7.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.7.0",
+   "androidx.lifecycle:lifecycle-process": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.7.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.7.0",
+   "androidx.preference:preference": "1.2.1",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.4.1",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window.extensions.core:core": "1.0.0",
+   "androidx.window:window-java": "1.2.0",
+   "androidx.window:window": "1.2.0",
+   "kotlinx:coroutines_android": "1.7.3",
+   "kotlinx:coroutines_core": "1.7.3"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libapp.so",
+   "libdatastore_shared_counter.so",
+   "libflutter.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.078
+ },
+ "signer_sha256": [
+  "2a0b90541cf2e483b72fe1f401acdf202feefad90b335a31d6dbac3ba0e06087"
+ ],
+ "seconds": 0.21
+}

@@ -1,0 +1,42 @@
+app.chompass {'found': True, 'trackers': 0, 'permissions': 27, 'tracker_names': [], 'report_version': '5.3.0', 'scanned_version': '5.6.0', 'report_date': 'Oct. 8, 2026', 'source': 'F-Droid'}
+app.maskan.chat {'found': True, 'trackers': 0, 'permissions': 3, 'tracker_names': [], 'report_version': '2.3.1', 'scanned_version': '2.6.1', 'report_date': 'June 2, 2026', 'source': 'F-Droid'}
+com.antivocale.app {'found': True, 'trackers': 0, 'permissions': 10, 'tracker_names': [], 'report_version': '1.13.2', 'scanned_version': '1.14.1', 'report_date': 'Oct. 8, 2026', 'source': 'F-Droid'}
+com.danemadsen.maid {'found': True, 'trackers': 0, 'permissions': 14, 'tracker_names': [], 'report_version': '3.0.0', 'scanned_version': '2.0.4', 'report_date': 'June 18, 2026', 'source': 'Google'}
+com.inspiredandroid.kai {'found': True, 'trackers': 0, 'permissions': 13, 'tracker_names': [], 'report_version': '3.1.0', 'scanned_version': '3.3.0', 'report_date': 'Sept. 10, 2026', 'source': 'Google'}
+com.lazydevs.wristotle {'found': True, 'trackers': 0, 'permissions': 25, 'tracker_names': [], 'report_version': '1.23.0', 'scanned_version': '1.23.0', 'report_date': 'Oct. 23, 2026', 'source': 'F-Droid'}
+com.leanbitlab.leantype {'found': True, 'trackers': 0, 'permissions': 14, 'tracker_names': [], 'report_version': '4.2.8', 'scanned_version': '4.2.8', 'report_date': 'Oct. 23, 2026', 'source': 'F-Droid'}
+com.newoether.agora {'found': True, 'trackers': 0, 'permissions': 12, 'tracker_names': [], 'report_version': '2.1.0', 'scanned_version': '2.1.0', 'report_date': 'Oct. 17, 2026', 'source': 'Google'}
+com.procrastilearn.app {'found': True, 'trackers': 0, 'permissions': 5, 'tracker_names': [], 'report_version': '1.4.6', 'scanned_version': '1.4.6', 'report_date': 'Oct. 22, 2026', 'source': 'Google'}
+com.trevornk.ramblr {'found': False, 'error': 'HTTP Error 404: Not Found'}
+com.typeassist.app {'found': True, 'trackers': 0, 'permissions': 6, 'tracker_names': [], 'report_version': '4.2.0', 'scanned_version': '4.2.0', 'report_date': 'Aug. 15, 2026', 'source': 'F-Droid'}
+de.froehlichmedia.adaptkey {'found': True, 'trackers': 0, 'permissions': 3, 'tracker_names': [], 'report_version': '1.2.70', 'scanned_version': '1.2.70', 'report_date': 'Oct. 4, 2026', 'source': 'F-Droid'}
+dev.chungjungsoo.gptmobile {'found': True, 'trackers': 0, 'permissions': 9, 'tracker_names': [], 'report_version': '0.9.1', 'scanned_version': '0.9.1', 'report_date': 'Oct. 11, 2026', 'source': 'Google'}
+io.github.patricksmill.quicknotes {'found': True, 'trackers': 0, 'permissions': 5, 'tracker_names': [], 'report_version': '1.0.7', 'scanned_version': '1.0.7', 'report_date': 'April 26, 2026', 'source': 'F-Droid'}
+org.sherpr.app {'found': True, 'trackers': 0, 'permissions': 13, 'tracker_names': [], 'report_version': '0.2.19', 'scanned_version': '0.2.19', 'report_date': 'Sept. 24, 2026', 'source': 'F-Droid'}
+org.venkado.relagent {'found': True, 'trackers': 0, 'permissions': 11, 'tracker_names': [], 'report_version': '0.1.22', 'scanned_version': '0.1.34', 'report_date': 'April 27, 2026', 'source': 'Google'}
+co.xplat.husk {'found': True, 'trackers': 0, 'permissions': 16, 'tracker_names': [], 'report_version': '1.4', 'scanned_version': '1.4', 'report_date': 'Oct. 5, 2026', 'source': 'F-Droid'}
+com.akslabs.circletosearch {'found': True, 'trackers': 0, 'permissions': 7, 'tracker_names': [], 'report_version': '0.5', 'scanned_version': '0.5', 'report_date': 'Sept. 25, 2026', 'source': 'Google'}
+com.carriez.flutter_hbb {'found': True, 'trackers': 0, 'permissions': 14, 'tracker_names': [], 'report_version': '1.4.9', 'scanned_version': '1.4.9', 'report_date': 'July 16, 2026', 'source': 'F-Droid'}
+com.remotephone {'found': True, 'trackers': 0, 'permissions': 6, 'tracker_names': [], 'report_version': '2.0.0', 'scanned_version': '2.0.0', 'report_date': 'Sept. 29, 2026', 'source': 'F-Droid'}
+com.zorinos.zorin_connect {'found': True, 'trackers': 0, 'permissions': 39, 'tracker_names': [], 'report_version': '1.35.13', 'scanned_version': '1.35.13', 'report_date': 'Sept. 5, 2026', 'source': 'Google'}
+eu.darken.sdmse {'found': True, 'trackers': 0, 'permissions': 23, 'tracker_names': [], 'report_version': '2.2.1-rc0', 'scanned_version': '2.2.1-rc0', 'report_date': 'Oct. 12, 2026', 'source': 'Google'}
+io.github.sds100.keymapper {'found': True, 'trackers': 0, 'permissions': 34, 'tracker_names': [], 'report_version': '4.5.0', 'scanned_version': '4.6.1-foss', 'report_date': 'Oct. 14, 2026', 'source': 'Google'}
+io.github.vibhor1102.macrion {'found': True, 'trackers': 1, 'permissions': 7, 'tracker_names': ['ACRA'], 'report_version': '0.6.2', 'scanned_version': '0.6.2', 'report_date': 'Oct. 13, 2026', 'source': 'F-Droid'}
+net.christianbeier.droidvnc_ng {'found': True, 'trackers': 0, 'permissions': 12, 'tracker_names': [], 'report_version': '2.22.0', 'scanned_version': '2.22.0', 'report_date': 'Sept. 29, 2026', 'source': 'Google'}
+org.kde.kdeconnect_tp {'found': True, 'trackers': 0, 'permissions': 39, 'tracker_names': [], 'report_version': '1.36.0', 'scanned_version': '1.36.0', 'report_date': 'Oct. 16, 2026', 'source': 'F-Droid'}
+cf.theonewiththebraid.guerrilla_mail {'found': True, 'trackers': 0, 'permissions': 1, 'tracker_names': [], 'report_version': '0.1.4', 'scanned_version': '0.1.4', 'report_date': 'Nov. 30, 2021', 'source': 'F-Droid'}
+ch.pec0ra.suspension_setup {'found': True, 'trackers': 0, 'permissions': 1, 'tracker_names': [], 'report_version': '3.1.0', 'scanned_version': '3.1.1', 'report_date': 'July 27, 2026', 'source': 'Google'}
+com.agateau.catgenerator {'found': True, 'trackers': 0, 'permissions': 1, 'tracker_names': [], 'report_version': '0.2.1', 'scanned_version': '0.2.1', 'report_date': 'July 19, 2024', 'source': 'Google'}
+com.amanoteam.flonne {'found': True, 'trackers': 0, 'permissions': 68, 'tracker_names': [], 'report_version': '12.10.2', 'scanned_version': '12.10.2', 'report_date': 'Oct. 22, 2026', 'source': 'F-Droid'}
+com.atop {'found': True, 'trackers': 0, 'permissions': 1, 'tracker_names': [], 'report_version': '1.0.0', 'scanned_version': '1.0.0', 'report_date': 'Dec. 10, 2024', 'source': 'F-Droid'}
+com.baluchon.app {'found': True, 'trackers': 0, 'permissions': 3, 'tracker_names': [], 'report_version': '3.3', 'scanned_version': '3.3', 'report_date': 'Aug. 29, 2026', 'source': 'Google'}
+com.digitalfishfun.openshift {'found': True, 'trackers': 0, 'permissions': 0, 'tracker_names': [], 'report_version': '1.0', 'scanned_version': '1.0', 'report_date': 'Oct. 7, 2018', 'source': 'Google'}
+com.fixupxer {'found': True, 'trackers': 0, 'permissions': 0, 'tracker_names': [], 'report_version': '2.9.2', 'scanned_version': '2.9.2', 'report_date': 'Oct. 19, 2026', 'source': 'F-Droid'}
+com.polyalerts {'found': False, 'error': 'HTTP Error 404: Not Found'}
+com.ridgebotics.ridgescout {'found': True, 'trackers': 0, 'permissions': 11, 'tracker_names': [], 'report_version': '0.5', 'scanned_version': '3.1', 'report_date': 'Oct. 18, 2024', 'source': 'F-Droid'}
+com.seeker.seekprivacy {'found': True, 'trackers': 0, 'permissions': 5, 'tracker_names': [], 'report_version': '3.5.0', 'scanned_version': '3.5.0', 'report_date': 'July 23, 2026', 'source': 'F-Droid'}
+com.willchan.simple_random_stock {'found': True, 'trackers': 0, 'permissions': 0, 'tracker_names': [], 'report_version': '1.2.0', 'scanned_version': '1.2.0', 'report_date': 'Dec. 11, 2024', 'source': 'F-Droid'}
+de.devmil.muzei.bingimageofthedayartsource {'found': True, 'trackers': 0, 'permissions': 6, 'tracker_names': [], 'report_version': '2.0', 'scanned_version': '2.3.2', 'report_date': 'June 21, 2024', 'source': 'F-Droid'}
+es.ideotec.t16fling {'found': True, 'trackers': 0, 'permissions': 0, 'tracker_names': [], 'report_version': '1.3.0', 'scanned_version': '1.3.0', 'report_date': 'Aug. 11, 2023', 'source': 'F-Droid'}
+io.github.hamdav.predikt {'found': False, 'error': 'HTTP Error 404: Not Found'}
+org.strawberryforum.argentum {'found': True, 'trackers': 0, 'permissions': 2, 'tracker_names': [], 'report_version': '0.2.2', 'scanned_version': '0.2.2a', 'report_date': 'Sept. 19, 2024', 'source': 'F-Droid'}

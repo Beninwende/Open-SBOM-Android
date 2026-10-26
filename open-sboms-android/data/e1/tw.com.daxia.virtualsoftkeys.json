@@ -1,0 +1,36 @@
+{
+ "apk_file": "tw.com.daxia.virtualsoftkeys_10.apk",
+ "package": "tw.com.daxia.virtualsoftkeys",
+ "versionName": "0.2.0.180212.1",
+ "versionCode": "10",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.BIND_ACCESSIBILITY_SERVICE",
+  "android.permission.SYSTEM_ALERT_WINDOW"
+ ],
+ "a11y_services": [
+  {
+   "name": "tw.com.daxia.virtualsoftkeys.service.ServiceFloating",
+   "config_path": "res/xml/accessibility_service_config.xml",
+   "canRetrieveWindowContent": false
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.021,
+  "strings_s": 0.149
+ },
+ "apk_bytes": 1905985,
+ "stratum": "A_perm_in_index"
+}

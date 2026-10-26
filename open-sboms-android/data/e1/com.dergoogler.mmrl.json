@@ -1,0 +1,43 @@
+{
+ "apk_file": "com.dergoogler.mmrl_34296.apk",
+ "package": "com.dergoogler.mmrl",
+ "versionName": "v34296-release",
+ "versionCode": "34296",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.android.launcher.permission.INSTALL_SHORTCUT",
+  "com.dergoogler.mmrl.permission.MODCONF",
+  "com.dergoogler.mmrl.permission.WEBUI_LEGACY",
+  "com.dergoogler.mmrl.permission.WEBUI_X",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.017,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.236
+ },
+ "apk_bytes": 7574821,
+ "stratum": "E_random"
+}

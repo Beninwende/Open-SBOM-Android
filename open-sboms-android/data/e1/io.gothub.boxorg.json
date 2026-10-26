@@ -1,0 +1,34 @@
+{
+ "apk_file": "io.gothub.boxorg_9.apk",
+ "package": "io.gothub.boxorg",
+ "versionName": "1.1.1",
+ "versionCode": "9",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.CAMERA",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.VIBRATE",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "io.gothub.boxorg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.086,
+  "a11y_config_s": 0.0,
+  "strings_s": 3.382
+ },
+ "apk_bytes": 57825058,
+ "stratum": "E_random"
+}

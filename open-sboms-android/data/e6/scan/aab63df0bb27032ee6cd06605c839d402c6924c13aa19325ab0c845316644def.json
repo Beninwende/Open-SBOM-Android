@@ -1,0 +1,172 @@
+{
+ "package": "de.devmil.muzei.bingimageofthedayartsource",
+ "source": "androzoo-play",
+ "sha256": "aab63df0bb27032ee6cd06605c839d402c6924c13aa19325ab0c845316644def",
+ "cap": {
+  "apk_file": "aab63df0bb27032ee6cd06605c839d402c6924c13aa19325ab0c845316644def.apk",
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "versionName": "2.3.1",
+  "versionCode": "17",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.INTERNET",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "de.devmil.muzei.bingimageofthedayartsource.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.01,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.371
+  },
+  "apk_bytes": 2758736
+ },
+ "lib": {
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "classes_total": 4722,
+  "class_buckets": {
+   "known_library": 4575,
+   "platform_shim": 3,
+   "unresolved": 86,
+   "app_code": 58
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 2118
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 173
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 973
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 876
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 205
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 44
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   },
+   {
+    "prefix": "retrofit2/",
+    "name": "Retrofit",
+    "group": "com.squareup.retrofit2",
+    "category": "network",
+    "classes": 103
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/google/android/": 40,
+   "de/greenrobot/event/": 34,
+   "de/devmil/common/": 12
+  },
+  "maven_metadata": {
+   "androidx.annotation:annotation-experimental": "1.4.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.exifinterface:exifinterface": "1.3.7",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-service": null,
+   "androidx.profileinstaller:profileinstaller": "1.3.0",
+   "androidx.room:room-ktx": "2.5.0",
+   "androidx.room:room-runtime": "2.5.0",
+   "androidx.sqlite:sqlite-framework": "2.3.0",
+   "androidx.sqlite:sqlite": "2.3.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.work:work-runtime-ktx": "2.9.0",
+   "androidx.work:work-runtime": "2.9.0",
+   "kotlinx:coroutines_android": "1.7.1",
+   "kotlinx:coroutines_core": "1.7.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.27
+ },
+ "signer_sha256": [
+  "83b81adacb37c331151ded1961af618eab3d10783ab5f4d940d5bf8420e009a7"
+ ],
+ "seconds": 0.67
+}

@@ -1,0 +1,198 @@
+{
+ "package": "io.oversec.one",
+ "source": "fdroid-main",
+ "sha256": "8ad3ce4dd27a05e07ef13f13e81acf25404803535296c88919d052d9a0a2a610",
+ "cap": {
+  "apk_file": "8ad3ce4dd27a05e07ef13f13e81acf25404803535296c88919d052d9a0a2a610.apk",
+  "package": "io.oversec.one",
+  "versionName": "1.5.13",
+  "versionCode": "1005013",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.hardware.telephony",
+   "android.permission.CAMERA",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "com.android.vending.BILLING"
+  ],
+  "a11y_services": [
+   {
+    "name": "io.oversec.one.acs.OversecAccessibilityService_1",
+    "config_path": "res/xml/acs_config.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00401831",
+    "accessibilityFlags": "0x00000049"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.014,
+   "a11y_config_s": 0.066,
+   "strings_s": 0.393
+  },
+  "apk_bytes": 5512885
+ },
+ "lib": {
+  "package": "io.oversec.one",
+  "classes_total": 6061,
+  "class_buckets": {
+   "platform_shim": 50,
+   "known_library": 5012,
+   "unresolved": 277,
+   "app_code": 722
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 1116
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 10
+   },
+   {
+    "prefix": "com/afollestad/",
+    "name": "Afollestad libraries",
+    "group": "com.afollestad",
+    "category": "ui",
+    "classes": 46
+   },
+   {
+    "prefix": "com/esotericsoftware/",
+    "name": "Kryo/Esoteric",
+    "group": "com.esotericsoftware",
+    "category": "serialization",
+    "classes": 188
+   },
+   {
+    "prefix": "com/google/protobuf/",
+    "name": "Protocol Buffers",
+    "group": "com.google.protobuf",
+    "category": "serialization",
+    "classes": 315
+   },
+   {
+    "prefix": "com/google/zxing/",
+    "name": "ZXing",
+    "group": "com.google.zxing",
+    "category": "barcode",
+    "classes": 219
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 100
+   },
+   {
+    "prefix": "me/zhanghai/android/",
+    "name": "zhanghai libraries",
+    "group": "me.zhanghai.android",
+    "category": "ui",
+    "classes": 44
+   },
+   {
+    "prefix": "org/apache/commons/io/",
+    "name": "Commons IO",
+    "group": "commons-io",
+    "category": "io",
+    "classes": 6
+   },
+   {
+    "prefix": "org/spongycastle/",
+    "name": "Spongy Castle",
+    "group": "com.madgag.spongycastle",
+    "category": "crypto",
+    "classes": 2968
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/nulabinc/zxcvbn/": 58,
+   "org/openintents/openpgp/": 38,
+   "org/objenesis/instantiator/": 25,
+   "org/sufficientlysecure/htmltextview/": 25,
+   "org/objectweb/asm/": 21,
+   "com/github/rjeschke/": 20,
+   "net/rehacktive/waspdb/": 19,
+   "it/sephiroth/android/": 14,
+   "com/kobakei/ratethisapp/": 10,
+   "org/markdown4j/": 8,
+   "com/borjabravo/readmoretextview/": 7,
+   "org/objenesis/": 6,
+   "org/objenesis/strategy/": 6,
+   "uk/co/biddell/": 6,
+   "com/dlazaro66/qrcodereaderview/": 5,
+   "roboguice/util/": 5,
+   "com/android/vending/": 3,
+   "com/jwetherell/quick_response_code/": 1
+  },
+  "maven_metadata": {
+   "android.arch.core:runtime": "1.1.1",
+   "android.arch.lifecycle:livedata-core": "1.1.1",
+   "android.arch.lifecycle:livedata": "1.1.1",
+   "android.arch.lifecycle:runtime": "1.1.1",
+   "android.arch.lifecycle:viewmodel": "1.1.1",
+   "android.support.design:material": "1.0.0-beta01",
+   "androidx.appcompat:appcompat": "1.0.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core": "1.0.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.0.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.legacy:legacy-support-v13": "1.0.0",
+   "androidx.legacy:legacy-support-v4": "1.0.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.transition:transition": "1.0.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.0.0",
+   "androidx.vectordrawable:vectordrawable": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.0.0-rc01"
+  },
+  "kotlin_modules": [
+   "crypto_release",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-common-coroutines",
+   "kotlin-stdlib-jdk7",
+   "kotlin-stdlib_coroutines"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.373
+ },
+ "signer_sha256": [
+  "0e2b5403e89e9334211f8840f2646997b8ae8d67969de19b0edf959af9e5d6c8"
+ ],
+ "seconds": 0.9
+}

@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:18d0e3dc-7b49-487b-aa17-281235759229",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:11Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.jpi59.ethiccompass@1.0.3",
+   "name": "org.jpi59.ethiccompass",
+   "version": "1.0.3",
+   "purl": "pkg:generic/org.jpi59.ethiccompass@1.0.3?download_url=https://f-droid.org/repo/org.jpi59.ethiccompass_4.apk&checksum=sha256:835c640b8b780008a08bdd198a25f520b51035c4ca4d54ba96c6d7de4723766d",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "835c640b8b780008a08bdd198a25f520b51035c4ca4d54ba96c6d7de4723766d"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.jpi59.ethiccompass_4.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/IDEH-Labs/ethic-compass"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "4"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "1.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:org.jpi59.ethiccompass@1.0.3",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.jpi59.ethiccompass@1.0.3"
+   ]
+  }
+ ]
+}

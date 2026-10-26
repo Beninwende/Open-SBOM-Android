@@ -1,0 +1,30 @@
+{
+ "apk_file": "hans.b.skewy1_0_1.apk",
+ "package": "hans.b.skewy1_0",
+ "versionName": "1.0",
+ "versionCode": "1",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.RECORD_AUDIO"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.019,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.2
+ },
+ "apk_bytes": 6759652,
+ "stratum": "E_random"
+}

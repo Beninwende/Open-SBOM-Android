@@ -1,0 +1,175 @@
+{
+ "package": "io.mkg20001.arubanetworkslogin",
+ "source": "sample",
+ "sha256": "9d13f3aa67a1e00a1216979e1c8474a316cac6f7cf431f1e500810f6b26fb700",
+ "cap": {
+  "apk_file": "io.mkg20001.arubanetworkslogin_5000.apk",
+  "package": "io.mkg20001.arubanetworkslogin",
+  "versionName": "0.5",
+  "versionCode": "5000",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.ACCESS_WIFI_STATE",
+   "android.permission.GET_ACCOUNTS",
+   "android.permission.INTERNET",
+   "android.permission.READ_CONTACTS",
+   "android.permission.READ_PROFILE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.WAKE_LOCK"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.019,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.265
+  },
+  "apk_bytes": 2670664
+ },
+ "lib": {
+  "package": "io.mkg20001.arubanetworkslogin",
+  "classes_total": 3082,
+  "class_buckets": {
+   "platform_shim": 70,
+   "known_library": 2966,
+   "unresolved": 9,
+   "app_code": 37
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 1879
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 18
+   },
+   {
+    "prefix": "com/fasterxml/jackson/",
+    "name": "Jackson",
+    "group": "com.fasterxml.jackson",
+    "category": "json",
+    "classes": 95
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 1
+   },
+   {
+    "prefix": "io/sentry/",
+    "name": "Sentry",
+    "group": "io.sentry",
+    "category": "crash",
+    "classes": 105
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 782
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 25
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 7
+   },
+   {
+    "prefix": "org/json/",
+    "name": "org.json",
+    "group": "org.json",
+    "category": "json",
+    "classes": 17
+   },
+   {
+    "prefix": "org/slf4j/",
+    "name": "SLF4J",
+    "group": "org.slf4j",
+    "category": "logging",
+    "classes": 37
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/goebl/david/": 9
+  },
+  "maven_metadata": {
+   "android.arch.core:runtime": "1.1.1",
+   "android.arch.lifecycle:livedata-core": "1.1.1",
+   "android.arch.lifecycle:livedata": "1.1.1",
+   "android.arch.lifecycle:runtime": "1.1.1",
+   "android.arch.lifecycle:viewmodel": "1.1.1",
+   "android.support.design:material": "1.0.0-beta01",
+   "androidx.appcompat:appcompat": "1.0.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core": "1.0.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.0.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.transition:transition": "1.0.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.0.0",
+   "androidx.vectordrawable:vectordrawable": "1.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.0.0-rc01"
+  },
+  "kotlin_modules": [
+   "app_release",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-common-coroutines",
+   "kotlin-stdlib-jdk7",
+   "kotlin-stdlib_coroutines"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [
+   "Sentry"
+  ],
+  "seconds": 0.186
+ },
+ "signer_sha256": [
+  "e5679ad586bfaf01170106c56b033ff139127bfcc2ad9d903463c009811c1e8f"
+ ],
+ "seconds": 0.5
+}

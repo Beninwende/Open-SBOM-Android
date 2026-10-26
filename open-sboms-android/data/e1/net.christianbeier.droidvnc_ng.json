@@ -1,0 +1,49 @@
+{
+ "apk_file": "net.christianbeier.droidvnc_ng_65.apk",
+ "package": "net.christianbeier.droidvnc_ng",
+ "versionName": "2.22.0",
+ "versionCode": "65",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.CHANGE_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "net.christianbeier.droidvnc_ng.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "net.christianbeier.droidvnc_ng.InputService",
+   "config_path": "res/cX.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": true,
+   "accessibilityEventTypes": "0x0000200D",
+   "accessibilityFlags": "0x00000003"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.092,
+  "strings_s": 0.101
+ },
+ "apk_bytes": 6574039,
+ "stratum": "B_desc_accessibility_service"
+}

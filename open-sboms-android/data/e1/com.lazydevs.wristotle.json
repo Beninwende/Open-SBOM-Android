@@ -1,0 +1,68 @@
+{
+ "apk_file": "com.lazydevs.wristotle_12300.apk",
+ "package": "com.lazydevs.wristotle",
+ "versionName": "1.23.0",
+ "versionCode": "12300",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.CALL_PHONE",
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+  "android.permission.INTERNET",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.NFC",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_CALENDAR",
+  "android.permission.READ_CONTACTS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.SEND_SMS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "android.permission.USE_EXACT_ALARM",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_CALENDAR",
+  "com.android.alarm.permission.SET_ALARM",
+  "com.lazydevs.wristotle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.openai.com"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [
+  "libggml-base.so",
+  "libggml-cpu.so",
+  "libggml.so",
+  "libonnxruntime.so",
+  "libonnxruntime4j_jni.so",
+  "libwhisper.so"
+ ],
+ "old_llm_strings": [
+  "%https://api.anthropic.com/v1/messages",
+  "*https://api.openai.com/v1/chat/completions",
+  "chatgpt",
+  "https://api.openai.com/v1"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.033,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.25
+ },
+ "apk_bytes": 34476558,
+ "stratum": "D_desc_llm_ai"
+}

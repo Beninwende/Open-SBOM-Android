@@ -1,0 +1,302 @@
+{
+ "package": "io.github.patricksmill.quicknotes",
+ "classes_total": 37363,
+ "class_buckets": {
+  "known_library": 34441,
+  "unresolved": 2746,
+  "app_code": 176
+ },
+ "known_libraries": [
+  {
+   "prefix": "_COROUTINE/",
+   "name": "kotlinx.coroutines (debug stubs)",
+   "group": "org.jetbrains.kotlinx",
+   "category": "language",
+   "classes": 4
+  },
+  {
+   "prefix": "android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "category": "framework",
+   "classes": 188
+  },
+  {
+   "prefix": "androidx/",
+   "name": "AndroidX (Jetpack)",
+   "group": "androidx",
+   "category": "framework",
+   "classes": 6202
+  },
+  {
+   "prefix": "com/fasterxml/jackson/",
+   "name": "Jackson",
+   "group": "com.fasterxml.jackson",
+   "category": "json",
+   "classes": 1312
+  },
+  {
+   "prefix": "com/google/android/libraries/",
+   "name": "Google Android libraries",
+   "group": "",
+   "category": "google",
+   "classes": 2
+  },
+  {
+   "prefix": "com/google/android/material/",
+   "name": "Material Components",
+   "group": "com.google.android.material",
+   "category": "ui",
+   "classes": 1355
+  },
+  {
+   "prefix": "com/google/common/",
+   "name": "Guava",
+   "group": "com.google.guava",
+   "category": "util",
+   "classes": 2133
+  },
+  {
+   "prefix": "com/google/crypto/tink/",
+   "name": "Tink",
+   "group": "com.google.crypto.tink",
+   "category": "crypto",
+   "classes": 1452
+  },
+  {
+   "prefix": "com/google/errorprone/",
+   "name": "Error Prone annotations",
+   "group": "com.google.errorprone",
+   "category": "annotations",
+   "classes": 29
+  },
+  {
+   "prefix": "com/google/gson/",
+   "name": "Gson",
+   "group": "com.google.code.gson",
+   "category": "json",
+   "classes": 224
+  },
+  {
+   "prefix": "com/google/j2objc/",
+   "name": "J2ObjC annotations",
+   "group": "com.google.j2objc",
+   "category": "annotations",
+   "classes": 17
+  },
+  {
+   "prefix": "com/google/protobuf/",
+   "name": "Protocol Buffers",
+   "group": "com.google.protobuf",
+   "category": "serialization",
+   "classes": 144
+  },
+  {
+   "prefix": "com/google/thirdparty/",
+   "name": "Guava (thirdparty)",
+   "group": "com.google.guava",
+   "category": "util",
+   "classes": 3
+  },
+  {
+   "prefix": "com/openai/",
+   "name": "openai-java",
+   "group": "com.openai",
+   "category": "ai",
+   "classes": 16073
+  },
+  {
+   "prefix": "javax/annotation/",
+   "name": "javax.annotation (JSR-305)",
+   "group": "com.google.code.findbugs",
+   "category": "annotations",
+   "classes": 35
+  },
+  {
+   "prefix": "javax/inject/",
+   "name": "javax.inject",
+   "group": "javax.inject",
+   "category": "di",
+   "classes": 6
+  },
+  {
+   "prefix": "kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "category": "language",
+   "classes": 2966
+  },
+  {
+   "prefix": "kotlinx/coroutines/",
+   "name": "kotlinx.coroutines",
+   "group": "org.jetbrains.kotlinx",
+   "category": "language",
+   "classes": 877
+  },
+  {
+   "prefix": "kotlinx/serialization/",
+   "name": "kotlinx.serialization",
+   "group": "org.jetbrains.kotlinx",
+   "category": "serialization",
+   "classes": 257
+  },
+  {
+   "prefix": "okhttp3/",
+   "name": "OkHttp",
+   "group": "com.squareup.okhttp3",
+   "category": "network",
+   "classes": 327
+  },
+  {
+   "prefix": "okio/",
+   "name": "Okio",
+   "group": "com.squareup.okio",
+   "category": "io",
+   "classes": 107
+  },
+  {
+   "prefix": "org/checkerframework/",
+   "name": "Checker Framework annotations",
+   "group": "org.checkerframework",
+   "category": "annotations",
+   "classes": 369
+  },
+  {
+   "prefix": "org/intellij/lang/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "category": "annotations",
+   "classes": 27
+  },
+  {
+   "prefix": "org/jetbrains/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "category": "annotations",
+   "classes": 30
+  },
+  {
+   "prefix": "org/jsoup/",
+   "name": "jsoup",
+   "group": "org.jsoup",
+   "category": "parsing",
+   "classes": 246
+  },
+  {
+   "prefix": "org/slf4j/",
+   "name": "SLF4J",
+   "group": "org.slf4j",
+   "category": "logging",
+   "classes": 56
+  }
+ ],
+ "unresolved_namespaces": {
+  "org/apache/hc/": 1398,
+  "com/github/victools/": 517,
+  "com/google/android/": 263,
+  "org/junit/internal/": 98,
+  "io/swagger/v3/": 60,
+  "org/junit/runner/": 56,
+  "org/junit/runners/": 55,
+  "org/junit/experimental/": 54,
+  "com/fasterxml/classmate/": 43,
+  "org/junit/rules/": 28,
+  "org/hamcrest/core/": 23,
+  "org/hamcrest/": 21,
+  "org/hamcrest/collection/": 20,
+  "org/junit/": 18,
+  "junit/framework/": 17,
+  "org/hamcrest/io/": 12,
+  "org/junit/validator/": 11,
+  "org/hamcrest/beans/": 7,
+  "org/hamcrest/text/": 7,
+  "junit/extensions/": 6,
+  "org/hamcrest/internal/": 5,
+  "org/hamcrest/object/": 5,
+  "org/jspecify/annotations/": 4,
+  "org/hamcrest/number/": 4,
+  "junit/runner/": 3,
+  "org/hamcrest/comparator/": 3,
+  "junit/textui/": 2,
+  "org/hamcrest/xml/": 2,
+  "org/junit/function/": 1,
+  "com/android/tools/": 1,
+  "org/junit/matchers/": 1,
+  "org/hamcrest/library/": 1
+ },
+ "maven_metadata": {
+  "androidx.activity:activity-ktx": "1.8.0",
+  "androidx.activity:activity": "1.8.0",
+  "androidx.annotation:annotation-experimental": "1.4.1",
+  "androidx.appcompat:appcompat-resources": "1.7.1",
+  "androidx.appcompat:appcompat": "1.7.1",
+  "androidx.arch.core:core-runtime": null,
+  "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+  "androidx.cardview:cardview": "1.0.0",
+  "androidx.constraintlayout:constraintlayout": "2.2.1",
+  "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+  "androidx.core:core-ktx": "1.17.0",
+  "androidx.core:core-viewtree": "1.0.0",
+  "androidx.core:core": "1.17.0",
+  "androidx.cursoradapter:cursoradapter": "1.0.0",
+  "androidx.customview:customview-poolingcontainer": "1.0.0",
+  "androidx.customview:customview": "1.1.0",
+  "androidx.databinding:viewbinding": "8.11.1",
+  "androidx.documentfile:documentfile": "1.0.0",
+  "androidx.drawerlayout:drawerlayout": "1.1.1",
+  "androidx.dynamicanimation:dynamicanimation": "1.1.0",
+  "androidx.emoji2:emoji2-views-helper": "1.3.0",
+  "androidx.emoji2:emoji2": "1.3.0",
+  "androidx.fragment:fragment-ktx": "1.6.2",
+  "androidx.fragment:fragment": "1.6.2",
+  "androidx.graphics:graphics-shapes": "1.0.1",
+  "androidx.interpolator:interpolator": "1.0.0",
+  "androidx.legacy:legacy-support-core-ui": "1.0.0",
+  "androidx.legacy:legacy-support-core-utils": "1.0.0",
+  "androidx.legacy:legacy-support-v4": "1.0.0",
+  "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.9.0",
+  "androidx.lifecycle:lifecycle-livedata-core": "2.9.0",
+  "androidx.lifecycle:lifecycle-livedata": "2.9.0",
+  "androidx.lifecycle:lifecycle-process": "2.9.0",
+  "androidx.lifecycle:lifecycle-runtime-ktx": "2.9.0",
+  "androidx.lifecycle:lifecycle-runtime": "2.9.0",
+  "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.9.0",
+  "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.9.0",
+  "androidx.lifecycle:lifecycle-viewmodel": "2.9.0",
+  "androidx.loader:loader": "1.0.0",
+  "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+  "androidx.media:media": "1.0.0",
+  "androidx.navigation:navigation-common": "2.9.5",
+  "androidx.navigation:navigation-fragment-ktx": "2.9.5",
+  "androidx.navigation:navigation-fragment": "2.9.5",
+  "androidx.navigation:navigation-runtime": "2.9.5",
+  "androidx.navigation:navigation-ui-ktx": "2.9.5",
+  "androidx.navigation:navigation-ui": "2.9.5",
+  "androidx.preference:preference": "1.2.1",
+  "androidx.print:print": "1.0.0",
+  "androidx.profileinstaller:profileinstaller": "1.4.0",
+  "androidx.recyclerview:recyclerview": "1.4.0",
+  "androidx.savedstate:savedstate-ktx": "1.3.0",
+  "androidx.savedstate:savedstate": "1.3.0",
+  "androidx.security:security-crypto": "1.1.0",
+  "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+  "androidx.startup:startup-runtime": "1.1.1",
+  "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+  "androidx.test.uiautomator:uiautomator": "2.3.0",
+  "androidx.tracing:tracing": "1.2.0",
+  "androidx.transition:transition": "1.5.0",
+  "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+  "androidx.vectordrawable:vectordrawable": "1.1.0",
+  "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+  "androidx.viewpager2:viewpager2": "1.1.0-beta02",
+  "androidx.viewpager:viewpager": "1.0.0",
+  "androidx.window:window": "1.0.0",
+  "com.google.android.material:material": "1.13.0",
+  "kotlinx:coroutines_android": "1.8.1",
+  "kotlinx:coroutines_core": "1.8.1"
+ },
+ "kotlin_modules": [],
+ "native_libs": [],
+ "exodus_trackers": [],
+ "seconds": 2.479
+}

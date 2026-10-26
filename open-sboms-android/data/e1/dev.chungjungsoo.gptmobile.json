@@ -1,0 +1,70 @@
+{
+ "apk_file": "dev.chungjungsoo.gptmobile_25.apk",
+ "package": "dev.chungjungsoo.gptmobile",
+ "versionName": "0.9.1",
+ "versionCode": "25",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_LOCAL_NETWORK",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK",
+  "dev.chungjungsoo.gptmobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.groq.com",
+  "api.openai.com",
+  "api.perplexity.ai",
+  "generativelanguage.googleapis.com",
+  "localhost:11434",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [
+  "com/google/ai/edge/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  ")https://generativelanguage.googleapis.com",
+  "*https://generativelanguage.googleapis.com/",
+  ",https://ollama.com/blog/openai-compatibility",
+  "http://localhost:11434",
+  "http://localhost:11434/",
+  "http://localhost:11434/v1/",
+  "https://api.anthropic.com",
+  "https://api.anthropic.com/",
+  "https://api.anthropic.com/v1/",
+  "https://api.groq.com/openai",
+  "https://api.groq.com/openai/",
+  "https://api.groq.com/openai/v1/",
+  "https://api.openai.com",
+  "https://api.openai.com/",
+  "https://api.openai.com/v1/",
+  "https://openrouter.ai/api",
+  "https://openrouter.ai/api/",
+  "https://openrouter.ai/api/v1/",
+  "https://openrouter.ai/keys"
+ ],
+ "old_llm_sdk_strings": [
+  "https://api.groq.com/openai/",
+  "https://api.groq.com/openai/v1/"
+ ],
+ "timing": {
+  "manifest_s": 0.069,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.228
+ },
+ "apk_bytes": 61788137,
+ "stratum": "D_desc_llm_ai"
+}

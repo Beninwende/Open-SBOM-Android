@@ -1,0 +1,43 @@
+{
+ "apk_file": "com.pedronveloso.a11ybutton_4.apk",
+ "package": "com.pedronveloso.a11ybutton",
+ "versionName": "Beta 4",
+ "versionCode": "4",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.WAKE_LOCK",
+  "com.pedronveloso.a11ybutton.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.pedronveloso.a11ybutton.service.ShortcutLaunchAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00004000",
+   "accessibilityFlags": "0x00000100"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.007,
+  "a11y_config_s": 0.015,
+  "strings_s": 0.079
+ },
+ "apk_bytes": 3287905,
+ "stratum": "B_desc_accessibility_service"
+}

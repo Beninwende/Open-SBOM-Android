@@ -1,0 +1,144 @@
+{
+ "package": "com.carriez.flutter_hbb",
+ "source": "fdroid-archive",
+ "sha256": "e6632f2f647042e5b5321ce469644e8a859105d286611e68278e42098c0a2230",
+ "cap": {
+  "apk_file": "e6632f2f647042e5b5321ce469644e8a859105d286611e68278e42098c0a2230.apk",
+  "package": "com.carriez.flutter_hbb",
+  "versionName": "1.4.3",
+  "versionCode": "104030003",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.CAMERA",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.INTERNET",
+   "android.permission.MANAGE_EXTERNAL_STORAGE",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "com.carriez.flutter_hbb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.carriez.flutter_hbb.InputService",
+    "config_path": "res/ZP.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0x00400000",
+    "accessibilityFlags": "0x00000001"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.036,
+   "a11y_config_s": 0.036,
+   "strings_s": 0.171
+  },
+  "apk_bytes": 23774450
+ },
+ "lib": {
+  "package": "com.carriez.flutter_hbb",
+  "classes_total": 5324,
+  "class_buckets": {
+   "obfuscated": 4610,
+   "platform_shim": 92,
+   "known_library": 574,
+   "app_code": 47,
+   "unresolved": 1
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 52
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 360
+   },
+   {
+    "prefix": "io/flutter/",
+    "name": "Flutter engine (Java side)",
+    "group": "io.flutter",
+    "category": "framework",
+    "classes": 162
+   }
+  ],
+  "unresolved_namespaces": {
+   "ffi/": 1
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.9.3",
+   "androidx.annotation:annotation-experimental": "1.4.0",
+   "androidx.appcompat:appcompat-resources": "1.4.2",
+   "androidx.appcompat:appcompat": "1.4.2",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.browser:browser": "1.8.0",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core": "1.13.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.0.0",
+   "androidx.emoji2:emoji2": "1.0.0",
+   "androidx.exifinterface:exifinterface": "1.3.7",
+   "androidx.fragment:fragment": "1.7.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.7.0",
+   "androidx.lifecycle:lifecycle-process": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.7.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.media:media": "1.6.0",
+   "androidx.profileinstaller:profileinstaller": "1.3.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window.extensions.core:core": "1.0.0",
+   "androidx.window:window-java": "1.2.0",
+   "androidx.window:window": "1.2.0",
+   "kotlinx:coroutines_android": "1.7.1",
+   "kotlinx:coroutines_core": "1.7.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libapp.so",
+   "libc++_shared.so",
+   "libflutter.so",
+   "librustdesk.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.202
+ },
+ "signer_sha256": [
+  "85366b10ecadff33e10c53250444a125203908285363c27fc62a561f9660fa48"
+ ],
+ "seconds": 0.48
+}

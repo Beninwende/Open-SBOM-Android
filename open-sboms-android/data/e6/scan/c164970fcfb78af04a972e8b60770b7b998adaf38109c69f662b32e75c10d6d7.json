@@ -1,0 +1,194 @@
+{
+ "package": "com.android.talkback",
+ "source": "fdroid-main",
+ "sha256": "c164970fcfb78af04a972e8b60770b7b998adaf38109c69f662b32e75c10d6d7",
+ "cap": {
+  "apk_file": "c164970fcfb78af04a972e8b60770b7b998adaf38109c69f662b32e75c10d6d7.apk",
+  "package": "com.android.talkback",
+  "versionName": "2021-04-23",
+  "versionCode": "370044210",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.BLUETOOTH",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.RECORD_AUDIO",
+   "android.permission.USE_FINGERPRINT",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "com.android.talkback.permission.LABELING",
+   "com.android.talkback.permission.TALKBACK"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.google.android.marvin.talkback.TalkBackService",
+    "config_path": "res/xml/accessibilityservice.xml",
+    "canRetrieveWindowContent": true,
+    "canRequestFilterKeyEvents": true,
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x000004F5"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.026,
+   "a11y_config_s": 0.996,
+   "strings_s": 0.571
+  },
+  "apk_bytes": 17803619
+ },
+ "lib": {
+  "package": "com.android.talkback",
+  "classes_total": 6340,
+  "class_buckets": {
+   "known_library": 4900,
+   "app_code": 26,
+   "unresolved": 1414
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 14
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1907
+   },
+   {
+    "prefix": "com/google/android/libraries/",
+    "name": "Google Android libraries",
+    "group": "",
+    "category": "google",
+    "classes": 25
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 517
+   },
+   {
+    "prefix": "com/google/auto/value/",
+    "name": "AutoValue",
+    "group": "com.google.auto.value",
+    "category": "annotations",
+    "classes": 6
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 2044
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 19
+   },
+   {
+    "prefix": "com/google/j2objc/",
+    "name": "J2ObjC annotations",
+    "group": "com.google.j2objc",
+    "category": "annotations",
+    "classes": 12
+   },
+   {
+    "prefix": "com/google/thirdparty/",
+    "name": "Guava (thirdparty)",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 3
+   },
+   {
+    "prefix": "javax/annotation/",
+    "name": "javax.annotation (JSR-305)",
+    "group": "com.google.code.findbugs",
+    "category": "annotations",
+    "classes": 50
+   },
+   {
+    "prefix": "org/checkerframework/",
+    "name": "Checker Framework annotations",
+    "group": "org.checkerframework",
+    "category": "annotations",
+    "classes": 302
+   },
+   {
+    "prefix": "org/codehaus/",
+    "name": "Codehaus libraries",
+    "group": "org.codehaus",
+    "category": "mixed",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/google/android/": 1414
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.1.0-rc03",
+   "androidx.appcompat:appcompat-resources": "1.1.0",
+   "androidx.appcompat:appcompat": "1.1.0",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core": "1.5.0-alpha01",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.2.0-rc03",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.2.0-rc03",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.2.0-rc03",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "1.0.0-rc03",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.2.0-rc03",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.preference:preference": "1.1.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.1.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libc++_shared.so",
+   "liblouis.so",
+   "liblouiswrap.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.509
+ },
+ "signer_sha256": [
+  "d648071fc2c2421a3823fc9a3b91745b121c98675285008057f71f452b942bb8"
+ ],
+ "seconds": 2.23
+}

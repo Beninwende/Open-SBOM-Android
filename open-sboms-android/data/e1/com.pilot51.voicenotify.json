@@ -1,0 +1,39 @@
+{
+ "apk_file": "com.pilot51.voicenotify_34.apk",
+ "package": "com.pilot51.voicenotify",
+ "versionName": "1.4.4",
+ "versionCode": "34",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.BLUETOOTH",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.pilot51.voicenotify.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.015,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.304
+ },
+ "apk_bytes": 3916182,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,30 @@
+{
+ "apk_file": "com.adeeteya.digital_calculator_8.apk",
+ "package": "com.adeeteya.digital_calculator",
+ "versionName": "1.2.1",
+ "versionCode": "8",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.VIBRATE",
+  "com.adeeteya.digital_calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.016,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.024
+ },
+ "apk_bytes": 18381209,
+ "stratum": "C_desc_accessibility_other"
+}

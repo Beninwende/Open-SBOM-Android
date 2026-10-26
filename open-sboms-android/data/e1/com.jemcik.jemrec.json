@@ -1,0 +1,41 @@
+{
+ "apk_file": "com.jemcik.jemrec_800.apk",
+ "package": "com.jemcik.jemrec",
+ "versionName": "0.8",
+ "versionCode": "800",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_CALL_LOG",
+  "android.permission.READ_CONTACTS",
+  "android.permission.READ_MEDIA_AUDIO",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.USE_FULL_SCREEN_INTENT",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "com.jemcik.jemrec.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.012,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.174
+ },
+ "apk_bytes": 7148415,
+ "stratum": "E_random"
+}

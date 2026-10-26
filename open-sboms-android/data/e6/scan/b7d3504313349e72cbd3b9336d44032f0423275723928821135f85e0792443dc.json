@@ -1,0 +1,136 @@
+{
+ "package": "net.inbox.pager",
+ "source": "fdroid-archive",
+ "sha256": "b7d3504313349e72cbd3b9336d44032f0423275723928821135f85e0792443dc",
+ "cap": {
+  "apk_file": "b7d3504313349e72cbd3b9336d44032f0423275723928821135f85e0792443dc.apk",
+  "package": "net.inbox.pager",
+  "versionName": "6.3",
+  "versionCode": "19",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.INTERNET",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.VIBRATE",
+   "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.016,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.248
+  },
+  "apk_bytes": 8496614
+ },
+ "lib": {
+  "package": "net.inbox.pager",
+  "classes_total": 2802,
+  "class_buckets": {
+   "known_library": 2580,
+   "unresolved": 52,
+   "app_code": 170
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 75
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1892
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 517
+   },
+   {
+    "prefix": "net/sqlcipher/",
+    "name": "SQLCipher",
+    "group": "net.zetetic",
+    "category": "database",
+    "classes": 75
+   },
+   {
+    "prefix": "org/apache/commons/",
+    "name": "Apache Commons",
+    "group": "org.apache.commons",
+    "category": "util",
+    "classes": 4
+   },
+   {
+    "prefix": "org/apache/commons/codec/",
+    "name": "Commons Codec",
+    "group": "commons-codec",
+    "category": "util",
+    "classes": 17
+   }
+  ],
+  "unresolved_namespaces": {
+   "org/openintents/openpgp/": 29,
+   "gnu/crypto/": 23
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.1.0",
+   "androidx.appcompat:appcompat-resources": "1.2.0-rc01",
+   "androidx.appcompat:appcompat": "1.2.0-rc01",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core": "1.3.0-rc01",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.1",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.2.4",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.2.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.2.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.2.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.2.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.preference:preference": "1.1.1",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.sqlite:sqlite": "2.0.1",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.1.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libsqlcipher.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.183
+ },
+ "signer_sha256": [
+  "5ecd0915ce6cb6d1b874544e8bd8e6bc7660e76fc0deaf6c564395d409726f82"
+ ],
+ "seconds": 0.47
+}

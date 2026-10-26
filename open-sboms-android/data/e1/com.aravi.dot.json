@@ -1,0 +1,42 @@
+{
+ "apk_file": "com.aravi.dot_30105.apk",
+ "package": "com.aravi.dot",
+ "versionName": "3.1.5",
+ "versionCode": "30105",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.aravi.dot.service.DotService",
+   "config_path": "res/xml/dot_service.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x00000052"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.01,
+  "a11y_config_s": 0.067,
+  "strings_s": 0.103
+ },
+ "apk_bytes": 3813838,
+ "stratum": "B_desc_accessibility_service"
+}

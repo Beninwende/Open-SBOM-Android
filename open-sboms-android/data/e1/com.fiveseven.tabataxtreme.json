@@ -1,0 +1,29 @@
+{
+ "apk_file": "com.fiveseven.tabataxtreme_9.apk",
+ "package": "com.fiveseven.tabataxtreme",
+ "versionName": "1.6.1",
+ "versionCode": "9",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "com.fiveseven.tabataxtreme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.076
+ },
+ "apk_bytes": 4111946,
+ "stratum": "E_random"
+}

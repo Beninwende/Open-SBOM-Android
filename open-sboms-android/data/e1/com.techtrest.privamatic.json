@@ -1,0 +1,41 @@
+{
+ "apk_file": "com.techtrest.privamatic_9.apk",
+ "package": "com.techtrest.privamatic",
+ "versionName": "1.5.1",
+ "versionCode": "9",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "com.techtrest.privamatic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "CHATGPT_APP",
+  "com.openai.chatgpt"
+ ],
+ "old_llm_sdk_strings": [
+  "com.anthropic.claude",
+  "com.openai.chatgpt"
+ ],
+ "timing": {
+  "manifest_s": 0.008,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.104
+ },
+ "apk_bytes": 3429754,
+ "stratum": "C_desc_accessibility_other"
+}

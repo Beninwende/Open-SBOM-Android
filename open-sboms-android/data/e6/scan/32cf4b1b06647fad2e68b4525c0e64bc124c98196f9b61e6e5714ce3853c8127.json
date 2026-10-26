@@ -1,0 +1,183 @@
+{
+ "package": "io.github.jqssun.displayextend",
+ "source": "fdroid-archive",
+ "sha256": "32cf4b1b06647fad2e68b4525c0e64bc124c98196f9b61e6e5714ce3853c8127",
+ "cap": {
+  "apk_file": "32cf4b1b06647fad2e68b4525c0e64bc124c98196f9b61e6e5714ce3853c8127.apk",
+  "package": "io.github.jqssun.displayextend",
+  "versionName": "0.0.24",
+  "versionCode": "24",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.SYSTEM_ALERT_WINDOW",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "io.github.jqssun.displayextend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "io.github.jqssun.displaymirror.permission.TOUCHSCREEN_BRIDGE",
+   "moe.shizuku.manager.permission.API_V23"
+  ],
+  "a11y_services": [
+   {
+    "name": "io.github.jqssun.displayextend.TouchpadAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "canRequestFilterKeyEvents": true,
+    "accessibilityFlags": "0x00000063"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.018,
+   "a11y_config_s": 0.08,
+   "strings_s": 0.121
+  },
+  "apk_bytes": 2095139
+ },
+ "lib": {
+  "package": "io.github.jqssun.displayextend",
+  "classes_total": 1588,
+  "class_buckets": {
+   "platform_shim": 5,
+   "known_library": 1437,
+   "app_code": 146
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 16
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 1024
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 250
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 114
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 5
+   },
+   {
+    "prefix": "moe/shizuku/",
+    "name": "Shizuku API",
+    "group": "dev.rikka.shizuku",
+    "category": "system",
+    "classes": 18
+   },
+   {
+    "prefix": "org/lsposed/hiddenapibypass/",
+    "name": "HiddenApiBypass",
+    "group": "org.lsposed.hiddenapibypass",
+    "category": "system",
+    "classes": 9
+   },
+   {
+    "prefix": "rikka/",
+    "name": "Rikka libraries (Shizuku)",
+    "group": "dev.rikka",
+    "category": "system",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.8.1",
+   "androidx.activity:activity": "1.8.1",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.1",
+   "androidx.appcompat:appcompat": "1.7.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.13.1",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.13.1",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment-ktx": "1.8.9",
+   "androidx.fragment:fragment": "1.8.9",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.navigation:navigation-common": "2.9.7",
+   "androidx.navigation:navigation-fragment": "2.9.7",
+   "androidx.navigation:navigation-runtime": "2.9.7",
+   "androidx.navigation:navigation-ui": "2.9.7",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.5.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.1.0-beta02",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window": "1.0.0",
+   "com.google.android.material:material": "1.12.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.107
+ },
+ "signer_sha256": [
+  "64ca1fa39ddf9e0e89c57d73fb681d2a5b35ae20f071771e2eb401b5032ef1a9"
+ ],
+ "seconds": 0.35
+}

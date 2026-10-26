@@ -1,0 +1,61 @@
+{
+ "apk_file": "com.typeassist.app_11.apk",
+ "package": "com.typeassist.app",
+ "versionName": "4.2.0",
+ "versionCode": "11",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.typeassist.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.typeassist.app.service.MyAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000838",
+   "accessibilityFlags": "0x00000043"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.groq.com",
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "localhost:11434"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [
+  "libggml-base.so",
+  "libggml-cpu.so",
+  "libggml.so",
+  "libllama.so"
+ ],
+ "old_llm_strings": [
+  "8https://generativelanguage.googleapis.com/v1beta/models/",
+  "<https://generativelanguage.googleapis.com/v1beta/models?key=",
+  "`1. Base URL: The API endpoint (e.g. https://api.groq.com/openai/v1 or http://localhost:11434/v1)",
+  "https://api.openai.com/v1"
+ ],
+ "old_llm_sdk_strings": [
+  "\"llama.cpp failed to load model at ",
+  "Local LLM (llama.cpp) Setup",
+  "`1. Base URL: The API endpoint (e.g. https://api.groq.com/openai/v1 or http://localhost:11434/v1)"
+ ],
+ "timing": {
+  "manifest_s": 0.012,
+  "a11y_config_s": 0.061,
+  "strings_s": 0.131
+ },
+ "apk_bytes": 8488898,
+ "stratum": "B_desc_accessibility_service"
+}

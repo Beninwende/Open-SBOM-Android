@@ -1,0 +1,182 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:01d3d753-3b3d-4bc9-9e33-ff0e914c82aa",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:26Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.alaskalinuxuser.criticalvelocity@2.0",
+   "name": "com.alaskalinuxuser.criticalvelocity",
+   "version": "2.0",
+   "purl": "pkg:generic/com.alaskalinuxuser.criticalvelocity@2.0?download_url=https://f-droid.org/repo/com.alaskalinuxuser.criticalvelocity_10.apk&checksum=sha256:06567f77b0be3d5c73e4f38706007807ca54de9dcc0a8958f361915f48bd525b",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "06567f77b0be3d5c73e4f38706007807ca54de9dcc0a8958f361915f48bd525b"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.alaskalinuxuser.criticalvelocity_10.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://gitlab.com/alaskalinuxuser/app_critical_velocity"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "10"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:com/badlogic/gdx/",
+   "name": "libGDX",
+   "group": "com.badlogicgames.gdx",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1185 classes under com/badlogic/gdx/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgdx-box2d.so",
+   "name": "libgdx-box2d.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "native:libgdx.so",
+   "name": "libgdx.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.alaskalinuxuser.criticalvelocity@2.0",
+   "dependsOn": [
+    "ns:com/badlogic/gdx/",
+    "native:libgdx-box2d.so",
+    "native:libgdx.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.alaskalinuxuser.criticalvelocity@2.0"
+   ]
+  }
+ ]
+}

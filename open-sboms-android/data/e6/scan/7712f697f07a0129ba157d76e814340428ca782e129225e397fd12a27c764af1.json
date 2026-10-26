@@ -1,0 +1,172 @@
+{
+ "package": "io.github.dorumrr.privacyflip",
+ "source": "fdroid-main",
+ "sha256": "7712f697f07a0129ba157d76e814340428ca782e129225e397fd12a27c764af1",
+ "cap": {
+  "apk_file": "7712f697f07a0129ba157d76e814340428ca782e129225e397fd12a27c764af1.apk",
+  "package": "io.github.dorumrr.privacyflip",
+  "versionName": "2.1.9",
+  "versionCode": "30",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.BIND_QUICK_SETTINGS_TILE",
+   "android.permission.BLUETOOTH",
+   "android.permission.BLUETOOTH_CONNECT",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.PACKAGE_USAGE_STATS",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "com.rosan.dhizuku.permission.ACCESS_DHIZUKU_SERVICE",
+   "com.rosan.dhizuku.permission.API",
+   "io.github.dorumrr.privacyflip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+   "moe.shizuku.manager.permission.API_V23"
+  ],
+  "a11y_services": [
+   {
+    "name": "io.github.dorumrr.privacyflip.accessibility.PrivacyAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": false,
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000010"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.018,
+   "a11y_config_s": 0.039,
+   "strings_s": 0.1
+  },
+  "apk_bytes": 2130273
+ },
+ "lib": {
+  "package": "io.github.dorumrr.privacyflip",
+  "classes_total": 2219,
+  "class_buckets": {
+   "obfuscated": 1551,
+   "known_library": 585,
+   "app_code": 40,
+   "platform_shim": 6,
+   "unresolved": 37
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 16
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 488
+   },
+   {
+    "prefix": "com/topjohnwu/superuser/",
+    "name": "libsu",
+    "group": "com.github.topjohnwu.libsu",
+    "category": "system",
+    "classes": 63
+   },
+   {
+    "prefix": "moe/shizuku/",
+    "name": "Shizuku API",
+    "group": "dev.rikka.shizuku",
+    "category": "system",
+    "classes": 18
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/rosan/dhizuku/": 37
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.8.2",
+   "androidx.activity:activity": "1.8.2",
+   "androidx.annotation:annotation-experimental": "1.3.0",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.core:core-ktx": "1.12.0",
+   "androidx.core:core": "1.12.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.databinding:viewbinding": "8.7.3",
+   "androidx.drawerlayout:drawerlayout": "1.1.1",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.fragment:fragment-ktx": "1.6.2",
+   "androidx.fragment:fragment": "1.6.2",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.7.0",
+   "androidx.lifecycle:lifecycle-process": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.7.0",
+   "androidx.lifecycle:lifecycle-service": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.7.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.7.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.navigation:navigation-common-ktx": "2.7.5",
+   "androidx.navigation:navigation-common": "2.7.5",
+   "androidx.navigation:navigation-fragment-ktx": "2.7.5",
+   "androidx.navigation:navigation-fragment": "2.7.5",
+   "androidx.navigation:navigation-runtime-ktx": "2.7.5",
+   "androidx.navigation:navigation-runtime": "2.7.5",
+   "androidx.navigation:navigation-ui-ktx": "2.7.5",
+   "androidx.navigation:navigation-ui": "2.7.5",
+   "androidx.profileinstaller:profileinstaller": "1.3.0",
+   "androidx.recyclerview:recyclerview": "1.3.2",
+   "androidx.room:room-ktx": "2.5.0",
+   "androidx.room:room-runtime": "2.5.0",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.sqlite:sqlite-framework": "2.3.0",
+   "androidx.sqlite:sqlite": "2.3.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.1.0",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.4.1",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window": "1.0.0",
+   "androidx.work:work-runtime-ktx": "2.9.0",
+   "androidx.work:work-runtime": "2.9.0",
+   "kotlinx:coroutines_android": "1.7.1",
+   "kotlinx:coroutines_core": "1.7.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.096
+ },
+ "signer_sha256": [
+  "67bd90caf57ebc3c947f037cb262ebf6bd188293dbc907c92d51924fcf2b9975"
+ ],
+ "seconds": 0.28
+}

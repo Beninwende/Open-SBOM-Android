@@ -1,0 +1,117 @@
+{
+ "apps": 306,
+ "fdroid_main_index_timestamp_ms": 1792942043530,
+ "fdroid_archive_index_timestamp_ms": 1792939176259,
+ "androzoo_list_header": [
+  "sha256",
+  "sha1",
+  "md5",
+  "dex_date",
+  "apk_size",
+  "pkg_name",
+  "vercode",
+  "vt_detection",
+  "vt_scan_date",
+  "dex_size",
+  "markets"
+ ],
+ "fdroid_main_files": {
+  "apps_with_>=1": 303,
+  "apps_with_>=2": 258,
+  "apps_with_>=6": 31,
+  "total": 969,
+  "median_per_app": 3.0,
+  "max": 12
+ },
+ "fdroid_archive_files": {
+  "apps_with_>=1": 188,
+  "apps_with_>=2": 161,
+  "apps_with_>=6": 129,
+  "total": 4870,
+  "median_per_app": 2.0,
+  "max": 304
+ },
+ "fdroid_main+archive_distinct_versionCodes": {
+  "apps_with_>=1": 306,
+  "apps_with_>=2": 261,
+  "apps_with_>=6": 159,
+  "total": 5822,
+  "median_per_app": 6.0,
+  "max": 316
+ },
+ "androzoo_files": {
+  "apps_with_>=1": 167,
+  "apps_with_>=2": 148,
+  "apps_with_>=6": 102,
+  "total": 4994,
+  "median_per_app": 1.0,
+  "max": 253
+ },
+ "androzoo_distinct_versionCodes": {
+  "apps_with_>=1": 167,
+  "apps_with_>=2": 144,
+  "apps_with_>=6": 99,
+  "total": 4136,
+  "median_per_app": 1.0,
+  "max": 243
+ },
+ "androzoo_fdroid_market_files": {
+  "apps_with_>=1": 154,
+  "apps_with_>=2": 131,
+  "apps_with_>=6": 90,
+  "total": 3483,
+  "median_per_app": 1.0,
+  "max": 177
+ },
+ "androzoo_play_files": {
+  "apps_with_>=1": 91,
+  "apps_with_>=2": 72,
+  "apps_with_>=6": 49,
+  "total": 1476,
+  "median_per_app": 0.0,
+  "max": 99
+ },
+ "androzoo_identical_to_fdroid": {
+  "apps_with_>=1": 151,
+  "apps_with_>=2": 128,
+  "apps_with_>=6": 88,
+  "total": 3360,
+  "median_per_app": 0.0,
+  "max": 169
+ },
+ "androzoo_versionCodes_not_in_fdroid": {
+  "apps_with_>=1": 73,
+  "apps_with_>=2": 51,
+  "apps_with_>=6": 26,
+  "total": 644,
+  "median_per_app": 0.0,
+  "max": 89
+ },
+ "sample_apk_in_androzoo": 77,
+ "androzoo_markets_files": {
+  "fdroid": 3483,
+  "play.google.com": 1476,
+  "appchina": 20,
+  "rustore": 19,
+  "PlayDrone": 8,
+  "anzhi": 6,
+  "liteapks": 4,
+  "tencent": 3,
+  "nashstore": 2,
+  "angeeks": 2,
+  "VirusShare": 2
+ },
+ "androzoo_markets_apps": {
+  "fdroid": 154,
+  "play.google.com": 91,
+  "rustore": 12,
+  "appchina": 7,
+  "PlayDrone": 4,
+  "liteapks": 2,
+  "nashstore": 2,
+  "anzhi": 2,
+  "VirusShare": 2,
+  "angeeks": 1,
+  "tencent": 1
+ }
+}

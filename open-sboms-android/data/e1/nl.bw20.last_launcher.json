@@ -1,0 +1,38 @@
+{
+ "apk_file": "nl.bw20.last_launcher_193.apk",
+ "package": "nl.bw20.last_launcher",
+ "versionName": "1.3.1",
+ "versionCode": "193",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "nl.bw20.last_launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "nl.bw20.last_launcher.LockAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "canPerformGestures": false
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.031,
+  "a11y_config_s": 0.018,
+  "strings_s": 0.048
+ },
+ "apk_bytes": 21463891,
+ "stratum": "B_desc_accessibility_service"
+}

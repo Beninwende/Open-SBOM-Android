@@ -1,0 +1,50 @@
+{
+ "apk_file": "com.leanbitlab.leantype_4208.apk",
+ "package": "com.leanbitlab.leantype",
+ "versionName": "4.2.8",
+ "versionCode": "4208",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.READ_MEDIA_IMAGES",
+  "android.permission.READ_USER_DICTIONARY",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_USER_DICTIONARY",
+  "com.leanbitlab.leantype.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.openai.com",
+  "generativelanguage.googleapis.com"
+ ],
+ "ai_sdks": [
+  "com/google/ai/client/generativeai/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  ")https://generativelanguage.googleapis.com",
+  ".https://api.openai.com/v1/audio/transcriptions"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.016,
+  "a11y_config_s": 0.0,
+  "strings_s": 1.022
+ },
+ "apk_bytes": 11718863,
+ "stratum": "D_desc_llm_ai"
+}

@@ -1,0 +1,36 @@
+{
+ "apk_file": "io.mkg20001.arubanetworkslogin_5000.apk",
+ "package": "io.mkg20001.arubanetworkslogin",
+ "versionName": "0.5",
+ "versionCode": "5000",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.GET_ACCOUNTS",
+  "android.permission.INTERNET",
+  "android.permission.READ_CONTACTS",
+  "android.permission.READ_PROFILE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.007,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.246
+ },
+ "apk_bytes": 2670664,
+ "stratum": "E_random"
+}

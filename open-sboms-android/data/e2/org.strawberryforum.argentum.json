@@ -1,0 +1,91 @@
+{
+ "package": "org.strawberryforum.argentum",
+ "classes_total": 3041,
+ "class_buckets": {
+  "platform_shim": 71,
+  "known_library": 2947,
+  "app_code": 23
+ },
+ "known_libraries": [
+  {
+   "prefix": "android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "category": "framework",
+   "classes": 1892
+  },
+  {
+   "prefix": "androidx/",
+   "name": "AndroidX (Jetpack)",
+   "group": "androidx",
+   "category": "framework",
+   "classes": 18
+  },
+  {
+   "prefix": "com/google/android/material/",
+   "name": "Material Components",
+   "group": "com.google.android.material",
+   "category": "ui",
+   "classes": 1
+  },
+  {
+   "prefix": "kotlin/",
+   "name": "Kotlin stdlib",
+   "group": "org.jetbrains.kotlin",
+   "category": "language",
+   "classes": 1004
+  },
+  {
+   "prefix": "org/intellij/lang/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "category": "annotations",
+   "classes": 25
+  },
+  {
+   "prefix": "org/jetbrains/annotations/",
+   "name": "JetBrains annotations",
+   "group": "org.jetbrains",
+   "category": "annotations",
+   "classes": 7
+  }
+ ],
+ "unresolved_namespaces": {},
+ "maven_metadata": {
+  "android.arch.core:runtime": "1.1.1",
+  "android.arch.lifecycle:livedata-core": "1.1.1",
+  "android.arch.lifecycle:livedata": "1.1.1",
+  "android.arch.lifecycle:runtime": "1.1.1",
+  "android.arch.lifecycle:viewmodel": "1.1.1",
+  "android.support.design:material": "1.0.0-beta01",
+  "androidx.appcompat:appcompat": "1.0.0",
+  "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+  "androidx.cardview:cardview": "1.0.0",
+  "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+  "androidx.core:core": "1.0.0",
+  "androidx.cursoradapter:cursoradapter": "1.0.0",
+  "androidx.customview:customview": "1.0.0",
+  "androidx.documentfile:documentfile": "1.0.0",
+  "androidx.drawerlayout:drawerlayout": "1.0.0",
+  "androidx.fragment:fragment": "1.0.0",
+  "androidx.interpolator:interpolator": "1.0.0",
+  "androidx.legacy:legacy-support-core-ui": "1.0.0",
+  "androidx.legacy:legacy-support-core-utils": "1.0.0",
+  "androidx.loader:loader": "1.0.0",
+  "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+  "androidx.print:print": "1.0.0",
+  "androidx.recyclerview:recyclerview": "1.0.0",
+  "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+  "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+  "androidx.transition:transition": "1.0.0",
+  "androidx.vectordrawable:vectordrawable-animated": "1.0.0",
+  "androidx.vectordrawable:vectordrawable": "1.0.0",
+  "androidx.versionedparcelable:versionedparcelable": "1.0.0",
+  "androidx.viewpager:viewpager": "1.0.0",
+  "com.google.android.material:material": "1.0.0-rc01"
+ },
+ "kotlin_modules": [],
+ "native_libs": [],
+ "exodus_trackers": [],
+ "seconds": 0.168
+}

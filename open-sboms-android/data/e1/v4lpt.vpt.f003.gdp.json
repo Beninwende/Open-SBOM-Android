@@ -1,0 +1,29 @@
+{
+ "apk_file": "v4lpt.vpt.f003.gdp_105.apk",
+ "package": "v4lpt.vpt.f003.gdp",
+ "versionName": "1.0.5",
+ "versionCode": "105",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "v4lpt.vpt.f003.gdp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.02,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.565
+ },
+ "apk_bytes": 5189007,
+ "stratum": "E_random"
+}

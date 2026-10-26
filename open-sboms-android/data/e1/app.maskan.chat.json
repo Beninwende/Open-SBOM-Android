@@ -1,0 +1,66 @@
+{
+ "apk_file": "app.maskan.chat_160.apk",
+ "package": "app.maskan.chat",
+ "versionName": "2.6.1",
+ "versionCode": "160",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.WAKE_LOCK",
+  "app.maskan.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.deepseek.com",
+  "api.groq.com",
+  "api.mistral.ai",
+  "api.openai.com",
+  "api.together.xyz",
+  "generativelanguage.googleapis.com",
+  "localhost:11434",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [
+  "com/google/mediapipe/tasks/genai/"
+ ],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  " ChatGPT.",
+  " ollama.com/download ",
+  " openrouter.ai ",
+  "*https://generativelanguage.googleapis.com/",
+  "Go to openrouter.ai and sign up or log in.",
+  "Install Ollama from ollama.com/download on your computer.",
+  "The company behind ChatGPT.",
+  "http://localhost:11434/",
+  "https://api.anthropic.com/",
+  "https://api.groq.com/openai/",
+  "https://api.mistral.ai/",
+  "https://api.openai.com/",
+  "https://ollama.com/download",
+  "https://openrouter.ai/api/",
+  "https://openrouter.ai/keys"
+ ],
+ "old_llm_sdk_strings": [
+  "https://api.groq.com/openai/"
+ ],
+ "timing": {
+  "manifest_s": 0.051,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.183
+ },
+ "apk_bytes": 58276635,
+ "stratum": "D_desc_llm_ai"
+}

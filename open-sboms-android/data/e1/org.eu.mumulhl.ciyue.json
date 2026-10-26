@@ -1,0 +1,32 @@
+{
+ "apk_file": "org.eu.mumulhl.ciyue_903000.apk",
+ "package": "org.eu.mumulhl.ciyue",
+ "versionName": "1.23.1",
+ "versionCode": "903000",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.VIBRATE",
+  "org.eu.mumulhl.ciyue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.02,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.115
+ },
+ "apk_bytes": 15164447,
+ "stratum": "D_desc_llm_ai"
+}

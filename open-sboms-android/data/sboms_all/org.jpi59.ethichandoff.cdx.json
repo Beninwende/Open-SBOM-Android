@@ -1,0 +1,116 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:352fd9a1-87b5-4d2e-81d4-31a44869a7a9",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:20:47Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:org.jpi59.ethichandoff@0.1.1",
+   "name": "org.jpi59.ethichandoff",
+   "version": "0.1.1",
+   "purl": "pkg:generic/org.jpi59.ethichandoff@0.1.1?download_url=https://f-droid.org/repo/org.jpi59.ethichandoff_2.apk&checksum=sha256:078f55b72624cff1e159f9b29c7d64b74741a010ae435d36f54ab25ad670e752",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "078f55b72624cff1e159f9b29c7d64b74741a010ae435d36f54ab25ad670e752"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/org.jpi59.ethichandoff_2.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/IDEH-Labs/ethic-one-call"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "2"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "1.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:org.jpi59.ethichandoff@0.1.1",
+   "dependsOn": []
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:org.jpi59.ethichandoff@0.1.1"
+   ]
+  }
+ ]
+}

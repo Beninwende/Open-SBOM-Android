@@ -1,0 +1,32 @@
+{
+ "apk_file": "space.neothefox.laytray_10.apk",
+ "package": "space.neothefox.laytray",
+ "versionName": "1.9",
+ "versionCode": "10",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [],
+ "a11y_services": [
+  {
+   "name": "space.neothefox.laytray.IconService",
+   "config_path": "res/xml/accessibility_service_config.xml"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.022,
+  "strings_s": 0.159
+ },
+ "apk_bytes": 1767971,
+ "stratum": "C_desc_accessibility_other"
+}

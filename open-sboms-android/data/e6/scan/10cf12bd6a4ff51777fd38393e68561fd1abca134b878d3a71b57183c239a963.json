@@ -1,0 +1,210 @@
+{
+ "package": "ca.asmat.buzzkill",
+ "source": "fdroid-main",
+ "sha256": "10cf12bd6a4ff51777fd38393e68561fd1abca134b878d3a71b57183c239a963",
+ "cap": {
+  "apk_file": "10cf12bd6a4ff51777fd38393e68561fd1abca134b878d3a71b57183c239a963.apk",
+  "package": "ca.asmat.buzzkill",
+  "versionName": "1.0.9",
+  "versionCode": "10009",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.USE_EXACT_ALARM",
+   "android.permission.WAKE_LOCK",
+   "ca.asmat.buzzkill.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "ca.asmat.buzzkill.service.ShutdownAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": true,
+    "canPerformGestures": true,
+    "accessibilityEventTypes": "0x00000040"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": true,
+  "dispatchGesture_string": true,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.011,
+   "a11y_config_s": 0.06,
+   "strings_s": 1.923
+  },
+  "apk_bytes": 9634289
+ },
+ "lib": {
+  "package": "ca.asmat.buzzkill",
+  "classes_total": 16455,
+  "class_buckets": {
+   "known_library": 16193,
+   "unresolved": 4,
+   "app_code": 258
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 18
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 13675
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1047
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 876
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 401
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 114
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   }
+  ],
+  "unresolved_namespaces": {
+   "org/jspecify/annotations/": 4
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.11.0",
+   "androidx.compose.animation:animation": "1.11.0",
+   "androidx.compose.foundation:foundation-layout": "1.11.0",
+   "androidx.compose.foundation:foundation": "1.11.0",
+   "androidx.compose.material3:material3": "1.4.0",
+   "androidx.compose.material:material-ripple": "1.11.0",
+   "androidx.compose.runtime:runtime-annotation": "1.11.0",
+   "androidx.compose.runtime:runtime-retain": "1.11.0",
+   "androidx.compose.runtime:runtime-saveable": "1.11.0",
+   "androidx.compose.runtime:runtime": "1.11.0",
+   "androidx.compose.ui:ui-geometry": "1.11.0",
+   "androidx.compose.ui:ui-graphics": "1.11.0",
+   "androidx.compose.ui:ui-text": "1.11.0",
+   "androidx.compose.ui:ui-tooling-preview": "1.11.0",
+   "androidx.compose.ui:ui-unit": "1.11.0",
+   "androidx.compose.ui:ui-util": "1.11.0",
+   "androidx.compose.ui:ui": "1.11.0",
+   "androidx.core:core-ktx": "1.18.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.18.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.datastore:datastore-core": "1.2.1",
+   "androidx.datastore:datastore-preferences-core": "1.2.1",
+   "androidx.datastore:datastore-preferences": "1.2.1",
+   "androidx.datastore:datastore": "1.2.1",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.navigationevent:navigationevent-compose": "1.0.0",
+   "androidx.navigationevent:navigationevent": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.6.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so",
+   "libdatastore_shared_counter.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 1.327
+ },
+ "signer_sha256": [
+  "2db86c783d4dd457f56097157b086c3334fc2e77efcca3c42e1a5f217102f459"
+ ],
+ "seconds": 3.34
+}

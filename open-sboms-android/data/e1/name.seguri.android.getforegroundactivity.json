@@ -1,0 +1,34 @@
+{
+ "apk_file": "name.seguri.android.getforegroundactivity_3.apk",
+ "package": "name.seguri.android.getforegroundactivity",
+ "versionName": "1.0.2",
+ "versionCode": "3",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [],
+ "a11y_services": [
+  {
+   "name": "name.seguri.android.getforegroundactivity.WindowChangeDetectingService",
+   "config_path": "res/xml/windowchangedetectingservice.xml",
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000002"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.003,
+  "a11y_config_s": 0.001,
+  "strings_s": 0.001
+ },
+ "apk_bytes": 40794,
+ "stratum": "B_desc_accessibility_service"
+}

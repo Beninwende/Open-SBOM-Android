@@ -1,0 +1,81 @@
+{
+ "package": "space.neothefox.laytray",
+ "source": "fdroid-main",
+ "sha256": "3f788d4b0400a92c00d1c173992baf91d59ce7a5f396a2e57f6b82a8c065daff",
+ "cap": {
+  "apk_file": "3f788d4b0400a92c00d1c173992baf91d59ce7a5f396a2e57f6b82a8c065daff.apk",
+  "package": "space.neothefox.laytray",
+  "versionName": "1.7",
+  "versionCode": "8",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [],
+  "a11y_services": [
+   {
+    "name": "space.neothefox.laytray.IconService",
+    "config_path": "res/xml/accessibility_service_config.xml"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.023,
+   "strings_s": 0.168
+  },
+  "apk_bytes": 1764855
+ },
+ "lib": {
+  "package": "space.neothefox.laytray",
+  "classes_total": 2154,
+  "class_buckets": {
+   "platform_shim": 63,
+   "known_library": 2058,
+   "app_code": 33
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2058
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "android.arch.core:runtime": "1.1.0",
+   "android.arch.lifecycle:livedata-core": "1.1.0",
+   "android.arch.lifecycle:runtime": "1.1.0",
+   "android.arch.lifecycle:viewmodel": "1.1.0",
+   "com.android.support:animated-vector-drawable": "27.1.1",
+   "com.android.support:appcompat-v7": "27.1.1",
+   "com.android.support:design": "27.1.1",
+   "com.android.support:recyclerview-v7": "27.1.1",
+   "com.android.support:support-compat": "27.1.1",
+   "com.android.support:support-core-ui": "27.1.1",
+   "com.android.support:support-core-utils": "27.1.1",
+   "com.android.support:support-fragment": "27.1.1",
+   "com.android.support:support-media-compat": "27.1.1",
+   "com.android.support:support-v4": "27.1.1",
+   "com.android.support:support-vector-drawable": "27.1.1",
+   "com.android.support:transition": "27.1.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.135
+ },
+ "signer_sha256": [
+  "5e003b9bd91f4df918fbc00ddbe617f386d1e1eef552795ccf8f6fb56a24c2c3"
+ ],
+ "seconds": 0.35
+}

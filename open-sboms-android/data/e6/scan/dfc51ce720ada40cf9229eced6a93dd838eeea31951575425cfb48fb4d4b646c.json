@@ -1,0 +1,88 @@
+{
+ "package": "org.shano.assistral",
+ "source": "fdroid-archive",
+ "sha256": "dfc51ce720ada40cf9229eced6a93dd838eeea31951575425cfb48fb4d4b646c",
+ "cap": {
+  "apk_file": "dfc51ce720ada40cf9229eced6a93dd838eeea31951575425cfb48fb4d4b646c.apk",
+  "package": "org.shano.assistral",
+  "versionName": "3.2.4",
+  "versionCode": "324",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.INTERNET",
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.RECORD_AUDIO"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.mistral.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [
+   "api.mistral.ai"
+  ],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.003,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.004
+  },
+  "apk_bytes": 242508
+ },
+ "lib": {
+  "package": "org.shano.assistral",
+  "classes_total": 79,
+  "class_buckets": {
+   "obfuscated": 24,
+   "known_library": 54,
+   "app_code": 1
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 11
+   },
+   {
+    "prefix": "org/chromium/",
+    "name": "Chromium/Cronet",
+    "group": "org.chromium",
+    "category": "network",
+    "classes": 41
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.core:core": "1.1.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.0.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.webkit:webkit": "1.12.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.005
+ },
+ "signer_sha256": [
+  "c125529160e8f849a8b7165164b4e06bf3eafbbec3e5530077b8e924941d839c"
+ ],
+ "seconds": 0.02
+}

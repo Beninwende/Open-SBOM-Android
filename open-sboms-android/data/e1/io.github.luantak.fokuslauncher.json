@@ -1,0 +1,46 @@
+{
+ "apk_file": "io.github.luantak.fokuslauncher_52.apk",
+ "package": "io.github.luantak.fokuslauncher",
+ "versionName": "1.9.6",
+ "versionCode": "52",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_HIDDEN_PROFILES",
+  "android.permission.EXPAND_STATUS_BAR",
+  "android.permission.INTERNET",
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.REQUEST_DELETE_PACKAGES",
+  "android.permission.SET_WALLPAPER",
+  "io.github.luantak.fokuslauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.lu4p.fokuslauncher.accessibility.LockScreenAccessibilityService",
+   "config_path": "res/_x.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000001",
+   "packageNames": "io.github.luantak.fokuslauncher"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.094,
+  "strings_s": 0.141
+ },
+ "apk_bytes": 4094397,
+ "stratum": "C_desc_accessibility_other"
+}

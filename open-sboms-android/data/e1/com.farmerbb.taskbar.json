@@ -1,0 +1,40 @@
+{
+ "apk_file": "com.farmerbb.taskbar_208.apk",
+ "package": "com.farmerbb.taskbar",
+ "versionName": "6.2.2-r2",
+ "versionCode": "208",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.PACKAGE_USAGE_STATS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.farmerbb.taskbar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS",
+  "com.farmerbb.taskbar.START_STOP_TASKBAR",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.farmerbb.taskbar.service.PowerMenuService",
+   "config_path": "res/PB.xml"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.025,
+  "a11y_config_s": 0.061,
+  "strings_s": 0.11
+ },
+ "apk_bytes": 2753531,
+ "stratum": "E_random"
+}

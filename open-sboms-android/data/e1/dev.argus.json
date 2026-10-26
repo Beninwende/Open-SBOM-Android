@@ -1,0 +1,58 @@
+{
+ "apk_file": "dev.argus_1104.apk",
+ "package": "dev.argus",
+ "versionName": "0.3.4",
+ "versionCode": "1104",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_BACKGROUND_LOCATION",
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.READ_CALL_LOG",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECEIVE_SMS",
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+  "android.permission.SCHEDULE_EXACT_ALARM",
+  "android.permission.VIBRATE",
+  "com.android.alarm.permission.SET_ALARM",
+  "dev.argus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "moe.shizuku.manager.permission.API_V23"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "7https://generativelanguage.googleapis.com/v1beta/openai",
+  "https://api.anthropic.com",
+  "https://api.openai.com/v1",
+  "https://openrouter.ai/api/v1"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.041,
+  "a11y_config_s": 0.0,
+  "strings_s": 3.466
+ },
+ "apk_bytes": 48052347,
+ "stratum": "D_desc_llm_ai"
+}

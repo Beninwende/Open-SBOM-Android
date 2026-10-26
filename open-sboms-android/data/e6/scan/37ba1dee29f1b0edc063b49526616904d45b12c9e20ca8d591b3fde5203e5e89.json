@@ -1,0 +1,65 @@
+{
+ "package": "org.koitharu.volumeicon",
+ "source": "sample",
+ "sha256": "37ba1dee29f1b0edc063b49526616904d45b12c9e20ca8d591b3fde5203e5e89",
+ "cap": {
+  "apk_file": "org.koitharu.volumeicon_5.apk",
+  "package": "org.koitharu.volumeicon",
+  "versionName": "1.4",
+  "versionCode": "5",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.MODIFY_AUDIO_SETTINGS",
+   "android.permission.POST_NOTIFICATIONS"
+  ],
+  "a11y_services": [
+   {
+    "name": "org.koitharu.volumeicon.VolumeIconService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": false,
+    "canPerformGestures": false,
+    "canTakeScreenshot": false,
+    "canRequestFilterKeyEvents": true,
+    "accessibilityEventTypes": "0x00000000",
+    "accessibilityFlags": "0x00000021"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.011,
+   "a11y_config_s": 0.002,
+   "strings_s": 0.003
+  },
+  "apk_bytes": 107495
+ },
+ "lib": {
+  "package": "org.koitharu.volumeicon",
+  "classes_total": 44,
+  "class_buckets": {
+   "obfuscated": 40,
+   "platform_shim": 1,
+   "app_code": 3
+  },
+  "known_libraries": [],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.003
+ },
+ "signer_sha256": [
+  "f7011cafc27cd9656b96cb1203fe08f06b465a9a14028c60ee500d0471806d15"
+ ],
+ "seconds": 0.03
+}

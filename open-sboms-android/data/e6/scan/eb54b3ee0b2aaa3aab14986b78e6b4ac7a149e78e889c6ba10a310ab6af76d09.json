@@ -1,0 +1,72 @@
+{
+ "package": "com.lpw.graypause",
+ "source": "sample",
+ "sha256": "eb54b3ee0b2aaa3aab14986b78e6b4ac7a149e78e889c6ba10a310ab6af76d09",
+ "cap": {
+  "apk_file": "com.lpw.graypause_6.apk",
+  "package": "com.lpw.graypause",
+  "versionName": "1.5",
+  "versionCode": "6",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.USE_EXACT_ALARM",
+   "android.permission.WRITE_SECURE_SETTINGS",
+   "moe.shizuku.manager.permission.API_V23"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.lpw.graypause.AppWatchService",
+    "config_path": "res/az.xml",
+    "canRetrieveWindowContent": false,
+    "accessibilityEventTypes": "0x00000020"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.007,
+   "a11y_config_s": 0.001,
+   "strings_s": 0.003
+  },
+  "apk_bytes": 54063
+ },
+ "lib": {
+  "package": "com.lpw.graypause",
+  "classes_total": 43,
+  "class_buckets": {
+   "obfuscated": 34,
+   "app_code": 8,
+   "known_library": 1
+  },
+  "known_libraries": [
+   {
+    "prefix": "moe/shizuku/",
+    "name": "Shizuku API",
+    "group": "dev.rikka.shizuku",
+    "category": "system",
+    "classes": 1
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.002
+ },
+ "signer_sha256": [
+  "a6872dc779dbedd10fa1d859ec2a114d5a9d424edd074449c845ee5b8083e4ba"
+ ],
+ "seconds": 0.02
+}

@@ -1,0 +1,86 @@
+{
+ "apk_file": "com.trevornk.ramblr_42.apk",
+ "package": "com.trevornk.ramblr",
+ "versionName": "1.0.39",
+ "versionCode": "42",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+  "android.permission.INTERNET",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.WAKE_LOCK",
+  "android.permission.WRITE_SECURE_SETTINGS",
+  "com.trevornk.ramblr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.trevornk.ramblr.WhisperAccessibilityService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000008",
+   "accessibilityFlags": "0x00000040"
+  },
+  {
+   "name": "com.trevornk.ramblr.SystemControlsAccessibilityService",
+   "config_path": "res/SI.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000008",
+   "accessibilityFlags": "0x00000140"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "api.anthropic.com",
+  "api.groq.com",
+  "api.openai.com",
+  "generativelanguage.googleapis.com",
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [
+  "libggml-base.so",
+  "libggml-cpu-android_armv8.0_1.so",
+  "libggml-cpu-android_armv8.2_1.so",
+  "libggml-cpu-android_armv8.2_2.so",
+  "libggml-cpu-android_armv8.6_1.so",
+  "libggml.so",
+  "libllama-cleanup-jni.so",
+  "libllama-common.so",
+  "libllama.so",
+  "libonnxruntime.so"
+ ],
+ "old_llm_strings": [
+  "!generativelanguage.googleapis.com",
+  "%https://api.anthropic.com/v1/messages",
+  "*https://api.openai.com/v1/chat/completions",
+  "0https://generativelanguage.googleapis.com/v1beta",
+  "8https://generativelanguage.googleapis.com/v1beta/models/",
+  "api.anthropic.com",
+  "api.openai.com",
+  "https://api.anthropic.com/v1",
+  "https://api.groq.com/openai/v1",
+  "https://api.openai.com/v1",
+  "https://openrouter.ai/api/v1",
+  "vhttps://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent"
+ ],
+ "old_llm_sdk_strings": [
+  "https://api.groq.com/openai/v1"
+ ],
+ "timing": {
+  "manifest_s": 0.077,
+  "a11y_config_s": 0.043,
+  "strings_s": 0.087
+ },
+ "apk_bytes": 45512189,
+ "stratum": "B_desc_accessibility_service"
+}

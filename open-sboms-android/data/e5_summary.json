@@ -1,0 +1,14 @@
+{
+ "apps": 42,
+ "with_public_exodus_report": 39,
+ "report_for_same_version": 28,
+ "apps_with_>=1_tracker_in_report": 1,
+ "exodus_core_local_equals_own_signature_match": 42,
+ "apps_with_versioned_components": 40,
+ "median_versioned_components": 56.0,
+ "total_versioned_components": 2429,
+ "apps_with_a11y_service": 13,
+ "apps_with_read_inject": 10,
+ "apps_with_any_ai_signal(endpoint|sdk|native)": 16,
+ "apps_with_native_libs": 31
+}

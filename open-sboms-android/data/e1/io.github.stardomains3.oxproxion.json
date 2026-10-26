@@ -1,0 +1,71 @@
+{
+ "apk_file": "io.github.stardomains3.oxproxion_227.apk",
+ "package": "io.github.stardomains3.oxproxion",
+ "versionName": "2.2.12",
+ "versionCode": "227",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.ACCESS_LOCAL_NETWORK",
+  "android.permission.ACCESS_NOTIFICATION_POLICY",
+  "android.permission.CAMERA",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",
+  "android.permission.INTERNET",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "com.android.alarm.permission.SET_ALARM",
+  "io.github.stardomains3.oxproxion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [
+  "openrouter.ai"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "            *   **OpenRouter Transforms** : To help with prompts that exceed the maximum context size of a model, OpenRo",
+  "            *   Costs are incurred with using OpenRouter models. Familiarize yourself with model costs at [https://openr",
+  "            *   Find model info and pricing at: <br>[https://openrouter.ai/models/](https://openrouter.ai/models/)",
+  "            *   Get and fund your key at: <br>[https://openrouter.ai/](https://openrouter.ai/)",
+  "            *   This app is not affiliated with OpenRouter.ai.",
+  "#https://openrouter.ai/api/v1/models",
+  "$https://openrouter.ai/api/v1/credits",
+  "-https://openrouter.ai/api/v1/chat/completions",
+  "1https://openrouter.ai/api/v1/audio/transcriptions",
+  ";https://openrouter.ai/api/v1/models?output_modalities=image",
+  "Chttps://openrouter.ai/api/v1/models?output_modalities=transcription",
+  "OpenAI: ChatGPT-4o",
+  "https://openrouter.ai/",
+  "https://openrouter.ai/models",
+  "models, provider routing, and other features. You can use Presets in oxproxion by just manually adding them in your mode",
+  "openai/chatgpt-4o-latest"
+ ],
+ "old_llm_sdk_strings": [
+  "            ### \"LAN Models\" Screen (Ollama, LM Studio, llama.cpp, MLX LM, and Hermes Agent served models)",
+  "            *   Ollama, LM Studio, llama.cpp, MLX LM, and Hermes Agent endpoint default is plain http, therefore the cha",
+  "            *   Ollama, LM Studio, llama.cpp, MLX LM, and Hermes Agent function is nascent and might not support all cap",
+  "            **oxproxion** is an open-source Android app for chatting with OpenRouter LLMs, supporting both text and imag",
+  "Make sure llama.cpp server is running and has models loaded.",
+  "WNo llama.cpp models found.",
+  "llama.cpp Models"
+ ],
+ "timing": {
+  "manifest_s": 0.027,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.144
+ },
+ "apk_bytes": 8860254,
+ "stratum": "D_desc_llm_ai"
+}

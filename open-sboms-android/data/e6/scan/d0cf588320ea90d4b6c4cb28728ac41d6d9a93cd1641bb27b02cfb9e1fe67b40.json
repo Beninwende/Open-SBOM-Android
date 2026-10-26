@@ -1,0 +1,269 @@
+{
+ "package": "com.viscouspot.gitsync",
+ "source": "fdroid-main",
+ "sha256": "d0cf588320ea90d4b6c4cb28728ac41d6d9a93cd1641bb27b02cfb9e1fe67b40",
+ "cap": {
+  "apk_file": "d0cf588320ea90d4b6c4cb28728ac41d6d9a93cd1641bb27b02cfb9e1fe67b40.apk",
+  "package": "com.viscouspot.gitsync",
+  "versionName": "1.8.63",
+  "versionCode": "18633",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.GET_TASKS",
+   "android.permission.INTERNET",
+   "android.permission.MANAGE_EXTERNAL_STORAGE",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "com.viscouspot.gitsync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.viscouspot.gitsync.GitSyncAccessibilityService",
+    "config_path": "res/-N.xml",
+    "canRetrieveWindowContent": false,
+    "accessibilityEventTypes": "0x00000020"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.029,
+   "a11y_config_s": 0.041,
+   "strings_s": 0.425
+  },
+  "apk_bytes": 23160970
+ },
+ "lib": {
+  "package": "com.viscouspot.gitsync",
+  "classes_total": 7837,
+  "class_buckets": {
+   "obfuscated": 12,
+   "known_library": 7301,
+   "platform_shim": 9,
+   "unresolved": 188,
+   "app_code": 327
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 3
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 89
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 3917
+   },
+   {
+    "prefix": "com/getkeepsafe/relinker/",
+    "name": "ReLinker",
+    "group": "com.getkeepsafe.relinker",
+    "category": "native",
+    "classes": 26
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 1
+   },
+   {
+    "prefix": "com/google/crypto/tink/",
+    "name": "Tink",
+    "group": "com.google.crypto.tink",
+    "category": "crypto",
+    "classes": 698
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 197
+   },
+   {
+    "prefix": "io/flutter/",
+    "name": "Flutter engine (Java side)",
+    "group": "io.flutter",
+    "category": "framework",
+    "classes": 482
+   },
+   {
+    "prefix": "j$/",
+    "name": "Android desugared JDK library (D8)",
+    "group": "com.android.tools",
+    "category": "language",
+    "classes": 510
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 286
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 389
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 75
+   },
+   {
+    "prefix": "org/apache/commons/io/",
+    "name": "Commons IO",
+    "group": "commons-io",
+    "category": "io",
+    "classes": 47
+   },
+   {
+    "prefix": "org/apache/tika/",
+    "name": "Apache Tika",
+    "group": "org.apache.tika",
+    "category": "parsing",
+    "classes": 546
+   },
+   {
+    "prefix": "org/slf4j/",
+    "name": "SLF4J",
+    "group": "org.slf4j",
+    "category": "logging",
+    "classes": 35
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/it_nomads/fluttersecurestorage/": 64,
+   "dev/fluttercommunity/workmanager/": 45,
+   "com/baseflow/permissionhandler/": 30,
+   "dev/fluttercommunity/plus/": 22,
+   "com/mr/flutter/": 17,
+   "io/github/ponnamkarthik/": 9,
+   "com/example/mmap2_flutter/": 1
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.10.1",
+   "androidx.activity:activity": "1.10.1",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.6.1",
+   "androidx.appcompat:appcompat": "1.6.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.browser:browser": "1.9.0",
+   "androidx.compose.runtime:runtime": "1.2.1",
+   "androidx.compose.ui:ui-geometry": "1.1.1",
+   "androidx.compose.ui:ui-graphics": "1.1.1",
+   "androidx.compose.ui:ui-unit": "1.1.1",
+   "androidx.compose.ui:ui-util": "1.1.1",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core-ktx": "1.15.0",
+   "androidx.core:core-remoteviews": "1.1.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.15.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.datastore:datastore-core": "1.1.3",
+   "androidx.datastore:datastore-preferences": "1.1.3",
+   "androidx.datastore:datastore": "1.1.3",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.2.0",
+   "androidx.emoji2:emoji2": "1.2.0",
+   "androidx.fragment:fragment-ktx": "1.7.1",
+   "androidx.fragment:fragment": "1.7.1",
+   "androidx.glance:glance-appwidget": "1.1.1",
+   "androidx.glance:glance": "1.1.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.8.7",
+   "androidx.lifecycle:lifecycle-livedata": "2.8.7",
+   "androidx.lifecycle:lifecycle-process": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-runtime": "2.8.7",
+   "androidx.lifecycle:lifecycle-service": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.8.7",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.8.7",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.1.0",
+   "androidx.preference:preference": "1.2.1",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.room:room-runtime": "2.7.0",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.sqlite:sqlite-framework": "2.5.0",
+   "androidx.sqlite:sqlite": "2.5.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.tracing:tracing-ktx": "1.2.0",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.4.1",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window.extensions.core:core": "1.0.0",
+   "androidx.window:window-java": "1.2.0",
+   "androidx.window:window": "1.2.0",
+   "androidx.work:work-runtime-ktx": "2.11.2",
+   "androidx.work:work-runtime": "2.11.2",
+   "kotlinx:coroutines_android": "1.10.2",
+   "kotlinx:coroutines_core": "1.10.2"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libapp.so",
+   "libc++_shared.so",
+   "libdatastore_shared_counter.so",
+   "libflutter.so",
+   "libmixin_logger.so",
+   "libmmap2.so",
+   "librust_lib_GitSync.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.467
+ },
+ "signer_sha256": [
+  "f5cd024f134ce7d5d7c41ef27f0a9f02e3b1ad14760257811bab2959945130d9"
+ ],
+ "seconds": 1.01
+}

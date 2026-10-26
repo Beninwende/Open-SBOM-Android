@@ -1,0 +1,457 @@
+{
+ "package": "com.newoether.agora",
+ "source": "sample",
+ "sha256": "28380cf2db63a6c272c51916d5af47c6a057f3a2ede2b6dce0bf5e0d3e75b23b",
+ "cap": {
+  "apk_file": "com.newoether.agora_31.apk",
+  "package": "com.newoether.agora",
+  "versionName": "2.1.0",
+  "versionCode": "31",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.CAMERA",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+   "android.permission.INTERNET",
+   "android.permission.MANAGE_EXTERNAL_STORAGE",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.READ_EXTERNAL_STORAGE",
+   "android.permission.RECEIVE_BOOT_COMPLETED",
+   "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+   "android.permission.SCHEDULE_EXACT_ALARM",
+   "android.permission.VIBRATE",
+   "android.permission.WAKE_LOCK",
+   "android.permission.WRITE_EXTERNAL_STORAGE",
+   "com.newoether.agora.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [
+   "api.anthropic.com",
+   "api.deepseek.com",
+   "api.groq.com",
+   "api.mistral.ai",
+   "api.openai.com",
+   "generativelanguage.googleapis.com",
+   "localhost:11434",
+   "openrouter.ai"
+  ],
+  "ai_sdks": [],
+  "ai_native_libs": [
+   "libggml-base.so",
+   "libggml-cpu-android_armv8.0_1.so",
+   "libggml-cpu-android_armv8.2_1.so",
+   "libggml-cpu-android_armv8.2_2.so",
+   "libggml-cpu-android_armv8.6_1.so",
+   "libggml-cpu-android_armv9.0_1.so",
+   "libggml-cpu-android_armv9.2_1.so",
+   "libggml-cpu-android_armv9.2_2.so",
+   "libggml.so",
+   "libllama-common.so",
+   "libllama.so"
+  ],
+  "old_llm_strings": [
+   "0https://generativelanguage.googleapis.com/v1beta",
+   "http://localhost:11434",
+   "http://localhost:11434/v1",
+   "https://api.anthropic.com/v1",
+   "https://api.groq.com/openai/v1",
+   "https://api.mistral.ai/v1",
+   "https://api.openai.com/v1",
+   "https://openrouter.ai/api/v1",
+   "projectChatGptCitations"
+  ],
+  "old_llm_sdk_strings": [
+   "1com.newoether.agora.api.openai.OpenRouterProvider",
+   "https://api.groq.com/openai/v1"
+  ],
+  "timing": {
+   "manifest_s": 0.275,
+   "a11y_config_s": 0.0,
+   "strings_s": 6.044
+  },
+  "apk_bytes": 48553937
+ },
+ "lib": {
+  "package": "com.newoether.agora",
+  "classes_total": 52881,
+  "class_buckets": {
+   "obfuscated": 1,
+   "known_library": 42786,
+   "app_code": 9097,
+   "unresolved": 997
+  },
+  "known_libraries": [
+   {
+    "prefix": "_COROUTINE/",
+    "name": "kotlinx.coroutines (debug stubs)",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 4
+   },
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 18
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 33384
+   },
+   {
+    "prefix": "coil/",
+    "name": "Coil",
+    "group": "io.coil-kt",
+    "category": "image",
+    "classes": 340
+   },
+   {
+    "prefix": "com/airbnb/lottie/",
+    "name": "Lottie",
+    "group": "com.airbnb.android",
+    "category": "ui",
+    "classes": 402
+   },
+   {
+    "prefix": "com/google/accompanist/",
+    "name": "Accompanist",
+    "group": "com.google.accompanist",
+    "category": "ui",
+    "classes": 8
+   },
+   {
+    "prefix": "com/google/auto/value/",
+    "name": "AutoValue",
+    "group": "com.google.auto.value",
+    "category": "annotations",
+    "classes": 6
+   },
+   {
+    "prefix": "com/google/common/",
+    "name": "Guava",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 2133
+   },
+   {
+    "prefix": "com/google/errorprone/",
+    "name": "Error Prone annotations",
+    "group": "com.google.errorprone",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "com/google/j2objc/",
+    "name": "J2ObjC annotations",
+    "group": "com.google.j2objc",
+    "category": "annotations",
+    "classes": 17
+   },
+   {
+    "prefix": "com/google/thirdparty/",
+    "name": "Guava (thirdparty)",
+    "group": "com.google.guava",
+    "category": "util",
+    "classes": 3
+   },
+   {
+    "prefix": "com/jcraft/jsch/",
+    "name": "JSch",
+    "group": "com.jcraft",
+    "category": "network",
+    "classes": 326
+   },
+   {
+    "prefix": "com/mikepenz/",
+    "name": "Mikepenz libraries",
+    "group": "com.mikepenz",
+    "category": "ui",
+    "classes": 302
+   },
+   {
+    "prefix": "dagger/",
+    "name": "Dagger",
+    "group": "com.google.dagger",
+    "category": "di",
+    "classes": 75
+   },
+   {
+    "prefix": "javax/annotation/",
+    "name": "javax.annotation (JSR-305)",
+    "group": "com.google.code.findbugs",
+    "category": "annotations",
+    "classes": 35
+   },
+   {
+    "prefix": "javax/inject/",
+    "name": "javax.inject",
+    "group": "javax.inject",
+    "category": "di",
+    "classes": 6
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1068
+   },
+   {
+    "prefix": "kotlinx/atomicfu/",
+    "name": "atomicfu",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 41
+   },
+   {
+    "prefix": "kotlinx/collections/immutable/",
+    "name": "kotlinx.collections.immutable",
+    "group": "org.jetbrains.kotlinx",
+    "category": "util",
+    "classes": 128
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 876
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 408
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 378
+   },
+   {
+    "prefix": "okio/",
+    "name": "Okio",
+    "group": "com.squareup.okio",
+    "category": "io",
+    "classes": 124
+   },
+   {
+    "prefix": "org/apache/commons/codec/",
+    "name": "Commons Codec",
+    "group": "commons-codec",
+    "category": "util",
+    "classes": 138
+   },
+   {
+    "prefix": "org/apache/commons/compress/",
+    "name": "Commons Compress",
+    "group": "org.apache.commons",
+    "category": "io",
+    "classes": 713
+   },
+   {
+    "prefix": "org/apache/commons/io/",
+    "name": "Commons IO",
+    "group": "commons-io",
+    "category": "io",
+    "classes": 676
+   },
+   {
+    "prefix": "org/apache/commons/lang3/",
+    "name": "Commons Lang",
+    "group": "org.apache.commons",
+    "category": "util",
+    "classes": 724
+   },
+   {
+    "prefix": "org/checkerframework/",
+    "name": "Checker Framework annotations",
+    "group": "org.checkerframework",
+    "category": "annotations",
+    "classes": 369
+   },
+   {
+    "prefix": "org/intellij/lang/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 27
+   },
+   {
+    "prefix": "org/jetbrains/annotations/",
+    "name": "JetBrains annotations",
+    "group": "org.jetbrains",
+    "category": "annotations",
+    "classes": 30
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/materialkolor/dynamiccolor/": 484,
+   "org/intellij/markdown/": 243,
+   "org/scilab/forge/": 192,
+   "com/materialkolor/quantize/": 17,
+   "com/materialkolor/scheme/": 15,
+   "dev/drewhamilton/poko/": 9,
+   "com/materialkolor/hct/": 7,
+   "jakarta/inject/": 6,
+   "com/materialkolor/palettes/": 6,
+   "org/jspecify/annotations/": 4,
+   "com/materialkolor/score/": 3,
+   "com/materialkolor/temperature/": 3,
+   "com/materialkolor/utils/": 3,
+   "com/materialkolor/blend/": 1,
+   "com/materialkolor/colorutilities/": 1,
+   "com/materialkolor/contrast/": 1,
+   "com/materialkolor/dislike/": 1,
+   "okhttp/okhttp3/": 1
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.5.0",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.appcompat:appcompat": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.camera.featurecombinationquery:featurecombinationquery": "1.6.1",
+   "androidx.camera.viewfinder:viewfinder-core": "1.5.1",
+   "androidx.camera:camera-camera2-pipe": "1.6.1",
+   "androidx.camera:camera-camera2": "1.6.1",
+   "androidx.camera:camera-core": "1.6.1",
+   "androidx.camera:camera-lifecycle": "1.6.1",
+   "androidx.camera:camera-video": "1.6.1",
+   "androidx.camera:camera-view": "1.6.1",
+   "androidx.compose.animation:animation-core": "1.11.2",
+   "androidx.compose.animation:animation": "1.11.2",
+   "androidx.compose.foundation:foundation-layout": "1.11.2",
+   "androidx.compose.foundation:foundation": "1.11.2",
+   "androidx.compose.material3:material3": "1.4.0",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.11.2",
+   "androidx.compose.runtime:runtime-annotation": "1.11.2",
+   "androidx.compose.runtime:runtime-retain": "1.11.2",
+   "androidx.compose.runtime:runtime-saveable": "1.11.2",
+   "androidx.compose.runtime:runtime": "1.11.2",
+   "androidx.compose.ui:ui-geometry": "1.11.2",
+   "androidx.compose.ui:ui-graphics": "1.11.2",
+   "androidx.compose.ui:ui-text": "1.11.2",
+   "androidx.compose.ui:ui-tooling-preview": "1.11.2",
+   "androidx.compose.ui:ui-unit": "1.11.2",
+   "androidx.compose.ui:ui-util": "1.11.2",
+   "androidx.compose.ui:ui": "1.11.2",
+   "androidx.core:core-backported-fixes": "1.0.0",
+   "androidx.core:core-ktx": "1.18.0",
+   "androidx.core:core-splashscreen": "1.2.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.18.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.datastore:datastore-core": "1.2.1",
+   "androidx.datastore:datastore-preferences-core": "1.2.1",
+   "androidx.datastore:datastore-preferences": "1.2.1",
+   "androidx.datastore:datastore": "1.2.1",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.4.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.exifinterface:exifinterface": "1.4.2",
+   "androidx.fragment:fragment": "1.5.4",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-service": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.navigation:navigation-common": "2.9.8",
+   "androidx.navigation:navigation-compose": "2.9.8",
+   "androidx.navigation:navigation-runtime": "2.9.8",
+   "androidx.navigationevent:navigationevent-compose": "1.0.0",
+   "androidx.navigationevent:navigationevent": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.3.0",
+   "androidx.room:room-ktx": "2.8.4",
+   "androidx.room:room-runtime": "2.8.4",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.sqlite:sqlite-framework": "2.6.2",
+   "androidx.sqlite:sqlite": "2.6.2",
+   "androidx.startup:startup-runtime": "1.2.0",
+   "androidx.tracing:tracing-ktx": "1.3.0",
+   "androidx.tracing:tracing": "1.3.0",
+   "androidx.transition:transition": "1.6.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "androidx.work:work-runtime-ktx": "2.10.0",
+   "androidx.work:work-runtime": "2.10.0",
+   "com.google.dagger:dagger": "2.59",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libagora_llama.so",
+   "libagora_proot.so",
+   "libandroidx.graphics.path.so",
+   "libc++_shared.so",
+   "libdatastore_shared_counter.so",
+   "libggml-base.so",
+   "libggml-cpu-android_armv8.0_1.so",
+   "libggml-cpu-android_armv8.2_1.so",
+   "libggml-cpu-android_armv8.2_2.so",
+   "libggml-cpu-android_armv8.6_1.so",
+   "libggml-cpu-android_armv9.0_1.so",
+   "libggml-cpu-android_armv9.2_1.so",
+   "libggml-cpu-android_armv9.2_2.so",
+   "libggml.so",
+   "libimage_processing_util_jni.so",
+   "libllama-common.so",
+   "libllama.so",
+   "libmtmd.so",
+   "libproot_exec.so",
+   "libproot_loader.so",
+   "libsurface_util_jni.so",
+   "libtalloc.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 4.094
+ },
+ "signer_sha256": [
+  "5de26f263163c220c06c23d6a82fc034d55591ec4d3ff0bad8b9dc9b7be1aa29"
+ ],
+ "seconds": 10.47
+}

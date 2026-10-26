@@ -1,0 +1,1226 @@
+{
+ "com.ah.taplock": {
+  "status": "downloaded",
+  "seconds": 2.1
+ },
+ "com.akslabs.circletosearch": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.micoyc.speakthat": {
+  "status": "downloaded",
+  "seconds": 2.13
+ },
+ "dev.pranav.applock": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "io.github.chayanforyou.quickball": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "tw.com.daxia.virtualsoftkeys": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "app.mlauncher": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "app.scratchpad.launcher": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "by.yauhenl.gardine": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "ca.asmat.buzzkill": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "co.xplat.husk": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.akexorcist.ruammij": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.android.talkback": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.aravi.dot": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.babytouchlock": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.carriez.flutter_hbb": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.celzero.bravedns": {
+  "status": "downloaded",
+  "seconds": 3.47
+ },
+ "com.deehem.splitz": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.defang.launcher": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.dtsykunov.pause": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.earendel.tapbar": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.encrypt.bwt": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.focus.launcher": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.github.bmx666.appcachecleaner": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.github.cvzi.screenshottile": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.goushik.upiwallet": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.inod.screenofftimer": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.jarsilio.android.autoautorotate": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.jarsilio.android.pingoff": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.jarsilio.android.waveup": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.joaohouto.assistivemenutool": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.lpw.graypause": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.musheer360.swiftslate": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.pedronveloso.a11ybutton": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.pilot51.voicenotify": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.procrastilearn.app": {
+  "status": "downloaded",
+  "seconds": 2.84
+ },
+ "com.rascarlo.power.button.tile": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.rdevzph.fpsmeter": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.remotephone": {
+  "status": "cached",
+  "seconds": 0.0
+ },
+ "com.sarangem.zenwell": {
+  "status": "downloaded",
+  "seconds": 1.61
+ },
+ "com.slate.launcher": {
+  "status": "downloaded",
+  "seconds": 1.69
+ },
+ "com.soul_99.suIMD": {
+  "status": "downloaded",
+  "seconds": 17.29
+ },
+ "com.tideo.autobrightness": {
+  "status": "downloaded",
+  "seconds": 2.75
+ },
+ "com.trevornk.ramblr": {
+  "status": "downloaded",
+  "seconds": 4.38
+ },
+ "com.typeassist.app": {
+  "status": "downloaded",
+  "seconds": 1.97
+ },
+ "com.viscouspot.gitsync": {
+  "status": "downloaded",
+  "seconds": 2.63
+ },
+ "com.yeapguy.volumescroll": {
+  "status": "downloaded",
+  "seconds": 2.01
+ },
+ "com.zfdang.touchhelper": {
+  "status": "downloaded",
+  "seconds": 1.55
+ },
+ "com.zygisk_enc.notivault": {
+  "status": "downloaded",
+  "seconds": 3.33
+ },
+ "de.jl.notificationlog": {
+  "status": "downloaded",
+  "seconds": 1.97
+ },
+ "de.z11.roboyard": {
+  "status": "downloaded",
+  "seconds": 2.67
+ },
+ "dev.davidv.translator": {
+  "status": "downloaded",
+  "seconds": 3.5
+ },
+ "dev.serika.camerasilencer": {
+  "status": "downloaded",
+  "seconds": 0.94
+ },
+ "eu.darken.sdmse": {
+  "status": "downloaded",
+  "seconds": 2.18
+ },
+ "fr.gibinot.panosp": {
+  "status": "downloaded",
+  "seconds": 1.08
+ },
+ "io.github.capitan0n.droynis": {
+  "status": "downloaded",
+  "seconds": 1.85
+ },
+ "io.github.deweyreed.clipboardcleaner": {
+  "status": "downloaded",
+  "seconds": 1.53
+ },
+ "io.github.dorumrr.privacyflip": {
+  "status": "downloaded",
+  "seconds": 1.51
+ },
+ "io.github.jqssun.displayextend": {
+  "status": "downloaded",
+  "seconds": 1.49
+ },
+ "io.github.munzzyy.sweep": {
+  "status": "downloaded",
+  "seconds": 1.53
+ },
+ "io.github.sds100.keymapper": {
+  "status": "downloaded",
+  "seconds": 2.13
+ },
+ "io.oversec.one": {
+  "status": "downloaded",
+  "seconds": 1.83
+ },
+ "io.timelimit.android.aosp.direct": {
+  "status": "downloaded",
+  "seconds": 1.97
+ },
+ "io.timelimit.android.open": {
+  "status": "downloaded",
+  "seconds": 2.19
+ },
+ "moe.dic1911.autodnd": {
+  "status": "downloaded",
+  "seconds": 1.68
+ },
+ "name.seguri.android.getforegroundactivity": {
+  "status": "downloaded",
+  "seconds": 0.86
+ },
+ "net.blumia.pineapple.lockscreen.oss": {
+  "status": "downloaded",
+  "seconds": 2.11
+ },
+ "net.christianbeier.droidvnc_ng": {
+  "status": "downloaded",
+  "seconds": 2.16
+ },
+ "nl.bw20.last_launcher": {
+  "status": "downloaded",
+  "seconds": 2.35
+ },
+ "now.abhi.graycie": {
+  "status": "downloaded",
+  "seconds": 2.23
+ },
+ "org.jpi59.ethiccompass": {
+  "status": "downloaded",
+  "seconds": 0.9
+ },
+ "org.koitharu.volumeicon": {
+  "status": "downloaded",
+  "seconds": 1.29
+ },
+ "space.subread.overlay": {
+  "status": "downloaded",
+  "seconds": 0.95
+ },
+ "superfreeze.tool.android": {
+  "status": "downloaded",
+  "seconds": 2.09
+ },
+ "app.cclauncher": {
+  "status": "downloaded",
+  "seconds": 2.01
+ },
+ "app.cleartray": {
+  "status": "downloaded",
+  "seconds": 3.0
+ },
+ "app.organicmaps": {
+  "status": "downloaded",
+  "seconds": 5.34
+ },
+ "app.pachli": {
+  "status": "downloaded",
+  "seconds": 3.21
+ },
+ "app.veil.veil": {
+  "status": "downloaded",
+  "seconds": 2.87
+ },
+ "at.j0s.meyercard.app": {
+  "status": "downloaded",
+  "seconds": 1.91
+ },
+ "business.braid.polycule": {
+  "status": "downloaded",
+  "seconds": 97.83
+ },
+ "com.adeeteya.digital_calculator": {
+  "status": "downloaded",
+  "seconds": 2.41
+ },
+ "com.aw.huda": {
+  "status": "downloaded",
+  "seconds": 5.04
+ },
+ "com.bearinmind.equalizer314": {
+  "status": "downloaded",
+  "seconds": 1.91
+ },
+ "com.byagowi.persiancalendar": {
+  "status": "downloaded",
+  "seconds": 2.21
+ },
+ "com.calcitem.sanmill": {
+  "status": "downloaded",
+  "seconds": 4.09
+ },
+ "com.capyreader.app": {
+  "status": "downloaded",
+  "seconds": 31.4
+ },
+ "com.concealnetwork.concealmobile": {
+  "status": "downloaded",
+  "seconds": 30.08
+ },
+ "com.f0x1d.logfox": {
+  "status": "downloaded",
+  "seconds": 19.55
+ },
+ "com.futsch1.medtimer": {
+  "status": "downloaded",
+  "seconds": 2.59
+ },
+ "com.hos_dvk.easyphone.full": {
+  "status": "downloaded",
+  "seconds": 31.56
+ },
+ "com.juliencardoux.ratafuel": {
+  "status": "downloaded",
+  "seconds": 63.06
+ },
+ "com.mablanco.pricegrab": {
+  "status": "downloaded",
+  "seconds": 4.17
+ },
+ "com.maforn.timedshutdown": {
+  "status": "downloaded",
+  "seconds": 6.51
+ },
+ "com.markleaf.notes": {
+  "status": "downloaded",
+  "seconds": 1.73
+ },
+ "com.nitish.privacyindicator": {
+  "status": "downloaded",
+  "seconds": 2.02
+ },
+ "com.podverse.fdroid": {
+  "status": "downloaded",
+  "seconds": 62.13
+ },
+ "com.resolvecommunity.awaydoomscrollin": {
+  "status": "downloaded",
+  "seconds": 1.72
+ },
+ "com.saad2134.dosezy": {
+  "status": "downloaded",
+  "seconds": 2.27
+ },
+ "com.studio4plus.homerplayer2": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "com.techtrest.privamatic": {
+  "status": "downloaded",
+  "seconds": 1.82
+ },
+ "com.vincent_falzon.discreetlauncher": {
+  "status": "downloaded",
+  "seconds": 1.57
+ },
+ "com.xxxx.parcel": {
+  "status": "downloaded",
+  "seconds": 2.74
+ },
+ "corewala.gemini.buran": {
+  "status": "downloaded",
+  "seconds": 1.67
+ },
+ "de.mysportsmate.officebreak": {
+  "status": "downloaded",
+  "seconds": 2.1
+ },
+ "dev.msbs.cyclauncher": {
+  "status": "downloaded",
+  "seconds": 2.58
+ },
+ "dev.shrekbytes.waqfah.fdroid": {
+  "status": "downloaded",
+  "seconds": 32.25
+ },
+ "duress.ultimate": {
+  "status": "downloaded",
+  "seconds": 1.23
+ },
+ "eu.ottop.yamlauncher": {
+  "status": "downloaded",
+  "seconds": 1.61
+ },
+ "fr.neamar.kiss": {
+  "status": "downloaded",
+  "seconds": 2.06
+ },
+ "io.davidar.fabularium": {
+  "status": "downloaded",
+  "seconds": 24.94
+ },
+ "io.github.dhiraj_j_s.minimalsf": {
+  "status": "downloaded",
+  "seconds": 1.86
+ },
+ "io.github.digvijaylp.OpenTeleScopeVR": {
+  "status": "downloaded",
+  "seconds": 1.64
+ },
+ "io.github.luantak.fokuslauncher": {
+  "status": "downloaded",
+  "seconds": 1.86
+ },
+ "io.github.sak.read.it.later": {
+  "status": "downloaded",
+  "seconds": 20.5
+ },
+ "io.github.vibhor1102.macrion": {
+  "status": "downloaded",
+  "seconds": 105.55
+ },
+ "jwtc.android.chess": {
+  "status": "downloaded",
+  "seconds": 2.23
+ },
+ "m.co.rh.id.a_news_provider": {
+  "status": "downloaded",
+  "seconds": 2.16
+ },
+ "me.hackerchick.catima": {
+  "status": "downloaded",
+  "seconds": 1.69
+ },
+ "me.lucky.duress": {
+  "status": "downloaded",
+  "seconds": 1.68
+ },
+ "net.ibbaa.keepitup": {
+  "status": "downloaded",
+  "seconds": 1.78
+ },
+ "net.slions.fulguris.full.fdroid": {
+  "status": "downloaded",
+  "seconds": 2.0
+ },
+ "org.breezyweather": {
+  "status": "downloaded",
+  "seconds": 2.46
+ },
+ "org.headsetrewind": {
+  "status": "downloaded",
+  "seconds": 1.22
+ },
+ "org.jpi59.ethichandoff": {
+  "status": "downloaded",
+  "seconds": 1.2
+ },
+ "org.kde.kdeconnect_tp": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "org.keyoxide.keyoxide": {
+  "status": "downloaded",
+  "seconds": 172.81
+ },
+ "org.onekash.kashcal": {
+  "status": "downloaded",
+  "seconds": 2.35
+ },
+ "org.osservatorionessuno.bugbane.beta": {
+  "status": "downloaded",
+  "seconds": 3.22
+ },
+ "pt.tiago.bubblenight": {
+  "status": "downloaded",
+  "seconds": 2.09
+ },
+ "space.neothefox.laytray": {
+  "status": "downloaded",
+  "seconds": 1.59
+ },
+ "xyz.mordorx.sicmu": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "ai.agent1c.hitomi.open": {
+  "status": "downloaded",
+  "seconds": 1.8
+ },
+ "app.chompass": {
+  "status": "downloaded",
+  "seconds": 2.74
+ },
+ "app.maskan.chat": {
+  "status": "downloaded",
+  "seconds": 4.93
+ },
+ "app.siftrecipes": {
+  "status": "downloaded",
+  "seconds": 5.82
+ },
+ "ca.snoe.deedum": {
+  "status": "downloaded",
+  "seconds": 2.9
+ },
+ "com.anant.fitbuddy": {
+  "status": "downloaded",
+  "seconds": 2.47
+ },
+ "com.antivocale.app": {
+  "status": "downloaded",
+  "seconds": 3.9
+ },
+ "com.anxcye.anx_reader": {
+  "status": "downloaded",
+  "seconds": 4.12
+ },
+ "com.asdoi.quicktiles": {
+  "status": "downloaded",
+  "seconds": 1.93
+ },
+ "com.beradeep.aiyo": {
+  "status": "downloaded",
+  "seconds": 1.72
+ },
+ "com.chmouel.liseur": {
+  "status": "downloaded",
+  "seconds": 1.93
+ },
+ "com.danemadsen.maid": {
+  "status": "downloaded",
+  "seconds": 2.59
+ },
+ "com.deedeedev.ytreader": {
+  "status": "downloaded",
+  "seconds": 2.11
+ },
+ "com.devasy.repforge": {
+  "status": "downloaded",
+  "seconds": 2.95
+ },
+ "com.fitforge.fitforge": {
+  "status": "downloaded",
+  "seconds": 2.94
+ },
+ "com.furthersecrets.chemsearch": {
+  "status": "downloaded",
+  "seconds": 2.48
+ },
+ "com.georgernstgraf.polishedrecognition": {
+  "status": "downloaded",
+  "seconds": 1.74
+ },
+ "com.hanan_bhatti.cobalt": {
+  "status": "downloaded",
+  "seconds": 1.85
+ },
+ "com.inspiredandroid.kai": {
+  "status": "downloaded",
+  "seconds": 4.11
+ },
+ "com.jarves.mh": {
+  "status": "downloaded",
+  "seconds": 4.32
+ },
+ "com.kbul.spicycrab": {
+  "status": "downloaded",
+  "seconds": 1.68
+ },
+ "com.lazydevs.wristotle": {
+  "status": "downloaded",
+  "seconds": 2.94
+ },
+ "com.leanbitlab.leantype": {
+  "status": "downloaded",
+  "seconds": 1.96
+ },
+ "com.lord1egypt.pocketclaw": {
+  "status": "downloaded",
+  "seconds": 4.14
+ },
+ "com.mateusrodcosta.apps.vidyamusic": {
+  "status": "downloaded",
+  "seconds": 1.97
+ },
+ "com.newoether.agora": {
+  "status": "downloaded",
+  "seconds": 4.48
+ },
+ "com.pebblerecorder.app": {
+  "status": "downloaded",
+  "seconds": 1.77
+ },
+ "com.prismgallery.app": {
+  "status": "downloaded",
+  "seconds": 1.65
+ },
+ "com.rastislavkish.vscan": {
+  "status": "downloaded",
+  "seconds": 2.51
+ },
+ "com.scariflabs.horus": {
+  "status": "downloaded",
+  "seconds": 1.99
+ },
+ "com.tk.quicksearch": {
+  "status": "downloaded",
+  "seconds": 2.27
+ },
+ "com.tyraen.voicekeyboard": {
+  "status": "downloaded",
+  "seconds": 2.0
+ },
+ "de.bgg_home.texslate": {
+  "status": "downloaded",
+  "seconds": 2.81
+ },
+ "de.froehlichmedia.adaptkey": {
+  "status": "downloaded",
+  "seconds": 3.67
+ },
+ "dev.argus": {
+  "status": "downloaded",
+  "seconds": 3.53
+ },
+ "dev.chungjungsoo.gptmobile": {
+  "status": "downloaded",
+  "seconds": 4.85
+ },
+ "dev.kokoro.tts": {
+  "status": "downloaded",
+  "seconds": 1.31
+ },
+ "ekklesia.gr": {
+  "status": "downloaded",
+  "seconds": 31.58
+ },
+ "info.plateaukao.einkbro": {
+  "status": "downloaded",
+  "seconds": 1.73
+ },
+ "io.github.acidefluorhydrique.geminiassist": {
+  "status": "downloaded",
+  "seconds": 1.39
+ },
+ "io.github.kotchwane.bonavortaro": {
+  "status": "downloaded",
+  "seconds": 144.83
+ },
+ "io.github.patricksmill.quicknotes": {
+  "status": "downloaded",
+  "seconds": 3.5
+ },
+ "io.github.stardomains3.oxproxion": {
+  "status": "downloaded",
+  "seconds": 2.28
+ },
+ "io.theficos.quire": {
+  "status": "downloaded",
+  "seconds": 3.02
+ },
+ "m.co.rh.id.a_flash_deck": {
+  "status": "downloaded",
+  "seconds": 35.56
+ },
+ "me.kafuuneko.rpclient": {
+  "status": "downloaded",
+  "seconds": 2.27
+ },
+ "nabu.iris.keyboard": {
+  "status": "downloaded",
+  "seconds": 1.39
+ },
+ "net.backslasher.dndtoggle": {
+  "status": "downloaded",
+  "seconds": 1.91
+ },
+ "net.curiana.recipes": {
+  "status": "downloaded",
+  "seconds": 4.84
+ },
+ "nl.hansdezwart.bgclock": {
+  "status": "downloaded",
+  "seconds": 1.9
+ },
+ "org.eu.mumulhl.ciyue": {
+  "status": "downloaded",
+  "seconds": 80.65
+ },
+ "org.shano.assistral": {
+  "status": "downloaded",
+  "seconds": 1.14
+ },
+ "org.sherpr.app": {
+  "status": "downloaded",
+  "seconds": 27.64
+ },
+ "org.t2decode.app": {
+  "status": "downloaded",
+  "seconds": 3.19
+ },
+ "org.venkado.relagent": {
+  "status": "downloaded",
+  "seconds": 4.32
+ },
+ "org.woheller69.gptassist": {
+  "status": "downloaded",
+  "seconds": 1.21
+ },
+ "space.rocketnine.xenia": {
+  "status": "downloaded",
+  "seconds": 1.84
+ },
+ "com.fiveseven.tabataxtreme": {
+  "status": "downloaded",
+  "seconds": 2.03
+ },
+ "ca.chancehorizon.paseo": {
+  "status": "downloaded",
+  "seconds": 2.19
+ },
+ "com.yourname.pdftoolkit": {
+  "status": "downloaded",
+  "seconds": 4.12
+ },
+ "com.tachibana.downloader": {
+  "status": "downloaded",
+  "seconds": 2.24
+ },
+ "com.s4nj1th.pocket_dhamma": {
+  "status": "downloaded",
+  "seconds": 52.53
+ },
+ "com.guiforge.bati": {
+  "status": "downloaded",
+  "seconds": 4.2
+ },
+ "com.eneko.hexcolortimewallpaper": {
+  "status": "downloaded",
+  "seconds": 1.82
+ },
+ "tk.al54.dev.badpixels": {
+  "status": "downloaded",
+  "seconds": 0.78
+ },
+ "com.daniebeler.pfpixelix": {
+  "status": "downloaded",
+  "seconds": 2.3
+ },
+ "name.gdr.acastus_photon": {
+  "status": "downloaded",
+  "seconds": 3.4
+ },
+ "ch.mydoli.focal": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "cf.theonewiththebraid.guerrilla_mail": {
+  "status": "downloaded",
+  "seconds": 2.48
+ },
+ "com.dn0ne.lotus": {
+  "status": "downloaded",
+  "seconds": 2.82
+ },
+ "com.resurrection.blowtorch2": {
+  "status": "downloaded",
+  "seconds": 12.85
+ },
+ "com.sidhant.learnmath": {
+  "status": "downloaded",
+  "seconds": 42.71
+ },
+ "org.secuso.privacyfriendlynotes": {
+  "status": "downloaded",
+  "seconds": 2.59
+ },
+ "ca.rmen.android.frenchcalendar": {
+  "status": "downloaded",
+  "seconds": 1.4
+ },
+ "com.oF2pks.neolinker": {
+  "status": "downloaded",
+  "seconds": 0.71
+ },
+ "tibarj.tranquilstopwatch": {
+  "status": "downloaded",
+  "seconds": 1.57
+ },
+ "me.zhanghai.android.untracker": {
+  "status": "downloaded",
+  "seconds": 1.72
+ },
+ "com.rocket9labs.boxcars": {
+  "status": "downloaded",
+  "seconds": 2.81
+ },
+ "org.app.geotagvideocamera": {
+  "status": "downloaded",
+  "seconds": 2.34
+ },
+ "com.ztftrue.music": {
+  "status": "downloaded",
+  "seconds": 1.88
+ },
+ "app.fedilab.nitterizeme": {
+  "status": "downloaded",
+  "seconds": 1.86
+ },
+ "com.kanedias.vanilla.metadata": {
+  "status": "downloaded",
+  "seconds": 1.83
+ },
+ "negativedensity.techahashi": {
+  "status": "downloaded",
+  "seconds": 3.35
+ },
+ "eu.hxreborn.discoveradsfilter": {
+  "status": "downloaded",
+  "seconds": 2.02
+ },
+ "com.zola.bmi": {
+  "status": "downloaded",
+  "seconds": 10.58
+ },
+ "com.joeld.minesweeper": {
+  "status": "downloaded",
+  "seconds": 2.16
+ },
+ "com.rama.mako": {
+  "status": "downloaded",
+  "seconds": 1.58
+ },
+ "es.ideotec.t16fling": {
+  "status": "downloaded",
+  "seconds": 1.86
+ },
+ "com.emmanuelmess.tictactoe": {
+  "status": "downloaded",
+  "seconds": 9.65
+ },
+ "com.digitalfishfun.openshift": {
+  "status": "downloaded",
+  "seconds": 26.97
+ },
+ "io.github.jayxt.resticdroid": {
+  "status": "downloaded",
+  "seconds": 28.32
+ },
+ "com.drejo.androidvideoplayer.fdroid": {
+  "status": "downloaded",
+  "seconds": 1.5
+ },
+ "hans.b.skewy1_0": {
+  "status": "downloaded",
+  "seconds": 2.04
+ },
+ "eu.tilk.cdlcplayer": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "com.vipedev.kords2": {
+  "status": "downloaded",
+  "seconds": 2.65
+ },
+ "com.agateau.catgenerator": {
+  "status": "downloaded",
+  "seconds": 1.89
+ },
+ "org.covolunablu.marswallpaper": {
+  "status": "downloaded",
+  "seconds": 2.55
+ },
+ "se.norenh.rkfread": {
+  "status": "downloaded",
+  "seconds": 13.19
+ },
+ "com.github.dyhkwong.sagernet": {
+  "status": "downloaded",
+  "seconds": 3.73
+ },
+ "io.github.hamdav.predikt": {
+  "status": "downloaded",
+  "seconds": 83.24
+ },
+ "com.chess.clock": {
+  "status": "downloaded",
+  "seconds": 2.05
+ },
+ "v4lpt.vpt.f003.gdp": {
+  "status": "downloaded",
+  "seconds": 7.09
+ },
+ "de.hauke_stieler.geonotes": {
+  "status": "downloaded",
+  "seconds": 76.0
+ },
+ "ie.delilahsthings.soothingloop": {
+  "status": "downloaded",
+  "seconds": 1.77
+ },
+ "com.nfcarchiver.nfc_archiver": {
+  "status": "downloaded",
+  "seconds": 3.94
+ },
+ "com.biotstoiq.hayago": {
+  "status": "downloaded",
+  "seconds": 0.9
+ },
+ "com.alaskalinuxuser.criticalvelocity": {
+  "status": "downloaded",
+  "seconds": 32.63
+ },
+ "com.seeker.seekprivacy": {
+  "status": "downloaded",
+  "seconds": 1.99
+ },
+ "de.devmil.muzei.bingimageofthedayartsource": {
+  "status": "downloaded",
+  "seconds": 1.79
+ },
+ "com.chrbayer.mathe_trainer": {
+  "status": "downloaded",
+  "seconds": 2.71
+ },
+ "com.sidhant.mahjong": {
+  "status": "downloaded",
+  "seconds": 1.81
+ },
+ "com.elementlo.spark_list": {
+  "status": "downloaded",
+  "seconds": 2.3
+ },
+ "io.github.jbinder.sprawlrun": {
+  "status": "downloaded",
+  "seconds": 73.79
+ },
+ "com.zorinos.zorin_connect": {
+  "status": "downloaded",
+  "seconds": 2.02
+ },
+ "org.billthefarmer.print": {
+  "status": "downloaded",
+  "seconds": 1.07
+ },
+ "info.metadude.android.bitsundbaeume.schedule": {
+  "status": "downloaded",
+  "seconds": 24.02
+ },
+ "com.kjxbyz.picguard": {
+  "status": "downloaded",
+  "seconds": 3.68
+ },
+ "io.github.acidefluorhydrique.carrot": {
+  "status": "downloaded",
+  "seconds": 1.76
+ },
+ "fr.ubordeaux.math.paridroid": {
+  "status": "downloaded",
+  "seconds": 2.54
+ },
+ "com.polyalerts": {
+  "status": "downloaded",
+  "seconds": 32.57
+ },
+ "com.voyagerfiles": {
+  "status": "downloaded",
+  "seconds": 2.2
+ },
+ "com.bmco.cratesiounofficial": {
+  "status": "downloaded",
+  "seconds": 2.05
+ },
+ "com.louis.app.cavity": {
+  "status": "downloaded",
+  "seconds": 2.4
+ },
+ "ru.wohlsoft.thextech.fdroid": {
+  "status": "downloaded",
+  "seconds": 3.13
+ },
+ "com.szchoiceway.aios.bridge": {
+  "status": "downloaded",
+  "seconds": 1.69
+ },
+ "com.kolakek.pimiwidget": {
+  "status": "downloaded",
+  "seconds": 2.06
+ },
+ "io.github.installalogs": {
+  "status": "downloaded",
+  "seconds": 45.59
+ },
+ "com.willchan.simple_random_stock": {
+  "status": "downloaded",
+  "seconds": 1.94
+ },
+ "xyz.ptgms.tosdr": {
+  "status": "downloaded",
+  "seconds": 1.67
+ },
+ "com.rjnsdev.linklift.app": {
+  "status": "downloaded",
+  "seconds": 4.27
+ },
+ "dev.forgesworn.cambium": {
+  "status": "downloaded",
+  "seconds": 2.38
+ },
+ "com.anysoftkeyboard.languagepack.osspolish": {
+  "status": "downloaded",
+  "seconds": 91.93
+ },
+ "com.sesu8642.infusion_timer": {
+  "status": "downloaded",
+  "seconds": 3.64
+ },
+ "ch.pec0ra.suspension_setup": {
+  "status": "downloaded",
+  "seconds": 180.69
+ },
+ "de.theiling.neatlauncher": {
+  "status": "downloaded",
+  "seconds": 1.53
+ },
+ "io.mkg20001.arubanetworkslogin": {
+  "status": "downloaded",
+  "seconds": 1.78
+ },
+ "com.w2sv.filenavigator": {
+  "status": "downloaded",
+  "seconds": 1.8
+ },
+ "com.baluchon.app": {
+  "status": "downloaded",
+  "seconds": 1.98
+ },
+ "com.prayer_times": {
+  "status": "downloaded",
+  "seconds": 4.03
+ },
+ "de.tadris.flang": {
+  "status": "downloaded",
+  "seconds": 37.81
+ },
+ "com.qq7te.totalrecall": {
+  "status": "downloaded",
+  "seconds": 3.06
+ },
+ "org.proninyaroslav.libretrack": {
+  "status": "downloaded",
+  "seconds": 2.21
+ },
+ "io.github.vendelin8.elements": {
+  "status": "downloaded",
+  "seconds": 2.09
+ },
+ "org.comunes.g1nkgo": {
+  "status": "downloaded",
+  "seconds": 3.29
+ },
+ "com.heeboe.hebrewcalendar": {
+  "status": "downloaded",
+  "seconds": 2.74
+ },
+ "com.vishnu.remindme": {
+  "status": "downloaded",
+  "seconds": 1.84
+ },
+ "com.tech.estudiatai": {
+  "status": "downloaded",
+  "seconds": 88.94
+ },
+ "site.aroy.phosphor": {
+  "status": "downloaded",
+  "seconds": 2.22
+ },
+ "com.vayunmathur.photos": {
+  "status": "downloaded",
+  "seconds": 3.84
+ },
+ "net.inbox.pager": {
+  "status": "downloaded",
+  "seconds": 2.88
+ },
+ "io.gothub.boxorg": {
+  "status": "downloaded",
+  "seconds": 4.69
+ },
+ "com.ridgebotics.ridgescout": {
+  "status": "downloaded",
+  "seconds": 3.21
+ },
+ "com.greenaddress.abcore": {
+  "status": "downloaded",
+  "seconds": 6.44
+ },
+ "org.strawberryforum.argentum": {
+  "status": "downloaded",
+  "seconds": 2.02
+ },
+ "org.owntracks.android": {
+  "status": "downloaded",
+  "seconds": 2.56
+ },
+ "com.dergoogler.mmrl": {
+  "status": "downloaded",
+  "seconds": 2.05
+ },
+ "com.amanoteam.flonne": {
+  "status": "downloaded",
+  "seconds": 3.98
+ },
+ "com.farmerbb.taskbar": {
+  "status": "downloaded",
+  "seconds": 1.94
+ },
+ "com.jemcik.jemrec": {
+  "status": "downloaded",
+  "seconds": 1.81
+ },
+ "com.kasette.app": {
+  "status": "downloaded",
+  "seconds": 1.68
+ },
+ "name.seguri.android.isphoneencrypted": {
+  "status": "downloaded",
+  "seconds": 1.79
+ },
+ "com.atop": {
+  "status": "downloaded",
+  "seconds": 3.07
+ },
+ "io.github.monsiu.custom_rr": {
+  "status": "downloaded",
+  "seconds": 2.74
+ },
+ "io.github.jqssun.maceditor": {
+  "status": "downloaded",
+  "seconds": 2.12
+ },
+ "org.fcitx.fcitx5.android.plugin.unikey": {
+  "status": "downloaded",
+  "seconds": 1.06
+ },
+ "ro.radioromaniaactualitati.podcasts": {
+  "status": "downloaded",
+  "seconds": 3.17
+ },
+ "com.tiwa.pl": {
+  "status": "downloaded",
+  "seconds": 1.9
+ },
+ "vegabobo.dsusideloader": {
+  "status": "downloaded",
+  "seconds": 2.02
+ },
+ "app.pwhs.universalinstaller": {
+  "status": "downloaded",
+  "seconds": 2.18
+ },
+ "se.voxelmanip.boxsmasher": {
+  "status": "downloaded",
+  "seconds": 1.7
+ },
+ "com.vovagorodok.blichess": {
+  "status": "downloaded",
+  "seconds": 98.1
+ },
+ "eu.hxreborn.cleanshare": {
+  "status": "downloaded",
+  "seconds": 1.76
+ },
+ "com.fixupxer": {
+  "status": "downloaded",
+  "seconds": 1.76
+ },
+ "de.herk.kfzd": {
+  "status": "downloaded",
+  "seconds": 16.08
+ }
+}

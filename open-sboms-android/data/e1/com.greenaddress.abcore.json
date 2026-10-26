@@ -1,0 +1,33 @@
+{
+ "apk_file": "com.greenaddress.abcore_77.apk",
+ "package": "com.greenaddress.abcore",
+ "versionName": "0.77",
+ "versionCode": "77",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.INTERNET",
+  "android.permission.WRITE_EXTERNAL_STORAGE"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.007,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.061
+ },
+ "apk_bytes": 1279986,
+ "stratum": "E_random"
+}

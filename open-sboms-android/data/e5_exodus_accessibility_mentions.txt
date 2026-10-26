@@ -1,0 +1,10 @@
+co.xplat.husk 0
+com.akslabs.circletosearch 1
+com.carriez.flutter_hbb 0
+com.remotephone 0
+com.zorinos.zorin_connect 0
+eu.darken.sdmse 0
+io.github.sds100.keymapper 0
+io.github.vibhor1102.macrion 0
+net.christianbeier.droidvnc_ng 0
+org.kde.kdeconnect_tp 0

@@ -1,0 +1,29 @@
+{
+ "apk_file": "com.s4nj1th.pocket_dhamma_1223.apk",
+ "package": "com.s4nj1th.pocket_dhamma",
+ "versionName": "1.2.2",
+ "versionCode": "1223",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "com.s4nj1th.pocket_dhamma.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.016,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.067
+ },
+ "apk_bytes": 9915114,
+ "stratum": "E_random"
+}

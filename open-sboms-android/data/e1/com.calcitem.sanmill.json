@@ -1,0 +1,36 @@
+{
+ "apk_file": "com.calcitem.sanmill_5584.apk",
+ "package": "com.calcitem.sanmill",
+ "versionName": "7.4.6",
+ "versionCode": "5584",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.ACCESS_WIFI_STATE",
+  "android.permission.CAMERA",
+  "android.permission.INTERNET",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.VIBRATE",
+  "android.permission.WRITE_EXTERNAL_STORAGE",
+  "com.calcitem.sanmill.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.059,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.137
+ },
+ "apk_bytes": 55986092,
+ "stratum": "C_desc_accessibility_other"
+}

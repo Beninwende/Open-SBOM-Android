@@ -1,0 +1,61 @@
+{
+ "apk_file": "com.android.talkback_370044211.apk",
+ "package": "com.android.talkback",
+ "versionName": "TfPu_release_15_1-2024_10_17_0000",
+ "versionCode": "370044211",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_COARSE_LOCATION",
+  "android.permission.ACCESS_FINE_LOCATION",
+  "android.permission.BLUETOOTH",
+  "android.permission.BLUETOOTH_ADMIN",
+  "android.permission.BLUETOOTH_CONNECT",
+  "android.permission.BLUETOOTH_SCAN",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.READ_PHONE_STATE",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.RECORD_AUDIO",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.android.talkback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+  "com.google.android.apps.aicore.service.BIND_SERVICE",
+  "com.google.android.marvin.talkback.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.google.android.marvin.talkback.TalkBackService",
+   "config_path": "res/Ls.xml",
+   "canRetrieveWindowContent": true,
+   "canPerformGestures": true,
+   "canRequestFilterKeyEvents": true,
+   "accessibilityEventTypes": "0xFFFFFFFF",
+   "accessibilityFlags": "0x000004F1"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": true,
+ "dispatchGesture_string": true,
+ "ai_endpoints": [
+  "generativelanguage.googleapis.com"
+ ],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [
+  "8https://generativelanguage.googleapis.com/v1beta/models/"
+ ],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.063,
+  "a11y_config_s": 1.366,
+  "strings_s": 0.943
+ },
+ "apk_bytes": 40660572,
+ "stratum": "B_desc_accessibility_service"
+}

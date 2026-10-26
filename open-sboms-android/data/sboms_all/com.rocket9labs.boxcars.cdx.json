@@ -1,0 +1,134 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:43e951ed-b22d-46c4-9b07-f4cb25714513",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:22:07Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.rocket9labs.boxcars@1.4.9",
+   "name": "com.rocket9labs.boxcars",
+   "version": "1.4.9",
+   "purl": "pkg:generic/com.rocket9labs.boxcars@1.4.9?download_url=https://f-droid.org/repo/com.rocket9labs.boxcars_104090.apk&checksum=sha256:11d97ae669d97e893026ac5fc5449fe4476f5ac7363bf8bda2ef0f79fde3ac6f",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "11d97ae669d97e893026ac5fc5449fe4476f5ac7363bf8bda2ef0f79fde3ac6f"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.rocket9labs.boxcars_104090.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://codeberg.org/tslocum/boxcars-android"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "104090"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.923"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "native:libgojni.so",
+   "name": "libgojni.so",
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "native library file name"
+    },
+    {
+     "name": "apkcap:ai:nativeRuntime",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.rocket9labs.boxcars@1.4.9",
+   "dependsOn": [
+    "native:libgojni.so"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.rocket9labs.boxcars@1.4.9"
+   ]
+  }
+ ]
+}

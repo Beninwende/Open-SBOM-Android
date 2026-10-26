@@ -1,0 +1,30 @@
+{
+ "apk_file": "org.strawberryforum.argentum_5.apk",
+ "package": "org.strawberryforum.argentum",
+ "versionName": "0.2.2a",
+ "versionCode": "5",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.INTERNET"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.006,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.273
+ },
+ "apk_bytes": 2535141,
+ "stratum": "E_random"
+}

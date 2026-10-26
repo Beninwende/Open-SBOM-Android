@@ -1,0 +1,14 @@
+{
+ "package": "co.xplat.husk",
+ "classes_total": 82,
+ "class_buckets": {
+  "app_code": 82
+ },
+ "known_libraries": [],
+ "unresolved_namespaces": {},
+ "maven_metadata": {},
+ "kotlin_modules": [],
+ "native_libs": [],
+ "exodus_trackers": [],
+ "seconds": 0.008
+}

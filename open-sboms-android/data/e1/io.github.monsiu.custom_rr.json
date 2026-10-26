@@ -1,0 +1,30 @@
+{
+ "apk_file": "io.github.monsiu.custom_rr_16003.apk",
+ "package": "io.github.monsiu.custom_rr",
+ "versionName": "1.3.6",
+ "versionCode": "16003",
+ "INTERNET": true,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.INTERNET",
+  "io.github.monsiu.custom_rr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.033,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.225
+ },
+ "apk_bytes": 27644749,
+ "stratum": "E_random"
+}

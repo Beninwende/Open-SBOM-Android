@@ -1,0 +1,71 @@
+{
+ "package": "tw.com.daxia.virtualsoftkeys",
+ "source": "sample",
+ "sha256": "906da7b19525db9424118a057bed3bd26cbbc3d0d14e5fdcfc1d3369f854dfe7",
+ "cap": {
+  "apk_file": "tw.com.daxia.virtualsoftkeys_10.apk",
+  "package": "tw.com.daxia.virtualsoftkeys",
+  "versionName": "0.2.0.180212.1",
+  "versionCode": "10",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": true,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.BIND_ACCESSIBILITY_SERVICE",
+   "android.permission.SYSTEM_ALERT_WINDOW"
+  ],
+  "a11y_services": [
+   {
+    "name": "tw.com.daxia.virtualsoftkeys.service.ServiceFloating",
+    "config_path": "res/xml/accessibility_service_config.xml",
+    "canRetrieveWindowContent": false
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.01,
+   "a11y_config_s": 0.023,
+   "strings_s": 0.154
+  },
+  "apk_bytes": 1905985
+ },
+ "lib": {
+  "package": "tw.com.daxia.virtualsoftkeys",
+  "classes_total": 1668,
+  "class_buckets": {
+   "platform_shim": 28,
+   "known_library": 1578,
+   "unresolved": 15,
+   "app_code": 47
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 1578
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/larswerkman/holocolorpicker/": 15
+  },
+  "maven_metadata": {},
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.114
+ },
+ "signer_sha256": [
+  "547adf0ef13bdff8145e6877319c78c7f5f9a398180f99ecde0f8095b4865371"
+ ],
+ "seconds": 0.31
+}

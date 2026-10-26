@@ -1,0 +1,150 @@
+{
+ "package": "fr.neamar.kiss",
+ "source": "sample",
+ "sha256": "da6ab0b1219ad3b5ee573698523fb15d60a918083e0843f94a03c1b12e1098c9",
+ "cap": {
+  "apk_file": "fr.neamar.kiss_224.apk",
+  "package": "fr.neamar.kiss",
+  "versionName": "3.26.0",
+  "versionCode": "224",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": true,
+  "permissions": [
+   "android.permission.ACCESS_HIDDEN_PROFILES",
+   "android.permission.CALL_PHONE",
+   "android.permission.EXPAND_STATUS_BAR",
+   "android.permission.QUERY_ALL_PACKAGES",
+   "android.permission.READ_CONTACTS",
+   "android.permission.READ_PHONE_STATE",
+   "android.permission.REQUEST_DELETE_PACKAGES",
+   "com.android.alarm.permission.SET_ALARM",
+   "fr.neamar.kiss.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "fr.neamar.kiss.utils.LockAccessibilityService",
+    "config_path": "res/Li.xml"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.013,
+   "a11y_config_s": 0.11,
+   "strings_s": 0.087
+  },
+  "apk_bytes": 2205788
+ },
+ "lib": {
+  "package": "fr.neamar.kiss",
+  "classes_total": 1620,
+  "class_buckets": {
+   "known_library": 1339,
+   "app_code": 244,
+   "unresolved": 1,
+   "platform_shim": 36
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 821
+   },
+   {
+    "prefix": "j$/",
+    "name": "Android desugared JDK library (D8)",
+    "group": "com.android.tools",
+    "category": "language",
+    "classes": 394
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 94
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 28
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/android/colorpicker/": 1
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-ktx": "1.11.0",
+   "androidx.activity:activity": "1.11.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.1",
+   "androidx.appcompat:appcompat": "1.7.1",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.core:core-ktx": "1.17.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.17.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.customview:customview": "1.1.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.emoji2:emoji2-views-helper": "1.3.0",
+   "androidx.emoji2:emoji2": "1.3.0",
+   "androidx.fragment:fragment-ktx": "1.8.9",
+   "androidx.fragment:fragment": "1.8.9",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": null,
+   "androidx.lifecycle:lifecycle-livedata-core": null,
+   "androidx.lifecycle:lifecycle-livedata": null,
+   "androidx.lifecycle:lifecycle-process": null,
+   "androidx.lifecycle:lifecycle-runtime-ktx": null,
+   "androidx.lifecycle:lifecycle-runtime": null,
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": null,
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": null,
+   "androidx.lifecycle:lifecycle-viewmodel": null,
+   "androidx.loader:loader": "1.0.0",
+   "androidx.preference:preference": "1.2.1",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.recyclerview:recyclerview": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.2.1",
+   "androidx.savedstate:savedstate": "1.2.1",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.2.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.4.1",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "androidx.window:window": "1.0.0",
+   "kotlinx:coroutines_android": "1.8.1",
+   "kotlinx:coroutines_core": "1.8.1"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.09
+ },
+ "signer_sha256": [
+  "ec038e5b12c9fb8df23b5ecc1f71dd251bc503b30cec8d58a00cfae2c31abf1b"
+ ],
+ "seconds": 0.33
+}

@@ -1,0 +1,41 @@
+{
+ "apk_file": "org.koitharu.volumeicon_5.apk",
+ "package": "org.koitharu.volumeicon",
+ "versionName": "1.4",
+ "versionCode": "5",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.MODIFY_AUDIO_SETTINGS",
+  "android.permission.POST_NOTIFICATIONS"
+ ],
+ "a11y_services": [
+  {
+   "name": "org.koitharu.volumeicon.VolumeIconService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "canPerformGestures": false,
+   "canTakeScreenshot": false,
+   "canRequestFilterKeyEvents": true,
+   "accessibilityEventTypes": "0x00000000",
+   "accessibilityFlags": "0x00000021"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.003,
+  "a11y_config_s": 0.001,
+  "strings_s": 0.002
+ },
+ "apk_bytes": 107495,
+ "stratum": "B_desc_accessibility_service"
+}

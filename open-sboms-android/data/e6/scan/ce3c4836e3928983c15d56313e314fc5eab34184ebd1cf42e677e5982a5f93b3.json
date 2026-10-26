@@ -1,0 +1,123 @@
+{
+ "package": "com.georgernstgraf.polishedrecognition",
+ "source": "sample",
+ "sha256": "ce3c4836e3928983c15d56313e314fc5eab34184ebd1cf42e677e5982a5f93b3",
+ "cap": {
+  "apk_file": "com.georgernstgraf.polishedrecognition_10500.apk",
+  "package": "com.georgernstgraf.polishedrecognition",
+  "versionName": "1.5.0",
+  "versionCode": "10500",
+  "INTERNET": true,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.ACCESS_NETWORK_STATE",
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+   "android.permission.INTERNET",
+   "android.permission.POST_NOTIFICATIONS",
+   "android.permission.RECORD_AUDIO",
+   "com.georgernstgraf.polishedrecognition.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [],
+  "a11y_service": false,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.013,
+   "a11y_config_s": 0.0,
+   "strings_s": 0.074
+  },
+  "apk_bytes": 2418681
+ },
+ "lib": {
+  "package": "com.georgernstgraf.polishedrecognition",
+  "classes_total": 1195,
+  "class_buckets": {
+   "obfuscated": 362,
+   "known_library": 627,
+   "app_code": 206
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 12
+   },
+   {
+    "prefix": "com/google/gson/",
+    "name": "Gson",
+    "group": "com.google.code.gson",
+    "category": "json",
+    "classes": 180
+   },
+   {
+    "prefix": "kotlin/",
+    "name": "Kotlin stdlib",
+    "group": "org.jetbrains.kotlin",
+    "category": "language",
+    "classes": 1
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 2
+   },
+   {
+    "prefix": "okhttp3/",
+    "name": "OkHttp",
+    "group": "com.squareup.okhttp3",
+    "category": "network",
+    "classes": 317
+   },
+   {
+    "prefix": "retrofit2/",
+    "name": "Retrofit",
+    "group": "com.squareup.retrofit2",
+    "category": "network",
+    "classes": 113
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.annotation:annotation-experimental": "1.3.0",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.core:core-ktx": "1.12.0",
+   "androidx.core:core": "1.12.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.3.1",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "kotlinx:coroutines_android": "1.7.3",
+   "kotlinx:coroutines_core": "1.7.3"
+  },
+  "kotlin_modules": [
+   "app",
+   "okhttp",
+   "retrofit"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.068
+ },
+ "signer_sha256": [
+  "62f9d7b0a4c309e5ceb5d7c371f9183419ab86cda173330e1e7f08b61ba76a85"
+ ],
+ "seconds": 0.17
+}

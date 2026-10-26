@@ -1,0 +1,3062 @@
+[
+ {
+  "package": "com.ah.taplock",
+  "components": 55,
+  "services": 0,
+  "properties": 14,
+  "bytes": 41024,
+  "capabilities_s": 0.082,
+  "libraries_s": 0.073,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.akslabs.circletosearch",
+  "components": 60,
+  "services": 0,
+  "properties": 14,
+  "bytes": 43050,
+  "capabilities_s": 0.1,
+  "libraries_s": 0.109,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.micoyc.speakthat",
+  "components": 81,
+  "services": 0,
+  "properties": 14,
+  "bytes": 58010,
+  "capabilities_s": 1.428,
+  "libraries_s": 0.948,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.pranav.applock",
+  "components": 76,
+  "services": 0,
+  "properties": 14,
+  "bytes": 56023,
+  "capabilities_s": 0.135,
+  "libraries_s": 0.125,
+  "sbom_build_s": 0.001
+ },
+ {
+  "package": "io.github.chayanforyou.quickball",
+  "components": 57,
+  "services": 0,
+  "properties": 14,
+  "bytes": 42595,
+  "capabilities_s": 0.112,
+  "libraries_s": 0.111,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "tw.com.daxia.virtualsoftkeys",
+  "components": 1,
+  "services": 0,
+  "properties": 14,
+  "bytes": 3380,
+  "capabilities_s": 0.179,
+  "libraries_s": 0.111,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.mlauncher",
+  "components": 108,
+  "services": 0,
+  "properties": 14,
+  "bytes": 77938,
+  "capabilities_s": 0.274,
+  "libraries_s": 0.132,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.scratchpad.launcher",
+  "components": 60,
+  "services": 0,
+  "properties": 14,
+  "bytes": 44874,
+  "capabilities_s": 0.213,
+  "libraries_s": 0.065,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "by.yauhenl.gardine",
+  "components": 37,
+  "services": 0,
+  "properties": 14,
+  "bytes": 28501,
+  "capabilities_s": 0.247,
+  "libraries_s": 0.168,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ca.asmat.buzzkill",
+  "components": 71,
+  "services": 0,
+  "properties": 14,
+  "bytes": 51690,
+  "capabilities_s": 1.719,
+  "libraries_s": 1.114,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "co.xplat.husk",
+  "components": 0,
+  "services": 0,
+  "properties": 14,
+  "bytes": 2542,
+  "capabilities_s": 0.016,
+  "libraries_s": 0.007,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.akexorcist.ruammij",
+  "components": 85,
+  "services": 0,
+  "properties": 13,
+  "bytes": 61973,
+  "capabilities_s": 0.118,
+  "libraries_s": 0.134,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.android.talkback",
+  "components": 56,
+  "services": 1,
+  "properties": 15,
+  "bytes": 40122,
+  "capabilities_s": 2.332,
+  "libraries_s": 0.803,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.aravi.dot",
+  "components": 44,
+  "services": 0,
+  "properties": 14,
+  "bytes": 33246,
+  "capabilities_s": 0.238,
+  "libraries_s": 0.08,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.babytouchlock",
+  "components": 47,
+  "services": 0,
+  "properties": 14,
+  "bytes": 35049,
+  "capabilities_s": 0.598,
+  "libraries_s": 0.394,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.carriez.flutter_hbb",
+  "components": 45,
+  "services": 0,
+  "properties": 14,
+  "bytes": 32189,
+  "capabilities_s": 0.206,
+  "libraries_s": 0.184,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.celzero.bravedns",
+  "components": 95,
+  "services": 0,
+  "properties": 14,
+  "bytes": 67522,
+  "capabilities_s": 0.891,
+  "libraries_s": 0.447,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.deehem.splitz",
+  "components": 63,
+  "services": 0,
+  "properties": 14,
+  "bytes": 46535,
+  "capabilities_s": 0.089,
+  "libraries_s": 0.092,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.defang.launcher",
+  "components": 73,
+  "services": 0,
+  "properties": 14,
+  "bytes": 52868,
+  "capabilities_s": 0.15,
+  "libraries_s": 0.187,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.dtsykunov.pause",
+  "components": 45,
+  "services": 0,
+  "properties": 14,
+  "bytes": 33967,
+  "capabilities_s": 0.094,
+  "libraries_s": 0.05,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.earendel.tapbar",
+  "components": 59,
+  "services": 0,
+  "properties": 14,
+  "bytes": 43745,
+  "capabilities_s": 0.218,
+  "libraries_s": 0.095,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.encrypt.bwt",
+  "components": 78,
+  "services": 0,
+  "properties": 14,
+  "bytes": 56788,
+  "capabilities_s": 0.347,
+  "libraries_s": 0.3,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.focus.launcher",
+  "components": 59,
+  "services": 0,
+  "properties": 14,
+  "bytes": 43780,
+  "capabilities_s": 0.091,
+  "libraries_s": 0.088,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.github.bmx666.appcachecleaner",
+  "components": 94,
+  "services": 0,
+  "properties": 14,
+  "bytes": 68223,
+  "capabilities_s": 0.172,
+  "libraries_s": 0.138,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.github.cvzi.screenshottile",
+  "components": 64,
+  "services": 0,
+  "properties": 14,
+  "bytes": 47375,
+  "capabilities_s": 0.323,
+  "libraries_s": 0.136,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.goushik.upiwallet",
+  "components": 73,
+  "services": 0,
+  "properties": 14,
+  "bytes": 53271,
+  "capabilities_s": 1.696,
+  "libraries_s": 1.052,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.inod.screenofftimer",
+  "components": 74,
+  "services": 0,
+  "properties": 14,
+  "bytes": 54655,
+  "capabilities_s": 0.102,
+  "libraries_s": 0.109,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.jarsilio.android.autoautorotate",
+  "components": 87,
+  "services": 0,
+  "properties": 14,
+  "bytes": 63563,
+  "capabilities_s": 0.175,
+  "libraries_s": 0.11,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.jarsilio.android.pingoff",
+  "components": 87,
+  "services": 0,
+  "properties": 14,
+  "bytes": 63499,
+  "capabilities_s": 0.184,
+  "libraries_s": 0.108,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.jarsilio.android.waveup",
+  "components": 91,
+  "services": 0,
+  "properties": 14,
+  "bytes": 65946,
+  "capabilities_s": 0.505,
+  "libraries_s": 0.229,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.joaohouto.assistivemenutool",
+  "components": 46,
+  "services": 0,
+  "properties": 14,
+  "bytes": 34683,
+  "capabilities_s": 0.061,
+  "libraries_s": 0.064,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.lpw.graypause",
+  "components": 1,
+  "services": 0,
+  "properties": 14,
+  "bytes": 3199,
+  "capabilities_s": 0.006,
+  "libraries_s": 0.005,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.musheer360.swiftslate",
+  "components": 62,
+  "services": 2,
+  "properties": 16,
+  "bytes": 46863,
+  "capabilities_s": 0.123,
+  "libraries_s": 0.104,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.pedronveloso.a11ybutton",
+  "components": 70,
+  "services": 0,
+  "properties": 14,
+  "bytes": 51345,
+  "capabilities_s": 0.1,
+  "libraries_s": 0.093,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.pilot51.voicenotify",
+  "components": 100,
+  "services": 0,
+  "properties": 13,
+  "bytes": 72029,
+  "capabilities_s": 0.29,
+  "libraries_s": 0.343,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.procrastilearn.app",
+  "components": 88,
+  "services": 2,
+  "properties": 17,
+  "bytes": 64152,
+  "capabilities_s": 0.609,
+  "libraries_s": 1.053,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rascarlo.power.button.tile",
+  "components": 34,
+  "services": 0,
+  "properties": 14,
+  "bytes": 26561,
+  "capabilities_s": 0.067,
+  "libraries_s": 0.042,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rdevzph.fpsmeter",
+  "components": 56,
+  "services": 0,
+  "properties": 14,
+  "bytes": 41822,
+  "capabilities_s": 0.109,
+  "libraries_s": 0.098,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.remotephone",
+  "components": 18,
+  "services": 0,
+  "properties": 14,
+  "bytes": 15069,
+  "capabilities_s": 0.023,
+  "libraries_s": 0.019,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.sarangem.zenwell",
+  "components": 86,
+  "services": 0,
+  "properties": 14,
+  "bytes": 63324,
+  "capabilities_s": 0.15,
+  "libraries_s": 0.137,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.slate.launcher",
+  "components": 47,
+  "services": 0,
+  "properties": 14,
+  "bytes": 35081,
+  "capabilities_s": 0.254,
+  "libraries_s": 0.078,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.soul_99.suIMD",
+  "components": 92,
+  "services": 0,
+  "properties": 14,
+  "bytes": 66173,
+  "capabilities_s": 0.188,
+  "libraries_s": 0.156,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tideo.autobrightness",
+  "components": 83,
+  "services": 0,
+  "properties": 14,
+  "bytes": 59567,
+  "capabilities_s": 1.65,
+  "libraries_s": 1.074,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.trevornk.ramblr",
+  "components": 64,
+  "services": 5,
+  "properties": 30,
+  "bytes": 45911,
+  "capabilities_s": 0.178,
+  "libraries_s": 0.085,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.typeassist.app",
+  "components": 79,
+  "services": 4,
+  "properties": 22,
+  "bytes": 57983,
+  "capabilities_s": 0.2,
+  "libraries_s": 0.154,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.viscouspot.gitsync",
+  "components": 92,
+  "services": 0,
+  "properties": 14,
+  "bytes": 63066,
+  "capabilities_s": 0.507,
+  "libraries_s": 0.464,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.yeapguy.volumescroll",
+  "components": 46,
+  "services": 0,
+  "properties": 14,
+  "bytes": 34407,
+  "capabilities_s": 0.546,
+  "libraries_s": 0.352,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.zfdang.touchhelper",
+  "components": 60,
+  "services": 0,
+  "properties": 14,
+  "bytes": 44497,
+  "capabilities_s": 0.139,
+  "libraries_s": 0.143,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.zygisk_enc.notivault",
+  "components": 72,
+  "services": 0,
+  "properties": 14,
+  "bytes": 52301,
+  "capabilities_s": 0.914,
+  "libraries_s": 0.531,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.jl.notificationlog",
+  "components": 66,
+  "services": 0,
+  "properties": 14,
+  "bytes": 48726,
+  "capabilities_s": 0.201,
+  "libraries_s": 0.148,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.z11.roboyard",
+  "components": 61,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45381,
+  "capabilities_s": 0.107,
+  "libraries_s": 0.057,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.davidv.translator",
+  "components": 94,
+  "services": 0,
+  "properties": 14,
+  "bytes": 66252,
+  "capabilities_s": 0.467,
+  "libraries_s": 0.385,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.serika.camerasilencer",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2553,
+  "capabilities_s": 0.007,
+  "libraries_s": 0.005,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "eu.darken.sdmse",
+  "components": 125,
+  "services": 0,
+  "properties": 14,
+  "bytes": 88655,
+  "capabilities_s": 1.421,
+  "libraries_s": 0.689,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "fr.gibinot.panosp",
+  "components": 0,
+  "services": 0,
+  "properties": 14,
+  "bytes": 2597,
+  "capabilities_s": 0.02,
+  "libraries_s": 0.014,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.capitan0n.droynis",
+  "components": 55,
+  "services": 0,
+  "properties": 13,
+  "bytes": 40906,
+  "capabilities_s": 0.102,
+  "libraries_s": 0.092,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.deweyreed.clipboardcleaner",
+  "components": 52,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39002,
+  "capabilities_s": 0.044,
+  "libraries_s": 0.049,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.dorumrr.privacyflip",
+  "components": 64,
+  "services": 0,
+  "properties": 14,
+  "bytes": 47368,
+  "capabilities_s": 0.126,
+  "libraries_s": 0.098,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.jqssun.displayextend",
+  "components": 61,
+  "services": 0,
+  "properties": 14,
+  "bytes": 45219,
+  "capabilities_s": 0.177,
+  "libraries_s": 0.099,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.munzzyy.sweep",
+  "components": 25,
+  "services": 0,
+  "properties": 13,
+  "bytes": 19727,
+  "capabilities_s": 0.014,
+  "libraries_s": 0.014,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.sds100.keymapper",
+  "components": 135,
+  "services": 0,
+  "properties": 14,
+  "bytes": 95241,
+  "capabilities_s": 0.706,
+  "libraries_s": 0.44,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.oversec.one",
+  "components": 43,
+  "services": 0,
+  "properties": 14,
+  "bytes": 32015,
+  "capabilities_s": 0.438,
+  "libraries_s": 0.344,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.timelimit.android.aosp.direct",
+  "components": 102,
+  "services": 0,
+  "properties": 14,
+  "bytes": 73795,
+  "capabilities_s": 0.423,
+  "libraries_s": 0.219,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.timelimit.android.open",
+  "components": 77,
+  "services": 0,
+  "properties": 14,
+  "bytes": 56338,
+  "capabilities_s": 0.306,
+  "libraries_s": 0.273,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "moe.dic1911.autodnd",
+  "components": 45,
+  "services": 0,
+  "properties": 14,
+  "bytes": 33678,
+  "capabilities_s": 0.481,
+  "libraries_s": 0.375,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "name.seguri.android.getforegroundactivity",
+  "components": 0,
+  "services": 0,
+  "properties": 14,
+  "bytes": 2801,
+  "capabilities_s": 0.004,
+  "libraries_s": 0.003,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.blumia.pineapple.lockscreen.oss",
+  "components": 89,
+  "services": 0,
+  "properties": 14,
+  "bytes": 64116,
+  "capabilities_s": 0.252,
+  "libraries_s": 0.211,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.christianbeier.droidvnc_ng",
+  "components": 53,
+  "services": 0,
+  "properties": 14,
+  "bytes": 39020,
+  "capabilities_s": 0.259,
+  "libraries_s": 0.094,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "nl.bw20.last_launcher",
+  "components": 62,
+  "services": 0,
+  "properties": 14,
+  "bytes": 45016,
+  "capabilities_s": 0.095,
+  "libraries_s": 0.05,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "now.abhi.graycie",
+  "components": 56,
+  "services": 0,
+  "properties": 14,
+  "bytes": 41492,
+  "capabilities_s": 1.641,
+  "libraries_s": 1.004,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.jpi59.ethiccompass",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2528,
+  "capabilities_s": 0.005,
+  "libraries_s": 0.004,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.koitharu.volumeicon",
+  "components": 0,
+  "services": 0,
+  "properties": 14,
+  "bytes": 2629,
+  "capabilities_s": 0.007,
+  "libraries_s": 0.005,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "space.subread.overlay",
+  "components": 14,
+  "services": 0,
+  "properties": 13,
+  "bytes": 12194,
+  "capabilities_s": 0.01,
+  "libraries_s": 0.01,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "superfreeze.tool.android",
+  "components": 30,
+  "services": 0,
+  "properties": 14,
+  "bytes": 23378,
+  "capabilities_s": 0.238,
+  "libraries_s": 0.121,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.cclauncher",
+  "components": 98,
+  "services": 0,
+  "properties": 14,
+  "bytes": 70690,
+  "capabilities_s": 0.31,
+  "libraries_s": 0.299,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.cleartray",
+  "components": 88,
+  "services": 0,
+  "properties": 14,
+  "bytes": 60751,
+  "capabilities_s": 0.212,
+  "libraries_s": 0.178,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.organicmaps",
+  "components": 79,
+  "services": 0,
+  "properties": 13,
+  "bytes": 56470,
+  "capabilities_s": 0.491,
+  "libraries_s": 0.438,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.pachli",
+  "components": 134,
+  "services": 0,
+  "properties": 13,
+  "bytes": 92640,
+  "capabilities_s": 0.74,
+  "libraries_s": 0.832,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.veil.veil",
+  "components": 44,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31467,
+  "capabilities_s": 0.1,
+  "libraries_s": 0.067,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "at.j0s.meyercard.app",
+  "components": 84,
+  "services": 0,
+  "properties": 13,
+  "bytes": 61043,
+  "capabilities_s": 0.103,
+  "libraries_s": 0.123,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "business.braid.polycule",
+  "components": 74,
+  "services": 0,
+  "properties": 13,
+  "bytes": 49319,
+  "capabilities_s": 0.282,
+  "libraries_s": 0.214,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.adeeteya.digital_calculator",
+  "components": 31,
+  "services": 0,
+  "properties": 13,
+  "bytes": 23281,
+  "capabilities_s": 0.045,
+  "libraries_s": 0.027,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.aw.huda",
+  "components": 95,
+  "services": 0,
+  "properties": 14,
+  "bytes": 67011,
+  "capabilities_s": 0.417,
+  "libraries_s": 0.196,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.bearinmind.equalizer314",
+  "components": 50,
+  "services": 0,
+  "properties": 13,
+  "bytes": 37116,
+  "capabilities_s": 0.673,
+  "libraries_s": 0.531,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.byagowi.persiancalendar",
+  "components": 75,
+  "services": 0,
+  "properties": 13,
+  "bytes": 54982,
+  "capabilities_s": 0.159,
+  "libraries_s": 0.161,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.calcitem.sanmill",
+  "components": 66,
+  "services": 0,
+  "properties": 13,
+  "bytes": 46289,
+  "capabilities_s": 0.214,
+  "libraries_s": 0.135,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.capyreader.app",
+  "components": 123,
+  "services": 0,
+  "properties": 13,
+  "bytes": 88426,
+  "capabilities_s": 0.337,
+  "libraries_s": 0.332,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.concealnetwork.concealmobile",
+  "components": 38,
+  "services": 0,
+  "properties": 13,
+  "bytes": 28547,
+  "capabilities_s": 0.352,
+  "libraries_s": 0.27,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.f0x1d.logfox",
+  "components": 107,
+  "services": 0,
+  "properties": 13,
+  "bytes": 76989,
+  "capabilities_s": 0.16,
+  "libraries_s": 0.186,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.futsch1.medtimer",
+  "components": 110,
+  "services": 0,
+  "properties": 13,
+  "bytes": 79679,
+  "capabilities_s": 0.163,
+  "libraries_s": 0.173,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.hos_dvk.easyphone.full",
+  "components": 53,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39538,
+  "capabilities_s": 0.472,
+  "libraries_s": 0.353,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.juliencardoux.ratafuel",
+  "components": 89,
+  "services": 0,
+  "properties": 13,
+  "bytes": 64042,
+  "capabilities_s": 0.165,
+  "libraries_s": 0.143,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.mablanco.pricegrab",
+  "components": 51,
+  "services": 0,
+  "properties": 13,
+  "bytes": 37729,
+  "capabilities_s": 0.071,
+  "libraries_s": 0.096,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.maforn.timedshutdown",
+  "components": 55,
+  "services": 0,
+  "properties": 14,
+  "bytes": 41177,
+  "capabilities_s": 0.165,
+  "libraries_s": 0.122,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.markleaf.notes",
+  "components": 80,
+  "services": 0,
+  "properties": 13,
+  "bytes": 58177,
+  "capabilities_s": 0.15,
+  "libraries_s": 0.168,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.nitish.privacyindicator",
+  "components": 52,
+  "services": 0,
+  "properties": 14,
+  "bytes": 38970,
+  "capabilities_s": 0.168,
+  "libraries_s": 0.075,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.podverse.fdroid",
+  "components": 141,
+  "services": 0,
+  "properties": 14,
+  "bytes": 75653,
+  "capabilities_s": 1.436,
+  "libraries_s": 1.32,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.resolvecommunity.awaydoomscrollin",
+  "components": 45,
+  "services": 0,
+  "properties": 14,
+  "bytes": 34015,
+  "capabilities_s": 0.128,
+  "libraries_s": 0.102,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.saad2134.dosezy",
+  "components": 97,
+  "services": 0,
+  "properties": 13,
+  "bytes": 69360,
+  "capabilities_s": 1.13,
+  "libraries_s": 1.52,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.studio4plus.homerplayer2",
+  "components": 103,
+  "services": 0,
+  "properties": 13,
+  "bytes": 73249,
+  "capabilities_s": 0.382,
+  "libraries_s": 0.454,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.techtrest.privamatic",
+  "components": 82,
+  "services": 0,
+  "properties": 13,
+  "bytes": 59372,
+  "capabilities_s": 0.114,
+  "libraries_s": 0.129,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.vincent_falzon.discreetlauncher",
+  "components": 42,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31969,
+  "capabilities_s": 0.059,
+  "libraries_s": 0.059,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.xxxx.parcel",
+  "components": 65,
+  "services": 0,
+  "properties": 13,
+  "bytes": 47562,
+  "capabilities_s": 1.45,
+  "libraries_s": 0.939,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "corewala.gemini.buran",
+  "components": 57,
+  "services": 0,
+  "properties": 13,
+  "bytes": 42206,
+  "capabilities_s": 0.072,
+  "libraries_s": 0.082,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.mysportsmate.officebreak",
+  "components": 80,
+  "services": 0,
+  "properties": 13,
+  "bytes": 58118,
+  "capabilities_s": 0.115,
+  "libraries_s": 0.126,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.msbs.cyclauncher",
+  "components": 80,
+  "services": 0,
+  "properties": 13,
+  "bytes": 57886,
+  "capabilities_s": 3.83,
+  "libraries_s": 1.963,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.shrekbytes.waqfah.fdroid",
+  "components": 86,
+  "services": 0,
+  "properties": 13,
+  "bytes": 62243,
+  "capabilities_s": 0.097,
+  "libraries_s": 0.104,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "duress.ultimate",
+  "components": 0,
+  "services": 0,
+  "properties": 14,
+  "bytes": 2577,
+  "capabilities_s": 0.011,
+  "libraries_s": 0.006,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "eu.ottop.yamlauncher",
+  "components": 59,
+  "services": 0,
+  "properties": 14,
+  "bytes": 43736,
+  "capabilities_s": 0.16,
+  "libraries_s": 0.06,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "fr.neamar.kiss",
+  "components": 47,
+  "services": 0,
+  "properties": 14,
+  "bytes": 34976,
+  "capabilities_s": 0.255,
+  "libraries_s": 0.108,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.davidar.fabularium",
+  "components": 52,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31586,
+  "capabilities_s": 0.102,
+  "libraries_s": 0.074,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.dhiraj_j_s.minimalsf",
+  "components": 45,
+  "services": 0,
+  "properties": 14,
+  "bytes": 34060,
+  "capabilities_s": 0.113,
+  "libraries_s": 0.061,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.digvijaylp.OpenTeleScopeVR",
+  "components": 46,
+  "services": 0,
+  "properties": 13,
+  "bytes": 34641,
+  "capabilities_s": 0.421,
+  "libraries_s": 0.302,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.luantak.fokuslauncher",
+  "components": 97,
+  "services": 0,
+  "properties": 14,
+  "bytes": 70275,
+  "capabilities_s": 0.255,
+  "libraries_s": 0.156,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.sak.read.it.later",
+  "components": 54,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39760,
+  "capabilities_s": 0.102,
+  "libraries_s": 0.101,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.vibhor1102.macrion",
+  "components": 84,
+  "services": 0,
+  "properties": 15,
+  "bytes": 59115,
+  "capabilities_s": 0.425,
+  "libraries_s": 0.258,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "jwtc.android.chess",
+  "components": 52,
+  "services": 0,
+  "properties": 13,
+  "bytes": 37891,
+  "capabilities_s": 0.11,
+  "libraries_s": 0.089,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "m.co.rh.id.a_news_provider",
+  "components": 59,
+  "services": 0,
+  "properties": 13,
+  "bytes": 42717,
+  "capabilities_s": 0.851,
+  "libraries_s": 0.666,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "me.hackerchick.catima",
+  "components": 96,
+  "services": 0,
+  "properties": 14,
+  "bytes": 69098,
+  "capabilities_s": 0.256,
+  "libraries_s": 0.277,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "me.lucky.duress",
+  "components": 57,
+  "services": 0,
+  "properties": 14,
+  "bytes": 42130,
+  "capabilities_s": 0.609,
+  "libraries_s": 0.414,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.ibbaa.keepitup",
+  "components": 60,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43602,
+  "capabilities_s": 0.2,
+  "libraries_s": 0.168,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.slions.fulguris.full.fdroid",
+  "components": 88,
+  "services": 0,
+  "properties": 13,
+  "bytes": 62171,
+  "capabilities_s": 0.534,
+  "libraries_s": 0.78,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.breezyweather",
+  "components": 8,
+  "services": 0,
+  "properties": 13,
+  "bytes": 6636,
+  "capabilities_s": 0.388,
+  "libraries_s": 0.31,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.headsetrewind",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2496,
+  "capabilities_s": 0.003,
+  "libraries_s": 0.003,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.jpi59.ethichandoff",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2529,
+  "capabilities_s": 0.004,
+  "libraries_s": 0.003,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.kde.kdeconnect_tp",
+  "components": 104,
+  "services": 0,
+  "properties": 14,
+  "bytes": 74245,
+  "capabilities_s": 0.701,
+  "libraries_s": 0.501,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.keyoxide.keyoxide",
+  "components": 49,
+  "services": 0,
+  "properties": 13,
+  "bytes": 34978,
+  "capabilities_s": 0.241,
+  "libraries_s": 0.162,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.onekash.kashcal",
+  "components": 113,
+  "services": 0,
+  "properties": 13,
+  "bytes": 80505,
+  "capabilities_s": 0.596,
+  "libraries_s": 0.551,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.osservatorionessuno.bugbane.beta",
+  "components": 62,
+  "services": 0,
+  "properties": 14,
+  "bytes": 45848,
+  "capabilities_s": 0.157,
+  "libraries_s": 0.131,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "pt.tiago.bubblenight",
+  "components": 58,
+  "services": 0,
+  "properties": 13,
+  "bytes": 42261,
+  "capabilities_s": 1.721,
+  "libraries_s": 1.083,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "space.neothefox.laytray",
+  "components": 16,
+  "services": 0,
+  "properties": 14,
+  "bytes": 13844,
+  "capabilities_s": 0.183,
+  "libraries_s": 0.119,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "xyz.mordorx.sicmu",
+  "components": 50,
+  "services": 0,
+  "properties": 13,
+  "bytes": 36837,
+  "capabilities_s": 0.165,
+  "libraries_s": 0.148,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ai.agent1c.hitomi.open",
+  "components": 47,
+  "services": 2,
+  "properties": 15,
+  "bytes": 35800,
+  "capabilities_s": 0.522,
+  "libraries_s": 0.4,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.chompass",
+  "components": 112,
+  "services": 11,
+  "properties": 25,
+  "bytes": 83641,
+  "capabilities_s": 0.354,
+  "libraries_s": 0.33,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.maskan.chat",
+  "components": 83,
+  "services": 9,
+  "properties": 23,
+  "bytes": 63251,
+  "capabilities_s": 0.226,
+  "libraries_s": 0.209,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.siftrecipes",
+  "components": 101,
+  "services": 0,
+  "properties": 13,
+  "bytes": 55726,
+  "capabilities_s": 0.834,
+  "libraries_s": 0.676,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ca.snoe.deedum",
+  "components": 19,
+  "services": 0,
+  "properties": 13,
+  "bytes": 14721,
+  "capabilities_s": 0.047,
+  "libraries_s": 0.025,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.anant.fitbuddy",
+  "components": 111,
+  "services": 3,
+  "properties": 17,
+  "bytes": 78733,
+  "capabilities_s": 0.253,
+  "libraries_s": 0.228,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.antivocale.app",
+  "components": 107,
+  "services": 0,
+  "properties": 16,
+  "bytes": 75212,
+  "capabilities_s": 0.352,
+  "libraries_s": 0.309,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.anxcye.anx_reader",
+  "components": 66,
+  "services": 0,
+  "properties": 13,
+  "bytes": 47011,
+  "capabilities_s": 0.192,
+  "libraries_s": 0.129,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.asdoi.quicktiles",
+  "components": 67,
+  "services": 0,
+  "properties": 14,
+  "bytes": 49257,
+  "capabilities_s": 0.947,
+  "libraries_s": 0.551,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.beradeep.aiyo",
+  "components": 82,
+  "services": 1,
+  "properties": 14,
+  "bytes": 59418,
+  "capabilities_s": 0.124,
+  "libraries_s": 0.153,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.chmouel.liseur",
+  "components": 115,
+  "services": 4,
+  "properties": 17,
+  "bytes": 84208,
+  "capabilities_s": 0.348,
+  "libraries_s": 0.337,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.danemadsen.maid",
+  "components": 64,
+  "services": 0,
+  "properties": 17,
+  "bytes": 44688,
+  "capabilities_s": 0.076,
+  "libraries_s": 0.061,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.deedeedev.ytreader",
+  "components": 76,
+  "services": 0,
+  "properties": 13,
+  "bytes": 54944,
+  "capabilities_s": 0.244,
+  "libraries_s": 0.231,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.devasy.repforge",
+  "components": 37,
+  "services": 0,
+  "properties": 13,
+  "bytes": 26991,
+  "capabilities_s": 0.132,
+  "libraries_s": 0.099,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.fitforge.fitforge",
+  "components": 65,
+  "services": 0,
+  "properties": 13,
+  "bytes": 46482,
+  "capabilities_s": 0.091,
+  "libraries_s": 0.078,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.furthersecrets.chemsearch",
+  "components": 85,
+  "services": 5,
+  "properties": 18,
+  "bytes": 63774,
+  "capabilities_s": 0.2,
+  "libraries_s": 0.17,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.georgernstgraf.polishedrecognition",
+  "components": 14,
+  "services": 0,
+  "properties": 13,
+  "bytes": 12051,
+  "capabilities_s": 0.071,
+  "libraries_s": 0.06,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.hanan_bhatti.cobalt",
+  "components": 88,
+  "services": 1,
+  "properties": 14,
+  "bytes": 64605,
+  "capabilities_s": 0.393,
+  "libraries_s": 0.377,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.inspiredandroid.kai",
+  "components": 102,
+  "services": 13,
+  "properties": 27,
+  "bytes": 77005,
+  "capabilities_s": 1.095,
+  "libraries_s": 0.994,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.jarves.mh",
+  "components": 61,
+  "services": 3,
+  "properties": 16,
+  "bytes": 43693,
+  "capabilities_s": 3.336,
+  "libraries_s": 1.739,
+  "sbom_build_s": 0.001
+ },
+ {
+  "package": "com.kbul.spicycrab",
+  "components": 112,
+  "services": 1,
+  "properties": 14,
+  "bytes": 80095,
+  "capabilities_s": 0.19,
+  "libraries_s": 0.186,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.lazydevs.wristotle",
+  "components": 94,
+  "services": 2,
+  "properties": 21,
+  "bytes": 65880,
+  "capabilities_s": 0.29,
+  "libraries_s": 0.254,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.leanbitlab.leantype",
+  "components": 97,
+  "services": 2,
+  "properties": 16,
+  "bytes": 69233,
+  "capabilities_s": 0.992,
+  "libraries_s": 0.866,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.lord1egypt.pocketclaw",
+  "components": 75,
+  "services": 0,
+  "properties": 13,
+  "bytes": 49937,
+  "capabilities_s": 0.143,
+  "libraries_s": 0.086,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.mateusrodcosta.apps.vidyamusic",
+  "components": 92,
+  "services": 0,
+  "properties": 13,
+  "bytes": 66723,
+  "capabilities_s": 0.121,
+  "libraries_s": 0.13,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.newoether.agora",
+  "components": 144,
+  "services": 8,
+  "properties": 32,
+  "bytes": 98872,
+  "capabilities_s": 5.537,
+  "libraries_s": 3.413,
+  "sbom_build_s": 0.001
+ },
+ {
+  "package": "com.pebblerecorder.app",
+  "components": 43,
+  "services": 1,
+  "properties": 14,
+  "bytes": 32192,
+  "capabilities_s": 0.464,
+  "libraries_s": 0.329,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.prismgallery.app",
+  "components": 56,
+  "services": 0,
+  "properties": 13,
+  "bytes": 41508,
+  "capabilities_s": 0.12,
+  "libraries_s": 0.137,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rastislavkish.vscan",
+  "components": 75,
+  "services": 6,
+  "properties": 19,
+  "bytes": 56878,
+  "capabilities_s": 0.853,
+  "libraries_s": 0.663,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.scariflabs.horus",
+  "components": 54,
+  "services": 0,
+  "properties": 13,
+  "bytes": 34656,
+  "capabilities_s": 0.12,
+  "libraries_s": 0.103,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tk.quicksearch",
+  "components": 91,
+  "services": 4,
+  "properties": 18,
+  "bytes": 67760,
+  "capabilities_s": 0.419,
+  "libraries_s": 0.264,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tyraen.voicekeyboard",
+  "components": 49,
+  "services": 7,
+  "properties": 20,
+  "bytes": 39352,
+  "capabilities_s": 0.101,
+  "libraries_s": 0.098,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.bgg_home.texslate",
+  "components": 66,
+  "services": 3,
+  "properties": 16,
+  "bytes": 49355,
+  "capabilities_s": 0.164,
+  "libraries_s": 0.139,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.froehlichmedia.adaptkey",
+  "components": 58,
+  "services": 0,
+  "properties": 15,
+  "bytes": 42148,
+  "capabilities_s": 0.149,
+  "libraries_s": 0.106,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.argus",
+  "components": 79,
+  "services": 4,
+  "properties": 17,
+  "bytes": 58418,
+  "capabilities_s": 3.404,
+  "libraries_s": 1.709,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.chungjungsoo.gptmobile",
+  "components": 110,
+  "services": 7,
+  "properties": 21,
+  "bytes": 80856,
+  "capabilities_s": 0.303,
+  "libraries_s": 0.265,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.kokoro.tts",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2463,
+  "capabilities_s": 0.008,
+  "libraries_s": 0.005,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ekklesia.gr",
+  "components": 88,
+  "services": 0,
+  "properties": 13,
+  "bytes": 57716,
+  "capabilities_s": 1.443,
+  "libraries_s": 1.012,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "info.plateaukao.einkbro",
+  "components": 72,
+  "services": 2,
+  "properties": 15,
+  "bytes": 52960,
+  "capabilities_s": 0.191,
+  "libraries_s": 0.176,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.acidefluorhydrique.geminiassist",
+  "components": 33,
+  "services": 0,
+  "properties": 13,
+  "bytes": 25491,
+  "capabilities_s": 0.03,
+  "libraries_s": 0.028,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.kotchwane.bonavortaro",
+  "components": 67,
+  "services": 0,
+  "properties": 13,
+  "bytes": 49349,
+  "capabilities_s": 0.131,
+  "libraries_s": 0.122,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.patricksmill.quicknotes",
+  "components": 88,
+  "services": 2,
+  "properties": 16,
+  "bytes": 63978,
+  "capabilities_s": 2.303,
+  "libraries_s": 2.481,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.stardomains3.oxproxion",
+  "components": 69,
+  "services": 1,
+  "properties": 14,
+  "bytes": 51155,
+  "capabilities_s": 0.175,
+  "libraries_s": 0.099,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.theficos.quire",
+  "components": 129,
+  "services": 0,
+  "properties": 13,
+  "bytes": 90522,
+  "capabilities_s": 4.899,
+  "libraries_s": 3.077,
+  "sbom_build_s": 0.001
+ },
+ {
+  "package": "m.co.rh.id.a_flash_deck",
+  "components": 63,
+  "services": 1,
+  "properties": 14,
+  "bytes": 45853,
+  "capabilities_s": 0.935,
+  "libraries_s": 0.737,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "me.kafuuneko.rpclient",
+  "components": 85,
+  "services": 6,
+  "properties": 19,
+  "bytes": 64486,
+  "capabilities_s": 0.202,
+  "libraries_s": 0.229,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "nabu.iris.keyboard",
+  "components": 0,
+  "services": 3,
+  "properties": 16,
+  "bytes": 3914,
+  "capabilities_s": 0.021,
+  "libraries_s": 0.014,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.backslasher.dndtoggle",
+  "components": 45,
+  "services": 0,
+  "properties": 13,
+  "bytes": 33754,
+  "capabilities_s": 0.471,
+  "libraries_s": 0.37,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.curiana.recipes",
+  "components": 52,
+  "services": 0,
+  "properties": 13,
+  "bytes": 38063,
+  "capabilities_s": 0.178,
+  "libraries_s": 0.125,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "nl.hansdezwart.bgclock",
+  "components": 10,
+  "services": 0,
+  "properties": 13,
+  "bytes": 9178,
+  "capabilities_s": 0.152,
+  "libraries_s": 0.111,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.eu.mumulhl.ciyue",
+  "components": 73,
+  "services": 0,
+  "properties": 13,
+  "bytes": 50998,
+  "capabilities_s": 0.138,
+  "libraries_s": 0.102,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.shano.assistral",
+  "components": 7,
+  "services": 1,
+  "properties": 14,
+  "bytes": 7692,
+  "capabilities_s": 0.009,
+  "libraries_s": 0.008,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.sherpr.app",
+  "components": 57,
+  "services": 0,
+  "properties": 14,
+  "bytes": 39349,
+  "capabilities_s": 0.164,
+  "libraries_s": 0.121,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.t2decode.app",
+  "components": 62,
+  "services": 0,
+  "properties": 13,
+  "bytes": 44858,
+  "capabilities_s": 0.097,
+  "libraries_s": 0.065,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.venkado.relagent",
+  "components": 68,
+  "services": 0,
+  "properties": 14,
+  "bytes": 47601,
+  "capabilities_s": 0.147,
+  "libraries_s": 0.103,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.woheller69.gptassist",
+  "components": 33,
+  "services": 0,
+  "properties": 13,
+  "bytes": 25373,
+  "capabilities_s": 0.029,
+  "libraries_s": 0.027,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "space.rocketnine.xenia",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2841,
+  "capabilities_s": 0.017,
+  "libraries_s": 0.006,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.fiveseven.tabataxtreme",
+  "components": 68,
+  "services": 0,
+  "properties": 13,
+  "bytes": 49848,
+  "capabilities_s": 0.073,
+  "libraries_s": 0.086,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ca.chancehorizon.paseo",
+  "components": 69,
+  "services": 0,
+  "properties": 13,
+  "bytes": 50667,
+  "capabilities_s": 0.701,
+  "libraries_s": 0.494,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.yourname.pdftoolkit",
+  "components": 96,
+  "services": 0,
+  "properties": 13,
+  "bytes": 66735,
+  "capabilities_s": 1.076,
+  "libraries_s": 0.964,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tachibana.downloader",
+  "components": 73,
+  "services": 0,
+  "properties": 14,
+  "bytes": 52676,
+  "capabilities_s": 0.765,
+  "libraries_s": 0.635,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.s4nj1th.pocket_dhamma",
+  "components": 62,
+  "services": 0,
+  "properties": 13,
+  "bytes": 44693,
+  "capabilities_s": 0.08,
+  "libraries_s": 0.065,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.guiforge.bati",
+  "components": 119,
+  "services": 0,
+  "properties": 13,
+  "bytes": 75944,
+  "capabilities_s": 0.79,
+  "libraries_s": 0.954,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.eneko.hexcolortimewallpaper",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3227,
+  "capabilities_s": 0.128,
+  "libraries_s": 0.098,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "tk.al54.dev.badpixels",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2504,
+  "capabilities_s": 0.002,
+  "libraries_s": 0.002,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.daniebeler.pfpixelix",
+  "components": 111,
+  "services": 0,
+  "properties": 13,
+  "bytes": 79019,
+  "capabilities_s": 0.483,
+  "libraries_s": 0.555,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "name.gdr.acastus_photon",
+  "components": 46,
+  "services": 0,
+  "properties": 13,
+  "bytes": 33516,
+  "capabilities_s": 0.303,
+  "libraries_s": 0.226,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ch.mydoli.focal",
+  "components": 88,
+  "services": 0,
+  "properties": 13,
+  "bytes": 63362,
+  "capabilities_s": 0.927,
+  "libraries_s": 0.728,
+  "sbom_build_s": 0.001
+ },
+ {
+  "package": "cf.theonewiththebraid.guerrilla_mail",
+  "components": 17,
+  "services": 0,
+  "properties": 13,
+  "bytes": 13455,
+  "capabilities_s": 0.044,
+  "libraries_s": 0.023,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.dn0ne.lotus",
+  "components": 83,
+  "services": 0,
+  "properties": 13,
+  "bytes": 59215,
+  "capabilities_s": 0.446,
+  "libraries_s": 0.496,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.resurrection.blowtorch2",
+  "components": 49,
+  "services": 0,
+  "properties": 13,
+  "bytes": 34349,
+  "capabilities_s": 0.211,
+  "libraries_s": 0.18,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.sidhant.learnmath",
+  "components": 36,
+  "services": 0,
+  "properties": 13,
+  "bytes": 26143,
+  "capabilities_s": 0.035,
+  "libraries_s": 0.026,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.secuso.privacyfriendlynotes",
+  "components": 71,
+  "services": 0,
+  "properties": 13,
+  "bytes": 51358,
+  "capabilities_s": 0.74,
+  "libraries_s": 0.556,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ca.rmen.android.frenchcalendar",
+  "components": 2,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3838,
+  "capabilities_s": 0.039,
+  "libraries_s": 0.016,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.oF2pks.neolinker",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2510,
+  "capabilities_s": 0.003,
+  "libraries_s": 0.002,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "tibarj.tranquilstopwatch",
+  "components": 60,
+  "services": 0,
+  "properties": 13,
+  "bytes": 44692,
+  "capabilities_s": 0.062,
+  "libraries_s": 0.059,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "me.zhanghai.android.untracker",
+  "components": 58,
+  "services": 0,
+  "properties": 13,
+  "bytes": 42598,
+  "capabilities_s": 0.104,
+  "libraries_s": 0.114,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rocket9labs.boxcars",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2870,
+  "capabilities_s": 0.023,
+  "libraries_s": 0.009,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.app.geotagvideocamera",
+  "components": 120,
+  "services": 0,
+  "properties": 13,
+  "bytes": 85219,
+  "capabilities_s": 0.251,
+  "libraries_s": 0.241,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.ztftrue.music",
+  "components": 104,
+  "services": 0,
+  "properties": 13,
+  "bytes": 75400,
+  "capabilities_s": 0.344,
+  "libraries_s": 0.3,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.fedilab.nitterizeme",
+  "components": 56,
+  "services": 0,
+  "properties": 13,
+  "bytes": 41347,
+  "capabilities_s": 0.66,
+  "libraries_s": 0.471,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.kanedias.vanilla.metadata",
+  "components": 11,
+  "services": 0,
+  "properties": 13,
+  "bytes": 9519,
+  "capabilities_s": 0.212,
+  "libraries_s": 0.145,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "negativedensity.techahashi",
+  "components": 6,
+  "services": 0,
+  "properties": 13,
+  "bytes": 6416,
+  "capabilities_s": 0.465,
+  "libraries_s": 0.295,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "eu.hxreborn.discoveradsfilter",
+  "components": 4,
+  "services": 0,
+  "properties": 13,
+  "bytes": 4515,
+  "capabilities_s": 0.078,
+  "libraries_s": 0.099,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.zola.bmi",
+  "components": 27,
+  "services": 0,
+  "properties": 13,
+  "bytes": 21415,
+  "capabilities_s": 0.108,
+  "libraries_s": 0.074,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.joeld.minesweeper",
+  "components": 49,
+  "services": 0,
+  "properties": 13,
+  "bytes": 36469,
+  "capabilities_s": 0.607,
+  "libraries_s": 0.439,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rama.mako",
+  "components": 3,
+  "services": 0,
+  "properties": 13,
+  "bytes": 4302,
+  "capabilities_s": 0.047,
+  "libraries_s": 0.042,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "es.ideotec.t16fling",
+  "components": 37,
+  "services": 0,
+  "properties": 13,
+  "bytes": 28126,
+  "capabilities_s": 0.322,
+  "libraries_s": 0.241,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.emmanuelmess.tictactoe",
+  "components": 7,
+  "services": 0,
+  "properties": 13,
+  "bytes": 6070,
+  "capabilities_s": 0.153,
+  "libraries_s": 0.134,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.digitalfishfun.openshift",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3204,
+  "capabilities_s": 0.139,
+  "libraries_s": 0.095,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.jayxt.resticdroid",
+  "components": 78,
+  "services": 0,
+  "properties": 13,
+  "bytes": 56491,
+  "capabilities_s": 0.134,
+  "libraries_s": 0.122,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.drejo.androidvideoplayer.fdroid",
+  "components": 38,
+  "services": 0,
+  "properties": 13,
+  "bytes": 28976,
+  "capabilities_s": 0.06,
+  "libraries_s": 0.055,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "hans.b.skewy1_0",
+  "components": 40,
+  "services": 0,
+  "properties": 13,
+  "bytes": 30484,
+  "capabilities_s": 0.213,
+  "libraries_s": 0.155,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "eu.tilk.cdlcplayer",
+  "components": 54,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39828,
+  "capabilities_s": 0.307,
+  "libraries_s": 0.309,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.vipedev.kords2",
+  "components": 98,
+  "services": 0,
+  "properties": 13,
+  "bytes": 68461,
+  "capabilities_s": 3.725,
+  "libraries_s": 1.947,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.agateau.catgenerator",
+  "components": 33,
+  "services": 0,
+  "properties": 13,
+  "bytes": 25344,
+  "capabilities_s": 0.309,
+  "libraries_s": 0.233,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.covolunablu.marswallpaper",
+  "components": 16,
+  "services": 0,
+  "properties": 13,
+  "bytes": 13695,
+  "capabilities_s": 0.185,
+  "libraries_s": 0.138,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "se.norenh.rkfread",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2474,
+  "capabilities_s": 0.004,
+  "libraries_s": 0.003,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.github.dyhkwong.sagernet",
+  "components": 23,
+  "services": 0,
+  "properties": 13,
+  "bytes": 16017,
+  "capabilities_s": 0.366,
+  "libraries_s": 0.321,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.hamdav.predikt",
+  "components": 47,
+  "services": 0,
+  "properties": 13,
+  "bytes": 34458,
+  "capabilities_s": 0.103,
+  "libraries_s": 0.061,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.chess.clock",
+  "components": 44,
+  "services": 0,
+  "properties": 13,
+  "bytes": 32969,
+  "capabilities_s": 0.163,
+  "libraries_s": 0.173,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "v4lpt.vpt.f003.gdp",
+  "components": 59,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43370,
+  "capabilities_s": 0.539,
+  "libraries_s": 0.413,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.hauke_stieler.geonotes",
+  "components": 84,
+  "services": 0,
+  "properties": 13,
+  "bytes": 58783,
+  "capabilities_s": 1.287,
+  "libraries_s": 1.03,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ie.delilahsthings.soothingloop",
+  "components": 45,
+  "services": 0,
+  "properties": 13,
+  "bytes": 33795,
+  "capabilities_s": 0.487,
+  "libraries_s": 0.37,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.nfcarchiver.nfc_archiver",
+  "components": 64,
+  "services": 0,
+  "properties": 13,
+  "bytes": 46151,
+  "capabilities_s": 0.169,
+  "libraries_s": 0.112,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.biotstoiq.hayago",
+  "components": 0,
+  "services": 0,
+  "properties": 13,
+  "bytes": 2567,
+  "capabilities_s": 0.005,
+  "libraries_s": 0.005,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.alaskalinuxuser.criticalvelocity",
+  "components": 3,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3891,
+  "capabilities_s": 0.108,
+  "libraries_s": 0.083,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.seeker.seekprivacy",
+  "components": 59,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43029,
+  "capabilities_s": 0.689,
+  "libraries_s": 0.604,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.devmil.muzei.bingimageofthedayartsource",
+  "components": 29,
+  "services": 0,
+  "properties": 13,
+  "bytes": 22015,
+  "capabilities_s": 0.348,
+  "libraries_s": 0.251,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.chrbayer.mathe_trainer",
+  "components": 36,
+  "services": 0,
+  "properties": 13,
+  "bytes": 25860,
+  "capabilities_s": 0.053,
+  "libraries_s": 0.03,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.sidhant.mahjong",
+  "components": 36,
+  "services": 0,
+  "properties": 13,
+  "bytes": 26127,
+  "capabilities_s": 0.036,
+  "libraries_s": 0.026,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.elementlo.spark_list",
+  "components": 24,
+  "services": 0,
+  "properties": 13,
+  "bytes": 17695,
+  "capabilities_s": 0.06,
+  "libraries_s": 0.06,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.jbinder.sprawlrun",
+  "components": 64,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45848,
+  "capabilities_s": 0.116,
+  "libraries_s": 0.091,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.zorinos.zorin_connect",
+  "components": 103,
+  "services": 0,
+  "properties": 14,
+  "bytes": 73528,
+  "capabilities_s": 0.697,
+  "libraries_s": 0.476,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.billthefarmer.print",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3150,
+  "capabilities_s": 0.013,
+  "libraries_s": 0.019,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "info.metadude.android.bitsundbaeume.schedule",
+  "components": 61,
+  "services": 0,
+  "properties": 13,
+  "bytes": 44779,
+  "capabilities_s": 0.295,
+  "libraries_s": 0.266,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.kjxbyz.picguard",
+  "components": 70,
+  "services": 0,
+  "properties": 14,
+  "bytes": 49230,
+  "capabilities_s": 0.234,
+  "libraries_s": 0.211,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.acidefluorhydrique.carrot",
+  "components": 33,
+  "services": 0,
+  "properties": 13,
+  "bytes": 25418,
+  "capabilities_s": 0.331,
+  "libraries_s": 0.25,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "fr.ubordeaux.math.paridroid",
+  "components": 3,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3545,
+  "capabilities_s": 0.025,
+  "libraries_s": 0.009,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.polyalerts",
+  "components": 74,
+  "services": 0,
+  "properties": 13,
+  "bytes": 53606,
+  "capabilities_s": 0.114,
+  "libraries_s": 0.124,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.voyagerfiles",
+  "components": 81,
+  "services": 0,
+  "properties": 13,
+  "bytes": 57537,
+  "capabilities_s": 1.494,
+  "libraries_s": 1.81,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.bmco.cratesiounofficial",
+  "components": 35,
+  "services": 0,
+  "properties": 13,
+  "bytes": 27099,
+  "capabilities_s": 0.102,
+  "libraries_s": 0.105,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.louis.app.cavity",
+  "components": 92,
+  "services": 0,
+  "properties": 14,
+  "bytes": 64362,
+  "capabilities_s": 1.359,
+  "libraries_s": 1.077,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ru.wohlsoft.thextech.fdroid",
+  "components": 57,
+  "services": 0,
+  "properties": 13,
+  "bytes": 41499,
+  "capabilities_s": 0.54,
+  "libraries_s": 0.409,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.szchoiceway.aios.bridge",
+  "components": 36,
+  "services": 0,
+  "properties": 14,
+  "bytes": 27625,
+  "capabilities_s": 0.318,
+  "libraries_s": 0.2,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.kolakek.pimiwidget",
+  "components": 70,
+  "services": 0,
+  "properties": 13,
+  "bytes": 50801,
+  "capabilities_s": 0.092,
+  "libraries_s": 0.107,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.installalogs",
+  "components": 42,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31612,
+  "capabilities_s": 0.295,
+  "libraries_s": 0.239,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.willchan.simple_random_stock",
+  "components": 55,
+  "services": 0,
+  "properties": 13,
+  "bytes": 40753,
+  "capabilities_s": 0.393,
+  "libraries_s": 0.355,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "xyz.ptgms.tosdr",
+  "components": 90,
+  "services": 0,
+  "properties": 13,
+  "bytes": 65173,
+  "capabilities_s": 0.14,
+  "libraries_s": 0.155,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.rjnsdev.linklift.app",
+  "components": 81,
+  "services": 0,
+  "properties": 13,
+  "bytes": 55760,
+  "capabilities_s": 0.184,
+  "libraries_s": 0.165,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "dev.forgesworn.cambium",
+  "components": 60,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43252,
+  "capabilities_s": 0.87,
+  "libraries_s": 0.704,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.anysoftkeyboard.languagepack.osspolish",
+  "components": 66,
+  "services": 0,
+  "properties": 13,
+  "bytes": 48446,
+  "capabilities_s": 0.089,
+  "libraries_s": 0.13,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.sesu8642.infusion_timer",
+  "components": 62,
+  "services": 0,
+  "properties": 13,
+  "bytes": 44749,
+  "capabilities_s": 0.109,
+  "libraries_s": 0.075,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ch.pec0ra.suspension_setup",
+  "components": 63,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45169,
+  "capabilities_s": 0.099,
+  "libraries_s": 0.078,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.theiling.neatlauncher",
+  "components": 43,
+  "services": 0,
+  "properties": 13,
+  "bytes": 32424,
+  "capabilities_s": 0.128,
+  "libraries_s": 0.057,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.mkg20001.arubanetworkslogin",
+  "components": 39,
+  "services": 0,
+  "properties": 14,
+  "bytes": 29365,
+  "capabilities_s": 0.243,
+  "libraries_s": 0.173,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.w2sv.filenavigator",
+  "components": 4,
+  "services": 0,
+  "properties": 13,
+  "bytes": 4501,
+  "capabilities_s": 0.1,
+  "libraries_s": 0.127,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.baluchon.app",
+  "components": 72,
+  "services": 0,
+  "properties": 13,
+  "bytes": 52855,
+  "capabilities_s": 0.095,
+  "libraries_s": 0.106,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.prayer_times",
+  "components": 117,
+  "services": 0,
+  "properties": 13,
+  "bytes": 75803,
+  "capabilities_s": 1.967,
+  "libraries_s": 1.707,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.tadris.flang",
+  "components": 70,
+  "services": 0,
+  "properties": 13,
+  "bytes": 50717,
+  "capabilities_s": 0.799,
+  "libraries_s": 0.541,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.qq7te.totalrecall",
+  "components": 98,
+  "services": 0,
+  "properties": 13,
+  "bytes": 70090,
+  "capabilities_s": 1.392,
+  "libraries_s": 0.993,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.proninyaroslav.libretrack",
+  "components": 74,
+  "services": 0,
+  "properties": 14,
+  "bytes": 53066,
+  "capabilities_s": 0.127,
+  "libraries_s": 0.12,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.vendelin8.elements",
+  "components": 23,
+  "services": 0,
+  "properties": 13,
+  "bytes": 17365,
+  "capabilities_s": 0.05,
+  "libraries_s": 0.057,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.comunes.g1nkgo",
+  "components": 90,
+  "services": 0,
+  "properties": 13,
+  "bytes": 62393,
+  "capabilities_s": 0.24,
+  "libraries_s": 0.187,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.heeboe.hebrewcalendar",
+  "components": 31,
+  "services": 0,
+  "properties": 13,
+  "bytes": 23238,
+  "capabilities_s": 0.041,
+  "libraries_s": 0.027,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.vishnu.remindme",
+  "components": 69,
+  "services": 0,
+  "properties": 13,
+  "bytes": 50389,
+  "capabilities_s": 0.074,
+  "libraries_s": 0.097,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tech.estudiatai",
+  "components": 60,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43508,
+  "capabilities_s": 1.435,
+  "libraries_s": 0.948,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "site.aroy.phosphor",
+  "components": 42,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31396,
+  "capabilities_s": 0.047,
+  "libraries_s": 0.047,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.vayunmathur.photos",
+  "components": 119,
+  "services": 0,
+  "properties": 13,
+  "bytes": 83381,
+  "capabilities_s": 0.448,
+  "libraries_s": 0.469,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "net.inbox.pager",
+  "components": 61,
+  "services": 0,
+  "properties": 13,
+  "bytes": 43867,
+  "capabilities_s": 0.652,
+  "libraries_s": 0.449,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.gothub.boxorg",
+  "components": 124,
+  "services": 0,
+  "properties": 13,
+  "bytes": 79017,
+  "capabilities_s": 3.254,
+  "libraries_s": 2.347,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.ridgebotics.ridgescout",
+  "components": 100,
+  "services": 0,
+  "properties": 13,
+  "bytes": 70334,
+  "capabilities_s": 1.803,
+  "libraries_s": 1.28,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.greenaddress.abcore",
+  "components": 37,
+  "services": 0,
+  "properties": 13,
+  "bytes": 28463,
+  "capabilities_s": 0.065,
+  "libraries_s": 0.052,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.strawberryforum.argentum",
+  "components": 35,
+  "services": 0,
+  "properties": 13,
+  "bytes": 26899,
+  "capabilities_s": 0.251,
+  "libraries_s": 0.165,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.owntracks.android",
+  "components": 21,
+  "services": 0,
+  "properties": 13,
+  "bytes": 15083,
+  "capabilities_s": 0.476,
+  "libraries_s": 0.452,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.dergoogler.mmrl",
+  "components": 15,
+  "services": 0,
+  "properties": 13,
+  "bytes": 10402,
+  "capabilities_s": 0.256,
+  "libraries_s": 0.265,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.amanoteam.flonne",
+  "components": 55,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39381,
+  "capabilities_s": 2.114,
+  "libraries_s": 1.841,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.farmerbb.taskbar",
+  "components": 54,
+  "services": 0,
+  "properties": 14,
+  "bytes": 39970,
+  "capabilities_s": 0.168,
+  "libraries_s": 0.162,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.jemcik.jemrec",
+  "components": 69,
+  "services": 0,
+  "properties": 13,
+  "bytes": 49435,
+  "capabilities_s": 0.186,
+  "libraries_s": 0.215,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.kasette.app",
+  "components": 43,
+  "services": 0,
+  "properties": 13,
+  "bytes": 31909,
+  "capabilities_s": 0.425,
+  "libraries_s": 0.303,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "name.seguri.android.isphoneencrypted",
+  "components": 1,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3273,
+  "capabilities_s": 0.125,
+  "libraries_s": 0.113,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.atop",
+  "components": 43,
+  "services": 0,
+  "properties": 13,
+  "bytes": 27960,
+  "capabilities_s": 0.242,
+  "libraries_s": 0.231,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.monsiu.custom_rr",
+  "components": 64,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45731,
+  "capabilities_s": 0.242,
+  "libraries_s": 0.175,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "io.github.jqssun.maceditor",
+  "components": 9,
+  "services": 0,
+  "properties": 13,
+  "bytes": 8290,
+  "capabilities_s": 0.492,
+  "libraries_s": 0.362,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "org.fcitx.fcitx5.android.plugin.unikey",
+  "components": 5,
+  "services": 0,
+  "properties": 13,
+  "bytes": 5485,
+  "capabilities_s": 0.007,
+  "libraries_s": 0.008,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "ro.radioromaniaactualitati.podcasts",
+  "components": 39,
+  "services": 0,
+  "properties": 13,
+  "bytes": 28603,
+  "capabilities_s": 0.114,
+  "libraries_s": 0.156,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.tiwa.pl",
+  "components": 36,
+  "services": 0,
+  "properties": 13,
+  "bytes": 27726,
+  "capabilities_s": 0.179,
+  "libraries_s": 0.134,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "vegabobo.dsusideloader",
+  "components": 98,
+  "services": 0,
+  "properties": 13,
+  "bytes": 70324,
+  "capabilities_s": 0.183,
+  "libraries_s": 0.224,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "app.pwhs.universalinstaller",
+  "components": 107,
+  "services": 0,
+  "properties": 13,
+  "bytes": 76598,
+  "capabilities_s": 0.237,
+  "libraries_s": 0.225,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "se.voxelmanip.boxsmasher",
+  "components": 3,
+  "services": 0,
+  "properties": 13,
+  "bytes": 3770,
+  "capabilities_s": 0.014,
+  "libraries_s": 0.008,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.vovagorodok.blichess",
+  "components": 47,
+  "services": 0,
+  "properties": 13,
+  "bytes": 33674,
+  "capabilities_s": 0.518,
+  "libraries_s": 0.423,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "eu.hxreborn.cleanshare",
+  "components": 61,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45363,
+  "capabilities_s": 0.069,
+  "libraries_s": 0.088,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "com.fixupxer",
+  "components": 62,
+  "services": 0,
+  "properties": 13,
+  "bytes": 45234,
+  "capabilities_s": 0.271,
+  "libraries_s": 0.198,
+  "sbom_build_s": 0.0
+ },
+ {
+  "package": "de.herk.kfzd",
+  "components": 53,
+  "services": 0,
+  "properties": 13,
+  "bytes": 39263,
+  "capabilities_s": 1.317,
+  "libraries_s": 0.875,
+  "sbom_build_s": 0.0
+ }
+]

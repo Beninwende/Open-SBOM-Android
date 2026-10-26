@@ -1,0 +1,2756 @@
+[
+ {
+  "pkg": "com.ah.taplock",
+  "stratum": "A_perm_in_index",
+  "file": "/com.ah.taplock_23.apk",
+  "size": 2516160,
+  "sha256": "5144ae922af78bfa8b80721723c9abc72125c837d4dc4fe94c669b82f655d2e9",
+  "versionName": "1.18",
+  "versionCode": 23
+ },
+ {
+  "pkg": "com.akslabs.circletosearch",
+  "stratum": "A_perm_in_index",
+  "file": "/com.akslabs.circletosearch_72.apk",
+  "size": 8130200,
+  "sha256": "73e0209baf69ba6d4dad8114256a523e5d231d3a08c1734ac67a0717e33142be",
+  "versionName": "0.5",
+  "versionCode": 72
+ },
+ {
+  "pkg": "com.micoyc.speakthat",
+  "stratum": "A_perm_in_index",
+  "file": "/com.micoyc.speakthat_61.apk",
+  "size": 11411645,
+  "sha256": "1d486c66ca2cf1e7b6d4280de8712ad8d02950b6e178c3067e4d465feb0da886",
+  "versionName": "1.9.0",
+  "versionCode": 61
+ },
+ {
+  "pkg": "dev.pranav.applock",
+  "stratum": "A_perm_in_index",
+  "file": "/dev.pranav.applock_251.apk",
+  "size": 2342730,
+  "sha256": "1cc169e34303ab749155bea025597f6474279a37614fb9cffcb6024685866566",
+  "versionName": "2.5.1",
+  "versionCode": 251
+ },
+ {
+  "pkg": "io.github.chayanforyou.quickball",
+  "stratum": "A_perm_in_index",
+  "file": "/io.github.chayanforyou.quickball_25.apk",
+  "size": 1670370,
+  "sha256": "8a3eded8a28cc1ecc357f2f75514c6cd73a5e43e25dd8cf0fe1e728de74c507a",
+  "versionName": "6.1.0",
+  "versionCode": 25
+ },
+ {
+  "pkg": "tw.com.daxia.virtualsoftkeys",
+  "stratum": "A_perm_in_index",
+  "file": "/tw.com.daxia.virtualsoftkeys_10.apk",
+  "size": 1905985,
+  "sha256": "906da7b19525db9424118a057bed3bd26cbbc3d0d14e5fdcfc1d3369f854dfe7",
+  "versionName": "0.2.0.180212.1",
+  "versionCode": 10
+ },
+ {
+  "pkg": "app.mlauncher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/app.mlauncher_1120200.apk",
+  "size": 7103946,
+  "sha256": "437740f419b6565e88f3947ad5c62bfe25d2396341b1517507d45ef11d8e8356",
+  "versionName": "1.12.2 Build 0",
+  "versionCode": 1120200
+ },
+ {
+  "pkg": "app.scratchpad.launcher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/app.scratchpad.launcher_17.apk",
+  "size": 3148490,
+  "sha256": "1b8a50578fceb47481e6b26c477bf9d41dd5f41af61a017925f1af3766e37bf0",
+  "versionName": "2026.10.1",
+  "versionCode": 17
+ },
+ {
+  "pkg": "by.yauhenl.gardine",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/by.yauhenl.gardine_4.apk",
+  "size": 2600479,
+  "sha256": "3b3d1b6e7113af817edb8322489139f6a6187b46cf7c119eaace046d0d8241cb",
+  "versionName": "0.4",
+  "versionCode": 4
+ },
+ {
+  "pkg": "ca.asmat.buzzkill",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/ca.asmat.buzzkill_10010.apk",
+  "size": 9634289,
+  "sha256": "afca902bb98e0644202bedb8f477b2e0d504e1a60f8a3e09124504f8a90bc99a",
+  "versionName": "1.0.10",
+  "versionCode": 10010
+ },
+ {
+  "pkg": "co.xplat.husk",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/co.xplat.husk_55.apk",
+  "size": 94930,
+  "sha256": "83a1ddf7bd456c17c8d650628ac97768db74bb5788b6090998d91b3d570dcfa3",
+  "versionName": "1.4",
+  "versionCode": 55
+ },
+ {
+  "pkg": "com.akexorcist.ruammij",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.akexorcist.ruammij_28.apk",
+  "size": 2845883,
+  "sha256": "5f5bf2fbacc63150e4cb831a9b1d50b39d0c6854c6aadc37d81422373b5680f4",
+  "versionName": "1.3.0",
+  "versionCode": 28
+ },
+ {
+  "pkg": "com.android.talkback",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.android.talkback_370044211.apk",
+  "size": 40660572,
+  "sha256": "7c8f0a6351657a1ae097b32a876d640b8c4622653d8240f964fdf4a5ed585c53",
+  "versionName": "TfPu_release_15_1-2024_10_17_0000",
+  "versionCode": 370044211
+ },
+ {
+  "pkg": "com.aravi.dot",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.aravi.dot_30105.apk",
+  "size": 3813838,
+  "sha256": "a4885ce81b2b866007339bab61ac493f01556a5d6c9bbe41ca93d37bfb6b5b13",
+  "versionName": "3.1.5",
+  "versionCode": 30105
+ },
+ {
+  "pkg": "com.babytouchlock",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.babytouchlock_2.apk",
+  "size": 5097120,
+  "sha256": "1c7be65450570d383998d31bdbdc1642ceac213f3ac39252bb4817482b5a9eaf",
+  "versionName": "1.0.1",
+  "versionCode": 2
+ },
+ {
+  "pkg": "com.carriez.flutter_hbb",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.carriez.flutter_hbb_104090003.apk",
+  "size": 26236139,
+  "sha256": "f0b7f22294cff8598251e18245d6d6ff169199e9534dca4f263ad71ab4565463",
+  "versionName": "1.4.9",
+  "versionCode": 104090003
+ },
+ {
+  "pkg": "com.celzero.bravedns",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.celzero.bravedns_709.apk",
+  "size": 32270073,
+  "sha256": "0e8e5d70496b506038ca4afaef868fadaac6e0b5416b80aa6e139174fa181004",
+  "versionName": "v0.5.8",
+  "versionCode": 709
+ },
+ {
+  "pkg": "com.deehem.splitz",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.deehem.splitz_2.apk",
+  "size": 1879294,
+  "sha256": "ae3d983dc3a54cfc8cbf2e69d114e1909dd6be79939288c2f29e05ccdc630d3c",
+  "versionName": "1.0.1",
+  "versionCode": 2
+ },
+ {
+  "pkg": "com.defang.launcher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.defang.launcher_23.apk",
+  "size": 1938854,
+  "sha256": "4f642f9359e2c0e2f1d9c93364e0a06a0877fcc2fff0eb4b895313e08d818335",
+  "versionName": "0.1.22",
+  "versionCode": 23
+ },
+ {
+  "pkg": "com.dtsykunov.pause",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.dtsykunov.pause_24.apk",
+  "size": 1489436,
+  "sha256": "9164175e762a1a7c3d15eda1034b53c5176ec8c7e53a173117f82074e12041f5",
+  "versionName": "0.5.0",
+  "versionCode": 24
+ },
+ {
+  "pkg": "com.earendel.tapbar",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.earendel.tapbar_11.apk",
+  "size": 6000558,
+  "sha256": "85b667a3d6c71679a3a298913d97f70c93b468efda7528688e2f3d0085d0e4b2",
+  "versionName": "1.7.1",
+  "versionCode": 11
+ },
+ {
+  "pkg": "com.encrypt.bwt",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.encrypt.bwt_10.apk",
+  "size": 5600477,
+  "sha256": "fa4b9b2ef2a0460c9dfd58af8f387ef4934cb0c91d5446993c97a21a6c67291b",
+  "versionName": "10",
+  "versionCode": 10
+ },
+ {
+  "pkg": "com.focus.launcher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.focus.launcher_52.apk",
+  "size": 1395206,
+  "sha256": "ffbc50316831dc9702ac5b7c3f98d826279122bcb2e618d242547819c4c00d5f",
+  "versionName": "1.1.52",
+  "versionCode": 52
+ },
+ {
+  "pkg": "com.github.bmx666.appcachecleaner",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.github.bmx666.appcachecleaner_109.apk",
+  "size": 3433643,
+  "sha256": "d4913cd8243bf9ec8930c5227836db7eb48f5e79bb69d626426a3c52b06a839a",
+  "versionName": "2.3.0",
+  "versionCode": 109
+ },
+ {
+  "pkg": "com.github.cvzi.screenshottile",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.github.cvzi.screenshottile_150.apk",
+  "size": 3999056,
+  "sha256": "6fe5e6bf33dc38de7ed7e04474d9fe8d138cfe68a33766016d58329053b27c2d",
+  "versionName": "2.21.4",
+  "versionCode": 150
+ },
+ {
+  "pkg": "com.goushik.upiwallet",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.goushik.upiwallet_9.apk",
+  "size": 25561876,
+  "sha256": "d6c8a4d440e40635a4427413220da559994130b05e219f07520f9e842c784d7d",
+  "versionName": "1.1.7",
+  "versionCode": 9
+ },
+ {
+  "pkg": "com.inod.screenofftimer",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.inod.screenofftimer_14.apk",
+  "size": 1520753,
+  "sha256": "ed1cb7123e565d6e1e29fccf251be77f2bb9b6f14a3ed7dd13c80dd62a323dc6",
+  "versionName": "1.3.9",
+  "versionCode": 14
+ },
+ {
+  "pkg": "com.jarsilio.android.autoautorotate",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.jarsilio.android.autoautorotate_53.apk",
+  "size": 3029482,
+  "sha256": "1a9a4628ae0105488db269a07393ae9f3e933ac54e4ad1eb3f4b0eeb1eaa64c7",
+  "versionName": "1.2.4",
+  "versionCode": 53
+ },
+ {
+  "pkg": "com.jarsilio.android.pingoff",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.jarsilio.android.pingoff_18.apk",
+  "size": 3134954,
+  "sha256": "8c946cbb7c8cf0cf16e2d50d7af6b6e9abb642cc4ac0c03000f5d58fef08e4b1",
+  "versionName": "1.0.4",
+  "versionCode": 18
+ },
+ {
+  "pkg": "com.jarsilio.android.waveup",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.jarsilio.android.waveup_145.apk",
+  "size": 4873773,
+  "sha256": "fa0b281c36cd66e7f0844402b5ce2d02d72b2f0160fd2a013c6ce68449d99e1a",
+  "versionName": "3.2.40",
+  "versionCode": 145
+ },
+ {
+  "pkg": "com.joaohouto.assistivemenutool",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.joaohouto.assistivemenutool_5.apk",
+  "size": 1018692,
+  "sha256": "b1d422a47949a691a424f4cbc522127a91d2dcd7b25153568eebcc2ff6cbbc22",
+  "versionName": "1.4",
+  "versionCode": 5
+ },
+ {
+  "pkg": "com.lpw.graypause",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.lpw.graypause_6.apk",
+  "size": 54063,
+  "sha256": "eb54b3ee0b2aaa3aab14986b78e6b4ac7a149e78e889c6ba10a310ab6af76d09",
+  "versionName": "1.5",
+  "versionCode": 6
+ },
+ {
+  "pkg": "com.musheer360.swiftslate",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.musheer360.swiftslate_283.apk",
+  "size": 1865662,
+  "sha256": "80821e15c868b9d23390a0c01f2eaed97b9a0f41413853ef5aa8606108d07039",
+  "versionName": "1.0.82",
+  "versionCode": 283
+ },
+ {
+  "pkg": "com.pedronveloso.a11ybutton",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.pedronveloso.a11ybutton_4.apk",
+  "size": 3287905,
+  "sha256": "6380a328e2a7c3f453bb7fe3d2fd2e090b8c5fdf7d21d02f2f99766e8c21413a",
+  "versionName": "Beta 4",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.pilot51.voicenotify",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.pilot51.voicenotify_34.apk",
+  "size": 3916182,
+  "sha256": "f952a304b4fd5692f2f750fbda5bf13d532bfcba7c6b6a0cb1218e65c8a1479a",
+  "versionName": "1.4.4",
+  "versionCode": 34
+ },
+ {
+  "pkg": "com.procrastilearn.app",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.procrastilearn.app_21.apk",
+  "size": 18410008,
+  "sha256": "f77f2d4a7fd90b8b19e479ed81965c7fc6cc3c7993504bdccaf6d753b6f4ca1d",
+  "versionName": "1.4.6",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.rascarlo.power.button.tile",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.rascarlo.power.button.tile_1.apk",
+  "size": 947255,
+  "sha256": "fb8bbe37e8d1c8002481451fbf9d3c31f6256cdaafe901b3171d7d4fc420fbd8",
+  "versionName": "0.1",
+  "versionCode": 1
+ },
+ {
+  "pkg": "com.rdevzph.fpsmeter",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.rdevzph.fpsmeter_21.apk",
+  "size": 1815580,
+  "sha256": "f5a20fb159247aef15e8f2118dd18e2d8bdf42e7018eb37410104c0b0b749e3a",
+  "versionName": "2.9-hotfix",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.remotephone",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.remotephone_7.apk",
+  "size": 214514,
+  "sha256": "82615089d6b8517a97ac2237282f1dccc2f248a56b75ff31b27ff95f69a4ed21",
+  "versionName": "2.0.0",
+  "versionCode": 7
+ },
+ {
+  "pkg": "com.sarangem.zenwell",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.sarangem.zenwell_16.apk",
+  "size": 2385457,
+  "sha256": "679aa6a7a14a4daadb3816912341a3e2f43866d663bd1a5d5b1accde59ff648f",
+  "versionName": "1.6",
+  "versionCode": 16
+ },
+ {
+  "pkg": "com.slate.launcher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.slate.launcher_7.apk",
+  "size": 2777111,
+  "sha256": "fc3fe8f2323e78ca6ed9708a7a2067fa8fc21fe3ad90c8c14adeba27fea16a28",
+  "versionName": "1.6",
+  "versionCode": 7
+ },
+ {
+  "pkg": "com.soul_99.suIMD",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.soul_99.suIMD_17.apk",
+  "size": 3927042,
+  "sha256": "a5bcd01a39f0dfe9b7da906dfc5f03c7bc3ee392e87383f5375c29f227f15493",
+  "versionName": "3",
+  "versionCode": 17
+ },
+ {
+  "pkg": "com.tideo.autobrightness",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.tideo.autobrightness_29.apk",
+  "size": 25978039,
+  "sha256": "fb488140639d6ec521c31bc3083a75dac542335b3b06cc31b049b8bfb893a75f",
+  "versionName": "1.14.1",
+  "versionCode": 29
+ },
+ {
+  "pkg": "com.trevornk.ramblr",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.trevornk.ramblr_42.apk",
+  "size": 45512189,
+  "sha256": "999a3f52d98342f996bfb07b7a9f26f6f47ccfe1237d4da74e4f158ab82b2f92",
+  "versionName": "1.0.39",
+  "versionCode": 42
+ },
+ {
+  "pkg": "com.typeassist.app",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.typeassist.app_11.apk",
+  "size": 8488898,
+  "sha256": "aa6ccc014d7f827d3382c3974b5af50863caa30ab79620f740a95ccc2a5f79a0",
+  "versionName": "4.2.0",
+  "versionCode": 11
+ },
+ {
+  "pkg": "com.viscouspot.gitsync",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.viscouspot.gitsync_18653.apk",
+  "size": 23193738,
+  "sha256": "f08d2f7d2b4675c07eb825ac77e9ad334ffd4f5deb28890abdd897ce130f96ab",
+  "versionName": "1.8.65",
+  "versionCode": 18653
+ },
+ {
+  "pkg": "com.yeapguy.volumescroll",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.yeapguy.volumescroll_3.apk",
+  "size": 9835279,
+  "sha256": "7876ae5155a84ee8c39dae828b8706a53fb934267290f592287719a059e551db",
+  "versionName": "1.0.2",
+  "versionCode": 3
+ },
+ {
+  "pkg": "com.zfdang.touchhelper",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.zfdang.touchhelper_278.apk",
+  "size": 1798854,
+  "sha256": "0f3e7536e6d00416afa65f125c5dad2efd757773b7c05e3ea015d4170764f297",
+  "versionName": "278",
+  "versionCode": 278
+ },
+ {
+  "pkg": "com.zygisk_enc.notivault",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/com.zygisk_enc.notivault_5.apk",
+  "size": 29127516,
+  "sha256": "b34e2ead844d6af9bb316f61f696530b2f832fc1558ae4d73a73f752965e9438",
+  "versionName": "3.0.0",
+  "versionCode": 5
+ },
+ {
+  "pkg": "de.jl.notificationlog",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/de.jl.notificationlog_22.apk",
+  "size": 2840293,
+  "sha256": "506ab57c23ded349b414770735650223d2957cfe4de9f6808ab9e0fa98125785",
+  "versionName": "1.21",
+  "versionCode": 22
+ },
+ {
+  "pkg": "de.z11.roboyard",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/de.z11.roboyard_140.apk",
+  "size": 12207244,
+  "sha256": "650a1fed9cb33a429ecdcd4ffa156bd075382a325c9bde1b61b4f8e55634a35d",
+  "versionName": "52",
+  "versionCode": 140
+ },
+ {
+  "pkg": "dev.davidv.translator",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/dev.davidv.translator_302.apk",
+  "size": 44425886,
+  "sha256": "e44fc1bf41a284692230a2666ba779808b4e1b810de8a206d933c8832d038000",
+  "versionName": "0.8.5",
+  "versionCode": 302
+ },
+ {
+  "pkg": "dev.serika.camerasilencer",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/dev.serika.camerasilencer_5.apk",
+  "size": 45759,
+  "sha256": "b3f10402aa07384aaad7d612fc0c1bc0cecd7d8e1ec20691a2f472c9b9cc9042",
+  "versionName": "0.1.4",
+  "versionCode": 5
+ },
+ {
+  "pkg": "eu.darken.sdmse",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/eu.darken.sdmse_20201000.apk",
+  "size": 18079991,
+  "sha256": "5eca1e036951741f9ed32d8594399f167091d6ea2a10a38680d3ce0debd235b0",
+  "versionName": "2.2.1-rc0",
+  "versionCode": 20201000
+ },
+ {
+  "pkg": "fr.gibinot.panosp",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/fr.gibinot.panosp_3.apk",
+  "size": 354579,
+  "sha256": "45fd6a92b1591494a8717b7df4b1ae8c15ee653b0096a3076dcfb95fa4fa99d9",
+  "versionName": "1.0.2",
+  "versionCode": 3
+ },
+ {
+  "pkg": "io.github.capitan0n.droynis",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.capitan0n.droynis_18.apk",
+  "size": 1726372,
+  "sha256": "6583028379b2bbb1a173478aa6ea9ffe54d28d58da5c42413183a13941971009",
+  "versionName": "0.12.1",
+  "versionCode": 18
+ },
+ {
+  "pkg": "io.github.deweyreed.clipboardcleaner",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.deweyreed.clipboardcleaner_181.apk",
+  "size": 1093680,
+  "sha256": "abc1bf9d86c93b834c78865df5c65d6efc6da92d0588552a519682690b92f270",
+  "versionName": "1.8.1",
+  "versionCode": 181
+ },
+ {
+  "pkg": "io.github.dorumrr.privacyflip",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.dorumrr.privacyflip_35.apk",
+  "size": 2138557,
+  "sha256": "cdf2cbb527af55796fd575d905222f7703f852dba180cd8fe6ccb1cbeaf5d8f8",
+  "versionName": "2.3.0",
+  "versionCode": 35
+ },
+ {
+  "pkg": "io.github.jqssun.displayextend",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.jqssun.displayextend_26.apk",
+  "size": 2096108,
+  "sha256": "7f05741dd24b5e83c7679708d412e11f2248ca6e0a8371a29cc703e15686215d",
+  "versionName": "0.0.26",
+  "versionCode": 26
+ },
+ {
+  "pkg": "io.github.munzzyy.sweep",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.munzzyy.sweep_702.apk",
+  "size": 992239,
+  "sha256": "88407d9bbf94248d420d5466587ae070aec638f4702d80e31e97ebde9f9fde1d",
+  "versionName": "0.7.2",
+  "versionCode": 702
+ },
+ {
+  "pkg": "io.github.sds100.keymapper",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.github.sds100.keymapper_286.apk",
+  "size": 15092095,
+  "sha256": "addd5dba16a7ec3b3f8974035b9f0b69bc45324515c4b620970f7f004515c9e1",
+  "versionName": "4.6.1-foss",
+  "versionCode": 286
+ },
+ {
+  "pkg": "io.oversec.one",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.oversec.one_1005015.apk",
+  "size": 5512905,
+  "sha256": "487da47eb3ccd7a93aeb397e6e435af0be8f6b79cff7a3a60eaf2051762c20f2",
+  "versionName": "1.5.15",
+  "versionCode": 1005015
+ },
+ {
+  "pkg": "io.timelimit.android.aosp.direct",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.timelimit.android.aosp.direct_232.apk",
+  "size": 5849091,
+  "sha256": "b97424440c63f6ea03fe95016178b07bb3728e22a59699af5c961487a3a2baa1",
+  "versionName": "7.8.0",
+  "versionCode": 232
+ },
+ {
+  "pkg": "io.timelimit.android.open",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/io.timelimit.android.open_217.apk",
+  "size": 4939173,
+  "sha256": "100d75129b3fc6d0d5b220d0a4dc75351084be44294152b1bd411e5847e32f30",
+  "versionName": "7.1.0",
+  "versionCode": 217
+ },
+ {
+  "pkg": "moe.dic1911.autodnd",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/moe.dic1911.autodnd_8.apk",
+  "size": 4255107,
+  "sha256": "e9528328c95a57c0c31b3f92d2fa436066bff8b78c72e9b834878de6913eb836",
+  "versionName": "3.3",
+  "versionCode": 8
+ },
+ {
+  "pkg": "name.seguri.android.getforegroundactivity",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/name.seguri.android.getforegroundactivity_3.apk",
+  "size": 40794,
+  "sha256": "b8ba472ea37a481e4919335cd38035d4fc76e707d57f6834d74c77db09fcb376",
+  "versionName": "1.0.2",
+  "versionCode": 3
+ },
+ {
+  "pkg": "net.blumia.pineapple.lockscreen.oss",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/net.blumia.pineapple.lockscreen.oss_28.apk",
+  "size": 5069997,
+  "sha256": "4daac784171fcbdac163bc098770d606fa90407f46e133ab79455536fd0fb258",
+  "versionName": "3.1.0-oss",
+  "versionCode": 28
+ },
+ {
+  "pkg": "net.christianbeier.droidvnc_ng",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/net.christianbeier.droidvnc_ng_65.apk",
+  "size": 6574039,
+  "sha256": "66a1d6cb62af29920d79c1923b93eb43f7d06626cd004dc3d4195470529afa0c",
+  "versionName": "2.22.0",
+  "versionCode": 65
+ },
+ {
+  "pkg": "nl.bw20.last_launcher",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/nl.bw20.last_launcher_193.apk",
+  "size": 21463891,
+  "sha256": "7151cadd7c729dfd0c7923ae66e0a02343ff05d124243361b7925a65f5a11b7e",
+  "versionName": "1.3.1",
+  "versionCode": 193
+ },
+ {
+  "pkg": "now.abhi.graycie",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/now.abhi.graycie_4.apk",
+  "size": 8506439,
+  "sha256": "09fcc849b3f4a15c402edabada7a7fa3f035ecf5e5abf073418e9c730fc63f1a",
+  "versionName": "1.3.0",
+  "versionCode": 4
+ },
+ {
+  "pkg": "org.jpi59.ethiccompass",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/org.jpi59.ethiccompass_4.apk",
+  "size": 50769,
+  "sha256": "835c640b8b780008a08bdd198a25f520b51035c4ca4d54ba96c6d7de4723766d",
+  "versionName": "1.0.3",
+  "versionCode": 4
+ },
+ {
+  "pkg": "org.koitharu.volumeicon",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/org.koitharu.volumeicon_5.apk",
+  "size": 107495,
+  "sha256": "37ba1dee29f1b0edc063b49526616904d45b12c9e20ca8d591b3fde5203e5e89",
+  "versionName": "1.4",
+  "versionCode": 5
+ },
+ {
+  "pkg": "space.subread.overlay",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/space.subread.overlay_6.apk",
+  "size": 90609,
+  "sha256": "be09b61a30709cb82b949fa7531b2072a51231f6dbdb27d8407a46f5cfa87a82",
+  "versionName": "0.5.0",
+  "versionCode": 6
+ },
+ {
+  "pkg": "superfreeze.tool.android",
+  "stratum": "B_desc_accessibility_service",
+  "file": "/superfreeze.tool.android_1001.apk",
+  "size": 2542345,
+  "sha256": "09abdca43d35df17040901e3bca6d6f97cb4a90c76845d01c7ab9ab08f44d152",
+  "versionName": "1.1",
+  "versionCode": 1001
+ },
+ {
+  "pkg": "app.cclauncher",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/app.cclauncher_1290.apk",
+  "size": 3341593,
+  "sha256": "b6e6efc9308a666a49b49ffc6c109bc406bc4362e7a22ae8c0abfadd983457e9",
+  "versionName": "v10.7.6",
+  "versionCode": 1290
+ },
+ {
+  "pkg": "app.cleartray",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/app.cleartray_343.apk",
+  "size": 28275520,
+  "sha256": "caa977ac5c26679a3045fb4932903a8eca6978a6088d228ecd9f9679a3e51ae0",
+  "versionName": "1.0.2",
+  "versionCode": 343
+ },
+ {
+  "pkg": "app.organicmaps",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/app.organicmaps_26092932.apk",
+  "size": 63797784,
+  "sha256": "654a736d43317084f13560281fe7013f869800610e9d6036b6789d9c9e07f8bc",
+  "versionName": "2026.09.29-32-FDroid",
+  "versionCode": 26092932
+ },
+ {
+  "pkg": "app.pachli",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/app.pachli_56.apk",
+  "size": 32415314,
+  "sha256": "9f9956cc6093fceaa4985948c327a4c7a0a14a8e6ae817f5ca25ebedc4cf7bd8",
+  "versionName": "3.9.1",
+  "versionCode": 56
+ },
+ {
+  "pkg": "app.veil.veil",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/app.veil.veil_70123.apk",
+  "size": 26832759,
+  "sha256": "65786e1faa7c985aa8075b09bfd6dfddce9f725f1d5f0f343a268f0b58810674",
+  "versionName": "1.0.0-beta.9",
+  "versionCode": 70123
+ },
+ {
+  "pkg": "at.j0s.meyercard.app",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/at.j0s.meyercard.app_18.apk",
+  "size": 2578687,
+  "sha256": "9937b80239d176f086bd6ae3ceaafeeb650c32e2cde377d6f1ec0404949f19fa",
+  "versionName": "1.0.17",
+  "versionCode": 18
+ },
+ {
+  "pkg": "business.braid.polycule",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/business.braid.polycule_344.apk",
+  "size": 84874681,
+  "sha256": "40295836f19bb6a80002cd99579623af5a4038d5c24f8d2fc3e58f999f30468f",
+  "versionName": "0.3.4",
+  "versionCode": 344
+ },
+ {
+  "pkg": "com.adeeteya.digital_calculator",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.adeeteya.digital_calculator_8.apk",
+  "size": 18381209,
+  "sha256": "4377e1b3efef0f25d9e4e4416d49650cd85c4cebb9e3900c8c366f80a9f62b08",
+  "versionName": "1.2.1",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.aw.huda",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.aw.huda_543.apk",
+  "size": 59537893,
+  "sha256": "5a6fd1894a4ab0b28c9a6b53f253bc3c839b57f02ab5514f55283fb10350f0a8",
+  "versionName": "4.3.0",
+  "versionCode": 543
+ },
+ {
+  "pkg": "com.bearinmind.equalizer314",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.bearinmind.equalizer314_27.apk",
+  "size": 9831653,
+  "sha256": "6529e478d4ddc355e15a4179b0c41b0535e38334161a8161c389fb7e30a7724e",
+  "versionName": "0.0.22-beta",
+  "versionCode": 27
+ },
+ {
+  "pkg": "com.byagowi.persiancalendar",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.byagowi.persiancalendar_1020.apk",
+  "size": 3586358,
+  "sha256": "bbd12819529102bc3849b70d119bb1cef72dbb1cbacb08ba7fee473c8f6167d4",
+  "versionName": "10.2.0",
+  "versionCode": 1020
+ },
+ {
+  "pkg": "com.calcitem.sanmill",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.calcitem.sanmill_5584.apk",
+  "size": 55986092,
+  "sha256": "dc31e34cf7649d844c4b515a1225afdfa7446340d878fe4c7fcceab3f9ca157b",
+  "versionName": "7.4.6",
+  "versionCode": 5584
+ },
+ {
+  "pkg": "com.capyreader.app",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.capyreader.app_1212.apk",
+  "size": 13978180,
+  "sha256": "6ff068efc58658c568f0288c71a2120ae637d35214c436e60ec19b779fa38833",
+  "versionName": "2026.07.1212",
+  "versionCode": 1212
+ },
+ {
+  "pkg": "com.concealnetwork.concealmobile",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.concealnetwork.concealmobile_59.apk",
+  "size": 7489134,
+  "sha256": "7e12117c78d8c414de18a2ff5d2d76b54d4198bc5609fa2730deb04375b479f3",
+  "versionName": "6.0.8",
+  "versionCode": 59
+ },
+ {
+  "pkg": "com.f0x1d.logfox",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.f0x1d.logfox_79.apk",
+  "size": 3981447,
+  "sha256": "34bd7ff3e367f16cf36a299adb1872da34a5ed8934514d3c73687bf8633ccdc4",
+  "versionName": "2.1.10",
+  "versionCode": 79
+ },
+ {
+  "pkg": "com.futsch1.medtimer",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.futsch1.medtimer_187.apk",
+  "size": 15287752,
+  "sha256": "6cf282c9bab0b3507d84d2078952a5a0a0f898ea7b62f601427d96af9083831a",
+  "versionName": "1.26.0",
+  "versionCode": 187
+ },
+ {
+  "pkg": "com.hos_dvk.easyphone.full",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.hos_dvk.easyphone.full_11.apk",
+  "size": 6625861,
+  "sha256": "8b5f01ba5c7de1cbd0682f29052fbb4c296168f289e3aff69b21d74d63167a90",
+  "versionName": "0.1",
+  "versionCode": 11
+ },
+ {
+  "pkg": "com.juliencardoux.ratafuel",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.juliencardoux.ratafuel_6.apk",
+  "size": 47950813,
+  "sha256": "e5e693d4b386bbb41435b01a3318e6f8f41a5cae928397c559146a371655672c",
+  "versionName": "1.13.25",
+  "versionCode": 6
+ },
+ {
+  "pkg": "com.mablanco.pricegrab",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.mablanco.pricegrab_12.apk",
+  "size": 1583939,
+  "sha256": "4be552b287cef6304cec8afd04963746ec8ee3fc30ba6ce3c990945892bc2e40",
+  "versionName": "0.1.11",
+  "versionCode": 12
+ },
+ {
+  "pkg": "com.maforn.timedshutdown",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.maforn.timedshutdown_35.apk",
+  "size": 5649622,
+  "sha256": "65623d13462a533371b71f988eb2f9679a0d268ddfc186b5ecdd76bab6f7b379",
+  "versionName": "v3.0",
+  "versionCode": 35
+ },
+ {
+  "pkg": "com.markleaf.notes",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.markleaf.notes_187.apk",
+  "size": 3366390,
+  "sha256": "a49bc6ee0e0cb97d007f122058898bfd2cdf4e20c12710d42144ddb38d73f65a",
+  "versionName": "2.70.0",
+  "versionCode": 187
+ },
+ {
+  "pkg": "com.nitish.privacyindicator",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.nitish.privacyindicator_8.apk",
+  "size": 2184331,
+  "sha256": "68303228dd006eaef7803b3d481ed7072b3b42062676101381312c07de35a576",
+  "versionName": "2.2",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.podverse.fdroid",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.podverse.fdroid_105004.apk",
+  "size": 50468608,
+  "sha256": "35ae9665a999512c8176beffe093090d8d5e885460482a7e56d6809269169852",
+  "versionName": "4.16.3",
+  "versionCode": 105004
+ },
+ {
+  "pkg": "com.resolvecommunity.awaydoomscrollin",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.resolvecommunity.awaydoomscrollin_8.apk",
+  "size": 3059861,
+  "sha256": "0fc9848e1c796d8546c6f2d6750ce599c69691a1489b1f6aee3bb17fd28284af",
+  "versionName": "1.2.0",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.saad2134.dosezy",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.saad2134.dosezy_35.apk",
+  "size": 11609231,
+  "sha256": "e25ed9d37d0de7af4fc102af03f9ba22644c6c52b5e25a2cb1fd33e0dbfbf313",
+  "versionName": "2.5.10",
+  "versionCode": 35
+ },
+ {
+  "pkg": "com.studio4plus.homerplayer2",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.studio4plus.homerplayer2_48.apk",
+  "size": 4481827,
+  "sha256": "8c31e3605499903bbb1f3829e01493ad467ef371b9396446fa8233ea56453346",
+  "versionName": "1.5.13",
+  "versionCode": 48
+ },
+ {
+  "pkg": "com.techtrest.privamatic",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.techtrest.privamatic_9.apk",
+  "size": 3429754,
+  "sha256": "ca82a832233fe4711be58e3e8b29a85fbfdfd2122ebbcf712048b9282d204dd5",
+  "versionName": "1.5.1",
+  "versionCode": 9
+ },
+ {
+  "pkg": "com.vincent_falzon.discreetlauncher",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.vincent_falzon.discreetlauncher_72.apk",
+  "size": 1439083,
+  "sha256": "d5aacf3d66f6b12b051e76b574be5d7658670f9a95d9372f08de3c4f14f09538",
+  "versionName": "v7.8.4",
+  "versionCode": 72
+ },
+ {
+  "pkg": "com.xxxx.parcel",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/com.xxxx.parcel_70.apk",
+  "size": 22454773,
+  "sha256": "eddb53c79f1ae0d91cfe5f83072894271bf1d9fe661efa2766a99e47ad0c2bfc",
+  "versionName": "1.0.70",
+  "versionCode": 70
+ },
+ {
+  "pkg": "corewala.gemini.buran",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/corewala.gemini.buran_13.apk",
+  "size": 2124420,
+  "sha256": "b3df5a28a57592c3541cf54fef3d08b100e9429a69e48d6e436f726cbbf3c914",
+  "versionName": "v1.12",
+  "versionCode": 13
+ },
+ {
+  "pkg": "de.mysportsmate.officebreak",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/de.mysportsmate.officebreak_12.apk",
+  "size": 4694164,
+  "sha256": "19d2262d6f8787739496cd6c5bc1bf3dc87bb5cc08a4e595c34c2282285f09b3",
+  "versionName": "0.9.0",
+  "versionCode": 12
+ },
+ {
+  "pkg": "dev.msbs.cyclauncher",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/dev.msbs.cyclauncher_26.apk",
+  "size": 14940704,
+  "sha256": "ba8064a5f9dd212aa83973c9d37d406bf5f79bcd151e5748479dc3936e0d396a",
+  "versionName": "v1.0.0-rc.4",
+  "versionCode": 26
+ },
+ {
+  "pkg": "dev.shrekbytes.waqfah.fdroid",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/dev.shrekbytes.waqfah.fdroid_8.apk",
+  "size": 6479743,
+  "sha256": "4e62c37fe23e2fdbfa7dd0b0a9a64f02d967237821161901306bf35b0cee81ae",
+  "versionName": "2.2.2",
+  "versionCode": 8
+ },
+ {
+  "pkg": "duress.ultimate",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/duress.ultimate_22.apk",
+  "size": 345408,
+  "sha256": "87d6cea3423c10b93dc716b600c54776e45bdb5c3f414ecd86b65bb948f093eb",
+  "versionName": "22.0",
+  "versionCode": 22
+ },
+ {
+  "pkg": "eu.ottop.yamlauncher",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/eu.ottop.yamlauncher_16.apk",
+  "size": 2583306,
+  "sha256": "d2385f89ffdb53ebd7b5b481a1539c10379e33a0382f9f14238cf73ad42ec5a4",
+  "versionName": "2.2",
+  "versionCode": 16
+ },
+ {
+  "pkg": "fr.neamar.kiss",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/fr.neamar.kiss_224.apk",
+  "size": 2205788,
+  "sha256": "da6ab0b1219ad3b5ee573698523fb15d60a918083e0843f94a03c1b12e1098c9",
+  "versionName": "3.26.0",
+  "versionCode": 224
+ },
+ {
+  "pkg": "io.davidar.fabularium",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.davidar.fabularium_27.apk",
+  "size": 19181595,
+  "sha256": "043b224460dbf4d1e4b7f7bff6d11a861138400e0de1b0c15fefd0670f72ae59",
+  "versionName": "1.5.1",
+  "versionCode": 27
+ },
+ {
+  "pkg": "io.github.dhiraj_j_s.minimalsf",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.github.dhiraj_j_s.minimalsf_5.apk",
+  "size": 1641789,
+  "sha256": "95086360a4a9ec31ce6c1a89af0b24f62e9678c5f9754bb356b5264a88ff642c",
+  "versionName": "1.2.2",
+  "versionCode": 5
+ },
+ {
+  "pkg": "io.github.digvijaylp.OpenTeleScopeVR",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.github.digvijaylp.OpenTeleScopeVR_6.apk",
+  "size": 4134019,
+  "sha256": "8853f734c36de9531091a240338a4cdba32b9804de99bc3c34af86012fef35d9",
+  "versionName": "0.4.6.oc.1.56.2",
+  "versionCode": 6
+ },
+ {
+  "pkg": "io.github.luantak.fokuslauncher",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.github.luantak.fokuslauncher_52.apk",
+  "size": 4094397,
+  "sha256": "39fcb9e57a45b38b25cea44e255990a169c163343e099addb0112c7b74a1d388",
+  "versionName": "1.9.6",
+  "versionCode": 52
+ },
+ {
+  "pkg": "io.github.sak.read.it.later",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.github.sak.read.it.later_1100.apk",
+  "size": 15999485,
+  "sha256": "23cf5b7126b3022c71f6aff542fe9c931c5431bee61c0fe35dbfc34aa79674aa",
+  "versionName": "0.1.100",
+  "versionCode": 1100
+ },
+ {
+  "pkg": "io.github.vibhor1102.macrion",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/io.github.vibhor1102.macrion_130004.apk",
+  "size": 21881779,
+  "sha256": "14b9c279ce8c8218b257a2aff33dfa611e1de38d6dd7237f4f24a26fa6507c59",
+  "versionName": "0.6.2",
+  "versionCode": 130004
+ },
+ {
+  "pkg": "jwtc.android.chess",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/jwtc.android.chess_298.apk",
+  "size": 3557014,
+  "sha256": "3245b9ec35f6c1df771c418ac91ec792b5e056fb37e1d391e607b614f1a283b4",
+  "versionName": "10.6.0",
+  "versionCode": 298
+ },
+ {
+  "pkg": "m.co.rh.id.a_news_provider",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/m.co.rh.id.a_news_provider_77.apk",
+  "size": 7247375,
+  "sha256": "c6d01ba793b3df1857fe6506987487b3dbbab96da8cd1ddbee49f89227c422f4",
+  "versionName": "2.2.0",
+  "versionCode": 77
+ },
+ {
+  "pkg": "me.hackerchick.catima",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/me.hackerchick.catima_1004.apk",
+  "size": 5311894,
+  "sha256": "271980b62f73137db2d843fb4fc35f103c4126d769f816d365206c5c1adff3a9",
+  "versionName": "2.45.1",
+  "versionCode": 1004
+ },
+ {
+  "pkg": "me.lucky.duress",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/me.lucky.duress_12.apk",
+  "size": 5016553,
+  "sha256": "dc041e6e62fa0a6c47615c32935ce0f5b7bfccb0890685c66ca44a84d6945712",
+  "versionName": "1.0.11",
+  "versionCode": 12
+ },
+ {
+  "pkg": "net.ibbaa.keepitup",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/net.ibbaa.keepitup_25.apk",
+  "size": 4787522,
+  "sha256": "7661ce2e93a4dfa04e6890225d8744df3d4d806ee3350ab9089dce6347d4cb93",
+  "versionName": "1.13.1",
+  "versionCode": 25
+ },
+ {
+  "pkg": "net.slions.fulguris.full.fdroid",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/net.slions.fulguris.full.fdroid_265.apk",
+  "size": 9359352,
+  "sha256": "72a95ef9111837e6a557cefac53744e9a8b4f8413fce199e485e249d04c886cc",
+  "versionName": "2.1.2",
+  "versionCode": 265
+ },
+ {
+  "pkg": "org.breezyweather",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.breezyweather_60202.apk",
+  "size": 20779665,
+  "sha256": "1369d817d426498715f8ccb6750baff19dadd78e85f707088e9bca43977570c0",
+  "versionName": "6.2.2_freenet",
+  "versionCode": 60202
+ },
+ {
+  "pkg": "org.headsetrewind",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.headsetrewind_5.apk",
+  "size": 29543,
+  "sha256": "3fc826eabef782e983557b6079a7826730ef2cd3c19a7be70f97e775e36f3c95",
+  "versionName": "2.0.1",
+  "versionCode": 5
+ },
+ {
+  "pkg": "org.jpi59.ethichandoff",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.jpi59.ethichandoff_2.apk",
+  "size": 38145,
+  "sha256": "078f55b72624cff1e159f9b29c7d64b74741a010ae435d36f54ab25ad670e752",
+  "versionName": "0.1.1",
+  "versionCode": 2
+ },
+ {
+  "pkg": "org.kde.kdeconnect_tp",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.kde.kdeconnect_tp_13600.apk",
+  "size": 7138562,
+  "sha256": "ab8f655b3f3a4a9dacace69cfea4d062fe115f7910c33f14802b589e17bd8b37",
+  "versionName": "1.36.0",
+  "versionCode": 13600
+ },
+ {
+  "pkg": "org.keyoxide.keyoxide",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.keyoxide.keyoxide_222.apk",
+  "size": 79181824,
+  "sha256": "a0419ab12956a4b02c8322c68e35292cb4d6c6a94b1d0636e71850318c0ce52f",
+  "versionName": "2.4.4",
+  "versionCode": 222
+ },
+ {
+  "pkg": "org.onekash.kashcal",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.onekash.kashcal_785.apk",
+  "size": 13055117,
+  "sha256": "2201588b26da9ee1df6c8d059e581abc4b7568e6f6ef39f2646810895e2af11c",
+  "versionName": "2026.10.15",
+  "versionCode": 785
+ },
+ {
+  "pkg": "org.osservatorionessuno.bugbane.beta",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/org.osservatorionessuno.bugbane.beta_9.apk",
+  "size": 6005137,
+  "sha256": "a5012464d1193a21dab9f9167e5f0f52e6ba6e53e9a3516d276b58118e5a44a5",
+  "versionName": "0.2.3",
+  "versionCode": 9
+ },
+ {
+  "pkg": "pt.tiago.bubblenight",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/pt.tiago.bubblenight_27.apk",
+  "size": 10869253,
+  "sha256": "19052a15accc50b4692cc689c6d784358a5a44178bda86fa3ed277f43f4ab9f8",
+  "versionName": "0.14.3",
+  "versionCode": 27
+ },
+ {
+  "pkg": "space.neothefox.laytray",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/space.neothefox.laytray_10.apk",
+  "size": 1767971,
+  "sha256": "283d8f1c611865952336aebf2fc9e43f1cf69a72c792bee40286f14e111ed2d4",
+  "versionName": "1.9",
+  "versionCode": 10
+ },
+ {
+  "pkg": "xyz.mordorx.sicmu",
+  "stratum": "C_desc_accessibility_other",
+  "file": "/xyz.mordorx.sicmu_41.apk",
+  "size": 2451324,
+  "sha256": "eaaab95fc5ef60ef82630be3bf36a1cd7cf6bc0a6a051c3c4bd04d8aff41cbf8",
+  "versionName": "2.5.0",
+  "versionCode": 41
+ },
+ {
+  "pkg": "ai.agent1c.hitomi.open",
+  "stratum": "D_desc_llm_ai",
+  "file": "/ai.agent1c.hitomi.open_6.apk",
+  "size": 4949113,
+  "sha256": "75d17d267d4d58e2dd1b8cfc2ce54b43bd4ce3244ae50db8480c5ec1bd8f05fd",
+  "versionName": "0.1.2",
+  "versionCode": 6
+ },
+ {
+  "pkg": "app.chompass",
+  "stratum": "D_desc_llm_ai",
+  "file": "/app.chompass_92.apk",
+  "size": 20771488,
+  "sha256": "270fe4713d78c68856c3b61b86e44a104a0a2940d2998474466ac7460047d53c",
+  "versionName": "5.6.0",
+  "versionCode": 92
+ },
+ {
+  "pkg": "app.maskan.chat",
+  "stratum": "D_desc_llm_ai",
+  "file": "/app.maskan.chat_160.apk",
+  "size": 58276635,
+  "sha256": "dfab6a9c6eec9321937c22b666ff12032e20bd87aaaa64e46089ab82c3bad9e7",
+  "versionName": "2.6.1",
+  "versionCode": 160
+ },
+ {
+  "pkg": "app.siftrecipes",
+  "stratum": "D_desc_llm_ai",
+  "file": "/app.siftrecipes_8.apk",
+  "size": 78674715,
+  "sha256": "fdc68ce83806767d43b057aaa5db12c8eead58093623f09f37fec9928507244e",
+  "versionName": "1.0.7",
+  "versionCode": 8
+ },
+ {
+  "pkg": "ca.snoe.deedum",
+  "stratum": "D_desc_llm_ai",
+  "file": "/ca.snoe.deedum_21.apk",
+  "size": 21326764,
+  "sha256": "19201af4b701f2d08569f31a5d799674eb83b82e3179e954294d1d9c82a9af60",
+  "versionName": "2022.0406.0502",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.anant.fitbuddy",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.anant.fitbuddy_82.apk",
+  "size": 12235792,
+  "sha256": "769e26fe3e211e4664307cb0145fd946625e7c71f423acfe3b4e441f3f3b7f58",
+  "versionName": "3.2.82",
+  "versionCode": 82
+ },
+ {
+  "pkg": "com.antivocale.app",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.antivocale.app_484.apk",
+  "size": 39567542,
+  "sha256": "1e2c1c15d06098b0eda47a70932f2568feebd154cb9e0ad6b6c6318054f5f504",
+  "versionName": "1.14.1",
+  "versionCode": 484
+ },
+ {
+  "pkg": "com.anxcye.anx_reader",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.anxcye.anx_reader_6321.apk",
+  "size": 54192395,
+  "sha256": "284e05040c959dc54b43ce79d050487be57b9902b40e0b789b19a9b5f6fec82c",
+  "versionName": "1.14.0",
+  "versionCode": 6321
+ },
+ {
+  "pkg": "com.asdoi.quicktiles",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.asdoi.quicktiles_18.apk",
+  "size": 6470861,
+  "sha256": "c899435420fb2864f7f5d6254c9fe5ad4da92729b9ffa612eab519ecee47818d",
+  "versionName": "1.8",
+  "versionCode": 18
+ },
+ {
+  "pkg": "com.beradeep.aiyo",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.beradeep.aiyo_10.apk",
+  "size": 3813720,
+  "sha256": "94f7ddfe604e778c0116a75e234df2a0f8b47e3d5faf6446bab25ef782cef2ac",
+  "versionName": "1.0.9",
+  "versionCode": 10
+ },
+ {
+  "pkg": "com.chmouel.liseur",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.chmouel.liseur_52_394e041.apk",
+  "size": 10568469,
+  "sha256": "8e8291688e55a21d663914f34c3320c1ad8bcadaaf4cf68e4d7a311489048155",
+  "versionName": "0.23.0",
+  "versionCode": 52
+ },
+ {
+  "pkg": "com.danemadsen.maid",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.danemadsen.maid_22532.apk",
+  "size": 24016262,
+  "sha256": "1cc983971a0cee998a4c8fa2b3fcbf38d08dd594002f17e2e3723b5fd4840755",
+  "versionName": "2.0.4",
+  "versionCode": 22532
+ },
+ {
+  "pkg": "com.deedeedev.ytreader",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.deedeedev.ytreader_8006.apk",
+  "size": 3388545,
+  "sha256": "b613a0308c87e54432af03da4ae103cf42c26e00b42ad9235cac951d848f32fe",
+  "versionName": "0.8.5",
+  "versionCode": 8006
+ },
+ {
+  "pkg": "com.devasy.repforge",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.devasy.repforge_653.apk",
+  "size": 28259429,
+  "sha256": "7e56ae04bb7b65e46f65bfbd600d726c2e9bbe28b8a0fe9b6e84dd7b8a45fe5b",
+  "versionName": "2.1.7",
+  "versionCode": 653
+ },
+ {
+  "pkg": "com.fitforge.fitforge",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.fitforge.fitforge_23.apk",
+  "size": 21229361,
+  "sha256": "8bcd24f7366f7138b667ae43c341234b1adc7e0611349e06ff9b3f0e73b82cc7",
+  "versionName": "2.1.0",
+  "versionCode": 23
+ },
+ {
+  "pkg": "com.furthersecrets.chemsearch",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.furthersecrets.chemsearch_11501.apk",
+  "size": 6084509,
+  "sha256": "71e72abfa27acf35bfeae5f65d1d2ee5796433d51e16061f935faf2614f32b03",
+  "versionName": "1.15.1",
+  "versionCode": 11501
+ },
+ {
+  "pkg": "com.georgernstgraf.polishedrecognition",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.georgernstgraf.polishedrecognition_10500.apk",
+  "size": 2418681,
+  "sha256": "ce3c4836e3928983c15d56313e314fc5eab34184ebd1cf42e677e5982a5f93b3",
+  "versionName": "1.5.0",
+  "versionCode": 10500
+ },
+ {
+  "pkg": "com.hanan_bhatti.cobalt",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.hanan_bhatti.cobalt_15.apk",
+  "size": 5543329,
+  "sha256": "bae3daf17685125986e18887649a6b31f53f40d4409a369fb19b538d4ade7ae2",
+  "versionName": "2.1.2",
+  "versionCode": 15
+ },
+ {
+  "pkg": "com.inspiredandroid.kai",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.inspiredandroid.kai_117.apk",
+  "size": 32576546,
+  "sha256": "c330df6420e5be9db2f9d60a6b277302fccb366fb3ff0e422145f5c1a8188735",
+  "versionName": "3.3.0",
+  "versionCode": 117
+ },
+ {
+  "pkg": "com.jarves.mh",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.jarves.mh_8.apk",
+  "size": 47237921,
+  "sha256": "04bc970ad277a9bb6e0767a58b1cbd357f6c2252cc42500a6a9a648cdedfad92",
+  "versionName": "1.0.7",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.kbul.spicycrab",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.kbul.spicycrab_17.apk",
+  "size": 3261588,
+  "sha256": "38db6246d5217bad957f100b8788af4e439418ae5d0cb5446990785caa78487a",
+  "versionName": "0.9.0",
+  "versionCode": 17
+ },
+ {
+  "pkg": "com.lazydevs.wristotle",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.lazydevs.wristotle_12300.apk",
+  "size": 34476558,
+  "sha256": "249741fb74ff6439eaeee86a00a8e3db0dd7a20fd8c1f342b312d6ef5ec3d9a1",
+  "versionName": "1.23.0",
+  "versionCode": 12300
+ },
+ {
+  "pkg": "com.leanbitlab.leantype",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.leanbitlab.leantype_4208.apk",
+  "size": 11718863,
+  "sha256": "acef3c63074e8ace735c2add8a19b4c8ca247056aa70a71baece059c3d07047a",
+  "versionName": "4.2.8",
+  "versionCode": 4208
+ },
+ {
+  "pkg": "com.lord1egypt.pocketclaw",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.lord1egypt.pocketclaw_65.apk",
+  "size": 58441695,
+  "sha256": "778882828e2f818aac31ed1f58dd3b2e8530828970b535ce72564f5ed2857599",
+  "versionName": "0.2.3",
+  "versionCode": 65
+ },
+ {
+  "pkg": "com.mateusrodcosta.apps.vidyamusic",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.mateusrodcosta.apps.vidyamusic_2200.apk",
+  "size": 5900559,
+  "sha256": "e814dcb69ef3a55364373c51cdf6a113b1d5a49d5c67b5dcd352a4b1ec01a9f1",
+  "versionName": "3.0.1-R",
+  "versionCode": 2200
+ },
+ {
+  "pkg": "com.newoether.agora",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.newoether.agora_31.apk",
+  "size": 48553937,
+  "sha256": "28380cf2db63a6c272c51916d5af47c6a057f3a2ede2b6dce0bf5e0d3e75b23b",
+  "versionName": "2.1.0",
+  "versionCode": 31
+ },
+ {
+  "pkg": "com.pebblerecorder.app",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.pebblerecorder.app_21.apk",
+  "size": 3519473,
+  "sha256": "41b719b9626738b97ebe180b9342cbfc0b271b1b40606115d85f75990033c567",
+  "versionName": "0.1.20",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.prismgallery.app",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.prismgallery.app_4.apk",
+  "size": 4903659,
+  "sha256": "1a215973fc91f1abcc11f8c24a61b802baf9cde81fc861e06e25a6b6fa0bde44",
+  "versionName": "1.1",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.rastislavkish.vscan",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.rastislavkish.vscan_24.apk",
+  "size": 6986751,
+  "sha256": "68d39988a200188624b0a770c4fec8ae8ba8e54e4ae44935447e928f9f1cf51e",
+  "versionName": "0.2.4",
+  "versionCode": 24
+ },
+ {
+  "pkg": "com.scariflabs.horus",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.scariflabs.horus_5.apk",
+  "size": 8562827,
+  "sha256": "bf67340c4dd8321636c158902d0bf7b5a4684a23eae982d0026d45e348cb3430",
+  "versionName": "1.0.4",
+  "versionCode": 5
+ },
+ {
+  "pkg": "com.tk.quicksearch",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.tk.quicksearch_101.apk",
+  "size": 7616387,
+  "sha256": "6b7a43a2eda147c53b6a05c81a5a6d2152aa00a0b8c67debc4a232ba831a55dd",
+  "versionName": "4.7.1",
+  "versionCode": 101
+ },
+ {
+  "pkg": "com.tyraen.voicekeyboard",
+  "stratum": "D_desc_llm_ai",
+  "file": "/com.tyraen.voicekeyboard_60.apk",
+  "size": 2882869,
+  "sha256": "3a5d3383117398f3feb7265353c803564351e2863e5a79f54065eb41fa4a10fd",
+  "versionName": "1.9.9",
+  "versionCode": 60
+ },
+ {
+  "pkg": "de.bgg_home.texslate",
+  "stratum": "D_desc_llm_ai",
+  "file": "/de.bgg_home.texslate_26.apk",
+  "size": 28731011,
+  "sha256": "2c0502df3f306ee970deef432e4bbbaed69c051b2deb54710201ec96aab7f7c0",
+  "versionName": "1.0-alpha26",
+  "versionCode": 26
+ },
+ {
+  "pkg": "de.froehlichmedia.adaptkey",
+  "stratum": "D_desc_llm_ai",
+  "file": "/de.froehlichmedia.adaptkey_566.apk",
+  "size": 37107312,
+  "sha256": "6a2c6da56b42e2c9da97527132a30590cfd7cc5e2b5fc6479c1e5f483af24954",
+  "versionName": "1.2.70",
+  "versionCode": 566
+ },
+ {
+  "pkg": "dev.argus",
+  "stratum": "D_desc_llm_ai",
+  "file": "/dev.argus_1104.apk",
+  "size": 48052347,
+  "sha256": "c8a88696a7ff3e9b8c5d101b1feec4067aec8d606425cf34487700d3a3dcec9b",
+  "versionName": "0.3.4",
+  "versionCode": 1104
+ },
+ {
+  "pkg": "dev.chungjungsoo.gptmobile",
+  "stratum": "D_desc_llm_ai",
+  "file": "/dev.chungjungsoo.gptmobile_25.apk",
+  "size": 61788137,
+  "sha256": "ac18347c2dd58c256026ebc3e6bddc092cc71f68dc04b582f105c548c3e0f2aa",
+  "versionName": "0.9.1",
+  "versionCode": 25
+ },
+ {
+  "pkg": "dev.kokoro.tts",
+  "stratum": "D_desc_llm_ai",
+  "file": "/dev.kokoro.tts_1.apk",
+  "size": 124762,
+  "sha256": "7c211a36195af5ec5727ee3623db76a626956c75d3b3c9d129879148ee0b9835",
+  "versionName": "1.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "ekklesia.gr",
+  "stratum": "D_desc_llm_ai",
+  "file": "/ekklesia.gr_624.apk",
+  "size": 27624416,
+  "sha256": "9d2b0ffdef67fee70fdad5cdd9597cce975f861f365f74ccf9bb105ff926db75",
+  "versionName": "1.0.33",
+  "versionCode": 624
+ },
+ {
+  "pkg": "info.plateaukao.einkbro",
+  "stratum": "D_desc_llm_ai",
+  "file": "/info.plateaukao.einkbro_160701.apk",
+  "size": 4819292,
+  "sha256": "a4ca2948714fe2ea641aa33d258bdaf02d873840a30e20faa54dc9be2e6cac57",
+  "versionName": "16.7.1",
+  "versionCode": 160701
+ },
+ {
+  "pkg": "io.github.acidefluorhydrique.geminiassist",
+  "stratum": "D_desc_llm_ai",
+  "file": "/io.github.acidefluorhydrique.geminiassist_4.apk",
+  "size": 832868,
+  "sha256": "ad28a1bd236f1a5d46eb7439f1da2ba482846a232db53087103d681345d9ad00",
+  "versionName": "1.3",
+  "versionCode": 4
+ },
+ {
+  "pkg": "io.github.kotchwane.bonavortaro",
+  "stratum": "D_desc_llm_ai",
+  "file": "/io.github.kotchwane.bonavortaro_7.apk",
+  "size": 27994128,
+  "sha256": "b8ba6444f1d77c4926ef2d3e36d201aab67b540cdd977d63fbe4e8e10a259dcc",
+  "versionName": "0.3",
+  "versionCode": 7
+ },
+ {
+  "pkg": "io.github.patricksmill.quicknotes",
+  "stratum": "D_desc_llm_ai",
+  "file": "/io.github.patricksmill.quicknotes_100007.apk",
+  "size": 46249913,
+  "sha256": "9ed35b34f054aa36684af498a168decdfe4480fe1f2d9df24e46e25d2f34dcb0",
+  "versionName": "1.0.7",
+  "versionCode": 100007
+ },
+ {
+  "pkg": "io.github.stardomains3.oxproxion",
+  "stratum": "D_desc_llm_ai",
+  "file": "/io.github.stardomains3.oxproxion_227.apk",
+  "size": 8860254,
+  "sha256": "e89d0e706b0c738b6d27754677c2ac187ed2a076fda72b64c1848b543cc003a5",
+  "versionName": "2.2.12",
+  "versionCode": 227
+ },
+ {
+  "pkg": "io.theficos.quire",
+  "stratum": "D_desc_llm_ai",
+  "file": "/io.theficos.quire_260929000.apk",
+  "size": 28021393,
+  "sha256": "1572b25bad579f51407ca0f6d60267001a69c10784f587c11058350ddf232f92",
+  "versionName": "2026.09.29.274",
+  "versionCode": 260929000
+ },
+ {
+  "pkg": "m.co.rh.id.a_flash_deck",
+  "stratum": "D_desc_llm_ai",
+  "file": "/m.co.rh.id.a_flash_deck_63.apk",
+  "size": 8402970,
+  "sha256": "f8b7ee342fea944bbb327e913b1e0bb014f6889577ef4b79d4ef33c68f0a9cd9",
+  "versionName": "2.3.0",
+  "versionCode": 63
+ },
+ {
+  "pkg": "me.kafuuneko.rpclient",
+  "stratum": "D_desc_llm_ai",
+  "file": "/me.kafuuneko.rpclient_20260301.apk",
+  "size": 7958666,
+  "sha256": "8e6bcb93f7a78425221d8ad9c6760f8ec5811cd695ca7bf8a3402f14d20de588",
+  "versionName": "2026.3.1",
+  "versionCode": 20260301
+ },
+ {
+  "pkg": "nabu.iris.keyboard",
+  "stratum": "D_desc_llm_ai",
+  "file": "/nabu.iris.keyboard_154.apk",
+  "size": 972389,
+  "sha256": "2b9949841fe0f01f27fffdbc48cacd2f3ab986c048f5b98d63e9d5da1e53b8a7",
+  "versionName": "6.5.3",
+  "versionCode": 154
+ },
+ {
+  "pkg": "net.backslasher.dndtoggle",
+  "stratum": "D_desc_llm_ai",
+  "file": "/net.backslasher.dndtoggle_9.apk",
+  "size": 4478857,
+  "sha256": "8461eb65b242adddc293ac945c9b042fb50a401d492682cc44ae71b3edc103c8",
+  "versionName": "1.9",
+  "versionCode": 9
+ },
+ {
+  "pkg": "net.curiana.recipes",
+  "stratum": "D_desc_llm_ai",
+  "file": "/net.curiana.recipes_12.apk",
+  "size": 78710168,
+  "sha256": "eabb07188474697249998ff52fb36c76c7a76db8b13178e214ecbcf2b0395e49",
+  "versionName": "0.2.10",
+  "versionCode": 12
+ },
+ {
+  "pkg": "nl.hansdezwart.bgclock",
+  "stratum": "D_desc_llm_ai",
+  "file": "/nl.hansdezwart.bgclock_8.apk",
+  "size": 1048291,
+  "sha256": "31c4deaf89bc4d21cf0b019e27823c635f1e8a7c5bf4adb98566d16e45e13922",
+  "versionName": "1.7",
+  "versionCode": 8
+ },
+ {
+  "pkg": "org.eu.mumulhl.ciyue",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.eu.mumulhl.ciyue_903000.apk",
+  "size": 15164447,
+  "sha256": "6b3132f3adc11a79dc21b823fb552bb5bf1a52a6e92ecd3db8bd6ee4915aecb5",
+  "versionName": "1.23.1",
+  "versionCode": 903000
+ },
+ {
+  "pkg": "org.shano.assistral",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.shano.assistral_328.apk",
+  "size": 228563,
+  "sha256": "3c29cd375e90f87255a4e80bdfdfa87296a449c50e33857d5424b3bbd7cf8975",
+  "versionName": "3.2.8",
+  "versionCode": 328
+ },
+ {
+  "pkg": "org.sherpr.app",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.sherpr.app_233.apk",
+  "size": 28005870,
+  "sha256": "d4e3b24a941dc1e337e249f35cb01931708fad0a421f5c5377ce61ae712ab6e6",
+  "versionName": "0.2.19",
+  "versionCode": 233
+ },
+ {
+  "pkg": "org.t2decode.app",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.t2decode.app_353.apk",
+  "size": 25317148,
+  "sha256": "f3e3c072aa77d33e2db9183dc7ac4804ae5573c09a8328986ceeac5417811b69",
+  "versionName": "1.0.3",
+  "versionCode": 353
+ },
+ {
+  "pkg": "org.venkado.relagent",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.venkado.relagent_324.apk",
+  "size": 53220300,
+  "sha256": "60b22283a8fde258ab01e0bb2f687eeb29fa1e53c7b32b2fa970ec088033f7fb",
+  "versionName": "0.1.34",
+  "versionCode": 324
+ },
+ {
+  "pkg": "org.woheller69.gptassist",
+  "stratum": "D_desc_llm_ai",
+  "file": "/org.woheller69.gptassist_240.apk",
+  "size": 780356,
+  "sha256": "b9f601151ed9ff99fe5c7a76f7213b2c074b2155f030094169ca0819efa72f82",
+  "versionName": "2.40",
+  "versionCode": 240
+ },
+ {
+  "pkg": "space.rocketnine.xenia",
+  "stratum": "D_desc_llm_ai",
+  "file": "/space.rocketnine.xenia_16.apk",
+  "size": 8371143,
+  "sha256": "d3d5e54fd82a314ad0cd96391d38ce966194f50e8d146ea78d78a2315fd52fc8",
+  "versionName": "0.1.6",
+  "versionCode": 16
+ },
+ {
+  "pkg": "com.fiveseven.tabataxtreme",
+  "stratum": "E_random",
+  "file": "/com.fiveseven.tabataxtreme_9.apk",
+  "size": 4111946,
+  "sha256": "3e6c73fd0acd0eeeb2394c2ad20b95266f6ff1529c7f87fd8a6819468274fa96",
+  "versionName": "1.6.1",
+  "versionCode": 9
+ },
+ {
+  "pkg": "ca.chancehorizon.paseo",
+  "stratum": "E_random",
+  "file": "/ca.chancehorizon.paseo_10801.apk",
+  "size": 6459255,
+  "sha256": "d14085e8a7db405c84348813628c4777525e8b48610fda24145da9d9f8286203",
+  "versionName": "1.8.1",
+  "versionCode": 10801
+ },
+ {
+  "pkg": "com.yourname.pdftoolkit",
+  "stratum": "E_random",
+  "file": "/com.yourname.pdftoolkit_225.apk",
+  "size": 45273937,
+  "sha256": "78ade24545d9b430b0c6f110261e0fa08e7f98b938c210ec5c5f63cc2f6094ab",
+  "versionName": "1.3.225",
+  "versionCode": 225
+ },
+ {
+  "pkg": "com.tachibana.downloader",
+  "stratum": "E_random",
+  "file": "/com.tachibana.downloader_15.apk",
+  "size": 7733658,
+  "sha256": "af006d58ebbcbb365f84b725089db90cf844324fdc9e39174deb492f537ea472",
+  "versionName": "1.6.2",
+  "versionCode": 15
+ },
+ {
+  "pkg": "com.s4nj1th.pocket_dhamma",
+  "stratum": "E_random",
+  "file": "/com.s4nj1th.pocket_dhamma_1223.apk",
+  "size": 9915114,
+  "sha256": "41dc305d11693ab46bdbcb21eab57314bc1ed2e79feeba2cf9acfff419ee4cb0",
+  "versionName": "1.2.2",
+  "versionCode": 1223
+ },
+ {
+  "pkg": "com.guiforge.bati",
+  "stratum": "E_random",
+  "file": "/com.guiforge.bati_21203.apk",
+  "size": 58045350,
+  "sha256": "ad0e3affdf236fa4f05f546497cb1c073e7b639e12bf868d8412f6fbf17c4c36",
+  "versionName": "2.12.3",
+  "versionCode": 21203
+ },
+ {
+  "pkg": "com.eneko.hexcolortimewallpaper",
+  "stratum": "E_random",
+  "file": "/com.eneko.hexcolortimewallpaper_2.apk",
+  "size": 1380050,
+  "sha256": "22edf720655c011be57c376336ab8eda4981f4acdccc6681256213e983f431a4",
+  "versionName": "1.1",
+  "versionCode": 2
+ },
+ {
+  "pkg": "tk.al54.dev.badpixels",
+  "stratum": "E_random",
+  "file": "/tk.al54.dev.badpixels_4.apk",
+  "size": 13949,
+  "sha256": "43842c079c9f8cde375dc4a25ad62f7cd39237b4dcbf5ddbbb45738a620dd82f",
+  "versionName": "0.2",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.daniebeler.pfpixelix",
+  "stratum": "E_random",
+  "file": "/com.daniebeler.pfpixelix_49.apk",
+  "size": 9398717,
+  "sha256": "e54dcd20d22b4ffcdfdafd7d4ef0a7a28646e8c8b0c34e9dc32ae7ee860949d3",
+  "versionName": "5.2.2",
+  "versionCode": 49
+ },
+ {
+  "pkg": "name.gdr.acastus_photon",
+  "stratum": "E_random",
+  "file": "/name.gdr.acastus_photon_28.apk",
+  "size": 23870228,
+  "sha256": "ece8e98b420feadc4265abb9558c14c944a1580794490e462d6e6cf205a4eeb4",
+  "versionName": "1.28",
+  "versionCode": 28
+ },
+ {
+  "pkg": "ch.mydoli.focal",
+  "stratum": "E_random",
+  "file": "/ch.mydoli.focal_1.apk",
+  "size": 7435945,
+  "sha256": "bbf18ac3b134fb5fe19306043a687508aa25497d83164d22016083af6a3c88db",
+  "versionName": "1.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "cf.theonewiththebraid.guerrilla_mail",
+  "stratum": "E_random",
+  "file": "/cf.theonewiththebraid.guerrilla_mail_6.apk",
+  "size": 19869501,
+  "sha256": "b0da3329a6ec90673030138825f141ce6d7b914676512e8425f4f62f6719002c",
+  "versionName": "0.1.4",
+  "versionCode": 6
+ },
+ {
+  "pkg": "com.dn0ne.lotus",
+  "stratum": "E_random",
+  "file": "/com.dn0ne.lotus_1002004.apk",
+  "size": 18604511,
+  "sha256": "06a19b2117c833b90bc8feb9c9e9625243692c543ad5dd98e281035d3f821195",
+  "versionName": "1.2.0",
+  "versionCode": 1002004
+ },
+ {
+  "pkg": "com.resurrection.blowtorch2",
+  "stratum": "E_random",
+  "file": "/com.resurrection.blowtorch2_267.apk",
+  "size": 11286158,
+  "sha256": "d4bbf2fe273dcc3ba75c0569a5a62cfdac9bd8fb04327fbd826dd393d5adc8a2",
+  "versionName": "2.4.7",
+  "versionCode": 267
+ },
+ {
+  "pkg": "com.sidhant.learnmath",
+  "stratum": "E_random",
+  "file": "/com.sidhant.learnmath_53.apk",
+  "size": 8543090,
+  "sha256": "73f6f7b83567ebd96d74ceefb000cabc66d0e38d4823c58ae1f0b00bec9b6c04",
+  "versionName": "1.0.4",
+  "versionCode": 53
+ },
+ {
+  "pkg": "org.secuso.privacyfriendlynotes",
+  "stratum": "E_random",
+  "file": "/org.secuso.privacyfriendlynotes_105.apk",
+  "size": 8483558,
+  "sha256": "71e874f45fa4655f14296fce13791a82f994ea9bc26699f433383f0b4d334037",
+  "versionName": "2.2.2",
+  "versionCode": 105
+ },
+ {
+  "pkg": "ca.rmen.android.frenchcalendar",
+  "stratum": "E_random",
+  "file": "/ca.rmen.android.frenchcalendar_1182.apk",
+  "size": 1168009,
+  "sha256": "5e76f97d04251f44d8e68e9c46eacbc94883c61ab271f85d31158db6e3aa9ce9",
+  "versionName": "1.18.2",
+  "versionCode": 1182
+ },
+ {
+  "pkg": "com.oF2pks.neolinker",
+  "stratum": "E_random",
+  "file": "/com.oF2pks.neolinker_7.apk",
+  "size": 27883,
+  "sha256": "58a7d4b3e25af7c3091fbc2450227df2a3415423c4f176f25a96f7687a5acdcc",
+  "versionName": "2.2-7",
+  "versionCode": 7
+ },
+ {
+  "pkg": "tibarj.tranquilstopwatch",
+  "stratum": "E_random",
+  "file": "/tibarj.tranquilstopwatch_17.apk",
+  "size": 2492454,
+  "sha256": "7bc31fae5cd2e9d815414dafb437f9a9a2fd21f4dc16d9929adc5fec962c5cb7",
+  "versionName": "1.12.1",
+  "versionCode": 17
+ },
+ {
+  "pkg": "me.zhanghai.android.untracker",
+  "stratum": "E_random",
+  "file": "/me.zhanghai.android.untracker_9.apk",
+  "size": 3418107,
+  "sha256": "1519c6534426068ed8aef7706b8e803cf252b812cb92def64cdd4db50eaeb23c",
+  "versionName": "1.0.8",
+  "versionCode": 9
+ },
+ {
+  "pkg": "com.rocket9labs.boxcars",
+  "stratum": "E_random",
+  "file": "/com.rocket9labs.boxcars_104090.apk",
+  "size": 30886503,
+  "sha256": "11d97ae669d97e893026ac5fc5449fe4476f5ac7363bf8bda2ef0f79fde3ac6f",
+  "versionName": "1.4.9",
+  "versionCode": 104090
+ },
+ {
+  "pkg": "org.app.geotagvideocamera",
+  "stratum": "E_random",
+  "file": "/org.app.geotagvideocamera_430.apk",
+  "size": 17705647,
+  "sha256": "68a8b9b70fa130d2c7ec24304bbad9b912d07421d264812d444e7a1753567b52",
+  "versionName": "2.5.5",
+  "versionCode": 430
+ },
+ {
+  "pkg": "com.ztftrue.music",
+  "stratum": "E_random",
+  "file": "/com.ztftrue.music_71.apk",
+  "size": 10586860,
+  "sha256": "5d7264b193f7607e384b496c55e297bf69c383e62990d95d8afb15db14603979",
+  "versionName": "0.1.71",
+  "versionCode": 71
+ },
+ {
+  "pkg": "app.fedilab.nitterizeme",
+  "stratum": "E_random",
+  "file": "/app.fedilab.nitterizeme_35.apk",
+  "size": 6295893,
+  "sha256": "062f12a538fe72850d7a8ebe954534ec10e158489541b6e46c8632296d3f7ed2",
+  "versionName": "2.0.0",
+  "versionCode": 35
+ },
+ {
+  "pkg": "com.kanedias.vanilla.metadata",
+  "stratum": "E_random",
+  "file": "/com.kanedias.vanilla.metadata_9.apk",
+  "size": 7363851,
+  "sha256": "e1cffae23143870e43858acd8bdb090d04bcbb0cb39695240f705b7068263346",
+  "versionName": "1.0.8",
+  "versionCode": 9
+ },
+ {
+  "pkg": "negativedensity.techahashi",
+  "stratum": "E_random",
+  "file": "/negativedensity.techahashi_70001.apk",
+  "size": 40376693,
+  "sha256": "2e2aac33dbd7bfecfac1d824efddcc1f4556e8f8f692dd854f6ae8077be8233b",
+  "versionName": "7.0.1",
+  "versionCode": 70001
+ },
+ {
+  "pkg": "eu.hxreborn.discoveradsfilter",
+  "stratum": "E_random",
+  "file": "/eu.hxreborn.discoveradsfilter_10400.apk",
+  "size": 3933245,
+  "sha256": "abbf89d3dc5f2a6a0fdc2f0ac44d1db661bf92cf57e964256903d03d7bc25d50",
+  "versionName": "1.4.0",
+  "versionCode": 10400
+ },
+ {
+  "pkg": "com.zola.bmi",
+  "stratum": "E_random",
+  "file": "/com.zola.bmi_402.apk",
+  "size": 1295395,
+  "sha256": "2dbd8ebe2db568014c36445a069298dcbee9b46fda019f008d2ecf2c1da68408",
+  "versionName": "4.0.2",
+  "versionCode": 402
+ },
+ {
+  "pkg": "com.joeld.minesweeper",
+  "stratum": "E_random",
+  "file": "/com.joeld.minesweeper_7.apk",
+  "size": 5536376,
+  "sha256": "46964d6438a76a990f10e1653401067aa4dc5927c3050f13c56d33096742ff24",
+  "versionName": "1.6",
+  "versionCode": 7
+ },
+ {
+  "pkg": "com.rama.mako",
+  "stratum": "E_random",
+  "file": "/com.rama.mako_56.apk",
+  "size": 1331824,
+  "sha256": "cb1665c16f8ffac7e015c3027c5e954b57b2608fcc3728d266abbd9855f8403f",
+  "versionName": "2026.56",
+  "versionCode": 56
+ },
+ {
+  "pkg": "es.ideotec.t16fling",
+  "stratum": "E_random",
+  "file": "/es.ideotec.t16fling_4.apk",
+  "size": 3557100,
+  "sha256": "2fa6132753f4e043166a72fe6d90a6ccaec352a1d46b6afc177e0b2fea5cf564",
+  "versionName": "1.3.0",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.emmanuelmess.tictactoe",
+  "stratum": "E_random",
+  "file": "/com.emmanuelmess.tictactoe_3.apk",
+  "size": 4474946,
+  "sha256": "760fe5acf7b394354bf02b7b3484c3eb442b491c1fa4325603ad3250f0dfa394",
+  "versionName": "1.0.0",
+  "versionCode": 3
+ },
+ {
+  "pkg": "com.digitalfishfun.openshift",
+  "stratum": "E_random",
+  "file": "/com.digitalfishfun.openshift_1.apk",
+  "size": 1471367,
+  "sha256": "6a6cb684cc24e2fd34b9b277f0e0fdc089c2735812d4e3be5a687b2e423db8a7",
+  "versionName": "1.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "io.github.jayxt.resticdroid",
+  "stratum": "E_random",
+  "file": "/io.github.jayxt.resticdroid_3004.apk",
+  "size": 16466481,
+  "sha256": "cebd132c0a505f5e56f552768c2fee888f376da7a72cd1ec86175d26dbb65474",
+  "versionName": "0.3.0",
+  "versionCode": 3004
+ },
+ {
+  "pkg": "com.drejo.androidvideoplayer.fdroid",
+  "stratum": "E_random",
+  "file": "/com.drejo.androidvideoplayer.fdroid_1.apk",
+  "size": 2392679,
+  "sha256": "70b7ba6b2a85ffe9d7ba9cf9be23f25aa9a42a0dc84ca790eed923321537bdd7",
+  "versionName": "1.0.0-fdroid",
+  "versionCode": 1
+ },
+ {
+  "pkg": "hans.b.skewy1_0",
+  "stratum": "E_random",
+  "file": "/hans.b.skewy1_0_1.apk",
+  "size": 6759652,
+  "sha256": "bae8ae5769396216d05a9d499de80bb52760c69794719bd70d9fc48d8264632c",
+  "versionName": "1.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "eu.tilk.cdlcplayer",
+  "stratum": "E_random",
+  "file": "/eu.tilk.cdlcplayer_6.apk",
+  "size": 4431294,
+  "sha256": "1074ff5b0ac0ab9d9549936faea2bf059d73a8c40477bf682961fba366d0ceaf",
+  "versionName": "0.0.6",
+  "versionCode": 6
+ },
+ {
+  "pkg": "com.vipedev.kords2",
+  "stratum": "E_random",
+  "file": "/com.vipedev.kords2_18.apk",
+  "size": 28445360,
+  "sha256": "71e22e6db143c962fcf9232d8b690fc5e3d349831afa660be7e6469713fe722e",
+  "versionName": "1.5.0",
+  "versionCode": 18
+ },
+ {
+  "pkg": "com.agateau.catgenerator",
+  "stratum": "E_random",
+  "file": "/com.agateau.catgenerator_3.apk",
+  "size": 8739564,
+  "sha256": "d2f2c5ac99108d1c5a30f52e4d2d89000ab4de7c17e72ee9e277f2a024f398be",
+  "versionName": "0.2.1",
+  "versionCode": 3
+ },
+ {
+  "pkg": "org.covolunablu.marswallpaper",
+  "stratum": "E_random",
+  "file": "/org.covolunablu.marswallpaper_3.apk",
+  "size": 10633316,
+  "sha256": "764f7bf0a82b718efeb7f141c2b60007d3795483561e8733a6255b5e29fa3a92",
+  "versionName": "1.2.0",
+  "versionCode": 3
+ },
+ {
+  "pkg": "se.norenh.rkfread",
+  "stratum": "E_random",
+  "file": "/se.norenh.rkfread_4.apk",
+  "size": 60171,
+  "sha256": "bb61cd04bd8f49a0b7d4e99a225e9737eecc94c0fc814f3dbb70f6fb37c2f6bf",
+  "versionName": "1.3",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.github.dyhkwong.sagernet",
+  "stratum": "E_random",
+  "file": "/com.github.dyhkwong.sagernet_1984.apk",
+  "size": 24879936,
+  "sha256": "08f22ab6f36d3b0cb88c9e4754d64a5a35384590575880c5e1bf6726dc9e6b41",
+  "versionName": "0.17.60",
+  "versionCode": 1984
+ },
+ {
+  "pkg": "io.github.hamdav.predikt",
+  "stratum": "E_random",
+  "file": "/io.github.hamdav.predikt_12.apk",
+  "size": 51388728,
+  "sha256": "0bbaa69f1a6b8841d64c8af1b0f21a1e4a21a771128cb58504a2fef0dc7dc980",
+  "versionName": "0.2.11",
+  "versionCode": 12
+ },
+ {
+  "pkg": "com.chess.clock",
+  "stratum": "E_random",
+  "file": "/com.chess.clock_28.apk",
+  "size": 3256553,
+  "sha256": "3508b81c88c1c5bc0b814eaac2fefa400dfb3f440f2f06a8686d2056ba4e9edd",
+  "versionName": "1.2.2",
+  "versionCode": 28
+ },
+ {
+  "pkg": "v4lpt.vpt.f003.gdp",
+  "stratum": "E_random",
+  "file": "/v4lpt.vpt.f003.gdp_105.apk",
+  "size": 5189007,
+  "sha256": "1a5863e07cd747746070b71b4bd26dddadc806f8d23e7d6833e4be31f36a569c",
+  "versionName": "1.0.5",
+  "versionCode": 105
+ },
+ {
+  "pkg": "de.hauke_stieler.geonotes",
+  "stratum": "E_random",
+  "file": "/de.hauke_stieler.geonotes_1008000.apk",
+  "size": 59596529,
+  "sha256": "3ae39524abafcd791871f4d38954fe7095572442eae9f527b8fe553b0dc3fb81",
+  "versionName": "1.8.0",
+  "versionCode": 1008000
+ },
+ {
+  "pkg": "ie.delilahsthings.soothingloop",
+  "stratum": "E_random",
+  "file": "/ie.delilahsthings.soothingloop_18.apk",
+  "size": 5871212,
+  "sha256": "8c37de51cd8532e84bd8968e140730f26227ff0879bc10c5904b9784fe7592df",
+  "versionName": "1.5.2",
+  "versionCode": 18
+ },
+ {
+  "pkg": "com.nfcarchiver.nfc_archiver",
+  "stratum": "E_random",
+  "file": "/com.nfcarchiver.nfc_archiver_15.apk",
+  "size": 56852209,
+  "sha256": "27dc2f772cba8832e42ff81e267c1148a74bea5d2df867d90185ab12f899abd3",
+  "versionName": "1.2.0",
+  "versionCode": 15
+ },
+ {
+  "pkg": "com.biotstoiq.hayago",
+  "stratum": "E_random",
+  "file": "/com.biotstoiq.hayago_21.apk",
+  "size": 116818,
+  "sha256": "c7f8e8b03ff8f99e99386408d159eaeadcfb1729ff86f6fed362dc719861492c",
+  "versionName": "1.09",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.alaskalinuxuser.criticalvelocity",
+  "stratum": "E_random",
+  "file": "/com.alaskalinuxuser.criticalvelocity_10.apk",
+  "size": 17497535,
+  "sha256": "06567f77b0be3d5c73e4f38706007807ca54de9dcc0a8958f361915f48bd525b",
+  "versionName": "2.0",
+  "versionCode": 10
+ },
+ {
+  "pkg": "com.seeker.seekprivacy",
+  "stratum": "E_random",
+  "file": "/com.seeker.seekprivacy_11.apk",
+  "size": 8264892,
+  "sha256": "0d29f17f52aa2f8698938c851a0cb0badac79e947270d0502cddfcf49c44a5d4",
+  "versionName": "3.5.0",
+  "versionCode": 11
+ },
+ {
+  "pkg": "de.devmil.muzei.bingimageofthedayartsource",
+  "stratum": "E_random",
+  "file": "/de.devmil.muzei.bingimageofthedayartsource_18.apk",
+  "size": 2753214,
+  "sha256": "af5cc1a85bd7c1f667afaea5c349ba6707e3ab56a01ffe68db2059daee899892",
+  "versionName": "2.3.2",
+  "versionCode": 18
+ },
+ {
+  "pkg": "com.chrbayer.mathe_trainer",
+  "stratum": "E_random",
+  "file": "/com.chrbayer.mathe_trainer_215013.apk",
+  "size": 23317395,
+  "sha256": "d88bd5a5db1659e9eb26f7a5ba7152db2027591ba4c761495ecb917ab62870f0",
+  "versionName": "2.15.1",
+  "versionCode": 215013
+ },
+ {
+  "pkg": "com.sidhant.mahjong",
+  "stratum": "E_random",
+  "file": "/com.sidhant.mahjong_63.apk",
+  "size": 7908003,
+  "sha256": "579d32a0a178bef0cd6280793cccf77110f9c845dfd81aa3b312bf92eff525b7",
+  "versionName": "1.0.5",
+  "versionCode": 63
+ },
+ {
+  "pkg": "com.elementlo.spark_list",
+  "stratum": "E_random",
+  "file": "/com.elementlo.spark_list_7.apk",
+  "size": 9720712,
+  "sha256": "b7e37362d2db259c7266ff7995127d7466b7af0fafdfb1456f8219c8b55735cd",
+  "versionName": "0.2.0-beta",
+  "versionCode": 7
+ },
+ {
+  "pkg": "io.github.jbinder.sprawlrun",
+  "stratum": "E_random",
+  "file": "/io.github.jbinder.sprawlrun_83.apk",
+  "size": 26197682,
+  "sha256": "f056458cdb32a86ccde2d7427d561623040ab3b19f600e1cd85f3f4f66a9be04",
+  "versionName": "0.6.0",
+  "versionCode": 83
+ },
+ {
+  "pkg": "com.zorinos.zorin_connect",
+  "stratum": "E_random",
+  "file": "/com.zorinos.zorin_connect_13513.apk",
+  "size": 6666915,
+  "sha256": "f49fac6327ae6c23d1d891bab4eaab6fe875013e4fd3ae46a804637d3ded33be",
+  "versionName": "1.35.13",
+  "versionCode": 13513
+ },
+ {
+  "pkg": "org.billthefarmer.print",
+  "stratum": "E_random",
+  "file": "/org.billthefarmer.print_108.apk",
+  "size": 111603,
+  "sha256": "4f9290bf74d8e3c83bb11c9f7050fe5c8dc1f7336b7145bc2910a366f926da17",
+  "versionName": "1.08",
+  "versionCode": 108
+ },
+ {
+  "pkg": "info.metadude.android.bitsundbaeume.schedule",
+  "stratum": "E_random",
+  "file": "/info.metadude.android.bitsundbaeume.schedule_90.apk",
+  "size": 4368844,
+  "sha256": "a636da2e9fd2ee7c4a76923ffc934339264d2431e77e12bcb93b32f194afd294",
+  "versionName": "1.55.1-Bits-und-Baeume-Edition",
+  "versionCode": 90
+ },
+ {
+  "pkg": "com.kjxbyz.picguard",
+  "stratum": "E_random",
+  "file": "/com.kjxbyz.picguard_481.apk",
+  "size": 38124434,
+  "sha256": "66eeea857f36c2fa930d5274f4228469cbad43b4488893bbe6462b93116d14b5",
+  "versionName": "5.7.2",
+  "versionCode": 481
+ },
+ {
+  "pkg": "io.github.acidefluorhydrique.carrot",
+  "stratum": "E_random",
+  "file": "/io.github.acidefluorhydrique.carrot_4.apk",
+  "size": 2738878,
+  "sha256": "e0440daed0d8532d745d2d5e2ab3bd5e4d86d5c101be5f677a7c19f6da1d3332",
+  "versionName": "1.1.2",
+  "versionCode": 4
+ },
+ {
+  "pkg": "fr.ubordeaux.math.paridroid",
+  "stratum": "E_random",
+  "file": "/fr.ubordeaux.math.paridroid_31.apk",
+  "size": 20888301,
+  "sha256": "f39c5d3c002718a5dc9f5b709947a5f495996eba9e1344a5349528981ea39a3c",
+  "versionName": "2.17.3.2.5",
+  "versionCode": 31
+ },
+ {
+  "pkg": "com.polyalerts",
+  "stratum": "E_random",
+  "file": "/com.polyalerts_14.apk",
+  "size": 1924586,
+  "sha256": "818050c1f01373495763a8312f50cc7f48a7f3255e33542c34404858d2c97461",
+  "versionName": "0.2.8",
+  "versionCode": 14
+ },
+ {
+  "pkg": "com.voyagerfiles",
+  "stratum": "E_random",
+  "file": "/com.voyagerfiles_21.apk",
+  "size": 13357332,
+  "sha256": "96f65f292c0c4e9779bf3190acb3db16083e5c2b4e3b2e589eb42432806e8e4f",
+  "versionName": "1.12.1",
+  "versionCode": 21
+ },
+ {
+  "pkg": "com.bmco.cratesiounofficial",
+  "stratum": "E_random",
+  "file": "/com.bmco.cratesiounofficial_12.apk",
+  "size": 1985254,
+  "sha256": "88c53a5dc1aa442c348ff025eb04939f3178bd11d561f0211b937be4ff30bb30",
+  "versionName": "1.5.3",
+  "versionCode": 12
+ },
+ {
+  "pkg": "com.louis.app.cavity",
+  "stratum": "E_random",
+  "file": "/com.louis.app.cavity_43.apk",
+  "size": 13412128,
+  "sha256": "a28683eac7747bde81a36186842c45a9f59c203cd3dd6370d03f40ebef2ae05b",
+  "versionName": "1.11.1",
+  "versionCode": 43
+ },
+ {
+  "pkg": "ru.wohlsoft.thextech.fdroid",
+  "stratum": "E_random",
+  "file": "/ru.wohlsoft.thextech.fdroid_1070400.apk",
+  "size": 28030316,
+  "sha256": "e7cd90c69cc4c7ed33de509294702ea6403859e378571723e2c9f40ede32ab48",
+  "versionName": "1.7.4",
+  "versionCode": 1070400
+ },
+ {
+  "pkg": "com.szchoiceway.aios.bridge",
+  "stratum": "E_random",
+  "file": "/com.szchoiceway.aios.bridge_8.apk",
+  "size": 2891698,
+  "sha256": "2d34bf80b34cf13c05b1c5c719591689aeffd0ad0a1f5f0ba17261b2d019fbbc",
+  "versionName": "1.0.6",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.kolakek.pimiwidget",
+  "stratum": "E_random",
+  "file": "/com.kolakek.pimiwidget_24.apk",
+  "size": 3975199,
+  "sha256": "5338e16859acb3ad3451ba6611f97272964c87b0ac6307759f460878fc62ff9d",
+  "versionName": "3.1.0",
+  "versionCode": 24
+ },
+ {
+  "pkg": "io.github.installalogs",
+  "stratum": "E_random",
+  "file": "/io.github.installalogs_10.apk",
+  "size": 3927189,
+  "sha256": "4ca73fccb2415f761ecd6d79e76f9fe4f585855dc0e2e75977ba0423d01ee4c8",
+  "versionName": "1.0",
+  "versionCode": 10
+ },
+ {
+  "pkg": "com.willchan.simple_random_stock",
+  "stratum": "E_random",
+  "file": "/com.willchan.simple_random_stock_3.apk",
+  "size": 4300098,
+  "sha256": "c83cf79124de9d502093c0b1f64302d8df678c1ab5125904d927771d9ce70bec",
+  "versionName": "1.2.0",
+  "versionCode": 3
+ },
+ {
+  "pkg": "xyz.ptgms.tosdr",
+  "stratum": "E_random",
+  "file": "/xyz.ptgms.tosdr_42.apk",
+  "size": 4028581,
+  "sha256": "5e785e28a79e2193ca8a4d96a6638f1e27cee172c4d640dd340d07b14ce99232",
+  "versionName": "2.1.2",
+  "versionCode": 42
+ },
+ {
+  "pkg": "com.rjnsdev.linklift.app",
+  "stratum": "E_random",
+  "file": "/com.rjnsdev.linklift.app_19.apk",
+  "size": 43165009,
+  "sha256": "969ea75c8f4f940aed4d1cc713ed8c33d5101a6381814434b1ef212565e2f3be",
+  "versionName": "2.9",
+  "versionCode": 19
+ },
+ {
+  "pkg": "dev.forgesworn.cambium",
+  "stratum": "E_random",
+  "file": "/dev.forgesworn.cambium_19.apk",
+  "size": 19880268,
+  "sha256": "3510781a23ec1e3c626a9c39ee31f968f4d4ca38d85f626b85c0d617c29fc16a",
+  "versionName": "0.9.0",
+  "versionCode": 19
+ },
+ {
+  "pkg": "com.anysoftkeyboard.languagepack.osspolish",
+  "stratum": "E_random",
+  "file": "/com.anysoftkeyboard.languagepack.osspolish_6158.apk",
+  "size": 4921634,
+  "sha256": "5115ec50ca14d9f753a161e5e62aa2b5d863d62919ad8b1c7a4323066f443308",
+  "versionName": "5.1.6158",
+  "versionCode": 6158
+ },
+ {
+  "pkg": "com.sesu8642.infusion_timer",
+  "stratum": "E_random",
+  "file": "/com.sesu8642.infusion_timer_115.apk",
+  "size": 49594558,
+  "sha256": "6546913ab7be7a8308aa83e37cdf6c12048a55097107664425931c3b07bce94a",
+  "versionName": "1.6.2",
+  "versionCode": 115
+ },
+ {
+  "pkg": "ch.pec0ra.suspension_setup",
+  "stratum": "E_random",
+  "file": "/ch.pec0ra.suspension_setup_133.apk",
+  "size": 22068315,
+  "sha256": "81e07d94e7d1146123356fa6c7de4e9078511dff91e15a95df6c2a4db6ae8bf2",
+  "versionName": "3.1.1",
+  "versionCode": 133
+ },
+ {
+  "pkg": "de.theiling.neatlauncher",
+  "stratum": "E_random",
+  "file": "/de.theiling.neatlauncher_8.apk",
+  "size": 2414195,
+  "sha256": "ce557d6c9e260f04386972d1be12591e3c2a412eab622be95be553bda291888f",
+  "versionName": "2.1",
+  "versionCode": 8
+ },
+ {
+  "pkg": "io.mkg20001.arubanetworkslogin",
+  "stratum": "E_random",
+  "file": "/io.mkg20001.arubanetworkslogin_5000.apk",
+  "size": 2670664,
+  "sha256": "9d13f3aa67a1e00a1216979e1c8474a316cac6f7cf431f1e500810f6b26fb700",
+  "versionName": "0.5",
+  "versionCode": 5000
+ },
+ {
+  "pkg": "com.w2sv.filenavigator",
+  "stratum": "E_random",
+  "file": "/com.w2sv.filenavigator_22.apk",
+  "size": 5634571,
+  "sha256": "b847df86635b84d175d372de275a38e20da57882965569802215e9f77fdb4a53",
+  "versionName": "0.3.6",
+  "versionCode": 22
+ },
+ {
+  "pkg": "com.baluchon.app",
+  "stratum": "E_random",
+  "file": "/com.baluchon.app_13.apk",
+  "size": 1942981,
+  "sha256": "606eefd5a22447b604ad839942f1d5536579d7382f53638dc4c1a561a77ccf06",
+  "versionName": "3.3",
+  "versionCode": 13
+ },
+ {
+  "pkg": "com.prayer_times",
+  "stratum": "E_random",
+  "file": "/com.prayer_times_289.apk",
+  "size": 53722810,
+  "sha256": "2bedce9527029634f558220f1498e916aa88a3da1e32633c34a7a0bbcfc45a75",
+  "versionName": "2.31.0",
+  "versionCode": 289
+ },
+ {
+  "pkg": "de.tadris.flang",
+  "stratum": "E_random",
+  "file": "/de.tadris.flang_26.apk",
+  "size": 8310885,
+  "sha256": "abb937dd5a209fc55ef6775ce864290a76c7f38a3e8d08630f1385125a6fdc8a",
+  "versionName": "1.23",
+  "versionCode": 26
+ },
+ {
+  "pkg": "com.qq7te.totalrecall",
+  "stratum": "E_random",
+  "file": "/com.qq7te.totalrecall_9.apk",
+  "size": 24038673,
+  "sha256": "4ee68afa604513da3166f70d1a266399b75827bacb8a0075697cd4bc1f59a175",
+  "versionName": "0.9",
+  "versionCode": 9
+ },
+ {
+  "pkg": "org.proninyaroslav.libretrack",
+  "stratum": "E_random",
+  "file": "/org.proninyaroslav.libretrack_6133.apk",
+  "size": 12510405,
+  "sha256": "7fba1953f66b1dfb147e355107516bc8d574e2e6032f04725f758fea3f99e00c",
+  "versionName": "1.7.0",
+  "versionCode": 6133
+ },
+ {
+  "pkg": "io.github.vendelin8.elements",
+  "stratum": "E_random",
+  "file": "/io.github.vendelin8.elements_1003.apk",
+  "size": 10140754,
+  "sha256": "4139df0b2f66cd6e47a4751b30f1587ce17586b98258cea68dd7af59815c384b",
+  "versionName": "1.0.0",
+  "versionCode": 1003
+ },
+ {
+  "pkg": "org.comunes.g1nkgo",
+  "stratum": "E_random",
+  "file": "/org.comunes.g1nkgo_1044.apk",
+  "size": 43599191,
+  "sha256": "70da03664e2c0a6d173eaaa5851ed79658cb1330944d6b3ab9fa78c62038b232",
+  "versionName": "2.0.27",
+  "versionCode": 1044
+ },
+ {
+  "pkg": "com.heeboe.hebrewcalendar",
+  "stratum": "E_random",
+  "file": "/com.heeboe.hebrewcalendar_4.apk",
+  "size": 19846679,
+  "sha256": "8aabff9d4bb1a2c48d3aeaa3ae0760f275f26e486bf9485c79f76e252c35a2d3",
+  "versionName": "1.1.2",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.vishnu.remindme",
+  "stratum": "E_random",
+  "file": "/com.vishnu.remindme_8.apk",
+  "size": 1515886,
+  "sha256": "16c2a9b2af32939f1ee03b18b52d83b395a2b0bec6ac6b738ce7898367e2093e",
+  "versionName": "v1.3.0",
+  "versionCode": 8
+ },
+ {
+  "pkg": "com.tech.estudiatai",
+  "stratum": "E_random",
+  "file": "/com.tech.estudiatai_11.apk",
+  "size": 8111191,
+  "sha256": "46771aa993f20e8e872484f4001dd9d1052311341845a63c5516bada8b4e39c8",
+  "versionName": "1.0.10",
+  "versionCode": 11
+ },
+ {
+  "pkg": "site.aroy.phosphor",
+  "stratum": "E_random",
+  "file": "/site.aroy.phosphor_5.apk",
+  "size": 7130752,
+  "sha256": "542baee28f7848cddb64086c3387695d13a2fc898066163865eb95cd1d4e8386",
+  "versionName": "1.1.2",
+  "versionCode": 5
+ },
+ {
+  "pkg": "com.vayunmathur.photos",
+  "stratum": "E_random",
+  "file": "/com.vayunmathur.photos_20261005.apk",
+  "size": 58994051,
+  "sha256": "63cdb85d7ac873247af00369f04479faa8a32ca309a984ec3008842d20e293b5",
+  "versionName": "v2.6.9",
+  "versionCode": 20261005
+ },
+ {
+  "pkg": "net.inbox.pager",
+  "stratum": "E_random",
+  "file": "/net.inbox.pager_24.apk",
+  "size": 19519607,
+  "sha256": "678b40aff18b98809f64788bfef9793a858c49c7a881a7b706ddeb5cf15ff231",
+  "versionName": "9.1",
+  "versionCode": 24
+ },
+ {
+  "pkg": "io.gothub.boxorg",
+  "stratum": "E_random",
+  "file": "/io.gothub.boxorg_9.apk",
+  "size": 57825058,
+  "sha256": "21d4f2ecf72d301f5e1830c9b473922bebb33b9a718836650d6b8ae8238bbbaf",
+  "versionName": "1.1.1",
+  "versionCode": 9
+ },
+ {
+  "pkg": "com.ridgebotics.ridgescout",
+  "stratum": "E_random",
+  "file": "/com.ridgebotics.ridgescout_15.apk",
+  "size": 39855343,
+  "sha256": "2ed64ca5553aa90d263f55d698a450de11210bdb3f72193797749899341f3d37",
+  "versionName": "3.1",
+  "versionCode": 15
+ },
+ {
+  "pkg": "com.greenaddress.abcore",
+  "stratum": "E_random",
+  "file": "/com.greenaddress.abcore_77.apk",
+  "size": 1279986,
+  "sha256": "fdf8f1befbb9b33f205093b4bc4f5b778a4ed45b39e7e4ad5ef2136893d21a21",
+  "versionName": "0.77",
+  "versionCode": 77
+ },
+ {
+  "pkg": "org.strawberryforum.argentum",
+  "stratum": "E_random",
+  "file": "/org.strawberryforum.argentum_5.apk",
+  "size": 2535141,
+  "sha256": "ef03f54b95ce39707e1ae2dd3ca2ba64ef6b37c11cab2431b68bd82f7ddee7be",
+  "versionName": "0.2.2a",
+  "versionCode": 5
+ },
+ {
+  "pkg": "org.owntracks.android",
+  "stratum": "E_random",
+  "file": "/org.owntracks.android_420509001.apk",
+  "size": 13574074,
+  "sha256": "b12ca46508b8f33e6ddc03433be5600f7fec6b2c30adb8056368aa2e17129d0f",
+  "versionName": "2.5.9",
+  "versionCode": 420509001
+ },
+ {
+  "pkg": "com.dergoogler.mmrl",
+  "stratum": "E_random",
+  "file": "/com.dergoogler.mmrl_34296.apk",
+  "size": 7574821,
+  "sha256": "75f42b0e872df53e70c375fde7f351d6a26141de13b0ad66ffaf66b541382a8b",
+  "versionName": "v34296-release",
+  "versionCode": 34296
+ },
+ {
+  "pkg": "com.amanoteam.flonne",
+  "stratum": "E_random",
+  "file": "/com.amanoteam.flonne_70399.apk",
+  "size": 55178402,
+  "sha256": "764b632abbaddbeef9d684bb5437b7957e5ea6180202c8a49931770ef02a915d",
+  "versionName": "12.10.2",
+  "versionCode": 70399
+ },
+ {
+  "pkg": "com.farmerbb.taskbar",
+  "stratum": "E_random",
+  "file": "/com.farmerbb.taskbar_208.apk",
+  "size": 2753531,
+  "sha256": "58dc239cef19f05b527335e7b723dd3dfd1d8bb651a50ecc0f52402796e509d9",
+  "versionName": "6.2.2-r2",
+  "versionCode": 208
+ },
+ {
+  "pkg": "com.jemcik.jemrec",
+  "stratum": "E_random",
+  "file": "/com.jemcik.jemrec_800.apk",
+  "size": 7148415,
+  "sha256": "5e69ebd7484fcb9d559c2d3c8ca65c8de09af773a5023c19c709355956a5f881",
+  "versionName": "0.8",
+  "versionCode": 800
+ },
+ {
+  "pkg": "com.kasette.app",
+  "stratum": "E_random",
+  "file": "/com.kasette.app_12.apk",
+  "size": 3673304,
+  "sha256": "e8b5b478e48562977e94cffe6f4d7c55aec7b1c00cd18228df0ff5ca58b920eb",
+  "versionName": "1.4.0",
+  "versionCode": 12
+ },
+ {
+  "pkg": "name.seguri.android.isphoneencrypted",
+  "stratum": "E_random",
+  "file": "/name.seguri.android.isphoneencrypted_1.apk",
+  "size": 1369001,
+  "sha256": "6cb390e212dc277776aa94019e9d28c6194549e1b0795b1b23845f8ebd653e16",
+  "versionName": "1.0.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "com.atop",
+  "stratum": "E_random",
+  "file": "/com.atop_1.apk",
+  "size": 23732617,
+  "sha256": "ee497fe52a73097be62e92a89cd6beb1609e821895203ebe53a6dfe62e5a9dd4",
+  "versionName": "1.0.0",
+  "versionCode": 1
+ },
+ {
+  "pkg": "io.github.monsiu.custom_rr",
+  "stratum": "E_random",
+  "file": "/io.github.monsiu.custom_rr_16003.apk",
+  "size": 27644749,
+  "sha256": "ffd83d9b9d3fe33323c9deefed9df0f28170ba651988c6b7b28cb3d10d7addf6",
+  "versionName": "1.3.6",
+  "versionCode": 16003
+ },
+ {
+  "pkg": "io.github.jqssun.maceditor",
+  "stratum": "E_random",
+  "file": "/io.github.jqssun.maceditor_7.apk",
+  "size": 10267880,
+  "sha256": "a5647d7092b2667483b147671c56d7e31facef21a611184bdbc484e937d05c6b",
+  "versionName": "0.0.7",
+  "versionCode": 7
+ },
+ {
+  "pkg": "org.fcitx.fcitx5.android.plugin.unikey",
+  "stratum": "E_random",
+  "file": "/org.fcitx.fcitx5.android.plugin.unikey_114.apk",
+  "size": 182224,
+  "sha256": "e2b7b7edc7e78db0c302fcab6ad4509c7e93a3ec8906e690157deeedd78100af",
+  "versionName": "0.1.3-0-g048f581c",
+  "versionCode": 114
+ },
+ {
+  "pkg": "ro.radioromaniaactualitati.podcasts",
+  "stratum": "E_random",
+  "file": "/ro.radioromaniaactualitati.podcasts_65.apk",
+  "size": 22643143,
+  "sha256": "c1a6c7ffea2a4c2e8f6114ec603e9bb0faa8c1468164bea1e05e509f152d39b4",
+  "versionName": "2.5.7",
+  "versionCode": 65
+ },
+ {
+  "pkg": "com.tiwa.pl",
+  "stratum": "E_random",
+  "file": "/com.tiwa.pl_7.apk",
+  "size": 2143120,
+  "sha256": "119ba3addc1501b0229e52f8e7cb0b029ed32760851fa7a18cfc8c13dbaa4c02",
+  "versionName": "1.6",
+  "versionCode": 7
+ },
+ {
+  "pkg": "vegabobo.dsusideloader",
+  "stratum": "E_random",
+  "file": "/vegabobo.dsusideloader_8.apk",
+  "size": 5127190,
+  "sha256": "a7ea60d6a8ff0755a0b02ac4d5ce3b80aad41b0627f6c0962421f2a0cafc3160",
+  "versionName": "2.03",
+  "versionCode": 8
+ },
+ {
+  "pkg": "app.pwhs.universalinstaller",
+  "stratum": "E_random",
+  "file": "/app.pwhs.universalinstaller_42.apk",
+  "size": 6543222,
+  "sha256": "01d3b7eb76b1c0c221502004506e5f9eef670157a6d07306661e75271e905840",
+  "versionName": "1.18.0",
+  "versionCode": 42
+ },
+ {
+  "pkg": "se.voxelmanip.boxsmasher",
+  "stratum": "E_random",
+  "file": "/se.voxelmanip.boxsmasher_4.apk",
+  "size": 6257393,
+  "sha256": "d72a5db5a5ea3cab851617f5c5380981e13d8ba5ce93f5f3859db27d7a489d2a",
+  "versionName": "1.1.1",
+  "versionCode": 4
+ },
+ {
+  "pkg": "com.vovagorodok.blichess",
+  "stratum": "E_random",
+  "file": "/com.vovagorodok.blichess_29.apk",
+  "size": 62074968,
+  "sha256": "3ae86223a70439511f32ffe7489de6050b430dd9692d7a45ae6506933dddc69d",
+  "versionName": "8.0.0+ble2.5.1",
+  "versionCode": 29
+ },
+ {
+  "pkg": "eu.hxreborn.cleanshare",
+  "stratum": "E_random",
+  "file": "/eu.hxreborn.cleanshare_330.apk",
+  "size": 2925138,
+  "sha256": "8926631fdb8aec45a139b5ab4f6d4e555e4f8d49004abb13e3862639e86575f5",
+  "versionName": "3.3.0",
+  "versionCode": 330
+ },
+ {
+  "pkg": "com.fixupxer",
+  "stratum": "E_random",
+  "file": "/com.fixupxer_57.apk",
+  "size": 4358654,
+  "sha256": "ef0a73741cac5d246e64cb5800c29ab186e347467395cefc6b2a37afbfb7c3c1",
+  "versionName": "2.9.2",
+  "versionCode": 57
+ },
+ {
+  "pkg": "de.herk.kfzd",
+  "stratum": "E_random",
+  "file": "/de.herk.kfzd_6.apk",
+  "size": 7126434,
+  "sha256": "d763bb44c2ea8ce00f922b01d08ffe9aff52f28d0d61d34c00f679d675ca979a",
+  "versionName": "1.0.5",
+  "versionCode": 6
+ }
+]

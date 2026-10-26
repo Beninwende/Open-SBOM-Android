@@ -1,0 +1,38 @@
+{
+ "apk_file": "com.szchoiceway.aios.bridge_8.apk",
+ "package": "com.szchoiceway.aios.bridge",
+ "versionName": "1.0.6",
+ "versionCode": "8",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.RECEIVE_BOOT_COMPLETED"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.szchoiceway.aios.bridge.DaemonService",
+   "config_path": "res/xml/accessibility_config.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00000020",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.009,
+  "a11y_config_s": 0.041,
+  "strings_s": 0.283
+ },
+ "apk_bytes": 2891698,
+ "stratum": "E_random"
+}

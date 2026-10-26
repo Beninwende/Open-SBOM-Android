@@ -1,0 +1,47 @@
+{
+ "apk_file": "com.zygisk_enc.notivault_5.apk",
+ "package": "com.zygisk_enc.notivault",
+ "versionName": "3.0.0",
+ "versionCode": "5",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": true,
+ "permissions": [
+  "android.permission.ACCESS_NETWORK_STATE",
+  "android.permission.FOREGROUND_SERVICE",
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+  "android.permission.POST_NOTIFICATIONS",
+  "android.permission.QUERY_ALL_PACKAGES",
+  "android.permission.RECEIVE_BOOT_COMPLETED",
+  "android.permission.USE_BIOMETRIC",
+  "android.permission.USE_FINGERPRINT",
+  "android.permission.VIBRATE",
+  "android.permission.WAKE_LOCK",
+  "com.zygisk_enc.notivault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [
+  {
+   "name": "com.zygisk_enc.notivault.service.ToastRecorderService",
+   "config_path": "res/-N.xml",
+   "canRetrieveWindowContent": false,
+   "accessibilityEventTypes": "0x00000040",
+   "accessibilityFlags": "0x00000001"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.047,
+  "a11y_config_s": 0.174,
+  "strings_s": 0.669
+ },
+ "apk_bytes": 29127516,
+ "stratum": "B_desc_accessibility_service"
+}

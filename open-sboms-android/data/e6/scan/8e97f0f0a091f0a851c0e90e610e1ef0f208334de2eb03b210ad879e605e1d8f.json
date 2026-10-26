@@ -1,0 +1,167 @@
+{
+ "package": "com.nitish.privacyindicator",
+ "source": "androzoo-play",
+ "sha256": "8e97f0f0a091f0a851c0e90e610e1ef0f208334de2eb03b210ad879e605e1d8f",
+ "cap": {
+  "apk_file": "8e97f0f0a091f0a851c0e90e610e1ef0f208334de2eb03b210ad879e605e1d8f.apk",
+  "package": "com.nitish.privacyindicator",
+  "versionName": "2.2p",
+  "versionCode": "8",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.VIBRATE"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.nitish.privacyindicator.services.IndicatorService",
+    "config_path": "res/xml/indicator_service.xml",
+    "canRetrieveWindowContent": true,
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x00000052"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": true,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.033,
+   "strings_s": 0.107
+  },
+  "apk_bytes": 1660244
+ },
+ "lib": {
+  "package": "com.nitish.privacyindicator",
+  "classes_total": 1767,
+  "class_buckets": {
+   "obfuscated": 1402,
+   "known_library": 354,
+   "unresolved": 4,
+   "app_code": 7
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 27
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 204
+   },
+   {
+    "prefix": "com/google/android/flexbox/",
+    "name": "FlexboxLayout",
+    "group": "com.google.android.flexbox",
+    "category": "ui",
+    "classes": 8
+   },
+   {
+    "prefix": "com/google/android/material/",
+    "name": "Material Components",
+    "group": "com.google.android.material",
+    "category": "ui",
+    "classes": 110
+   },
+   {
+    "prefix": "kotlinx/coroutines/",
+    "name": "kotlinx.coroutines",
+    "group": "org.jetbrains.kotlinx",
+    "category": "language",
+    "classes": 5
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/github/dhaval2404/": 2,
+   "lib/kingja/": 2
+  },
+  "maven_metadata": {
+   "androidx.activity:activity": "1.2.3",
+   "androidx.annotation:annotation-experimental": "1.1.0",
+   "androidx.appcompat:appcompat-resources": "1.3.0",
+   "androidx.appcompat:appcompat": "1.3.0",
+   "androidx.arch.core:core-runtime": "2.1.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.cardview:cardview": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.1.0",
+   "androidx.core:core-ktx": "1.5.0",
+   "androidx.core:core": "1.5.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.databinding:viewbinding": "4.0.1",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.fragment:fragment": "1.3.4",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.legacy:legacy-support-v4": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.3.1",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.3.1",
+   "androidx.lifecycle:lifecycle-livedata-ktx": "2.3.1",
+   "androidx.lifecycle:lifecycle-livedata": "2.3.1",
+   "androidx.lifecycle:lifecycle-runtime": "2.3.1",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.3.1",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.3.1",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.3.1",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.1.0",
+   "androidx.room:room-ktx": "2.3.0",
+   "androidx.room:room-runtime": "2.3.0",
+   "androidx.savedstate:savedstate": "1.1.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.sqlite:sqlite-framework": "2.1.0",
+   "androidx.sqlite:sqlite": "2.1.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.tracing:tracing": "1.0.0",
+   "androidx.transition:transition": "1.2.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.viewpager2:viewpager2": "1.0.0",
+   "androidx.viewpager:viewpager": "1.0.0",
+   "com.google.android.material:material": "1.3.0"
+  },
+  "kotlin_modules": [
+   "annotation-experimental_release",
+   "app_release",
+   "colorpicker_release",
+   "core-ktx_release",
+   "kotlin-android-extensions-runtime",
+   "kotlin-stdlib",
+   "kotlin-stdlib-common",
+   "kotlin-stdlib-jdk7",
+   "kotlinx-coroutines-android",
+   "kotlinx-coroutines-core",
+   "lifecycle-livedata-core-ktx_release",
+   "lifecycle-livedata-ktx_release",
+   "lifecycle-viewmodel-ktx_release",
+   "room-ktx_release"
+  ],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.081
+ },
+ "signer_sha256": [
+  "384dc2e707d3c9535ffee9d617cb957bdf1e13c398c8db07cd88151b151f7541"
+ ],
+ "seconds": 0.24
+}

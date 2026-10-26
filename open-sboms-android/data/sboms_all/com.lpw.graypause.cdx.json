@@ -1,0 +1,154 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:e354b20b-894a-4811-a388-4eb2f51483a8",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:19:48Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:com.lpw.graypause@1.5",
+   "name": "com.lpw.graypause",
+   "version": "1.5",
+   "purl": "pkg:generic/com.lpw.graypause@1.5?download_url=https://f-droid.org/repo/com.lpw.graypause_6.apk&checksum=sha256:eb54b3ee0b2aaa3aab14986b78e6b4ac7a149e78e889c6ba10a310ab6af76d09",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "eb54b3ee0b2aaa3aab14986b78e6b4ac7a149e78e889c6ba10a310ab6af76d09"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/com.lpw.graypause_6.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://metaheavens.de/forgejo/metaheavens/graypause"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "6"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "com.lpw.graypause.AppWatchService"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.971"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:moe/shizuku/",
+   "name": "Shizuku API",
+   "group": "dev.rikka.shizuku",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1 classes under moe/shizuku/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "system"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:com.lpw.graypause@1.5",
+   "dependsOn": [
+    "ns:moe/shizuku/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:com.lpw.graypause@1.5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "apk_file": "com.baluchon.app_13.apk",
+ "package": "com.baluchon.app",
+ "versionName": "3.3",
+ "versionCode": "13",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": false,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.permission.READ_CONTACTS",
+  "com.baluchon.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+ ],
+ "a11y_services": [],
+ "a11y_service": false,
+ "a11y_read": false,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.005,
+  "a11y_config_s": 0.0,
+  "strings_s": 0.089
+ },
+ "apk_bytes": 1942981,
+ "stratum": "E_random"
+}

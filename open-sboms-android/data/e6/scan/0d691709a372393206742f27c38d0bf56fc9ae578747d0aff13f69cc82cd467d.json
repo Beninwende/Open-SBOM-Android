@@ -1,0 +1,172 @@
+{
+ "package": "com.inod.screenofftimer",
+ "source": "fdroid-main",
+ "sha256": "0d691709a372393206742f27c38d0bf56fc9ae578747d0aff13f69cc82cd467d",
+ "cap": {
+  "apk_file": "0d691709a372393206742f27c38d0bf56fc9ae578747d0aff13f69cc82cd467d.apk",
+  "package": "com.inod.screenofftimer",
+  "versionName": "1.3.8",
+  "versionCode": "13",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [
+   "android.permission.FOREGROUND_SERVICE",
+   "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+   "android.permission.POST_NOTIFICATIONS",
+   "com.inod.screenofftimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "a11y_services": [
+   {
+    "name": "com.inod.screenofftimer.service.MediaControlAccessibilityService",
+    "config_path": "res/az.xml",
+    "canRetrieveWindowContent": false,
+    "canRequestFilterKeyEvents": false,
+    "accessibilityEventTypes": "0x00000020",
+    "accessibilityFlags": "0x00000001"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.006,
+   "a11y_config_s": 0.008,
+   "strings_s": 0.093
+  },
+  "apk_bytes": 1520753
+ },
+ "lib": {
+  "package": "com.inod.screenofftimer",
+  "classes_total": 2981,
+  "class_buckets": {
+   "obfuscated": 2466,
+   "platform_shim": 7,
+   "known_library": 498,
+   "app_code": 6,
+   "unresolved": 4
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 2
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 21
+   },
+   {
+    "prefix": "com/mikepenz/",
+    "name": "Mikepenz libraries",
+    "group": "com.mikepenz",
+    "category": "ui",
+    "classes": 107
+   },
+   {
+    "prefix": "kotlinx/serialization/",
+    "name": "kotlinx.serialization",
+    "group": "org.jetbrains.kotlinx",
+    "category": "serialization",
+    "classes": 368
+   }
+  ],
+  "unresolved_namespaces": {
+   "com/skydoves/compose/": 4
+  },
+  "maven_metadata": {
+   "androidx.activity:activity-compose": "1.13.0",
+   "androidx.activity:activity-ktx": "1.13.0",
+   "androidx.activity:activity": "1.13.0",
+   "androidx.annotation:annotation-experimental": "1.4.1",
+   "androidx.appcompat:appcompat-resources": "1.7.0",
+   "androidx.arch.core:core-runtime": null,
+   "androidx.autofill:autofill": "1.0.0",
+   "androidx.compose.animation:animation-core": "1.11.0",
+   "androidx.compose.animation:animation": "1.11.0",
+   "androidx.compose.foundation:foundation-layout": "1.11.0",
+   "androidx.compose.foundation:foundation": "1.11.0",
+   "androidx.compose.material3:material3": "1.4.0",
+   "androidx.compose.material:material-icons-core": "1.7.8",
+   "androidx.compose.material:material-icons-extended": "1.7.8",
+   "androidx.compose.material:material-ripple": "1.10.4",
+   "androidx.compose.runtime:runtime-annotation": "1.11.0",
+   "androidx.compose.runtime:runtime-retain": "1.11.0",
+   "androidx.compose.runtime:runtime-saveable": "1.11.0",
+   "androidx.compose.runtime:runtime": "1.11.0",
+   "androidx.compose.ui:ui-geometry": "1.11.0",
+   "androidx.compose.ui:ui-graphics": "1.11.0",
+   "androidx.compose.ui:ui-text": "1.11.0",
+   "androidx.compose.ui:ui-tooling-preview": "1.11.0",
+   "androidx.compose.ui:ui-unit": "1.11.0",
+   "androidx.compose.ui:ui-util": "1.11.0",
+   "androidx.compose.ui:ui": "1.11.0",
+   "androidx.core:core-ktx": "1.18.0",
+   "androidx.core:core-splashscreen": "1.2.0",
+   "androidx.core:core-viewtree": "1.0.0",
+   "androidx.core:core": "1.18.0",
+   "androidx.customview:customview-poolingcontainer": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.dynamicanimation:dynamicanimation": "1.0.0",
+   "androidx.emoji2:emoji2": "1.4.0",
+   "androidx.graphics:graphics-path": "1.0.1",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.10.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.10.0",
+   "androidx.lifecycle:lifecycle-process": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-compose": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-ktx": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel-savedstate": "2.10.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.10.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.navigation:navigation-common": "2.9.7",
+   "androidx.navigation:navigation-compose": "2.9.7",
+   "androidx.navigation:navigation-runtime": "2.9.7",
+   "androidx.navigationevent:navigationevent-compose": "1.0.0",
+   "androidx.navigationevent:navigationevent": "1.0.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.profileinstaller:profileinstaller": "1.4.0",
+   "androidx.savedstate:savedstate-compose": "1.4.0",
+   "androidx.savedstate:savedstate-ktx": "1.4.0",
+   "androidx.savedstate:savedstate": "1.4.0",
+   "androidx.startup:startup-runtime": "1.1.1",
+   "androidx.tracing:tracing": "1.2.0",
+   "androidx.transition:transition": "1.6.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.1",
+   "androidx.window:window-core": "1.5.0",
+   "androidx.window:window": "1.5.0",
+   "kotlinx:coroutines_android": "1.9.0",
+   "kotlinx:coroutines_core": "1.9.0",
+   "org.jetbrains.compose.ui:ui-backhandler": "1.9.0-beta03"
+  },
+  "kotlin_modules": [],
+  "native_libs": [
+   "libandroidx.graphics.path.so"
+  ],
+  "exodus_trackers": [],
+  "seconds": 0.117
+ },
+ "signer_sha256": [
+  "6f36f6b5782fcfc4e4f5f02cc310e5d11f27c651ed71b1e052cf9caaa6e56c0d"
+ ],
+ "seconds": 0.24
+}

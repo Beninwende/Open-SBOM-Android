@@ -1,0 +1,185 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:44ea409e-017e-46fc-a71f-702184992176",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:21:51Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:nabu.iris.keyboard@6.5.3",
+   "name": "nabu.iris.keyboard",
+   "version": "6.5.3",
+   "purl": "pkg:generic/nabu.iris.keyboard@6.5.3?download_url=https://f-droid.org/repo/nabu.iris.keyboard_154.apk&checksum=sha256:2b9949841fe0f01f27fffdbc48cacd2f3ab986c048f5b98d63e9d5da1e53b8a7",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "2b9949841fe0f01f27fffdbc48cacd2f3ab986c048f5b98d63e9d5da1e53b8a7"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/nabu.iris.keyboard_154.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/MohamadOday/Iris"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "154"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:ai:endpointString",
+     "value": "api.openai.com"
+    },
+    {
+     "name": "apkcap:ai:endpointString",
+     "value": "generativelanguage.googleapis.com"
+    },
+    {
+     "name": "apkcap:ai:endpointString",
+     "value": "localhost:11434"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "1.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [],
+ "dependencies": [
+  {
+   "ref": "app:nabu.iris.keyboard@6.5.3",
+   "dependsOn": [
+    "svc:api.openai.com",
+    "svc:generativelanguage.googleapis.com",
+    "svc:localhost:11434"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:nabu.iris.keyboard@6.5.3"
+   ]
+  }
+ ],
+ "services": [
+  {
+   "bom-ref": "svc:api.openai.com",
+   "name": "OpenAI API",
+   "endpoints": [
+    "https://api.openai.com"
+   ],
+   "properties": [
+    {
+     "name": "apkcap:ai:service",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "string in dex; not observed at runtime"
+    }
+   ]
+  },
+  {
+   "bom-ref": "svc:generativelanguage.googleapis.com",
+   "name": "Google Gemini API",
+   "endpoints": [
+    "https://generativelanguage.googleapis.com"
+   ],
+   "properties": [
+    {
+     "name": "apkcap:ai:service",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "string in dex; not observed at runtime"
+    }
+   ]
+  },
+  {
+   "bom-ref": "svc:localhost:11434",
+   "name": "Ollama (local)",
+   "endpoints": [
+    "http://localhost:11434"
+   ],
+   "properties": [
+    {
+     "name": "apkcap:ai:service",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "string in dex; not observed at runtime"
+    }
+   ]
+  }
+ ]
+}

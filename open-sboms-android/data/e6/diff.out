@@ -1,0 +1,299 @@
+{
+ "control_index_vs_apk": {
+  "fdroid_files_checked": 613,
+  "apk_vs_index_permission": {
+   "INTERNET:apk=False:index=False": 297,
+   "INTERNET:apk=True:index=True": 316,
+   "a11y:apk=False:index=False": 260,
+   "a11y:apk=True:index=False": 332,
+   "a11y:apk=True:index=True": 21,
+   "overlay:apk=False:index=False": 481,
+   "overlay:apk=True:index=True": 132
+  }
+ },
+ "by_chain": {
+  "fdroid": {
+   "updates_total": 474,
+   "updates_scanned": 474,
+   "updates_signer_changed(excluded)": 3,
+   "updates_in_headline": 471,
+   "apps_in_headline": 121,
+   "updates_adding_sensitive_capability": 16,
+   "apps_with_such_update": 15,
+   "updates_adding_core_capability(excl. ai_native only)": 16,
+   "core_updates_any_change_reflected_in_index": 0,
+   "added_by_type(updates)": {
+    "ai_sdks": 2,
+    "a11y_inject": 4,
+    "ai_endpoints": 8,
+    "a11y_service": 3,
+    "a11y_read": 1,
+    "ai_native": 1
+   },
+   "removed_by_type(updates)": {
+    "overlay": 4,
+    "INTERNET": 1,
+    "ai_endpoints": 2
+   },
+   "updates_removing_sensitive_capability": 6,
+   "updates_adding_extra_a11y_service": 3,
+   "sensitive_updates_with_index_entries": 16,
+   "sensitive_updates_all_changes_reflected_in_index": 0,
+   "sensitive_updates_any_change_reflected_in_index": 0,
+   "index_reflection_by_type(yes/n)": {
+    "ai_sdks": "0/2",
+    "a11y_inject": "0/4",
+    "ai_endpoints": "0/8",
+    "a11y_service": "0/3",
+    "a11y_read": "0/1",
+    "ai_native": "0/1"
+   },
+   "sensitive_updates_whatsNew_mentions_keyword": 2,
+   "library_churn": {
+    "updates_with_maven_change": 134,
+    "pct": 28.5,
+    "median_added": 0,
+    "median_removed": 0,
+    "median_version_changed": 0,
+    "total_added": 481,
+    "total_removed": 196,
+    "total_version_changed": 1704,
+    "updates_adding_native_lib": 15,
+    "updates_adding_known_namespace_lib": 41,
+    "updates_adding_exodus_tracker": 1
+   },
+   "manifest_versionCode_mismatch": 0,
+   "updates_where_both_versions_have_maven_metadata": 446,
+   "of_which_with_maven_change": 129
+  },
+  "play": {
+   "updates_total": 17,
+   "updates_scanned": 17,
+   "updates_signer_changed(excluded)": 0,
+   "updates_in_headline": 17,
+   "apps_in_headline": 4,
+   "updates_adding_sensitive_capability": 1,
+   "apps_with_such_update": 1,
+   "updates_adding_core_capability(excl. ai_native only)": 1,
+   "core_updates_any_change_reflected_in_index": 0,
+   "added_by_type(updates)": {
+    "INTERNET": 1
+   },
+   "removed_by_type(updates)": {},
+   "updates_removing_sensitive_capability": 0,
+   "updates_adding_extra_a11y_service": 0,
+   "sensitive_updates_with_index_entries": 0,
+   "sensitive_updates_all_changes_reflected_in_index": 0,
+   "sensitive_updates_any_change_reflected_in_index": 0,
+   "index_reflection_by_type(yes/n)": {},
+   "sensitive_updates_whatsNew_mentions_keyword": 0,
+   "library_churn": {
+    "updates_with_maven_change": 7,
+    "pct": 41.2,
+    "median_added": 0,
+    "median_removed": 0,
+    "median_version_changed": 0,
+    "total_added": 71,
+    "total_removed": 23,
+    "total_version_changed": 82,
+    "updates_adding_native_lib": 0,
+    "updates_adding_known_namespace_lib": 5,
+    "updates_adding_exodus_tracker": 1
+   },
+   "manifest_versionCode_mismatch": 0,
+   "updates_where_both_versions_have_maven_metadata": 15,
+   "of_which_with_maven_change": 6
+  }
+ },
+ "fdroid_by_group": {
+  "a11y": {
+   "updates_total": 275,
+   "updates_scanned": 275,
+   "updates_signer_changed(excluded)": 1,
+   "updates_in_headline": 274,
+   "apps_in_headline": 71,
+   "updates_adding_sensitive_capability": 9,
+   "apps_with_such_update": 9,
+   "updates_adding_core_capability(excl. ai_native only)": 9,
+   "core_updates_any_change_reflected_in_index": 0,
+   "added_by_type(updates)": {
+    "a11y_inject": 4,
+    "ai_endpoints": 2,
+    "a11y_service": 3,
+    "a11y_read": 1
+   },
+   "removed_by_type(updates)": {
+    "overlay": 3,
+    "INTERNET": 1
+   },
+   "updates_removing_sensitive_capability": 3,
+   "updates_adding_extra_a11y_service": 3,
+   "sensitive_updates_with_index_entries": 9,
+   "sensitive_updates_all_changes_reflected_in_index": 0,
+   "sensitive_updates_any_change_reflected_in_index": 0,
+   "index_reflection_by_type(yes/n)": {
+    "a11y_inject": "0/4",
+    "ai_endpoints": "0/2",
+    "a11y_service": "0/3",
+    "a11y_read": "0/1"
+   },
+   "sensitive_updates_whatsNew_mentions_keyword": 0,
+   "library_churn": {
+    "updates_with_maven_change": 91,
+    "pct": 33.2,
+    "median_added": 0.0,
+    "median_removed": 0.0,
+    "median_version_changed": 0.0,
+    "total_added": 325,
+    "total_removed": 154,
+    "total_version_changed": 1230,
+    "updates_adding_native_lib": 6,
+    "updates_adding_known_namespace_lib": 19,
+    "updates_adding_exodus_tracker": 0
+   },
+   "manifest_versionCode_mismatch": 0,
+   "updates_where_both_versions_have_maven_metadata": 257,
+   "of_which_with_maven_change": 87
+  },
+  "ai": {
+   "updates_total": 113,
+   "updates_scanned": 113,
+   "updates_signer_changed(excluded)": 2,
+   "updates_in_headline": 111,
+   "apps_in_headline": 30,
+   "updates_adding_sensitive_capability": 9,
+   "apps_with_such_update": 8,
+   "updates_adding_core_capability(excl. ai_native only)": 9,
+   "core_updates_any_change_reflected_in_index": 0,
+   "added_by_type(updates)": {
+    "ai_sdks": 2,
+    "ai_endpoints": 8,
+    "a11y_inject": 1,
+    "ai_native": 1
+   },
+   "removed_by_type(updates)": {
+    "overlay": 2,
+    "INTERNET": 1,
+    "ai_endpoints": 2
+   },
+   "updates_removing_sensitive_capability": 4,
+   "updates_adding_extra_a11y_service": 0,
+   "sensitive_updates_with_index_entries": 9,
+   "sensitive_updates_all_changes_reflected_in_index": 0,
+   "sensitive_updates_any_change_reflected_in_index": 0,
+   "index_reflection_by_type(yes/n)": {
+    "ai_sdks": "0/2",
+    "a11y_inject": "0/1",
+    "ai_endpoints": "0/8",
+    "ai_native": "0/1"
+   },
+   "sensitive_updates_whatsNew_mentions_keyword": 2,
+   "library_churn": {
+    "updates_with_maven_change": 23,
+    "pct": 20.7,
+    "median_added": 0,
+    "median_removed": 0,
+    "median_version_changed": 0,
+    "total_added": 84,
+    "total_removed": 11,
+    "total_version_changed": 176,
+    "updates_adding_native_lib": 7,
+    "updates_adding_known_namespace_lib": 9,
+    "updates_adding_exodus_tracker": 0
+   },
+   "manifest_versionCode_mismatch": 0,
+   "updates_where_both_versions_have_maven_metadata": 109,
+   "of_which_with_maven_change": 22
+  },
+  "random": {
+   "updates_total": 105,
+   "updates_scanned": 105,
+   "updates_signer_changed(excluded)": 0,
+   "updates_in_headline": 105,
+   "apps_in_headline": 25,
+   "updates_adding_sensitive_capability": 0,
+   "apps_with_such_update": 0,
+   "updates_adding_core_capability(excl. ai_native only)": 0,
+   "core_updates_any_change_reflected_in_index": 0,
+   "added_by_type(updates)": {},
+   "removed_by_type(updates)": {},
+   "updates_removing_sensitive_capability": 0,
+   "updates_adding_extra_a11y_service": 0,
+   "sensitive_updates_with_index_entries": 0,
+   "sensitive_updates_all_changes_reflected_in_index": 0,
+   "sensitive_updates_any_change_reflected_in_index": 0,
+   "index_reflection_by_type(yes/n)": {},
+   "sensitive_updates_whatsNew_mentions_keyword": 0,
+   "library_churn": {
+    "updates_with_maven_change": 25,
+    "pct": 23.8,
+    "median_added": 0,
+    "median_removed": 0,
+    "median_version_changed": 0,
+    "total_added": 116,
+    "total_removed": 38,
+    "total_version_changed": 360,
+    "updates_adding_native_lib": 4,
+    "updates_adding_known_namespace_lib": 15,
+    "updates_adding_exodus_tracker": 1
+   },
+   "manifest_versionCode_mismatch": 0,
+   "updates_where_both_versions_have_maven_metadata": 98,
+   "of_which_with_maven_change": 24
+  }
+ },
+ "fdroid_only_index_files": {
+  "updates_total": 471,
+  "updates_scanned": 471,
+  "updates_signer_changed(excluded)": 2,
+  "updates_in_headline": 469,
+  "apps_in_headline": 121,
+  "updates_adding_sensitive_capability": 16,
+  "apps_with_such_update": 15,
+  "updates_adding_core_capability(excl. ai_native only)": 16,
+  "core_updates_any_change_reflected_in_index": 0,
+  "added_by_type(updates)": {
+   "ai_sdks": 2,
+   "a11y_inject": 4,
+   "ai_endpoints": 8,
+   "a11y_service": 3,
+   "a11y_read": 1,
+   "ai_native": 1
+  },
+  "removed_by_type(updates)": {
+   "overlay": 4,
+   "INTERNET": 1,
+   "ai_endpoints": 2
+  },
+  "updates_removing_sensitive_capability": 6,
+  "updates_adding_extra_a11y_service": 3,
+  "sensitive_updates_with_index_entries": 16,
+  "sensitive_updates_all_changes_reflected_in_index": 0,
+  "sensitive_updates_any_change_reflected_in_index": 0,
+  "index_reflection_by_type(yes/n)": {
+   "ai_sdks": "0/2",
+   "a11y_inject": "0/4",
+   "ai_endpoints": "0/8",
+   "a11y_service": "0/3",
+   "a11y_read": "0/1",
+   "ai_native": "0/1"
+  },
+  "sensitive_updates_whatsNew_mentions_keyword": 2,
+  "library_churn": {
+   "updates_with_maven_change": 133,
+   "pct": 28.4,
+   "median_added": 0,
+   "median_removed": 0,
+   "median_version_changed": 0,
+   "total_added": 481,
+   "total_removed": 196,
+   "total_version_changed": 1699,
+   "updates_adding_native_lib": 15,
+   "updates_adding_known_namespace_lib": 41,
+   "updates_adding_exodus_tracker": 1
+  },
+  "manifest_versionCode_mismatch": 0,
+  "updates_where_both_versions_have_maven_metadata": 444,
+  "of_which_with_maven_change": 128
+ }
+}

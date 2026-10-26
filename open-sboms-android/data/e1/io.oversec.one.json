@@ -1,0 +1,41 @@
+{
+ "apk_file": "io.oversec.one_1005015.apk",
+ "package": "io.oversec.one",
+ "versionName": "1.5.15",
+ "versionCode": "1005015",
+ "INTERNET": false,
+ "SYSTEM_ALERT_WINDOW": true,
+ "QUERY_ALL_PACKAGES": false,
+ "permissions": [
+  "android.hardware.telephony",
+  "android.permission.CAMERA",
+  "android.permission.READ_EXTERNAL_STORAGE",
+  "android.permission.SYSTEM_ALERT_WINDOW",
+  "com.android.vending.BILLING"
+ ],
+ "a11y_services": [
+  {
+   "name": "io.oversec.one.acs.OversecAccessibilityService_1",
+   "config_path": "res/xml/acs_config.xml",
+   "canRetrieveWindowContent": true,
+   "accessibilityEventTypes": "0x00401831",
+   "accessibilityFlags": "0x00000049"
+  }
+ ],
+ "a11y_service": true,
+ "a11y_read": true,
+ "a11y_inject": false,
+ "dispatchGesture_string": false,
+ "ai_endpoints": [],
+ "ai_sdks": [],
+ "ai_native_libs": [],
+ "old_llm_strings": [],
+ "old_llm_sdk_strings": [],
+ "timing": {
+  "manifest_s": 0.013,
+  "a11y_config_s": 0.056,
+  "strings_s": 0.368
+ },
+ "apk_bytes": 5512905,
+ "stratum": "B_desc_accessibility_service"
+}

@@ -1,0 +1,107 @@
+{
+ "package": "com.rascarlo.power.button.tile",
+ "source": "sample",
+ "sha256": "fb8bbe37e8d1c8002481451fbf9d3c31f6256cdaafe901b3171d7d4fc420fbd8",
+ "cap": {
+  "apk_file": "com.rascarlo.power.button.tile_1.apk",
+  "package": "com.rascarlo.power.button.tile",
+  "versionName": "0.1",
+  "versionCode": "1",
+  "INTERNET": false,
+  "SYSTEM_ALERT_WINDOW": false,
+  "QUERY_ALL_PACKAGES": false,
+  "permissions": [],
+  "a11y_services": [
+   {
+    "name": "com.rascarlo.power.button.tile.PowerButtonAccessibilityService",
+    "config_path": "res/xml/accessibility_service_resources.xml",
+    "accessibilityEventTypes": "0xFFFFFFFF",
+    "accessibilityFlags": "0x00000001"
+   }
+  ],
+  "a11y_service": true,
+  "a11y_read": false,
+  "a11y_inject": false,
+  "dispatchGesture_string": false,
+  "ai_endpoints": [],
+  "ai_sdks": [],
+  "ai_native_libs": [],
+  "old_llm_strings": [],
+  "old_llm_sdk_strings": [],
+  "timing": {
+   "manifest_s": 0.017,
+   "a11y_config_s": 0.015,
+   "strings_s": 0.058
+  },
+  "apk_bytes": 947255
+ },
+ "lib": {
+  "package": "com.rascarlo.power.button.tile",
+  "classes_total": 875,
+  "class_buckets": {
+   "obfuscated": 616,
+   "known_library": 254,
+   "app_code": 5
+  },
+  "known_libraries": [
+   {
+    "prefix": "android/support/",
+    "name": "Android Support Library (legacy)",
+    "group": "com.android.support",
+    "category": "framework",
+    "classes": 29
+   },
+   {
+    "prefix": "androidx/",
+    "name": "AndroidX (Jetpack)",
+    "group": "androidx",
+    "category": "framework",
+    "classes": 225
+   }
+  ],
+  "unresolved_namespaces": {},
+  "maven_metadata": {
+   "androidx.activity:activity": "1.0.0",
+   "androidx.appcompat:appcompat-resources": "1.1.0",
+   "androidx.appcompat:appcompat": "1.1.0",
+   "androidx.arch.core:core-runtime": "2.0.0",
+   "androidx.asynclayoutinflater:asynclayoutinflater": "1.0.0",
+   "androidx.coordinatorlayout:coordinatorlayout": "1.0.0",
+   "androidx.core:core": "1.1.0",
+   "androidx.cursoradapter:cursoradapter": "1.0.0",
+   "androidx.customview:customview": "1.0.0",
+   "androidx.documentfile:documentfile": "1.0.0",
+   "androidx.drawerlayout:drawerlayout": "1.0.0",
+   "androidx.fragment:fragment": "1.1.0",
+   "androidx.interpolator:interpolator": "1.0.0",
+   "androidx.legacy:legacy-support-core-ui": "1.0.0",
+   "androidx.legacy:legacy-support-core-utils": "1.0.0",
+   "androidx.legacy:legacy-support-v4": "1.0.0",
+   "androidx.lifecycle:lifecycle-livedata-core": "2.0.0",
+   "androidx.lifecycle:lifecycle-livedata": "2.0.0",
+   "androidx.lifecycle:lifecycle-runtime": "2.1.0",
+   "androidx.lifecycle:lifecycle-viewmodel": "2.1.0",
+   "androidx.loader:loader": "1.0.0",
+   "androidx.localbroadcastmanager:localbroadcastmanager": "1.0.0",
+   "androidx.media:media": "1.0.0",
+   "androidx.preference:preference": "1.1.0",
+   "androidx.print:print": "1.0.0",
+   "androidx.recyclerview:recyclerview": "1.0.0",
+   "androidx.savedstate:savedstate": "1.0.0",
+   "androidx.slidingpanelayout:slidingpanelayout": "1.0.0",
+   "androidx.swiperefreshlayout:swiperefreshlayout": "1.0.0",
+   "androidx.vectordrawable:vectordrawable-animated": "1.1.0",
+   "androidx.vectordrawable:vectordrawable": "1.1.0",
+   "androidx.versionedparcelable:versionedparcelable": "1.1.0",
+   "androidx.viewpager:viewpager": "1.0.0"
+  },
+  "kotlin_modules": [],
+  "native_libs": [],
+  "exodus_trackers": [],
+  "seconds": 0.041
+ },
+ "signer_sha256": [
+  "b3b83a48c6f63e1723ac2af850e654e6ffe878bc3dbfa62debf50aa29b3af98d"
+ ],
+ "seconds": 0.15
+}

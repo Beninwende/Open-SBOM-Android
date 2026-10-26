@@ -1,0 +1,154 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:5b6131f1-4244-4eb3-b244-b2aeddcf13e5",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-23T12:19:31Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "name": "sbom-pilot",
+     "version": "0.1"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "bom-ref": "app:tw.com.daxia.virtualsoftkeys@0.2.0.180212.1",
+   "name": "tw.com.daxia.virtualsoftkeys",
+   "version": "0.2.0.180212.1",
+   "purl": "pkg:generic/tw.com.daxia.virtualsoftkeys@0.2.0.180212.1?download_url=https://f-droid.org/repo/tw.com.daxia.virtualsoftkeys_10.apk&checksum=sha256:906da7b19525db9424118a057bed3bd26cbbc3d0d14e5fdcfc1d3369f854dfe7",
+   "hashes": [
+    {
+     "alg": "SHA-256",
+     "content": "906da7b19525db9424118a057bed3bd26cbbc3d0d14e5fdcfc1d3369f854dfe7"
+    }
+   ],
+   "externalReferences": [
+    {
+     "type": "distribution",
+     "url": "https://f-droid.org/repo/tw.com.daxia.virtualsoftkeys_10.apk"
+    },
+    {
+     "type": "vcs",
+     "url": "https://github.com/DaxiaK/VirtualSoftKeys"
+    }
+   ],
+   "properties": [
+    {
+     "name": "apkcap:android:versionCode",
+     "value": "10"
+    },
+    {
+     "name": "apkcap:a11y:service",
+     "value": "tw.com.daxia.virtualsoftkeys.service.ServiceFloating"
+    },
+    {
+     "name": "apkcap:a11y:declaresService",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:a11y:canRetrieveWindowContent",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:canPerformGestures",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:a11y:dispatchGestureInCode",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:overlay:systemAlertWindow",
+     "value": "true"
+    },
+    {
+     "name": "apkcap:net:internet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:pkg:queryAllPackages",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readAndInject",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:readInjectInternet",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:combo:a11yAndAi",
+     "value": "false"
+    },
+    {
+     "name": "apkcap:evidence:method",
+     "value": "static analysis of the signed APK; nothing executed"
+    },
+    {
+     "name": "apkcap:lib:obfuscatedThirdPartyClassShare",
+     "value": "0.0"
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "apkcap:taxonomy:status",
+    "value": "proposed namespace, not yet registered"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "ns:android/support/",
+   "name": "Android Support Library (legacy)",
+   "group": "com.android.support",
+   "evidence": {
+    "identity": [
+     {
+      "field": "name",
+      "confidence": 0.6,
+      "methods": [
+       {
+        "technique": "binary-analysis",
+        "confidence": 0.6,
+        "value": "1578 classes under android/support/"
+       }
+      ]
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "apkcap:evidence:detection",
+     "value": "code namespace match"
+    },
+    {
+     "name": "apkcap:lib:category",
+     "value": "framework"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app:tw.com.daxia.virtualsoftkeys@0.2.0.180212.1",
+   "dependsOn": [
+    "ns:android/support/"
+   ]
+  }
+ ],
+ "compositions": [
+  {
+   "aggregate": "incomplete",
+   "assemblies": [
+    "app:tw.com.daxia.virtualsoftkeys@0.2.0.180212.1"
+   ]
+  }
+ ]
+}
